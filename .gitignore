@@ -1,0 +1,8 @@
+*~
+*.bak
+*.tmp
+*.csv
+
+.bash_profile
+.bashrc
+my-install.conf.sh

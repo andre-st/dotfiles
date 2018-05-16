@@ -1,0 +1,35 @@
+[core]
+	editor = vim
+
+
+[user]
+	name = andre-st
+	username = andre-st
+	email = datakadabra@gmail.com
+
+
+[color]
+	diff   = auto
+	status = auto
+	branch = auto
+	ui     = auto
+
+
+[alias]
+	news  = log -p HEAD@{1}..HEAD@{0}
+	lg    = log --graph --oneline --decorate
+	st    = status -sb
+	rdiff = diff @{upstream}
+	d = difftool
+
+
+[credential]
+	helper = cache --timeout 7200
+
+
+[diff]
+	tool = vimdiff
+
+
+[difftool]
+	prompt = false

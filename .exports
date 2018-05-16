@@ -1,0 +1,27 @@
+
+export PATH=/opt/java/bin:$PATH
+export JAVA_HOME="/opt/java/"
+export CLASSPATH=.:/opt/java/:/opt/jdbc_drivers/mysql
+export ANT_HOME=/usr/local/ant
+export PATH=$PATH:$ANT_HOME/bin
+export VAGRANT_HOME=/usr/local/vms/vagrant
+
+
+# prompt output separator: Line across whole terminal width
+COLUMNS=`tput cols`
+LINESTR=`printf "%.0s-" $(seq 1 $COLUMNS)`
+export PS1="$LINESTR\n\r\!   \t   \u   \w\n\r$ "
+
+export LS_COLORS="no=00:fi=00:di=01;39:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:"
+export BROWSER=firefox
+export EDITOR=vim
+
+# Command history
+export HISTSIZE=1000000
+
+
+# Networking:
+export WAN_IF=wlan0
+
+
+# vboxmanage setproperty machinefolder "/usr/local/vms"
