@@ -335,7 +335,7 @@ nmap <2-LeftMouse> <Leader>gu
 "  <F12> list all the TODO, FIXME and @BUG items in the current file
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nmap <silent> <F12> :grep -i -o -E "(todo\\|@bug\\|fixme) (.*)$" % <CR>:cope<CR>
+nmap <silent> <F12> :grep -i -o -E "(todo\\|@bug\\|fixme)[^a-zA-Z0-9](.*)$" % <CR>:cope<CR>
 
 
 
