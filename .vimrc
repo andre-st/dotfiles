@@ -1,8 +1,24 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "  file      .vimrc
 "  brief     Vim configuration file
-"  modified  2018-01-10
+"  modified  2018-06-21
 "  author    andre-st
+"
+"
+"  Keys:
+"  CmdMode  InsMode  About
+"  -        F2       save current file
+"  F4       -        toggle search highlights on/off
+"  F5       -        buffer selection
+"  -        F8       delete current line
+"  F9       -        execute current file (shebang)
+"  -        F11      toggle paste mode
+"  F10      F10      exit vim
+"  F12      -        list todo, fixme, bug comments in current file
+"  -        C-S      save current file
+"  -        C-Space  auto-completion
+"  
+"  
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -23,8 +39,11 @@ set ignorecase          "
 set ruler               "
 colors andre-st_term    " color theme
 set number              " line numbering
-set nowrap              " 
-set tw=0                " 
+set nowrap              " do not automatically wrap on load
+"set formatoptions-=t    " do not automatically wrap text when typing
+"set wrap!
+set tw=9999
+"set wrapmargin=0
 "set expandtab          " tabs to spaces
 set pastetoggle=<F11>   " toggle paste mode
 set tabstop=5           "
@@ -50,6 +69,10 @@ nnoremap O Ox<BS>
 " Copy/Paste between multiple Vim instances:
 "set clipboard=unnamedplus    " requires Vim compiled with +xterm_clipboard (see vim --version)
 " or install xclip and in vim: 7w !xclip  or  visual mode :'<,'>!xclip
+
+
+" Execute current file
+nnoremap <F9> :!%:p<Enter>
 
 
 
@@ -144,7 +167,7 @@ set laststatus=2 statusline=%02n\ \ \ %<%-40f\ \ \ %h%m%r%=%-14.(%l,%c%V%)\ %P
 "  only when you need it.
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-:nnoremap <F5> :buffers<CR>:buffer<Space>
+nnoremap <F5> :buffers<CR>:buffer<Space>
 
 
 
