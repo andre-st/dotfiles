@@ -137,6 +137,7 @@ replace_all() { find . -type f -name "$1" | xargs replace "$2" "$3" --; }
 # 
 
 alias urlencode="python -c 'import sys, urllib as ul; print ul.quote_plus( sys.argv[1] );'"
+alias urldecode="python -c 'import sys, urllib as ul; print ul.unquote_plus( sys.argv[1] );'"
 alias      ping="ping -c 5"
 alias      wget="wget --continue --user-agent='User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.12) Gecko/20101026 Firefox/3.6.12'"
 alias      myip="dig +short myip.opendns.com @resolver1.opendns.com"

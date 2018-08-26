@@ -11,7 +11,7 @@
 "  F4       -        toggle search highlights on/off
 "  F5       -        buffer selection
 "  -        F8       delete current line
-"  F9       -        execute current file (shebang)
+"  F9       F9       execute current file (shebang)
 "  -        F11      toggle paste mode
 "  F10      F10      exit vim
 "  F12      -        list todo, fixme, bug comments in current file
@@ -73,7 +73,7 @@ nnoremap O Ox<BS>
 
 " Execute current file
 nnoremap <F9> :!%:p<Enter>
-
+inoremap <F9> <ESC>:!%:p<Enter>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
