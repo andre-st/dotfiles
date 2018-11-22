@@ -10,6 +10,7 @@
 ! - math symbols/notation
 ! - german and french quotation marks (guillemot)
 ! - short and long "Gedankenstrich"
+! - non-breaking space
 ! - numpad 1 - 9 = function keys 1-8  (for right hand mc) and superscript/subscript numbers
 !          7,8,9 = F8  I use this at night in bed only, and 99% I try to hit F8 (not F7 or F9)
 !
@@ -47,6 +48,8 @@ keysym o            = o              O              odiaeresis      Odiaeresis
 keysym p            = p              P              rightarrow      U21A6
 keysym bracketleft  = bracketleft    braceleft
 keysym bracketright = bracketright   braceright
+
+keysym space        = space          U00A0          space           space
 
 keysym 1            = 1              exclam         notsign         notsign
 keysym 2            = 2              at             onehalf

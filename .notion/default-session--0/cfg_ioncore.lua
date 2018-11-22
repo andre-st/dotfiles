@@ -132,7 +132,7 @@ defbindings( "WMPlex.toplevel",
 	kpress( META.."space",           "ioncore.exec_on( _, 'urxvt'                 )" ),
 	kpress( META.."Pause",           "ioncore.exec_on( _, 'xlock -mode blank'     )" ),  -- Lock computer
 	kpress( META.."Print",           "ioncore.exec_on( _, '/home/andre/work/shell/screenshot.sh' )" ),
-	kpress( META.."K",               "ioncore.exec_on( _, 'pkill chromium'        )" ),
+	kpress( META.."K",               "ioncore.exec_on( _, 'pkill -9 chromium'     )" ),
 	
 	-- Adjust audio volume:
 	kpress( META.."period",          "ioncore.exec_on( _, 'amixer set Master  2+' )" ),
