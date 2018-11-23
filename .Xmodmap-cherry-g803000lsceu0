@@ -49,7 +49,7 @@ keysym p            = p              P              rightarrow      U21A6
 keysym bracketleft  = bracketleft    braceleft
 keysym bracketright = bracketright   braceright
 
-keysym space        = space          U00A0          space           space
+keysym space        = space          space          U00A0           space
 
 keysym 1            = 1              exclam         notsign         notsign
 keysym 2            = 2              at             onehalf
