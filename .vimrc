@@ -72,8 +72,11 @@ nnoremap O Ox<BS>
 
 
 " Execute current file
-nnoremap <F9> :!%:p<Enter>
-inoremap <F9> <ESC>:!%:p<Enter>
+au FileType perl,php,sh nnoremap <F9> :!%:p<Enter>
+au FileType perl,php,sh inoremap <F9> <ESC>:!%:p<Enter>
+au FileType html        nnoremap <F9> :!../build.sh<Enter>
+au FileType html        inoremap <F9> <ESC>:!../build.sh<Enter>
+
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -94,9 +97,9 @@ au FileType c,cpp,php,php5 set comments+=://
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " check perl code with :make
-autocmd FileType perl set makeprg=perl\ -c\ %\ $*
-autocmd FileType perl set errorformat=%f:%l:%m
-autocmd FileType perl set autowrite
+au FileType perl set makeprg=perl\ -c\ %\ $*
+au FileType perl set errorformat=%f:%l:%m
+au FileType perl set autowrite
 let perl_include_pod=1    " my perl includes pod
 let perl_extended_vars=1  " syntax color complex things like @{${"foo"}}
 
@@ -107,7 +110,7 @@ let perl_extended_vars=1  " syntax color complex things like @{${"foo"}}
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:vim_markdown_folding_disabled = 1
-autocmd FileType markdown highlight Title cterm=none ctermfg=226 ctermbg=19
+au FileType markdown highlight Title cterm=none ctermfg=226 ctermbg=19
 
 
 

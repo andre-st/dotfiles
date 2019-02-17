@@ -20,7 +20,7 @@
 	lg    = log --graph --oneline --decorate
 	st    = status -sb
 	rdiff = diff @{upstream}
-	d = difftool
+	d     = difftool
 
 
 [credential]
