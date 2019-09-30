@@ -1,0 +1,17 @@
+ExecCommand6 = "mv %f /home/m/mp3/"
+ExecCommand8 = "rm %f"
+AutoNext = no
+ShowTime = yes
+SavePlaylist = yes
+SyncPlaylist = yes
+
+Sort = FileName
+
+# /usr/share/moc/themes
+Theme = andre_theme
+
+
+Layout1 = playlist(50%,50%,50%,50%)
+#	Because the playlist will be hidden by the directory
+#	you will have to use the TAB key to make the playlist
+#	visible.

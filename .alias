@@ -17,6 +17,7 @@ alias     x="exit"
 alias     c="clear"
 alias     j="jobs -l"       # Ctrl+Z, bg $JOBID, fg $JOBID
 
+
 # Show (filtered) command history in reverse order (most recent first)
 # $ h [KEYWORD]
 # $ !!       repeats prev command (or up-arrow)
@@ -45,6 +46,8 @@ man() {
 		man "$@"
 }
 
+
+alias ssh='TERM=xterm ssh -t'
 
 
 
@@ -90,6 +93,12 @@ alias cdb="cd /usr/local/bin"
 alias cdl="cd /usr/local"
 alias cde="cd /etc"
 alias cdo="cd /opt"
+alias cda="cd /home/a"
+alias cdd="cd /home/a/_todo"
+alias cdp="cd /home/p"
+alias cdm="cd /home/m"
+
+
 # Create and change to the given directory name
 md() { mkdir -p "$@" && cd "$_"; }
 

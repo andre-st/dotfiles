@@ -131,14 +131,15 @@ defbindings( "WMPlex.toplevel",
 	kpress( META.."E",               "ioncore.exec_on( _, 'urxvt -e mc'           )" ),
 	kpress( META.."space",           "ioncore.exec_on( _, 'urxvt'                 )" ),
 	kpress( META.."Pause",           "ioncore.exec_on( _, 'xlock -mode blank'     )" ),  -- Lock computer
-	kpress( META.."Print",           "ioncore.exec_on( _, '/home/andre/work/shell/screenshot.sh' )" ),
+	kpress( META.."Print",           "ioncore.exec_on( _, '/home/a/work/sh/screenshot.sh' )" ),
 	kpress( META.."K",               "ioncore.exec_on( _, 'pkill -9 -o -- chromium'  )" ),
-	kpress( META.."Q",               "ioncore.exec_on( _, 'sudo /sbin/shutdown -h now' )" ),
+	kpress( META.."Q",               "ioncore.exec_on( _, 'sudo /sbin/shutdown -c ; sudo /sbin/shutdown -h now' )" ),
+	kpress( META.."F6",              "ioncore.exec_on( _, '/home/a/work/sh/bye.sh' )" ),
 	
 	-- Adjust audio volume:
-	kpress( META.."period",          "ioncore.exec_on( _, 'amixer set Master  2+' )" ),
-	kpress( META.."comma",           "ioncore.exec_on( _, 'amixer set Master 10-' )" ),
-	kpress( META.."M",               "ioncore.exec_on( _, 'amixer set Master  0'  )" ),
+	kpress( META.."period",          "ioncore.exec_on( _, 'pactl set-sink-volume @DEFAULT_SINK@ +2500' )" ),
+	kpress( META.."comma",           "ioncore.exec_on( _, 'pactl set-sink-volume @DEFAULT_SINK@ -5000' )" ),
+	kpress( META.."M",               "ioncore.exec_on( _, 'pactl set-sink-volume @DEFAULT_SINK@     0' )" ),
 })
 
 
