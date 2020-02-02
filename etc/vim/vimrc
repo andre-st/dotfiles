@@ -202,8 +202,8 @@ au FileType python setlocal noautoindent noexpandtab softtabstop=5 tabstop=5
 " Execute current file
 au FileType perl,php,sh,r nnoremap <F9> :!%:p<Enter>
 au FileType perl,php,sh,r inoremap <F9> <ESC>:!%:p<Enter>
-au FileType html          nnoremap <F9> :!../build.sh<Enter>
-au FileType html          inoremap <F9> <ESC>:!../build.sh<Enter>
+au FileType html          nnoremap <F9> :!../build.sh %:p<Enter>
+au FileType html          inoremap <F9> <ESC>:!../build.sh %:p<Enter>
 
 
 
@@ -446,7 +446,7 @@ imap <F10> <ESC>:qa<CR>
 "  Ctrl-_ closes the most recent open tag
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-au Filetype html,xml,xsl,php source ~/.vim/scripts/closetag.vim
+"au Filetype html,xml,xsl,php source ~/.vim/scripts/closetag.vim
 
 
 

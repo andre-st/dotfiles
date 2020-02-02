@@ -104,6 +104,7 @@ md() { mkdir -p "$@" && cd "$_"; }
 
 
 # Toggle through recently used directories with 'cd [DIR]' and 'r'
+# It's like `cd -` but with OLDPWD on a stack
 cd() { builtin pushd "${@:-$HOME}" > /dev/null; }
 r()  { pushd +${1:-1} > /dev/null; }
 alias d="dirs -v"
