@@ -37,17 +37,10 @@ local function aplay_name( name_in_wavdir )
 end
 
 
--- Tests whether at least one element in the table t passes the test 
--- implemented by the provided function f. It returns a Boolean value.
--- Equivalent to Javascript's Array.prototype.some() or Java's Stream::anyMatch()
--- or Perl's any() in List::Util
--- This function should be moved to a global/shared source file.
+-- Equivalent to Javascript's Array.prototype.some() or 
+-- Java's Stream::anyMatch() or Perl's any() in List::Util
 local function table_any( t, f ) 
-	for _,v in ipairs( t ) do 
-		if f( v ) then
-			return true
-		end
-	end
+	for _,v in ipairs( t ) do if f( v ) then return true end end
 end
 
 
