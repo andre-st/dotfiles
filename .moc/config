@@ -1,4 +1,6 @@
-ExecCommand6 = "mv %f /home/m/mp3/"
+ExecCommand3 = "mv %f /home/a/_todo/mp3/"
+ExecCommand4 = "mv %f /home/a/_todo/mp3/[F4]-larger/"
+ExecCommand6 = "mv %f /home/a/_todo/mp3/[F6]-better/"
 ExecCommand8 = "rm %f"
 AutoNext = no
 ShowTime = yes
