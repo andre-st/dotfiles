@@ -5,7 +5,7 @@
 --    1. X11 window notifications: the urgency hint  (win 'activity')
 --    2.
 --
--- Requires
+-- Requires:
 --    ~/.notion/wav/wm_activity.wav
 --
 
@@ -15,7 +15,7 @@ end
 
 
 local function getwavdir()
-	return os.getenv ( "HOME" ) .. '/.notion/wav'
+	return os.getenv ( 'HOME' ) .. '/.notion/wav'
 end
 
 
