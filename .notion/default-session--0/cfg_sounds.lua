@@ -14,16 +14,9 @@ SOUND_ENABLED_APPS = {
 	-- Note: All lowercase, region-name patterns compatible with string.find() 
 	-- -------------------------------------------------------------------------
 	-- Instant messaging clients:
-	'discord'    ,  'ebuddy'    ,  'facebook'    ,  'firechat'   ,  'gadu'     ,
-	'gajim'      ,  'icq'       ,  'jami'        ,  'jitsi'      ,  'kadu'     ,
-	'kakaotalk'  ,  'kik'       ,  'mcabber'     ,  'palringo'   ,  'paltalk'  ,
-	'pidgin'     ,  'psi'       ,  'retroshare'  ,  'ricochet'   ,  'riot.im'  ,
-	'sicher'     ,  'signal'    ,  'phone'       ,  'skype'      ,  'slack'    ,
-	'snapchat'   ,  'surespot'  ,  'telegram'    ,  'trencent'   ,  'threema'  ,
-	'trillian'   ,  'viber'     ,  'wechat'      ,  'whatsapp,'  ,  'wickr'    ,
-	'wire'       ,
+	'signal',
 	-- Other chat clients:
-	'webchat'    ,  'irssi'
+	'webchat',  'irssi'
 }
 
 
@@ -51,12 +44,10 @@ end
 -- This function should be moved to a global/shared source file.
 local function table_any( t, f ) 
 	for _,v in ipairs( t ) do 
-		local r = f( v )
-		if r then
+		if f( v ) then
 			return true
 		end
 	end
-	return false
 end
 
 
