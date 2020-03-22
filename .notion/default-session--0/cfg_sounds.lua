@@ -15,7 +15,7 @@ end
 
 
 local function getwavdir()
-	return os.getenv ( 'HOME' ) .. '/.notion/wav'
+	return os.getenv( 'HOME' ) .. '/.notion/wav'
 end
 
 
