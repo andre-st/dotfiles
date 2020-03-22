@@ -44,7 +44,7 @@ local function aplay_name( name_in_wavdir )
 end
 
 
--- tests whether at least one element in the table t passes the test 
+-- Tests whether at least one element in the table t passes the test 
 -- implemented by the provided function f. It returns a Boolean value.
 -- Equivalent to Javascript's Array.prototype.some() or Java's Stream::anyMatch()
 -- or Perl's any() in List::Util
@@ -61,15 +61,17 @@ end
 
 
 local function hookhandler( reg, how )
-	local reg_name_lc          = string.lower( WRegion.name( reg ))
-	local is_sound_enabled_app = table_any( SOUND_ENABLED_APPS, 
-			function( s ) return string.find( reg_name_lc, s ) end )
-	
-	if  how == 'activity'              -- Just urgency hint
-	and WRegion.is_activity( reg )     -- Don't play sound 2nd time when clicking the hot region
-	and is_sound_enabled_app           -- Don't get annoying
+	if  how == 'activity'           -- Just urgency hint
+	and WRegion.is_activity( reg )  -- Don't play sound 2nd time when clicking the hot region
 	then
-		aplay_name( 'wm_activity.wav' )
+		local reg_name_lc  = string.lower( WRegion.name( reg ))
+		local is_sound_app = table_any( SOUND_ENABLED_APPS, 
+			function( s ) return string.find( reg_name_lc, s ) end )
+		
+		if is_sound_app  -- Don't get annoying
+		then
+			aplay_name( 'wm_activity.wav' )
+		end
 	end
 end
 
