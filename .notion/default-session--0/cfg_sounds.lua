@@ -1,6 +1,7 @@
--- Author: andre-st
--- Since:  2020-03-22
--- About:  Adds sounds to the window manager
+-- Author:   andre-st
+-- Since:    2020-03-22
+-- Modified: 2020-03-23
+-- About:    Adds sounds to the window manager
 --
 -- Requires:
 --    /usr/bin/aplay                   Program to play sound files (often preinstalled)
@@ -9,19 +10,10 @@
 
 
 -- Which apps should be able to trigger a notification sound:
-SOUND_ENABLED_APPS = { 
-	-- -------------------------------------------------------------------------
-	-- Note: All lowercase, region-name patterns compatible with string.find() 
-	-- -------------------------------------------------------------------------
-	-- Instant messaging clients:
-	'signal',
-	-- Other chat clients:
-	'webchat',  'irssi'
-}
+SOUND_ENABLED_APPS = { 'Signal', 'webchat', 'irssi' }  -- region-name substrings
 
 -- Location of the sound files:
 SOUND_DIR = os.getenv( 'HOME' ) .. '/.notion/wav'
-
 
 
 
@@ -46,9 +38,9 @@ end
 local function hookhandler( reg, how )
 	if  how == 'activity'                -- Just X11 urgency hint
 	and WRegion.is_activity( reg ) then  -- Don't play sound 2nd time when clicking the hot region
-		local reg_name_lc  = string.lower( WRegion.name( reg ))
+		local reg_name     = WRegion.name( reg )
 		local is_sound_app = table_any( SOUND_ENABLED_APPS, 
-			function( s ) return string.find( reg_name_lc, s ) end )
+			function( s ) return string.find( reg_name, s ) end )
 		
 		if is_sound_app then  -- Don't get annoying
 			aplay_name( 'wm_activity.wav' )
