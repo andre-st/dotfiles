@@ -34,6 +34,21 @@ function switch_neighbour_workspace()
 end
 
 
+function audio_louder()
+	ioncore.exec( 'pactl set-sink-volume  @DEFAULT_SINK@  +2500' )
+end
+
+function audio_quieter()
+	ioncore.exec( 'pactl set-sink-volume  @DEFAULT_SINK@  -5000' )
+end
+
+function audio_mute()
+	ioncore.exec( 'pactl set-sink-volume  @DEFAULT_SINK@  0' )
+end
+
+
+
+
 
 -- WScreen context bindings
 --
@@ -68,8 +83,8 @@ defbindings( "WScreen",
 	kpress( META.."Shift+Down",       "ioncore.goto_next( _chld, 'down' )" ),
 	
 	-- Adjust audio volume on status bar:
-	mpress( META.."Control+Button4",  "ioncore.exec_on( _, 'amixer set Master  5+' )" ),
-	mpress( META.."Control+Button5",  "ioncore.exec_on( _, 'amixer set Master 10-' )" ),
+	mpress( META.."Control+Button4",  "audio_louder()" ),
+	mpress( META.."Control+Button5",  "audio_quieter()" ),
 	
 	-- Display the window list menu:
 	mpress( "Button2",                "mod_menu.pmenu( _, _sub, 'windowlist' )" ),
@@ -137,9 +152,9 @@ defbindings( "WMPlex.toplevel",
 	kpress( META.."F6",              "ioncore.exec_on( _, '/home/a/work/sh/bye.sh' )" ),
 	
 	-- Adjust audio volume:
-	kpress( META.."period",          "ioncore.exec_on( _, 'pactl set-sink-volume @DEFAULT_SINK@ +2500' )" ),
-	kpress( META.."comma",           "ioncore.exec_on( _, 'pactl set-sink-volume @DEFAULT_SINK@ -5000' )" ),
-	kpress( META.."M",               "ioncore.exec_on( _, 'pactl set-sink-volume @DEFAULT_SINK@     0' )" ),
+	kpress( META.."period",          "audio_louder()"  ),
+	kpress( META.."comma",           "audio_quieter()" ),
+	kpress( META.."M",               "audio_mute()"    ),
 })
 
 
@@ -174,8 +189,8 @@ defbindings( "WFrame",
 	mpress( "Button5",        "_:parent():switch_next( _ )" ),
 	
 	-- Adjust audio volume
-	mpress( META.."Control+Button4", "ioncore.exec_on( _, 'amixer set Master  2+' )" ),
-	mpress( META.."Control+Button5", "ioncore.exec_on( _, 'amixer set Master 10-' )" ),
+	mpress( META.."Control+Button4", "audio_louder()" ),
+	mpress( META.."Control+Button5", "audio_quieter()" ),
 })
 
 
