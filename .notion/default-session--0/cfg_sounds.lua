@@ -19,21 +19,20 @@ SOUND_ENABLED_APPS = {
 	'webchat',  'irssi'
 }
 
+-- Location of the sound files:
+SOUND_DIR = os.getenv( 'HOME' ) .. '/.notion/wav'
+
+
 
 
 
 local function aplay( path )
-	os.execute( '"/usr/bin/aplay" ' .. '"' .. path .. '"' .. ' &' )  -- nonblocking
+	ioncore.exec( 'aplay ' .. '"' .. path .. '"' )  -- nonblocking
 end
 
 
-local function getwavdir()
-	return os.getenv( 'HOME' ) .. '/.notion/wav'
-end
-
-
-local function aplay_name( name_in_wavdir )
-	aplay( getwavdir() .. '/' .. name_in_wavdir )
+local function aplay_name( name_in_sound_dir )
+	aplay( SOUND_DIR .. '/' .. name_in_sound_dir )
 end
 
 
@@ -45,9 +44,8 @@ end
 
 
 local function hookhandler( reg, how )
-	if  how == 'activity'                -- Just urgency hint
+	if  how == 'activity'                -- Just X11 urgency hint
 	and WRegion.is_activity( reg ) then  -- Don't play sound 2nd time when clicking the hot region
-		
 		local reg_name_lc  = string.lower( WRegion.name( reg ))
 		local is_sound_app = table_any( SOUND_ENABLED_APPS, 
 			function( s ) return string.find( reg_name_lc, s ) end )
