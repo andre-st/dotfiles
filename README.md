@@ -25,6 +25,14 @@
 	| Screenshot | <kbd>⊞ Win</kbd>+<kbd>Print</kbd>
 	| ... |
 - [a Lua-script](https://github.com/andre-st/dotfiles/blob/master/.notion/default-session--0/cfg_sounds.lua) for notification sounds (X11 urgency hints) for whitelisted apps such as instant messengers like [Signal](https://github.com/signalapp/Signal-Desktop)
+	- free beep sound files:
+		[1](https://commons.wikimedia.org/wiki/File:Tone_440Hz.ogg), 
+		[2](https://commons.wikimedia.org/wiki/File:Luftr%C3%BCssel.ogg), 
+		[3](https://commons.wikimedia.org/wiki/File:CloudMagic_5.ogg), 
+		[4](https://commons.wikimedia.org/wiki/File:ZASFX_ADSR_no_sustain.ogg), 
+		[5](https://commons.wikimedia.org/wiki/File:ZASFX_ADSR_1s_release.ogg), 
+		[6](https://commons.wikimedia.org/wiki/File:CommaPytha.ogg), 
+		[7](https://commons.wikimedia.org/wiki/File:Sound_Effect_-_Door_Bell.ogg)
 
 ## Terminals
 - my approach to long paths or command-line space is a multiline prompt, see [.exports](.exports)
