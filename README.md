@@ -20,7 +20,8 @@
 		or <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right-side Tab-key on [US-keyboards](https://i.imgur.com/aLCC3Me.png))  
 		or <kbd>⊞ Win</kbd>+<kbd>1</kbd>..<kbd>9</kbd>
 	- close tab (program), frame, workspace: <kbd>⊞ Win</kbd>+<kbd>End</kbd> continously
-	- move tabs: <kbd>⊞ Win</kbd>+<kbd>Delete</kbd> to tag tabs and <kbd>⊞ Win</kbd>+<kbd>Insert</kbd>
+	- move tabs: <kbd>⊞ Win</kbd>+<kbd>Delete</kbd> to tag tabs and <kbd>⊞ Win</kbd>+<kbd>Insert</kbd>  
+		(here tagging works like 'tag and switch to next tab', so you can easily tag multiple tabs in a row)
 	- program menu: <kbd>⊞ Win</kbd>+<kbd>Enter</kbd>
 	- start: terminal <kbd>⊞ Win</kbd>+<kbd>Space</kbd>, mc <kbd>⊞ Win</kbd>+<kbd>E</kbd>, ...
 	- lock display (xlock): <kbd>⊞ Win</kbd>+<kbd>Pause</kbd>
