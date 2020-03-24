@@ -17,7 +17,7 @@
 	| Switch frames | <kbd>⊞ Win</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>  
 	| Split frame (horz.) | <kbd>⊞ Win</kbd>+(<kbd>Shift</kbd>+)<kbd>S</kbd>
 	| Switch tabs | <kbd>⊞ Win</kbd>+<kbd>Tab</kbd> or <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right-side Tab-key on [US-keyboards](https://i.imgur.com/aLCC3Me.png)) or <kbd>⊞ Win</kbd>+<kbd>1</kbd>..<kbd>9</kbd>
-	| Close tab (program), frame, workspace | <kbd>⊞ Win</kbd>+<kbd>End</kbd> continously
+	| Close tab (program), frame, workspace | <kbd>⊞ Win</kbd>+<kbd>End</kbd> repeatedly
 	| Move tabs | <kbd>⊞ Win</kbd>+<kbd>Delete</kbd> to tag tabs and <kbd>⊞ Win</kbd>+<kbd>Insert</kbd> (here tagging works like 'tag and switch to next tab', so you can easily tag multiple tabs in a row)
 	| Program menu | <kbd>⊞ Win</kbd>+<kbd>Enter</kbd>
 	| Start terminal | <kbd>⊞ Win</kbd>+<kbd>Space</kbd>
