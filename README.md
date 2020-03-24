@@ -17,7 +17,7 @@
 	- frames: <kbd>⊞ Win</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>  
 	  with splits via <kbd>⊞ Win</kbd>+(<kbd>Shift</kbd>+)<kbd>S</kbd>
 	- tabs: <kbd>⊞ Win</kbd>+<kbd>Tab</kbd>  
-		or <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right tab-key on US-keyboards)  
+		or <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right-side tab-key on US-keyboards)  
 		or <kbd>⊞ Win</kbd>+<kbd>1</kbd>..<kbd>9</kbd>
 	- close tab (program), frame, workspace: <kbd>⊞ Win</kbd>+<kbd>End</kbd> continously
 	- program menu: <kbd>⊞ Win</kbd>+<kbd>Enter</kbd>
