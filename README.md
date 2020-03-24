@@ -17,7 +17,7 @@
 	- switch frames: <kbd>⊞ Win</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>  
 	  with splits via <kbd>⊞ Win</kbd>+(<kbd>Shift</kbd>+)<kbd>S</kbd>
 	- switch tabs: <kbd>⊞ Win</kbd>+<kbd>Tab</kbd>  
-		or <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right-side tab-key on US-keyboards)  
+		or <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right-side Tab-key on [US-keyboards](https://upload.wikimedia.org/wikipedia/commons/5/57/ModelM.jpg))  
 		or <kbd>⊞ Win</kbd>+<kbd>1</kbd>..<kbd>9</kbd>
 	- close tab (program), frame, workspace: <kbd>⊞ Win</kbd>+<kbd>End</kbd> continously
 	- move tabs: <kbd>⊞ Win</kbd>+<kbd>Delete</kbd> to tag tabs and <kbd>⊞ Win</kbd>+<kbd>Insert</kbd>
