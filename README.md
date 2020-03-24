@@ -18,12 +18,12 @@
 	| Split frame (horz.) | <kbd>⊞ Win</kbd>+(<kbd>Shift</kbd>+)<kbd>S</kbd>
 	| Switch tabs | <kbd>⊞ Win</kbd>+<kbd>Tab</kbd> or <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right-side Tab-key on [US-keyboards](https://i.imgur.com/aLCC3Me.png)) or <kbd>⊞ Win</kbd>+<kbd>1</kbd>..<kbd>9</kbd>
 	| Close tab (program), frame, workspace | <kbd>⊞ Win</kbd>+<kbd>End</kbd> repeatedly
-	| Move tabs | <kbd>⊞ Win</kbd>+<kbd>Delete</kbd> to tag tabs and <kbd>⊞ Win</kbd>+<kbd>Insert</kbd> (here tagging works like 'tag and switch to next tab', so you can easily tag multiple tabs in a row)
+	| Move tabs | <kbd>⊞ Win</kbd>+<kbd>Delete</kbd> to tag tabs and <kbd>⊞ Win</kbd>+<kbd>Insert</kbd> (here, tagging works like 'tag and switch to next tab', so you can easily tag multiple tabs in a row)
 	| Program menu | <kbd>⊞ Win</kbd>+<kbd>Enter</kbd>
 	| Start terminal | <kbd>⊞ Win</kbd>+<kbd>Space</kbd>
 	| Lock display (xlock) | <kbd>⊞ Win</kbd>+<kbd>Pause</kbd>
 	| Screenshot | <kbd>⊞ Win</kbd>+<kbd>Print</kbd>
-	| ... |
+	| ... | ...
 - [a Lua-script](https://github.com/andre-st/dotfiles/blob/master/.notion/default-session--0/cfg_sounds.lua) for notification sounds (X11 urgency hints) for whitelisted apps such as instant messengers like [Signal](https://github.com/signalapp/Signal-Desktop)
 	- free beep sound files:
 		[1](https://commons.wikimedia.org/wiki/File:Tone_440Hz.ogg), 
