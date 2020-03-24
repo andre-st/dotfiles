@@ -9,24 +9,21 @@
 ## X Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
 - customized, less ugly theme
 - customized, easy-to-remember key bindings (shortcuts), which are mainly centered around 
-  the left/right <kbd>⊞ Win</kbd> key ('Win' like window manager) and the area around the arrow keys to...
-	- switch screens: <kbd>⊞ Win</kbd>+<kbd>←</kbd><kbd>→</kbd>
-	- switch workspaces: <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd>  
-		or <kbd>⊞ Win</kbd>+<kbd>Scroll Wheel</kbd>  
-		or <kbd>Scroll Wheel</kbd> over the tabs row
-	- switch frames: <kbd>⊞ Win</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>  
-	  with splits via <kbd>⊞ Win</kbd>+(<kbd>Shift</kbd>+)<kbd>S</kbd>
-	- switch tabs: <kbd>⊞ Win</kbd>+<kbd>Tab</kbd>  
-		or <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right-side Tab-key on [US-keyboards](https://i.imgur.com/aLCC3Me.png))  
-		or <kbd>⊞ Win</kbd>+<kbd>1</kbd>..<kbd>9</kbd>
-	- close tab (program), frame, workspace: <kbd>⊞ Win</kbd>+<kbd>End</kbd> continously
-	- move tabs: <kbd>⊞ Win</kbd>+<kbd>Delete</kbd> to tag tabs and <kbd>⊞ Win</kbd>+<kbd>Insert</kbd>  
-		(here tagging works like 'tag and switch to next tab', so you can easily tag multiple tabs in a row)
-	- program menu: <kbd>⊞ Win</kbd>+<kbd>Enter</kbd>
-	- start: terminal <kbd>⊞ Win</kbd>+<kbd>Space</kbd>, mc <kbd>⊞ Win</kbd>+<kbd>E</kbd>, ...
-	- lock display (xlock): <kbd>⊞ Win</kbd>+<kbd>Pause</kbd>
-	- screenshot: <kbd>⊞ Win</kbd>+<kbd>Print</kbd>
-	- ...
+  the left/right <kbd>⊞ Win</kbd> key ('Win' like window manager) and the area around the arrow keys:
+	| Action | Shortcut |
+	|--------|----------|
+	| Switch screens | <kbd>⊞ Win</kbd>+<kbd>←</kbd><kbd>→</kbd>
+	| Switch workspaces | <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd>  or  <kbd>⊞ Win</kbd>+<kbd>Scroll Wheel</kbd> or <kbd>Scroll Wheel</kbd> over the tabs row
+	| Switch frames | <kbd>⊞ Win</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>  
+	| Split frames | <kbd>⊞ Win</kbd>+(<kbd>Shift</kbd>+)<kbd>S</kbd>
+	| Switch tabs | <kbd>⊞ Win</kbd>+<kbd>Tab</kbd> or <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right-side Tab-key on [US-keyboards](https://i.imgur.com/aLCC3Me.png)) or <kbd>⊞ Win</kbd>+<kbd>1</kbd>..<kbd>9</kbd>
+	| Close tab (program), frame, workspace | <kbd>⊞ Win</kbd>+<kbd>End</kbd> continously
+	| Move tabs | <kbd>⊞ Win</kbd>+<kbd>Delete</kbd> to tag tabs and <kbd>⊞ Win</kbd>+<kbd>Insert</kbd> (here tagging works like 'tag and switch to next tab', so you can easily tag multiple tabs in a row)
+	| Program menu | <kbd>⊞ Win</kbd>+<kbd>Enter</kbd>
+	| Start terminal | <kbd>⊞ Win</kbd>+<kbd>Space</kbd>
+	| Lock display (xlock) | <kbd>⊞ Win</kbd>+<kbd>Pause</kbd>
+	| Screenshot | <kbd>⊞ Win</kbd>+<kbd>Print</kbd>
+	| ... |
 - [a Lua-script](https://github.com/andre-st/dotfiles/blob/master/.notion/default-session--0/cfg_sounds.lua) for notification sounds (X11 urgency hints) for whitelisted apps such as instant messengers like [Signal](https://github.com/signalapp/Signal-Desktop)
 
 ## Terminals
