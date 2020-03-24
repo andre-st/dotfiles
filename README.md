@@ -3,10 +3,10 @@
 - GPL
 - don't add sensitive info here, use `~/.XXX_local` files instead
 
-## X11
+## X Window System
 - Xmodmap-customized US-keyboard layout with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc
 
-## [Notion](https://github.com/raboof/notion) Tiling Window Manager
+## X Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
 - customized, less ugly theme
 - customized, easy-to-remember key bindings (shortcuts), which are mainly centered around 
   the left/right <kbd>⊞ Win</kbd> key ('Win' like window manager) and the area around the arrow keys to navigate...
