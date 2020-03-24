@@ -7,7 +7,7 @@
 	- with customized keyboard bindings, which are mainly centered around 
 	  the left or right <kbd>⊞ Win</kbd> key and the area around the arrow keys to navigate
 		- screens: <kbd>⊞ Win</kbd>+<kbd>←</kbd><kbd>→</kbd>
-		- workspaces: <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd> or <kbd>⊞ Win</kbd>+scrollwheel
+		- workspaces: <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd> or <kbd>⊞ Win</kbd>+scrollwheel or just scrollwheel on the tabs row
 		- frames: <kbd>⊞ Win</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd> 
 		  (splits via <kbd>⊞ Win</kbd>+(<kbd>Shift</kbd>+)<kbd>S</kbd>)	
 		- tabs: <kbd>⊞ Win</kbd>+<kbd>Tab</kbd> or <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right tab-key on US-keyboards) or <kbd>⊞ Win</kbd>+<kbd>1</kbd>..<kbd>9</kbd>
