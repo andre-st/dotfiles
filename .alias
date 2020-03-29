@@ -161,18 +161,26 @@ ivlc()
 	MOUNTDIR="/media/iphone-vlc"
 	OPT_UNTAG="Remove messy MP3 tags in $CWD"
 
-	echo "VLC media files on the iPhone"
+	if mount | grep "$MOUNTDIR" > /dev/null
+	then
+		DF=`df --output=avail -h "${MOUNTDIR}" | tail -1`
+		META="(${DF/ /} free)"   # Trims leading space
+		OPT_MNT="Unmount"
+	else
+		META=''
+		OPT_MNT="Mount"
+	fi
+	
+	echo "VLC media files on the iPhone  ${META}"
 
-	select choice in "Mount" "Unmount" "${OPT_UNTAG}" "Quit"
+	select choice in "${OPT_MNT}" "${OPT_UNTAG}" "Quit"
 	do
 		case "$choice" in
 			"Mount")   
-				ifuse --documents org.videolan.vlc-ios "${MOUNTDIR}"  &&  cd "${MOUNTDIR}" 
-				break
+				ifuse --documents org.videolan.vlc-ios "${MOUNTDIR}"  &&  cd "${MOUNTDIR}"  &&  df --output=size,used,avail,pcent -h "${MOUNTDIR}"  &&  break
 				;;
 			"Unmount") 
-				cd /  &&  fusermount -u "${MOUNTDIR}" 
-				break
+				cd /  &&  fusermount -u "${MOUNTDIR}"  &&  break
 				;;
 			"${OPT_UNTAG}")
 				id3v2 -D *.mp3 
