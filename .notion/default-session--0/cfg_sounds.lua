@@ -10,7 +10,7 @@
 
 
 -- Which apps should be able to trigger a notification sound:
-SOUND_ENABLED_APPS = { 'Signal', 'webchat', 'irssi' }  -- region-name substrings
+SOUND_ENABLED_APPS = { 'Signal', 'webchat', 'irssi', 'Chime' }  -- region-name substrings
 
 -- Location of the sound files:
 SOUND_DIR = os.getenv( 'HOME' ) .. '/.notion/wav'
