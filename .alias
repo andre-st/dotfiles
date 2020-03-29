@@ -151,6 +151,45 @@ alias edir="vim -c 'Renamer'"
 
 
 ###############################################################################
+# IPHONE
+# 
+
+ivlc() 
+{
+	CWD=`pwd`
+	MOUNTDIR="/media/iphone-vlc"
+	OPT_UNTAG="Remove messy MP3 tags in $CWD"
+
+	echo "VLC media files on the iPhone"
+
+	select choice in "Mount" "Unmount" "${OPT_UNTAG}" "Quit"
+	do
+		case "$choice" in
+			"Mount")   
+				ifuse --documents org.videolan.vlc-ios "${MOUNTDIR}"  &&  cd "${MOUNTDIR}" 
+				break
+				;;
+			"Unmount") 
+				cd /  &&  fusermount -u "${MOUNTDIR}" 
+				break
+				;;
+			"${OPT_UNTAG}")
+				id3v2 -D *.mp3 
+				break
+				;;
+			"Quit")
+				break
+				;;
+			*)
+				echo "Invalid option $choice" 
+				;;
+		esac
+	done
+}
+
+
+
+###############################################################################
 # TEXTFILES 
 # 
 
