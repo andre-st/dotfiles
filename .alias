@@ -23,7 +23,7 @@ alias     j="jobs -l"       # Ctrl+Z, bg $JOBID, fg $JOBID
 # $ !!       repeats prev command (or up-arrow)
 # $ !string  repeats last command with keyword 
 # $ !number  repeats command with id
-h()
+h() 
 {
 	if [ "$1" ]
 	then
@@ -34,7 +34,8 @@ h()
 }
 
 # man colors (alternative config file?)
-man() {
+man() 
+{
 	env \
 		LESS_TERMCAP_mb=$(printf "\e[1;31m")    \
 		LESS_TERMCAP_md=$(printf "\e[1;31m")    \
