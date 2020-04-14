@@ -13,18 +13,18 @@
 	| Action | Shortcut |
 	|--------|----------|
 	| Switch screens       | <kbd>⊞ Win</kbd>+<kbd>←</kbd><kbd>→</kbd>
-	| Switch workspaces    | <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd>  or  <kbd>⊞ Win</kbd>+<kbd>Mouse Wheel</kbd> or <kbd>Mouse Wheel</kbd> over the tabs row
+	| Switch workspaces    | <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd>  or<br>  <kbd>⊞ Win</kbd>+<kbd>Mouse Wheel</kbd> or<br> <kbd>Mouse Wheel</kbd> over the tabs row
 	| Navigate frames      | <kbd>⊞ Win</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>  
 	| Split frame (horz.)  | <kbd>⊞ Win</kbd>+(<kbd>Shift</kbd>+)<kbd>S</kbd>
-	| Switch tabs          | <kbd>⊞ Win</kbd>+<kbd>Tab</kbd> or <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right-hand Tab-key on [US-keyboards](https://i.imgur.com/aLCC3Me.png)) or <kbd>⊞ Win</kbd>+<kbd>Backspace</kbd> (prev. tab) or <kbd>⊞ Win</kbd>+<kbd>1</kbd>..<kbd>9</kbd>
+	| Switch tabs          | <kbd>⊞ Win</kbd>+<kbd>Tab</kbd> or<br> <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right-hand Tab-key on [US-keyboards](https://i.imgur.com/aLCC3Me.png)) or<br> <kbd>⊞ Win</kbd>+<kbd>Backspace</kbd> (prev. tab) or<br> <kbd>⊞ Win</kbd>+<kbd>1</kbd>..<kbd>9</kbd>
 	| Close tab (program), frame, workspace | <kbd>⊞ Win</kbd>+<kbd>End</kbd> repeatedly
 	| Move tab left/right  | <kbd>⊞ Win</kbd>+<kbd>[</kbd><kbd>]</kbd>
-	| Move tabs betw. frames | <kbd>⊞ Win</kbd>+<kbd>Delete</kbd> to tag tabs and <kbd>⊞ Win</kbd>+<kbd>Insert</kbd> (here, tagging works like 'tag and switch to next tab', so you can easily tag multiple tabs in a row)
+	| Move tabs betw. frames | <kbd>⊞ Win</kbd>+<kbd>Delete</kbd> to tag tabs and<br>  <kbd>⊞ Win</kbd>+<kbd>Insert</kbd> (here, tagging works like 'tag and switch to next tab', so you can easily tag multiple tabs in a row)
 	| Program menu         | <kbd>⊞ Win</kbd>+<kbd>Enter</kbd>
 	| Start terminal       | <kbd>⊞ Win</kbd>+<kbd>Space</kbd>
 	| Lock display (xlock) | <kbd>⊞ Win</kbd>+<kbd>Pause</kbd>
 	| Screenshot           | <kbd>⊞ Win</kbd>+<kbd>Print</kbd>
-	| Audio volume         | <kbd>⊞ Win</kbd>+<kbd>M</kbd> to mute, <kbd>⊞ Win</kbd>+<kbd>,</kbd><kbd>.</kbd> or <kbd>⊞ Win</kbd>+<kbd>Ctrl</kbd>+<kbd>Mouse Wheel</kbd>
+	| Audio volume         | <kbd>⊞ Win</kbd>+<kbd>M</kbd> to mute  or<br>  <kbd>⊞ Win</kbd>+<kbd>,</kbd><kbd>.</kbd> or<br>  <kbd>⊞ Win</kbd>+<kbd>Ctrl</kbd>+<kbd>Mouse Wheel</kbd>
 	| ... | ...
 - [a Lua-script](https://github.com/andre-st/dotfiles/blob/master/.notion/default-session--0/cfg_sounds.lua) for notification sounds (X11 urgency hints) for whitelisted apps such as instant messengers like [Signal](https://github.com/signalapp/Signal-Desktop)
 	- free beep sound files:
