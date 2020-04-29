@@ -23,7 +23,7 @@
 	| Program menu         | <kbd>⊞ Win</kbd>+<kbd>Enter</kbd>
 	| Start terminal       | <kbd>⊞ Win</kbd>+<kbd>Space</kbd>
 	| Lock display (xlock) | <kbd>⊞ Win</kbd>+<kbd>Pause</kbd>
-	| Invert screen (xcalib) | <kbd>⊞ Win</kbd>+<kbd>I</kbd>
+	| Invert screen (xcalib) | <kbd>⊞ Win</kbd>+<kbd>I</kbd> (poor man's dark mode)
 	| Screenshot           | <kbd>⊞ Win</kbd>+<kbd>Print</kbd>
 	| Audio volume         | <kbd>⊞ Win</kbd>+<kbd>M</kbd> to mute  or<br>  <kbd>⊞ Win</kbd>+<kbd>,</kbd><kbd>.</kbd> or<br>  <kbd>⊞ Win</kbd>+<kbd>Ctrl</kbd>+<kbd>Mouse Wheel</kbd>
 	| ... | ...
