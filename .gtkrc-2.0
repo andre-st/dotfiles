@@ -1,0 +1,30 @@
+# https://www.gnome-look.org/p/1247600/
+#include "/usr/share/themes/Adwaita-dark/gtk-2.0/gtkrc"
+
+# https://www.gnome-look.org/p/1014995/
+include "/usr/share/themes/Adwaita-dark2/gtk-2.0/gtkrc"
+
+#include "/usr/share/themes/trollwut-pink-dark/gtk-2.0/gtkrc"
+#include "/usr/share/themes/Dark-Olympic/gtk-2.0/gtkrc"
+#include "/usr/share/themes/Breeze-Dark-Charlie/gtk-2.0/gtkrc"
+#include "/usr/share/themes/SlicknesS-black/gtk-2.0/gtkrc"
+#include "/usr/share/themes/Smoked Glass/gtk-2.0/gtkrc"
+#include "/usr/share/themes/Numix-dark/gtk-2.0/gtkrc"
+#include "/usr/share/themes/Theme - L_Mint-Darkx/gtk-2.0/gtkrc"
+#include "/usr/share/themes/Add-Waiter/gtk-2.0/gtkrc"
+#include "/usr/share/themes/mint-x-mod-bundle/gtk-2.0/gtkrc"
+#include "/usr/share/themes/cyan/gtk-2.0/gtkrc"
+#include "/usr/share/themes/Charlotte/gtk-2.0/gtkrc"
+#include "/usr/share/themes/Melissa-blue/gtk-2.0/gtkrc"
+#include "/usr/share/themes/NEWTONIAN_FLYNN_UI/gtk-2.0/gtkrc"
+#include "/usr/share/themes/trinity_adaptation_cyan/gtk-2.0/gtkrc"
+#include "/usr/share/themes/trinity_adaptation/gtk-2.0/gtkrc"
+#include "/usr/share/themes/Arsenic/gtk-2.0/gtkrc"
+#include "/usr/share/themes/London Smoke/gtk-2.0/gtkrc"
+#include "/usr/share/themes/Dark Arte/gtk-2.0/gtkrc"
+#include "/usr/share/themes/FLYNN_UI/gtk-2.0/gtkrc"
+
+# TODO inkscape
+
+
+
