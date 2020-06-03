@@ -43,5 +43,12 @@
   [![Console Screenshot](https://pbs.twimg.com/media/CczYfIfUsAAkzRC.jpg)](https://www.youtube.com/watch?v=_UG-0mt2UQo)
   ([YouTube](https://www.youtube.com/watch?v=_UG-0mt2UQo))
 
+
 ## Vim
 - todo
+
+
+## PDF
+- I like Zathura, it's keyboard-friendly and also easily supports a dark mode (recoloring)
+
+
