@@ -160,7 +160,8 @@ set smartcase           " search case (in)sensitive based on capitalization in t
 set ignorecase          " 
 "set showmatch          " show () {} and [] matches while writing
 set ruler               "
-colors andre-st_term    " color theme
+"colors andre-st_term    " color theme
+colors default
 set number              " line numbering
 set nowrap              " do not automatically wrap on load
 "set formatoptions-=t    " do not automatically wrap text when typing

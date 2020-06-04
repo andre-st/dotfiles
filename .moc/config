@@ -10,7 +10,10 @@ SyncPlaylist = yes
 Sort = FileName
 
 # /usr/share/moc/themes
-Theme = andre_theme
+#Theme = andre_theme
+#Theme = darkdot_theme
+#Theme = nightly_theme
+Theme = transparent-background
 
 
 Layout1 = playlist(50%,50%,50%,50%)

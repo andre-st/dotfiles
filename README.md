@@ -3,8 +3,10 @@
 - GPL
 - don't add sensitive info here, use `~/.XXX_local` files instead
 
+
 ## X Window System
 - Xmodmap-customized US-keyboard layout with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc
+
 
 ## X Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
 - customized, less ugly theme (flat design)
@@ -38,6 +40,7 @@
 		[6](https://commons.wikimedia.org/wiki/File:CommaPytha.ogg), 
 		[7](https://commons.wikimedia.org/wiki/File:Sound_Effect_-_Door_Bell.ogg)
 
+
 ## Terminals
 - my approach to long paths or command-line space is a multiline prompt, see [.exports](.exports)
   [![Console Screenshot](https://pbs.twimg.com/media/CczYfIfUsAAkzRC.jpg)](https://www.youtube.com/watch?v=_UG-0mt2UQo)
@@ -49,6 +52,7 @@
 
 
 ## PDF
-- I like Zathura, it's keyboard-friendly and also easily supports a dark mode (recoloring)
+- I like [Zathura](https://pwmt.org/projects/zathura/), it's a keyboard-friendly and customizable document viewer 
+  with dark-mode support (recoloring) and conveniences like remembering the last reading position in a file
 
 
