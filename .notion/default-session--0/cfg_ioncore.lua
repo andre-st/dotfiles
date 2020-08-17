@@ -143,14 +143,15 @@ defbindings( "WMPlex.toplevel",
 	kpress( META.."G",               "mod_query.query_gotoclient( _ )" ),  -- Query client window
 	kpress( META.."Insert",          "ioncore.tagged_attach( _ )"      ),  -- Attach tagged tabs to win
 	
-	kpress( META.."E",               "ioncore.exec_on( _, 'urxvt -e mc'           )" ),
-	kpress( META.."space",           "ioncore.exec_on( _, 'urxvt'                 )" ),
+	kpress( META.."E",               "ioncore.exec_on( _, 'urxvt -cd /home/a/_todo -e mc' )" ),
+	kpress( META.."space",           "ioncore.exec_on( _, 'urxvt -cd /home/a/_todo' )" ),
 	kpress( META.."I",               "ioncore.exec_on( _, '~/.notion/scripts/invert.sh' )" ),
 	kpress( META.."Pause",           "ioncore.exec_on( _, 'xlock -mode blank'     )" ),  -- Lock computer
 	kpress( META.."Print",           "ioncore.exec_on( _, '~/.notion/scripts/screenshot.sh' )" ),
 	kpress( META.."K",               "ioncore.exec_on( _, 'pkill -9 -o -- chromium' )" ),
 	kpress( META.."Q",               "ioncore.exec_on( _, '~/.notion/scripts/shutdown.sh' )" ),
 	kpress( META.."F6",              "ioncore.exec_on( _, '~/.notion/scripts/shutdown.sh 60' )" ),
+	kpress( META.."P",               "ioncore.exec_on( _, '~/.notion/scripts/paste.sh' )" ),
 	
 	-- Adjust audio volume:
 	kpress( META.."period",          "audio_louder()"  ),
