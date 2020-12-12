@@ -236,7 +236,9 @@ alias xlinks="links -g -driver x"
 
 # Lists programs with connected hosts (vs. all internet connections), less redundant/verbose
 # or $ iftop ...and [L]-key to filter
-lsi() { lsof -i | sed '1 d' | awk '{print $1, $3, $8}' | sed 's/\:[0-9]*->/->/' | sed 's/http[s]*/www/' | sort | uniq; }
+# lsof -i  just internet connection
+#      -n  skip DNS resolution (otherwise very slow output)
+lsi() { lsof -i -n | sed '1 d' | awk '{print $1, $3, $8}' | sed 's/\:[0-9]*->/->/' | sed 's/http[s]*/www/' | sort | uniq; }
 
 # Internet Relay Chat Networks:
 IRC_NET_NAMESPACE="private"
