@@ -25,6 +25,7 @@
 	| Move tabs betw. frames | <kbd>⊞ Win</kbd>+<kbd>Delete</kbd> to tag tabs and<br>  <kbd>⊞ Win</kbd>+<kbd>Insert</kbd> (here, tagging works like 'tag and switch to next tab', so you can easily tag multiple tabs in a row)
 	| Program menu         | <kbd>⊞ Win</kbd>+<kbd>Enter</kbd>
 	| Start terminal       | <kbd>⊞ Win</kbd>+<kbd>Space</kbd>
+	| Start file explorer (mc) | <kbd>⊞ Win</kbd>+<kbd>E</kbd>	
 	| Lock display (xlock) | <kbd>⊞ Win</kbd>+<kbd>Pause</kbd>
 	| Invert screen (xcalib) | <kbd>⊞ Win</kbd>+<kbd>I</kbd> ([poor man's](.notion/scripts/invert.sh) dark mode)
 	| Screenshot           | <kbd>⊞ Win</kbd>+<kbd>Print</kbd> ([saves](.notion/scripts/screenshot.sh) to home dir)
