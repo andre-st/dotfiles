@@ -10,7 +10,7 @@
 
 ## X Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
 - customized, less ugly theme (flat design)  
-	![Screenshot](README-notion.jpg)
+	![Screenshot](README-notion.png)
 - customized, easy-to-remember key bindings (shortcuts), which are mainly centered around 
   the left/right <kbd>⊞ Win</kbd> key ('Win' like window manager) and the area around the arrow keys:
 	| Action | Shortcut |
