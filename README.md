@@ -1,4 +1,4 @@
-# Configuration files available to every system user
+# Configuration Files
 
 - GPL
 - don't add sensitive info here, use `~/.XXX_local` files instead
@@ -15,7 +15,7 @@
   the left/right <kbd>⊞ Win</kbd> key ('Win' like window manager) and the area around the arrow keys:
 	| Action | Shortcut |
 	|--------|----------|
-	| Switch screens       | <kbd>⊞ Win</kbd>+<kbd>←</kbd><kbd>→</kbd>
+	| Switch screens (monitor, TV in the room) | <kbd>⊞ Win</kbd>+<kbd>←</kbd><kbd>→</kbd>
 	| Switch workspaces    | <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd>  or<br>  <kbd>⊞ Win</kbd>+<kbd>Mouse Wheel</kbd> or<br> <kbd>Mouse Wheel</kbd> over the tabs row
 	| Navigate frames      | <kbd>⊞ Win</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>  
 	| Split frame (horz.)  | <kbd>⊞ Win</kbd>+(<kbd>Shift</kbd>+)<kbd>S</kbd>
