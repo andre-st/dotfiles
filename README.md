@@ -1,4 +1,4 @@
-# Configuration files available to every system user
+# Configuration Files
 
 - GPL
 - don't add sensitive info here, use `~/.XXX_local` files instead
@@ -10,12 +10,12 @@
 
 ## X Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
 - customized, less ugly theme (flat design)  
-	![Screenshot](README-notion.jpg)
+	![Screenshot](README-notion.png)
 - customized, easy-to-remember key bindings (shortcuts), which are mainly centered around 
   the left/right <kbd>⊞ Win</kbd> key ('Win' like window manager) and the area around the arrow keys:
 	| Action | Shortcut |
 	|--------|----------|
-	| Switch screens       | <kbd>⊞ Win</kbd>+<kbd>←</kbd><kbd>→</kbd>
+	| Switch screens (monitor, TV in the room) | <kbd>⊞ Win</kbd>+<kbd>←</kbd><kbd>→</kbd>
 	| Switch workspaces    | <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd>  or<br>  <kbd>⊞ Win</kbd>+<kbd>Mouse Wheel</kbd> or<br> <kbd>Mouse Wheel</kbd> over the tabs row
 	| Navigate frames      | <kbd>⊞ Win</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>  
 	| Split frame (horz.)  | <kbd>⊞ Win</kbd>+(<kbd>Shift</kbd>+)<kbd>S</kbd>
@@ -25,6 +25,7 @@
 	| Move tabs betw. frames | <kbd>⊞ Win</kbd>+<kbd>Delete</kbd> to tag tabs and<br>  <kbd>⊞ Win</kbd>+<kbd>Insert</kbd> (here, tagging works like 'tag and switch to next tab', so you can easily tag multiple tabs in a row)
 	| Program menu         | <kbd>⊞ Win</kbd>+<kbd>Enter</kbd>
 	| Start terminal       | <kbd>⊞ Win</kbd>+<kbd>Space</kbd>
+	| Start file explorer (mc) | <kbd>⊞ Win</kbd>+<kbd>E</kbd>	
 	| Lock display (xlock) | <kbd>⊞ Win</kbd>+<kbd>Pause</kbd>
 	| Invert screen (xcalib) | <kbd>⊞ Win</kbd>+<kbd>I</kbd> ([poor man's](.notion/scripts/invert.sh) dark mode)
 	| Screenshot           | <kbd>⊞ Win</kbd>+<kbd>Print</kbd> ([saves](.notion/scripts/screenshot.sh) to home dir)
