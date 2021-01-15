@@ -50,8 +50,19 @@
   ([YouTube](https://www.youtube.com/watch?v=_UG-0mt2UQo))
 
 
+# Web-Browser
+- mouse gestures
+	| Action | Gesture |
+	|--------|---------|
+	| Open link under mouse pointer in new _background_ tab | <kbd>→</kbd>
+	| Close current tab | <kbd>↓</kbd><kbd>→</kbd>
+	| Re-open previously closed tab | <kbd>↑</kbd><kbd>←</kbd>  (close-current-tab reversed)
+	| History back | <kbd>←</kbd>
+
+
 ## Vim
 - todo
+
 
 
 ## PDF
