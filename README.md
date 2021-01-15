@@ -50,7 +50,7 @@
   ([YouTube](https://www.youtube.com/watch?v=_UG-0mt2UQo))
 
 
-# Web-Browser
+## Web-Browser
 - mouse gestures
 	| Action | Gesture |
 	|--------|---------|
