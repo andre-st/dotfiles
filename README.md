@@ -52,12 +52,14 @@
 
 ## Web-Browser
 - mouse gestures
-	| Action | Gesture |
+	| Action | Mouse Gesture |
 	|--------|---------|
 	| Open link under mouse pointer in new _background_ tab | <kbd>→</kbd>
 	| Close current tab | <kbd>↓</kbd><kbd>→</kbd>
 	| Re-open previously closed tab | <kbd>↑</kbd><kbd>←</kbd>  (close-current-tab reversed)
 	| History back | <kbd>←</kbd>
+	| Scroll to page footer | <kbd>↓</kbd>
+	| Scroll to page header | <kbd>↑</kbd>
 
 
 ## Vim
