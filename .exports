@@ -14,7 +14,7 @@ export GOPATH=${HOME}/go_projects
 export GOBIN=${GOPATH}/bin
 export CLASSPATH=.:${JAVA_HOME}
 export PATH=${PATH}:${JAVA_HOME}/bin:${ANT_HOME}/bin:${GOROOT}/bin
-export BROWSER=firefox
+export BROWSER=/usr/bin/brave-browser-stable
 export EDITOR=vim
 
 
