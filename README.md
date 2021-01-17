@@ -50,8 +50,24 @@
   ([YouTube](https://www.youtube.com/watch?v=_UG-0mt2UQo))
 
 
+## Web-Browser
+- mouse gestures
+	| Action | Mouse Gesture |
+	|--------|---------|
+	| Open link in new background tab | <kbd>→</kbd> (if no middle button)
+	| Close current tab | <kbd>↓</kbd><kbd>→</kbd>
+	| Re-open previously closed tab | <kbd>↑</kbd><kbd>←</kbd>
+	| History back | <kbd>←</kbd>
+	| Scroll to page header | <kbd>↑</kbd>
+	| Scroll to page footer | <kbd>↓</kbd>
+- extensions:
+	- [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension)
+	- uBlock Origin (ad-blocker)
+
+
 ## Vim
 - todo
+
 
 
 ## PDF
