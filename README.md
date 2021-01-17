@@ -54,12 +54,15 @@
 - mouse gestures
 	| Action | Mouse Gesture |
 	|--------|---------|
-	| Open link under mouse pointer in new _background_ tab | <kbd>→</kbd>
+	| Open link in new background tab | <kbd>→</kbd> (if no middle button)
 	| Close current tab | <kbd>↓</kbd><kbd>→</kbd>
-	| Re-open previously closed tab | <kbd>↑</kbd><kbd>←</kbd>  (close-current-tab reversed)
+	| Re-open previously closed tab | <kbd>↑</kbd><kbd>←</kbd>
 	| History back | <kbd>←</kbd>
-	| Scroll to page footer | <kbd>↓</kbd>
 	| Scroll to page header | <kbd>↑</kbd>
+	| Scroll to page footer | <kbd>↓</kbd>
+- extensions:
+	- [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension)
+	- uBlock Origin (ad-blocker)
 
 
 ## Vim
