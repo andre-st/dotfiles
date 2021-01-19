@@ -61,7 +61,7 @@
 	| Scroll to page header | <kbd>↑</kbd>
 	| Scroll to page footer | <kbd>↓</kbd>
 - extensions:
-	- [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension)
+	- [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension+fork%3Atrue&type=repositories)
 	- uBlock Origin (ad-blocker)
 
 
