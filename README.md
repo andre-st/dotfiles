@@ -66,8 +66,8 @@
 - profiles:
 	- default
 	- pentest (proxy settings, ...)
-	- tor (proxy settings, ...)
-	- banking (safe-mode/no extensions, ...)
+	- tor (proxy settings, multiple home tabs with check.torproject.org i.a.)
+	- banking (no extensions safe-mode, multiple home tabs with fintech sites, ...)
 
 
 ## Vim
