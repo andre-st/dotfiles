@@ -63,6 +63,11 @@
 - extensions:
 	- [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension+fork%3Atrue&type=repositories)
 	- uBlock Origin (ad-blocker)
+- profiles:
+	- default
+	- pentest (proxy settings, ...)
+	- tor (proxy settings, ...)
+	- banking (safe-mode/no extensions, ...)
 
 
 ## Vim
