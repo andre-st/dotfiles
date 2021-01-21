@@ -59,7 +59,7 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 ## Web-Browser
 
 ### Mouse Gestures
-| Action | Gesture |
+| Browser Action | Gesture |
 |--------|---------|
 | Open link in new background tab | <kbd>→</kbd> (if no middle button)
 | Close current tab | <kbd>↓</kbd><kbd>→</kbd>
@@ -75,12 +75,12 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 | uBlock Origin | ad-blocker
 
 ### Browser Profiles
-| Name    | Comment |
-|---------|---------|
-| default |
-| pentest | proxy settings, ...
-| tor     | proxy settings, multiple home tabs with check.torproject.org i.a.
-| banking | no extensions safe-mode, multiple home tabs with fintech sites, ...
+| Custom Name | Comment |
+|-------------|---------|
+| default     |
+| pentest     | proxy settings, ...
+| tor         | proxy settings, multiple home tabs with check.torproject.org i.a.
+| banking     | no extensions safe-mode, multiple home tabs with fintech sites, ...
 
 
 
