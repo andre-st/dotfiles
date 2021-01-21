@@ -35,7 +35,8 @@ Dark flat design theme:
 	| ... | ...
 
 
-[a Lua-script](https://github.com/andre-st/dotfiles/blob/master/.notion/default-session--0/cfg_sounds.lua) for notification sounds (X11 urgency hints) for whitelisted apps such as instant messengers like [Signal](https://github.com/signalapp/Signal-Desktop)
+### Misc
+- [a Lua-script](https://github.com/andre-st/dotfiles/blob/master/.notion/default-session--0/cfg_sounds.lua) for notification sounds (X11 urgency hints) for whitelisted apps such as instant messengers like [Signal](https://github.com/signalapp/Signal-Desktop)
 	- free beep sound files:
 		[1](https://commons.wikimedia.org/wiki/File:Tone_440Hz.ogg), 
 		[2](https://commons.wikimedia.org/wiki/File:Luftr%C3%BCssel.ogg), 
@@ -67,13 +68,13 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 | Scroll to page header | <kbd>↑</kbd>
 | Scroll to page footer | <kbd>↓</kbd>
 
-### Extensions
+### Browser Extensions
 | Name      | Comment |
 |-----------|---------|
 | [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension+fork%3Atrue&type=repositories) |
 | uBlock Origin | ad-blocker
 
-### Profiles
+### Browser Profiles
 | Name    | Comment |
 |---------|---------|
 | default |
