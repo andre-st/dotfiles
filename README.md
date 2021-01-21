@@ -54,7 +54,8 @@
 
 ## Web-Browser
 
-| Mouse Gesture Action | Gesture |
+### Mouse Gestures
+| Action | Gesture |
 |--------|---------|
 | Open link in new background tab | <kbd>→</kbd> (if no middle button)
 | Close current tab | <kbd>↓</kbd><kbd>→</kbd>
@@ -63,14 +64,14 @@
 | Scroll to page header | <kbd>↑</kbd>
 | Scroll to page footer | <kbd>↓</kbd>
 
-
-| Extension | Comment |
+### Extensions
+| Name      | Comment |
 |-----------|---------|
 | [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension+fork%3Atrue&type=repositories) |
 | uBlock Origin | ad-blocker
 
-
-| Profile | Comment |
+### Profiles
+| Name    | Comment |
 |---------|---------|
 | default |
 | pentest | proxy settings, ...
