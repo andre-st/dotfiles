@@ -5,9 +5,9 @@
 
 
 ## X Window System
-### I/O
+### Input Devices
 
-Xmodmap-customized US-keyboard layout with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc
+- Xmodmap-customized US-keyboard layout with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc
 
 
 ### Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
