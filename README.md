@@ -16,7 +16,7 @@ Dark flat design theme:
 
 - Xmodmap-customized US-keyboard layout with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc
 - customized key-bindings (Shortcuts), easy-to-remember, centered around left/right <kbd>⊞ Win</kbd> key and arrow keys area:  
-	| WM Action |  |
+	| WM Action | Shortcut |
 	|--------|----------|
 	| Switch screens (monitor, TV in the room) | <kbd>⊞ Win</kbd>+<kbd>←</kbd><kbd>→</kbd>
 	| Switch workspaces    | <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd>  or<br>  <kbd>⊞ Win</kbd>+<kbd>Mouse Wheel</kbd> or<br> <kbd>Mouse Wheel</kbd> over the tabs row
