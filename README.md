@@ -5,13 +5,16 @@
 
 
 ## X Window System
-- Xmodmap-customized US-keyboard layout with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc
+### I/O
+
+Xmodmap-customized US-keyboard layout with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc
 
 
 ### Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
 
-dark flat design theme:
+dark flat design theme:  
 ![Screenshot](README-notion.png)
+
 
 | WM Action | Shortcuts, easy-to-remember, centered around left/right <kbd>⊞ Win</kbd> key and arrow keys area  |
 |--------|----------|
