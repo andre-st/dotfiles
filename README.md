@@ -1,5 +1,18 @@
 # Configuration Files
 
+- [X Window System](#x-window-system)
+	- Tiling Tabbed Window Manager: Notion
+	- Input Devices & Bindings
+	- Misc
+- [Terminals](#terminals)
+- [Web-Browser](#web-browser)
+	- Mouse Gestures
+	- Browser Extensions
+	- Browser Profiles
+- [Vim](#vim)
+- [PDF](#pdf)
+
+
 
 ## X Window System
 
