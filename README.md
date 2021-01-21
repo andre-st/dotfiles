@@ -44,32 +44,38 @@
 		[7](https://commons.wikimedia.org/wiki/File:Sound_Effect_-_Door_Bell.ogg)
 
 
+
 ## Terminals
 - my approach to long paths or command-line space is a multiline prompt, see [.exports](.exports)
   [![Console Screenshot](https://pbs.twimg.com/media/CczYfIfUsAAkzRC.jpg)](https://www.youtube.com/watch?v=_UG-0mt2UQo)
   ([YouTube](https://www.youtube.com/watch?v=_UG-0mt2UQo))
 
 
+
 ## Web-Browser
-- mouse gestures
-	| Action | Mouse Gesture |
-	|--------|---------|
-	| Open link in new background tab | <kbd>→</kbd> (if no middle button)
-	| Close current tab | <kbd>↓</kbd><kbd>→</kbd>
-	| Re-open previously closed tab | <kbd>↑</kbd><kbd>←</kbd>
-	| History back | <kbd>←</kbd>
-	| Scroll to page header | <kbd>↑</kbd>
-	| Scroll to page footer | <kbd>↓</kbd>
-- extensions:
-	- [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension+fork%3Atrue&type=repositories)
-	- uBlock Origin (ad-blocker)
-- profiles:
-	| Profile | Comments |
-	|---------|----------|
-	| default |
-	| pentest | proxy settings, ...
-	| tor     | proxy settings, multiple home tabs with check.torproject.org i.a.
-	| banking | no extensions safe-mode, multiple home tabs with fintech sites, ...
+
+| Mouse Gesture Action | Gesture |
+|--------|---------|
+| Open link in new background tab | <kbd>→</kbd> (if no middle button)
+| Close current tab | <kbd>↓</kbd><kbd>→</kbd>
+| Re-open previously closed tab | <kbd>↑</kbd><kbd>←</kbd>
+| History back | <kbd>←</kbd>
+| Scroll to page header | <kbd>↑</kbd>
+| Scroll to page footer | <kbd>↓</kbd>
+
+
+| Extension | Comment |
+| [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension+fork%3Atrue&type=repositories) |
+| uBlock Origin | ad-blocker
+
+
+| Profile | Comment |
+|---------|----------|
+| default |
+| pentest | proxy settings, ...
+| tor     | proxy settings, multiple home tabs with check.torproject.org i.a.
+| banking | no extensions safe-mode, multiple home tabs with fintech sites, ...
+
 
 
 ## Vim
