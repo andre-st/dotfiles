@@ -1,8 +1,5 @@
 # Configuration Files
 
-- GPL
-- don't add sensitive info here, use `~/.XXX_local` files instead
-
 
 ## X Window System
 
