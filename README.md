@@ -64,10 +64,12 @@
 	- [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension+fork%3Atrue&type=repositories)
 	- uBlock Origin (ad-blocker)
 - profiles:
-	- default
-	- pentest (proxy settings, ...)
-	- tor (proxy settings, multiple home tabs with check.torproject.org i.a.)
-	- banking (no extensions safe-mode, multiple home tabs with fintech sites, ...)
+	| Profile | Comments |
+	|---------|----------|
+	| default |
+	| pentest | proxy settings, ...
+	| tor     | proxy settings, multiple home tabs with check.torproject.org i.a.
+	| banking | no extensions safe-mode, multiple home tabs with fintech sites, ...
 
 
 ## Vim
