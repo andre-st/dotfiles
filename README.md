@@ -19,7 +19,8 @@
 
 ### Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
 
-Dark flat design theme, no full-blown desktop environment:  
+Dark flat design theme, no full-blown desktop environment, 
+preferably keyboard-friendly text UI, unless a GUI application is better:  
 ![Screenshot](README-notion.png)
 
 
