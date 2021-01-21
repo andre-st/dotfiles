@@ -65,12 +65,13 @@
 
 
 | Extension | Comment |
+|-----------|---------|
 | [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension+fork%3Atrue&type=repositories) |
 | uBlock Origin | ad-blocker
 
 
 | Profile | Comment |
-|---------|----------|
+|---------|---------|
 | default |
 | pentest | proxy settings, ...
 | tor     | proxy settings, multiple home tabs with check.torproject.org i.a.
