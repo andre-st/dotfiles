@@ -1,5 +1,6 @@
-# Configuration Files
+# Configuration Files & System Info
 
+## Overview
 - [X Window System](#x-window-system)
 	- [Tiling Tabbed Window Manager: Notion](#tiling-tabbed-window-manager-notion)
 	- [Input Devices & Bindings](#input-devices--bindings)
