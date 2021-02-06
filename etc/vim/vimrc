@@ -191,13 +191,17 @@ nnoremap O Ox<BS>
 
 
 
-" Why this extra-shit?
-au FileType python setlocal noautoindent noexpandtab softtabstop=5 tabstop=5
+" Python mode see README.txt and ./after/ftplugin/python.vim
+
 
 
 " Copy/Paste between multiple Vim instances:
 "set clipboard=unnamedplus    " requires Vim compiled with +xterm_clipboard (see vim --version)
 " or install xclip and in vim: 7w !xclip  or  visual mode :'<,'>!xclip
+
+
+
+
 
 
 " Execute current file
