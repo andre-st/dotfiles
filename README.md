@@ -1,19 +1,35 @@
-# Configuration Files
+# Configuration Files & System Info
 
-- GPL
-- don't add sensitive info here, use `~/.XXX_local` files instead
+## Overview
+- [X Window System](#x-window-system)
+	- [Tiling Tabbed Window Manager: Notion](#tiling-tabbed-window-manager-notion)
+	- [Input Devices & Bindings](#input-devices--bindings)
+	- [Misc](#misc)
+- [Terminals](#terminals)
+- [Web-Browser](#web-browser)
+	- [Mouse Gestures](#mouse-gestures)
+	- [Browser Extensions](#browser-extensions)
+	- [Browser Profiles](#browser-profiles)
+- [Vim](#vim)
+- [PDF](#pdf)
+
 
 
 ## X Window System
+
+### Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
+
+Dark flat design theme, no full-blown desktop environment, 
+preferably keyboard-friendly and tidy text-based UI, unless a GUI application is unavoidable or is more usable
+
+![Screenshot](README-notion.png)
+
+
+### Input Devices & Bindings
+
 - Xmodmap-customized US-keyboard layout with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc
-
-
-## X Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
-- customized, less ugly theme (flat design)  
-	![Screenshot](README-notion.png)
-- customized, easy-to-remember key bindings (shortcuts), which are mainly centered around 
-  the left/right <kbd>⊞ Win</kbd> key ('Win' like window manager) and the area around the arrow keys:
-	| Action | Shortcut |
+- customized key-bindings (Shortcuts), easy-to-remember, centered around left/right <kbd>⊞ Win</kbd> key and arrow keys area:  
+	| WM Action | Shortcut |
 	|--------|----------|
 	| Switch screens (monitor, TV in the room) | <kbd>⊞ Win</kbd>+<kbd>←</kbd><kbd>→</kbd>
 	| Switch workspaces    | <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd>  or<br>  <kbd>⊞ Win</kbd>+<kbd>Mouse Wheel</kbd> or<br> <kbd>Mouse Wheel</kbd> over the tabs row
@@ -33,6 +49,9 @@
 	| Shutdown             | <kbd>⊞ Win</kbd>+<kbd>Q</kbd>  or<br>  <kbd>⊞ Win</kbd>+<kbd>F6</kbd> (60 minutes sleep timer)
 	| Audio volume         | <kbd>⊞ Win</kbd>+<kbd>M</kbd> to mute  or<br>  <kbd>⊞ Win</kbd>+<kbd>,</kbd><kbd>.</kbd> or<br>  <kbd>⊞ Win</kbd>+<kbd>Ctrl</kbd>+<kbd>Mouse Wheel</kbd>
 	| ... | ...
+
+
+### Misc
 - [a Lua-script](https://github.com/andre-st/dotfiles/blob/master/.notion/default-session--0/cfg_sounds.lua) for notification sounds (X11 urgency hints) for whitelisted apps such as instant messengers like [Signal](https://github.com/signalapp/Signal-Desktop)
 	- free beep sound files:
 		[1](https://commons.wikimedia.org/wiki/File:Tone_440Hz.ogg), 
@@ -44,25 +63,41 @@
 		[7](https://commons.wikimedia.org/wiki/File:Sound_Effect_-_Door_Bell.ogg)
 
 
+
 ## Terminals
-- my approach to long paths or command-line space is a multiline prompt, see [.exports](.exports)
+
+My approach to long paths or command-line space is a multiline prompt, see [.exports](.exports)
   [![Console Screenshot](https://pbs.twimg.com/media/CczYfIfUsAAkzRC.jpg)](https://www.youtube.com/watch?v=_UG-0mt2UQo)
   ([YouTube](https://www.youtube.com/watch?v=_UG-0mt2UQo))
 
 
+
 ## Web-Browser
-- mouse gestures
-	| Action | Mouse Gesture |
-	|--------|---------|
-	| Open link in new background tab | <kbd>→</kbd> (if no middle button)
-	| Close current tab | <kbd>↓</kbd><kbd>→</kbd>
-	| Re-open previously closed tab | <kbd>↑</kbd><kbd>←</kbd>
-	| History back | <kbd>←</kbd>
-	| Scroll to page header | <kbd>↑</kbd>
-	| Scroll to page footer | <kbd>↓</kbd>
-- extensions:
-	- [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension)
-	- uBlock Origin (ad-blocker)
+
+### Mouse Gestures
+| Browser Action | Gesture |
+|--------|---------|
+| Open link in new background tab | <kbd>→</kbd> (if no middle button)
+| Close current tab | <kbd>↓</kbd><kbd>→</kbd>
+| Re-open previously closed tab | <kbd>↑</kbd><kbd>←</kbd>
+| History back | <kbd>←</kbd>
+| Scroll to page header | <kbd>↑</kbd>
+| Scroll to page footer | <kbd>↓</kbd>
+
+### Browser Extensions
+| Name      | Comment |
+|-----------|---------|
+| [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension+fork%3Atrue&type=repositories) |
+| uBlock Origin | ad-blocker
+
+### Browser Profiles
+| Custom Name | Comment |
+|-------------|---------|
+| default     |
+| pentest     | proxy settings, ...
+| tor         | proxy settings, multiple home tabs with check.torproject.org i.a.
+| banking     | no extensions safe-mode, multiple home tabs with fintech sites, ...
+
 
 
 ## Vim
