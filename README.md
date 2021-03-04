@@ -108,27 +108,27 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 ## Other Software
 - Programming: ...
 - Modelling: 
-	- UMLet for many years (keyboard-friendly, non-bloat, ...)
+	- [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...)
 - Image editing: 
-	- Vector images: Inkscape
-	- Pixel images: Gimp2 (Pixel)
+	- Vector images: [Inkscape](https://github.com/inkscape/inkscape)
+	- Pixel images: [Gimp](https://github.com/GNOME/gimp) (Pixel)
 	- ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
+- Multimedia
+	- Video: mplayer, [vlc](https://github.com/videolan/vlc)
+	- Audio: Music on Console (moc)
 - Office / Document viewer: 
 	- Google Docs vs. text editor (Plaintext, HTML, Markdown, ...)
 	- PDF: [Zathura](https://pwmt.org/projects/zathura/) (keyboard-friendly, dark-mode)
 - Messaging:
 	- E-Mail: ...
-	- Instant Messenger: none (mail or arrange a video meeting)
-	- Chat rooms: [irssi](https://github.com/andre-st/irssi-scripts) (IRC)
+	- Instant Messenger: *none* (mail or arrange a video meeting)
+	- Chat rooms: IRC [irssi](https://github.com/andre-st/irssi-scripts) (often pre-installed)
 - Video conferencing / Screen sharing / Collab.: 
-	- Jitsi
-	- Teamviewer
-	- Etherpad
-- Multimedia
-	- Video: mplayer, vlc
-	- Audio: Music on Console (moc)
+	- [Jitsi](https://github.com/jitsi)
+	- [Teamviewer](https://www.teamviewer.com/)
+	- [Etherpad](https://github.com/ether/etherpad-lite)
 - File-system: 
-	- Midgnight Commander
+	- [Midgnight Commander](https://github.com/MidnightCommander/mc) (`mc` often pre-installed)
 	- [xdiskusage](https://github.com/andre-st/xdiskusage)
 - System exploration / Troubleshooting: 
-	- sysdig
+	- [sysdig](https://github.com/draios/sysdig)
