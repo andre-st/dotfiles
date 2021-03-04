@@ -112,14 +112,14 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 - Image editing: 
 	- Vector: Inkscape
 	- Pixel: Gimp2 (Pixel)
-	- ASCII/ANSI art: [Newdraw](https://github.com/andre-st/newdraw)
+	- ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
 - Office / Document viewer: 
 	- Google Docs vs. text editor (Plaintext, HTML, Markdown, ...)
 	- PDF: [Zathura](https://pwmt.org/projects/zathura/) (keyboard-friendly, dark-mode)
 - Messaging:
 	- E-Mail: ...
 	- Instant Messenger: none (mail or arrange a video meeting)
-	- Chat rooms: irssi (IRC)
+	- Chat rooms: [irssi](https://github.com/andre-st/irssi-scripts) (IRC)
 - Video conferencing / Screen sharing / Collab.: 
 	- Jitsi
 	- Teamviewer
