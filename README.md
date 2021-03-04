@@ -14,13 +14,15 @@
 - [PDF](#pdf)
 
 
+## Linux distribution: Slackware
 
 ## X Window System
 
 ### Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
 
 Dark flat design theme, no full-blown desktop environment, 
-preferably keyboard-friendly and tidy text-based UI, unless a GUI application is unavoidable or is more usable
+preferably keyboard-friendly and tidy text-based UI, unless a GUI application is unavoidable or is more usable.
+I don't have a background image. If you can see a background image, then I'm not making good use of my screen estate.
 
 ![Screenshot](README-notion.png)
 
@@ -99,14 +101,22 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 | banking     | no extensions safe-mode, multiple home tabs with fintech sites, ...
 
 
-
 ## Vim
 - todo
-
-
 
 ## PDF
 - I like [Zathura](https://pwmt.org/projects/zathura/), it's a keyboard-friendly and customizable document viewer 
   with dark-mode support (recoloring) and conveniences like remembering the last reading position in a file
+
+## Other Software
+- Programming: ...
+- Modelling: UMLet
+- Image editing: Inkscape (Vector), Gimp2 (Pixel), [Newdraw](https://github.com/andre-st/newdraw) (ASCII/ANSI art)
+- Office: ...
+- E-Mail: ...
+- Video conferencing/Screen sharing/Collab.: Jitsi, Teamviewer, Etherpad
+- File system: Midgnight Commander, [xdiskusage](https://github.com/andre-st/xdiskusage), ...
+- System exploration/Troublshooting: Sysdig, ...
+
 
 
