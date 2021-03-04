@@ -17,9 +17,10 @@
 
 ## Linux Distribution: Slackware
 
-Volkerding's Slackware Linux has been my main operating system for over 2 decades.
-This distribution is not bloated, easy to modify and educative. 
-Everything is glued together with shell scripts, all Slackware tools are written in Shell = transparency.
+Volkerding's Slackware Linux (\*1993) has been my main operating system for over 2 decades.
+It's not bloated, easy to modify and educative. 
+Everything is glued together with shell scripts and text-files = transparent, simple and hackable.
+With Slackware you don't have to deal with a lot of superstructure.
 
 
 ## X Window System
