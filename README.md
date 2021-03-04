@@ -17,6 +17,11 @@
 
 ## Linux Distribution: Slackware
 
+Volkerding's Slackware Linux has been my main operating system for over 2 decades.
+This distribution is not bloated, easy to modify and educative. 
+Everything is glued together with shell scripts, all Slackware tools are written in Shell = transparency.
+
+
 ## X Window System
 
 ### Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
@@ -111,7 +116,7 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 	- [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...)
 - Image editing: 
 	- Vector images: [Inkscape](https://github.com/inkscape/inkscape)
-	- Pixel images: [Gimp](https://github.com/GNOME/gimp) (Pixel)
+	- Pixel images: [Gimp](https://github.com/GNOME/gimp)
 	- ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
 - Multimedia
 	- Video: mplayer, [vlc](https://github.com/videolan/vlc)
