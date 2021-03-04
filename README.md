@@ -1,6 +1,7 @@
 # Configuration Files & System Info
 
 ## Overview
+- [Linux Distribution: Slackware](#linux-distribution-slackware)
 - [X Window System](#x-window-system)
 	- [Tiling Tabbed Window Manager: Notion](#tiling-tabbed-window-manager-notion)
 	- [Input Devices & Bindings](#input-devices--bindings)
@@ -11,10 +12,10 @@
 	- [Browser Extensions](#browser-extensions)
 	- [Browser Profiles](#browser-profiles)
 - [Vim](#vim)
-- [PDF](#pdf)
+- [Other Software](#other-software)
 
 
-## Linux distribution: Slackware
+## Linux Distribution: Slackware
 
 ## X Window System
 
@@ -104,18 +105,14 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 ## Vim
 - todo
 
-## PDF
-- I like [Zathura](https://pwmt.org/projects/zathura/), it's a keyboard-friendly and customizable document viewer 
-  with dark-mode support (recoloring) and conveniences like remembering the last reading position in a file
-
 ## Other Software
 - Programming: ...
 - Modelling: UMLet
 - Image editing: Inkscape (Vector), Gimp2 (Pixel), [Newdraw](https://github.com/andre-st/newdraw) (ASCII/ANSI art)
-- Office: ...
+- Office/Document viewer: Google Docs, [Zathura](https://pwmt.org/projects/zathura/) (keyboard-friendly dark-mode PDF), ...
 - E-Mail: ...
 - Video conferencing/Screen sharing/Collab.: Jitsi, Teamviewer, Etherpad
-- File system: Midgnight Commander, [xdiskusage](https://github.com/andre-st/xdiskusage), ...
+- File-system: Midgnight Commander, [xdiskusage](https://github.com/andre-st/xdiskusage), ...
 - System exploration/Troublshooting: Sysdig, ...
 
 
