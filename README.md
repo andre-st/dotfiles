@@ -108,10 +108,10 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 ## Other Software
 - Programming: ...
 - Modelling: 
-	- UMLet
+	- UMLet for many years (keyboard-friendly, non-bloat, ...)
 - Image editing: 
-	- Vector: Inkscape
-	- Pixel: Gimp2 (Pixel)
+	- Vector images: Inkscape
+	- Pixel images: Gimp2 (Pixel)
 	- ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
 - Office / Document viewer: 
 	- Google Docs vs. text editor (Plaintext, HTML, Markdown, ...)
@@ -124,6 +124,9 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 	- Jitsi
 	- Teamviewer
 	- Etherpad
+- Multimedia
+	- Video: mplayer, vlc
+	- Audio: Music on Console (moc)
 - File-system: 
 	- Midgnight Commander
 	- [xdiskusage](https://github.com/andre-st/xdiskusage)
