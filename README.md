@@ -107,13 +107,25 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 
 ## Other Software
 - Programming: ...
-- Modelling: UMLet
-- Image editing: Inkscape (Vector), Gimp2 (Pixel), [Newdraw](https://github.com/andre-st/newdraw) (ASCII/ANSI art)
-- Office/Document viewer: Google Docs vs. HTML editor, [Zathura](https://pwmt.org/projects/zathura/) (keyboard-friendly dark-mode PDF), ...
+- Modelling: 
+	- UMLet
+- Image editing: 
+	- Inkscape (Vector)
+	- Gimp2 (Pixel)
+	- [Newdraw](https://github.com/andre-st/newdraw) (ASCII/ANSI art)
+- Office/Document viewer: 
+	- Google Docs vs. text editor (Plaintext, HTML, Markdown, ...)
+	- [Zathura](https://pwmt.org/projects/zathura/) (keyboard-friendly dark-mode PDF)
 - E-Mail: ...
-- Video conferencing/Screen sharing/Collab.: Jitsi, Teamviewer, Etherpad
-- File-system: Midgnight Commander, [xdiskusage](https://github.com/andre-st/xdiskusage), ...
-- System exploration/Troublshooting: Sysdig, ...
+- Video conferencing/Screen sharing/Collab.: 
+	- Jitsi
+	- Teamviewer
+	- Etherpad
+- File-system: 
+	- Midgnight Commander
+	- [xdiskusage](https://github.com/andre-st/xdiskusage)
+- System exploration/Troublshooting: 
+	- Sysdig
 
 
 
