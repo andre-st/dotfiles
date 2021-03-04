@@ -110,22 +110,22 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 - Modelling: 
 	- UMLet
 - Image editing: 
-	- Inkscape (Vector)
-	- Gimp2 (Pixel)
-	- [Newdraw](https://github.com/andre-st/newdraw) (ASCII/ANSI art)
-- Office/Document viewer: 
+	- Vector: Inkscape
+	- Pixel: Gimp2 (Pixel)
+	- ASCII/ANSI art: [Newdraw](https://github.com/andre-st/newdraw)
+- Office / Document viewer: 
 	- Google Docs vs. text editor (Plaintext, HTML, Markdown, ...)
-	- [Zathura](https://pwmt.org/projects/zathura/) (keyboard-friendly dark-mode PDF)
-- E-Mail: ...
-- Video conferencing/Screen sharing/Collab.: 
+	- PDF: [Zathura](https://pwmt.org/projects/zathura/) (keyboard-friendly, dark-mode)
+- Messaging:
+	- E-Mail: ...
+	- Instant Messenger: none (mail or arrange a video meeting)
+	- Chat rooms: irssi (IRC)
+- Video conferencing / Screen sharing / Collab.: 
 	- Jitsi
 	- Teamviewer
 	- Etherpad
 - File-system: 
 	- Midgnight Commander
 	- [xdiskusage](https://github.com/andre-st/xdiskusage)
-- System exploration/Troublshooting: 
-	- Sysdig
-
-
-
+- System exploration / Troubleshooting: 
+	- sysdig
