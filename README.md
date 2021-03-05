@@ -20,7 +20,7 @@
 Volkerding's Slackware Linux has been my main operating system for over 2 decades.
 It's not bloated, easy to modify and educative. 
 Everything is glued together with shell scripts and text-files = transparent, simple and easy to edit.
-KISS philosophy, vanilla packages, and BSD style init.
+KISS philosophy, [vanilla](https://en.wikipedia.org/wiki/Vanilla_software) packages (less issues from distro specific patches), and BSD style init.
 With Slackware you don't have to deal with a lot of superstructure.
 
 
