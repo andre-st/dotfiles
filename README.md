@@ -27,7 +27,7 @@ With Slackware you don't have to deal with a lot of superstructure.
 
 ## File-System
 
-I use a fully encrypted system with some partitions having different keys and only opened [when needed](usr/local/bin/cryptopen.sh).  
+I use a fully encrypted system with some partitions having different keys and only opened [when needed](usr/local/bin/cryptopen).  
 The partition for my home directory and /var have the same key as the system partition (stored in /etc/crypttab so that I only have to enter it once for all of them when booting).
 
 I used to use a logical volume manager. Today I leave it out for reasons of simplicity regarding operation, troubleshooting, etc. (HW-layer, LVM-layer, dmcrypt-layer, FS-layer, ...)
