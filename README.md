@@ -140,9 +140,8 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 - Communication:
 	- E-Mail: ...
 	- Instant Messenger: *none* (mail or arrange a video meeting or phone if urgent; 
-		If someone calls too often about something that could have been clarified async in an e-mail, 
-		then I no longer take his/her calls seriously and only answer them when I feel like it. 
-		Usually just a problem with boomers.)
+		If a boomer calls too often about something that could have been clarified in an e-mail async, 
+		then I and only answer when I feel like it.)
 	- Chat rooms: IRC [irssi](https://github.com/andre-st/irssi-scripts) (often pre-installed)
 	- Video conferencing + Screen sharing: [Jitsi](https://github.com/jitsi), [Teamviewer](https://www.teamviewer.com/)
 	- Collaborative editing: [Etherpad](https://github.com/ether/etherpad-lite) or Google Docs
