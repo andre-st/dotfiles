@@ -2,6 +2,7 @@
 
 ## Overview
 - [Linux Distribution: Slackware](#linux-distribution-slackware)
+- [File System](#file-system)
 - [X Window System](#x-window-system)
 	- [Tiling Tabbed Window Manager: Notion](#tiling-tabbed-window-manager-notion)
 	- [Input Devices & Bindings](#input-devices--bindings)
@@ -24,6 +25,14 @@ KISS philosophy, [vanilla](https://en.wikipedia.org/wiki/Vanilla_software) packa
 With Slackware you don't have to deal with a lot of superstructure.
 
 
+## File-System
+
+I use a fully encrypted system with some partitions having different keys and only opened [when needed](usr/local/bin/cryptopen.sh).  
+The partition for my home directory and /var have the same key as the system partition (stored in /etc/crypttab so that I only have to enter it once for all of them when booting).
+
+I used to use a logical volume manager. Today I leave it out for reasons of simplicity regarding operation, troubleshooting, etc. (HW-layer, LVM-layer, dmcrypt-layer, FS-layer, ...)
+
+
 ## X Window System
 
 ### Tiling Tabbed Window Manager: [Notion](https://github.com/raboof/notion)
@@ -38,6 +47,7 @@ I don't have a background image. If you can see a background image, then I'm not
 ### Input Devices & Bindings
 
 - Xmodmap-customized US-keyboard layout with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc
+- window 'focus follows mouse' mode
 - customized key-bindings (Shortcuts), easy-to-remember, centered around left/right <kbd>⊞ Win</kbd> key and arrow keys area:  
 	| WM Action | Shortcut |
 	|--------|----------|
