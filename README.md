@@ -31,7 +31,7 @@ I use a fully encrypted system with some partitions having different keys and on
 The partition for my home directory and _/var_ have the same key as the root partition (put in _/etc/crypttab_ so that I only have to enter it once for all of them when booting).
 
 I used to use a logical volume manager. 
-Today I leave it out for reasons of simplicity regarding operation, troubleshooting, etc. (HW-layer, LVM-layer, dmcrypt-layer, FS-layer, ...)
+Today I leave it out for reasons of operation/troubleshooting simplicity (HW-layer, LVM-layer, dmcrypt-layer, FS-layer, ...)
 
 
 ## X Window System
@@ -139,10 +139,12 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 	- PDF: [Zathura](https://pwmt.org/projects/zathura/) (keyboard-friendly, dark-mode)
 - Communication:
 	- E-Mail: ...
-	- Instant Messenger: *none* (mail or arrange a video meeting)
+	- Instant Messenger: *none* (mail or arrange a video meeting or phone if urgent; 
+		If someone calls too often about something that could have been clarified async in an e-mail, 
+		then I no longer take his/her calls seriously and only answer them when I feel like it. 
+		Usually just a problem with boomers.)
 	- Chat rooms: IRC [irssi](https://github.com/andre-st/irssi-scripts) (often pre-installed)
-	- Video conferencing + Screen sharing: [Jitsi](https://github.com/jitsi)
-	- Screen sharing: [Teamviewer](https://www.teamviewer.com/)
+	- Video conferencing + Screen sharing: [Jitsi](https://github.com/jitsi), [Teamviewer](https://www.teamviewer.com/)
 	- Collaborative editing: [Etherpad](https://github.com/ether/etherpad-lite) or Google Docs
 - File-system: 
 	- [Midgnight Commander](https://github.com/MidnightCommander/mc) (`mc` often pre-installed)
