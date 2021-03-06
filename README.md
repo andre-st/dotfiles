@@ -27,10 +27,11 @@ With Slackware you don't have to deal with a lot of superstructure.
 
 ## File-System
 
-I use a fully encrypted system with some partitions having different keys and only opened [when needed](usr/local/bin/cryptopen).  
-The partition for my home directory and /var have the same key as the system partition (stored in /etc/crypttab so that I only have to enter it once for all of them when booting).
+I use a fully encrypted system with some partitions having different keys and only [opened when needed](usr/local/bin/cryptopen).  
+The partition for my home directory and _/var_ have the same key as the root partition (put in _/etc/crypttab_ so that I only have to enter it once for all of them when booting).
 
-I used to use a logical volume manager. Today I leave it out for reasons of simplicity regarding operation, troubleshooting, etc. (HW-layer, LVM-layer, dmcrypt-layer, FS-layer, ...)
+I used to use a logical volume manager. 
+Today I leave it out for reasons of simplicity regarding operation, troubleshooting, etc. (HW-layer, LVM-layer, dmcrypt-layer, FS-layer, ...)
 
 
 ## X Window System
@@ -136,14 +137,13 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 - Office / Document viewer: 
 	- Google Docs vs. text editor (Plaintext, HTML, Markdown, ...)
 	- PDF: [Zathura](https://pwmt.org/projects/zathura/) (keyboard-friendly, dark-mode)
-- Messaging:
+- Communication:
 	- E-Mail: ...
 	- Instant Messenger: *none* (mail or arrange a video meeting)
 	- Chat rooms: IRC [irssi](https://github.com/andre-st/irssi-scripts) (often pre-installed)
-- Video conferencing / Screen sharing / Collab.: 
-	- [Jitsi](https://github.com/jitsi)
-	- [Teamviewer](https://www.teamviewer.com/)
-	- [Etherpad](https://github.com/ether/etherpad-lite)
+	- Video conferencing + Screen sharing: [Jitsi](https://github.com/jitsi)
+	- Screen sharing: [Teamviewer](https://www.teamviewer.com/)
+	- Collaborative editing: [Etherpad](https://github.com/ether/etherpad-lite) or Google Docs
 - File-system: 
 	- [Midgnight Commander](https://github.com/MidnightCommander/mc) (`mc` often pre-installed)
 	- [xdiskusage](https://github.com/andre-st/xdiskusage)
