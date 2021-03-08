@@ -131,6 +131,7 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 	- Vector images: [Inkscape](https://github.com/inkscape/inkscape)
 	- Pixel images: [Gimp](https://github.com/GNOME/gimp)
 	- ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
+	- 3D: [OpenSCAD](https://github.com/openscad/openscad)
 - Multimedia
 	- Video: mplayer, [vlc](https://github.com/videolan/vlc)
 	- Audio: Music on Console (moc)
@@ -139,9 +140,9 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 	- PDF: [Zathura](https://pwmt.org/projects/zathura/) (keyboard-friendly, dark-mode)
 - Communication:
 	- E-Mail: ...
-	- Instant Messenger: *none* (mail or arrange a video meeting or phone if urgent; 
+	- Instant Messenger: **none** (mail or arrange a video meeting or phone if urgent; 
 		If a boomer calls too often about something that could have been clarified in an e-mail async, 
-		then I and only answer when I feel like it.)
+		then I only answer when I feel like it)
 	- Chat rooms: IRC [irssi](https://github.com/andre-st/irssi-scripts) (often pre-installed)
 	- Video conferencing + Screen sharing: [Jitsi](https://github.com/jitsi), [Teamviewer](https://www.teamviewer.com/)
 	- Collaborative editing: [Etherpad](https://github.com/ether/etherpad-lite) or Google Docs
