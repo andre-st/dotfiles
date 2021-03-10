@@ -127,12 +127,11 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 - Programming: ...
 - Modelling: 
 	- [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...)
-- Image editing: 
+- Multimedia:
 	- Vector images: [Inkscape](https://github.com/inkscape/inkscape)
 	- Pixel images: [Gimp](https://github.com/GNOME/gimp)
 	- ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
 	- 3D: [OpenSCAD](https://github.com/openscad/openscad)
-- Multimedia
 	- Video: mplayer, [vlc](https://github.com/videolan/vlc)
 	- Audio: Music on Console (moc)
 - Office / Document viewer: 
