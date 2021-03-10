@@ -98,12 +98,12 @@ My approach to long paths or command-line space is a multiline prompt, see [.exp
 ### Mouse Gestures
 | Browser Action | Gesture |
 |--------|---------|
-| Open link in new background tab | <kbd>→</kbd> (if no middle button)
-| Close current tab | <kbd>↓</kbd><kbd>→</kbd>
-| Re-open previously closed tab | <kbd>↑</kbd><kbd>←</kbd>
-| History back | <kbd>←</kbd>
-| Scroll to page header | <kbd>↑</kbd>
-| Scroll to page footer | <kbd>↓</kbd>
+| Open link in new background tab | → (if no middle button)
+| Close current tab | ↓→
+| Re-open previously closed tab | ↑←
+| History back | ←
+| Scroll to page header | ↑
+| Scroll to page footer | ↓
 
 ### Browser Extensions
 | Name      | Comment |
