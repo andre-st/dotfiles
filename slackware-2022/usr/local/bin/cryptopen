@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+
+# About: Open and mount a crypted device by just specifying the target directory
+# Location: /usr/local/bin/
+# Usage: 
+#   $ cryptopen /home/dir
+#   gets dirs, device names etc automatically from
+#   /etc/fstab:
+#     /dev/mapper/cryptdir     /home/dir      ext3    noauto,defaults  0   0
+#   /etc/crypttab:
+#     cryptdir    /dev/disk/by-id/ata-Hitachi_HDT731110SLC219_STF389MS33DSGK-part1 - noauto,nofail,luks
+#
+#  $ alias m="cryptopen /home/m"
+#
+
+readonly FSTABPATH=/etc/fstab
+readonly CRYPTTABPATH=/etc/crypttab
+readonly DIR=$1
+
+# I avoid grep to avoid mistaken matches
+found=0
+while IFS=" " read -r fdev fpath fremainder
+do
+	if [ "${DIR}" = "${fpath}" ]
+	then
+		name=${fdev#/dev/mapper/}
+		while IFS=" " read -r cname cdev cpass copts cremainder
+		do
+			if [ "${name}" = "${cname}" ]
+			then
+				found=1
+				break 2
+				# read confuses cryptsetup, so i put it at the end of the script
+			fi
+		done < "${CRYPTTABPATH}"
+	fi
+done < "${FSTABPATH}"
+
+if [ "${found}" -ne 1 ]
+then
+	echo "Not found: ${DIR}"
+	exit 1
+fi
+
+echo "open ${cdev} ${name}"
+/sbin/cryptsetup open "${cdev}" "${name}" \
+	&& /sbin/e2fsck -v -y "${fdev}" \
+	&& /bin/mount "${fdev}" "${DIR}"
+
+

@@ -1,0 +1,78 @@
+! File:    ~/.Xmodmap
+! Version: 2017-08-05
+! Git:     https://github.com/andre-st/dotfiles
+! 
+!
+! Adds to US keyboard layout:
+! - german umlauts
+! - euro sign
+! - accents
+! - math symbols/notation
+! - german and french quotation marks (guillemot)
+! - short and long "Gedankenstrich"
+! - non-breaking space
+! - numpad 1 - 9 = function keys 1-8  (for right hand mc) and superscript/subscript numbers
+!          7,8,9 = F8  I use this at night in bed only, and 99% I try to hit F8 (not F7 or F9)
+!
+!
+! References:
+! - key codes/sym: $ xev
+! - Math symbols:  https://www.cs.tut.fi/~jkorpela/math/syms.html
+! - symbol names:  https://www.cl.cam.ac.uk/~mgk25/ucs/keysymdef.h
+!                  https://cs.gmu.edu/~sean/stuff/n800/keyboard/keysymdef.html
+!
+
+
+! 108 = Alt_R, 135 = Menu
+keycode 108 = Mode_switch
+keycode 135 = ISO_Level3_Shift
+
+! ------------------- -------------- -------------- --------------- --------------- -------------- --------------
+!                     Unmodified     Shift/Numlock  Mode_switch     Mode_sw+Shift   IsoL3Shift     IsoL3Sh+Shift
+! ------------------- -------------- -------------- --------------- --------------- -------------- --------------
+keysym x            = x              X              multiply
+keysym c            = c              C              leftshoe        U2286
+keysym n            = n              N              U2099           U207F
+keysym comma        = comma          less           guillemotleft   lessthanequal
+keysym period       = period         greater        guillemotright  greaterthanequal
+keysym a            = a              A              adiaeresis      Adiaeresis
+keysym s            = s              S              ssharp
+keysym d            = d              D              degree
+keysym semicolon    = semicolon      colon          ellipsis
+keysym apostrophe   = apostrophe     quotedbl       doublelowquotemark  leftdoublequotemark
+keysym e            = e              E              eacute          Eacute
+keysym t            = t              T              U1D57           U209C
+keysym u            = u              U              udiaeresis      Udiaeresis
+keysym i            = i              I              intersection    union
+keysym o            = o              O              odiaeresis      Odiaeresis
+keysym p            = p              P              rightarrow      U21A6
+keysym bracketleft  = bracketleft    braceleft
+keysym bracketright = bracketright   braceright
+
+keysym space        = space          space          U00A0           space
+
+keysym 1            = 1              exclam         notsign         notsign
+keysym 2            = 2              at             onehalf
+keysym 3            = 3              numbersign     threequarters
+keysym 4            = 4              dollar         onequarter
+keysym 5            = 5              percent        EuroSign        U2208
+keysym 6            = 6              asciicircum    logicaland      logicalor
+keysym 7            = 7              ampersand      U2200           U2203
+keysym 0            = 0              parenright     U2205           U2205
+keysym minus        = minus          underscore     endash          emdash
+keysym equal        = equal          plus           notequal        implies
+
+keysym KP_1         = F1             KP_1           onesuperior     onesubscript
+keysym KP_2         = F2             KP_2           twosuperior     twosubscript
+keysym KP_3         = F3             KP_3           threesuperior   threesubscript
+keysym KP_4         = F4             KP_4           foursuperior    foursubscript
+keysym KP_5         = F5             KP_5           fivesuperior    fivesubscript
+keysym KP_6         = F6             KP_6           sixsuperior     sixsubscript
+keysym KP_7         = F8             KP_7           sevensuperior   sevensubscript
+keysym KP_8         = F8             KP_8           eightsuperior   eightsubscript
+keysym KP_9         = F8             KP_9           ninesuperior    ninesubscript
+keysym KP_0         = f              KP_0           zerosuperior    zerosubscript
+keysym KP_Decimal   = o              KP_Decimal
+
+
+

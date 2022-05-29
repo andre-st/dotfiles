@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=MOC
+GenericName=Console Music-Player
+Comment=Audio Player
+Exec=urxvt -title MOC -e mocp
+Terminal=false
+Type=Application
+Icon=andrest-moc
+Categories=Audio;AudioVideo;
+StartupNotify=false

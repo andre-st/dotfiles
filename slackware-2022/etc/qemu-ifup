@@ -1,0 +1,39 @@
+#!/bin/bash
+#This is a qemu-ifup script for bridging. 
+#You can use it when starting a KVM guest with bridge mode network.
+
+#set your bridge name
+switch=br0
+
+if [ -n "$1" ]; then
+	#create a TAP interface; qemu will handle it automatically.
+	#tunctl -u $(whoami) -t $1
+
+	#start up the TAP interface
+	ip link set $1 up
+	sleep 1
+	#add TAP interface to the bridge
+	brctl addif ${switch} $1
+	exit 0
+else
+	echo "Error: no interface specified"
+	exit 1
+fi
+
+
+#!/bin/sh
+#set -x
+
+#switch=br0
+
+#if [ -n "$1" ];then
+#    ip tuntap add $1 mode tap user `whoami`
+#    ip link set $1 up
+#    sleep 0.5s
+#    ip link set $1 master $switch
+#    exit 0
+#else
+#    echo "Error: no interface specified"
+#    exit 1
+#fi
+

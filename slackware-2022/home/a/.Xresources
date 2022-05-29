@@ -1,0 +1,67 @@
+/*
+
+Reload .Xresources via:
+xrdb -merge ~/.Xresources
+wenn's spackt, auch mal ohne -merge
+
+*/
+
+
+
+Emacs.pane.menubar.margin: 1
+Emacs.pane.menubar.shadowThickness: 1
+
+
+XTerm*background: gray7
+XTerm*foreground: gray75
+
+Rxvt*SaveLines: 5000
+Rxvt*scrollBar: False
+
+rxvt*color2: #33ff33
+rxvt*color4: #0000D0
+rxvt*color7: #efefff
+
+/* XFreeType, hat auch Auswirkung auf alle GUIs */
+/*
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
+*/
+
+/* Show available font names: fc-list  and  xfontsel */
+
+/* disabled 'selection' perl extension allows triple-click-and-drag to select multiple complete lines */
+/* extensions: default,tabbed,font-size,-selection,-selection-popup,-option-popup,-readline,selection-autotransform,selection-pastebin,xim-onthespot,remote-clipboard */
+URxvt.perl-ext-common: default,font-size,-selection
+
+URxvt.font:xft:Liberation Mono:style=Regular:pixelsize=14
+URxvt.boldFont:xft:Liberation Mono:style=Bold:pixelsize=14
+
+URxvt.searchable-scrollback: M-z
+
+URxvt*background: gray7
+URxvt*foreground: gray75
+
+URxvt*imLocale: en_US
+
+URxvt.perl-lib: /usr/lib/urxvt/perl
+URxvt.perl-ext: default,matcher,font-size
+URxvt.urlLauncher: /home/a/work/sh/ff_or_chrome.sh
+URxvt.matcher.button: 1
+
+URxvt.keysym.C-Up:     font-size:increase
+URxvt.keysym.C-Down:   font-size:decrease
+URxvt.keysym.C-S-Up:   font-size:incglobal
+URxvt.keysym.C-S-Down: font-size:decglobal
+URxvt.keysym.C-0:      font-size:reset
+
+
+
+Sxiv.background: #000000
+Sxiv.foreground: #ffffff
+
+
+

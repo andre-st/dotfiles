@@ -1,0 +1,12 @@
+# Multi-line prompt with
+# - separator line
+# - git branch info
+#
+source /usr/share/git/completion/git-prompt.sh
+COLUMNS=`tput cols`
+LINESTR=`printf "%.0s-" $(seq 1 $COLUMNS)`
+GITINFO='$(__git_ps1 " (%s)")'
+export PS1="$LINESTR\n\r\!   \t   \u   \w${GITINFO}\n\r$ "
+
+
+

@@ -1,0 +1,33 @@
+# Write your default config options here!
+#vf=screenshot
+
+# prefered audio
+#alang=jpn,eng,swe
+
+
+stop-xscreensaver="yes"
+
+
+# ====================== SUBTITLES ======================
+# font = "string aus `fc-list | less`"
+subfont-text-scale=3.1
+subpos=95
+subfont-outline=3.1
+subfont-blur=0
+subfont-encoding=unicode
+unicode=yes
+utf8=yes
+subcp=CP1252
+# subtitles libass
+#ass=true
+#embeddedfonts=true
+#correct-pts=true
+#slang=eng
+#sid=1
+
+# Use double-buffering. (Recommended for xv with SUB/OSD usage)
+double=yes
+
+monitoraspect=16:9
+
+

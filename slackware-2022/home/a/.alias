@@ -1,0 +1,265 @@
+# Aliases for every user
+# 2017-11-28
+# see also: ~/.alias_local
+# vim: set filetype=sh :
+
+
+
+###############################################################################
+# SHELL 
+# 
+
+alias fuser="fuser -v"      # See also lsof
+alias  free="free -m"
+alias   mem="free -m"
+alias    bc="bc --mathlib"  # Floats
+alias     x="exit"
+alias     c="clear"
+alias     j="jobs -l"       # Ctrl+Z, bg $JOBID, fg $JOBID
+
+
+# Show (filtered) command history in reverse order (most recent first)
+# $ h [KEYWORD]
+# $ !!       repeats prev command (or up-arrow)
+# $ !string  repeats last command with keyword 
+# $ !number  repeats command with id
+h() 
+{
+	if [ "$1" ]
+	then
+		history | tac | grep -i --color=always "$1" | tail -n +2 | less -RE
+	else
+		history | tac | less -RE
+	fi
+}
+
+# man colors (alternative config file?)
+man() 
+{
+	env \
+		LESS_TERMCAP_mb=$(printf "\e[1;31m")    \
+		LESS_TERMCAP_md=$(printf "\e[1;31m")    \
+		LESS_TERMCAP_me=$(printf "\e[0m")       \
+		LESS_TERMCAP_se=$(printf "\e[0m")       \
+		LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+		LESS_TERMCAP_ue=$(printf "\e[0m")       \
+		LESS_TERMCAP_us=$(printf "\e[1;32m")    \
+		man "$@"
+}
+
+
+alias ssh='TERM=xterm ssh -t'
+
+
+
+
+###############################################################################
+# GIT
+# see also ~/.gitconfig [alias] section
+# 
+
+alias gitpush="git push -u origin master"
+alias undopush="git push -f origin HEAD^:master"
+
+# Difference between local and remote repository branch
+alias gitdiff="git diff @{upstream}"
+alias gitlog="git log -p -40 | vim - -R -c 'set foldmethod=syntax'"  # vimpager
+
+
+
+###############################################################################
+# FILES
+#
+
+alias locate="locate -i -q"
+alias  where="which"
+alias  chmod="chmod --preserve-root"
+alias  chown="chown --preserve-root"
+alias    xdu="xdiskusage ."
+alias     du="du --human-readable"
+#alias     df="df --human-readable"
+alias     df="pydf"
+alias     rm="rm --preserve-root --recursive"
+alias     ls="ls --color=auto --sort=extension"
+alias     la="ls --color=auto --sort=extension --almost-all"
+alias     ll="ls --color=auto --sort=extension -l"
+alias    lsd="ls --color=auto --directory */"
+lsnew() { ls -rtl $@ | tail; }
+
+
+# Quick directory changes (also in mc), more cds in .alias_local (frequent work dirs) 
+# $ cdb
+alias  ..="cd .."
+alias cdu="cd /usr"
+alias cdb="cd /usr/local/bin"
+alias cdl="cd /usr/local"
+alias cde="cd /etc"
+alias cdo="cd /opt"
+alias cda="cd /home/a"
+alias cdd="cd /home/a/_todo"
+alias cdp="cd /home/p"
+alias cdm="cd /home/m"
+
+# Images
+# Show images in current folder as thumbnails
+alias t="sxiv -t ."
+
+
+# Create and change to the given directory name
+md() { mkdir -p "$@" && cd "$_"; }
+
+
+# Toggle through recently used directories with 'cd [DIR]' and 'r'
+# It's like `cd -` but with OLDPWD on a stack
+cd() { pushd "${@:-$HOME}" > /dev/null; }
+r()  { pushd +${1:-1}      > /dev/null; }
+alias d="dirs -v"
+
+
+# $ targz DIRECTORY [TARGZFILENAME]
+# $ untargz TARGZFILENAME
+# $ extract ANYCOMPRESSEDFILE
+targz() { TARFILE=${1%/}.tar.gz; tar czf ${2:-$TARFILE} $1; }
+alias untargz="tar xzf"
+extract() 
+{
+	if [ -f "$1" ]
+	then
+		case "$1" in
+			*.tar.bz2) tar     xvjf "$1" ;;
+			*.tar.gz)  tar     xvzf "$1" ;;
+			*.tar)     tar     xvf  "$1" ;;
+			*.tbz2)    tar     xvjf "$1" ;;
+			*.tgz)     tar     xvzf "$1" ;;
+			*.rar)     unrar   x    "$1" ;;
+			*.7z)      7z      x    "$1" ;;
+			*.gz)      gunzip       "$1" ;;
+			*.zip)     unzip        "$1" ;;
+			*.bz2)     bunzip2      "$1" ;;
+			*.Z)       uncompress   "$1" ;;
+			*)
+			echo "'$1' cannot be extracted"
+			return 1
+			;;
+		esac
+	else
+		echo "'$1' is not a valid file"
+		return 1
+	fi
+	return 0
+}
+
+
+
+# Bulk-edit file names in current directory with a good text editor
+alias edir="vim -c 'Renamer'"
+
+
+
+###############################################################################
+# IPHONE
+# 
+
+ivlc() 
+{
+	CWD=`pwd`
+	MOUNTDIR="/media/iphone-vlc"
+	OPT_UNTAG="Remove messy MP3 tags in $CWD"
+
+	if mount | grep "$MOUNTDIR" > /dev/null
+	then
+		DF=`df --output=avail -h "${MOUNTDIR}" | tail -1`
+		META="(${DF/ /} free)"   # Trims leading space
+		OPT_MNT="Unmount"
+	else
+		META=''
+		OPT_MNT="Mount"
+	fi
+	
+	echo "VLC media files on the iPhone  ${META}"
+
+	select choice in "${OPT_MNT}" "${OPT_UNTAG}" "Quit"
+	do
+		case "$choice" in
+			"Mount")   
+				ifuse --documents org.videolan.vlc-ios "${MOUNTDIR}"  &&  cd "${MOUNTDIR}"  &&  df --output=size,used,avail,pcent -h "${MOUNTDIR}"  &&  break
+				;;
+			"Unmount") 
+				cd /  &&  fusermount -u "${MOUNTDIR}"  &&  break
+				;;
+			"${OPT_UNTAG}")
+				id3v2 -D *.mp3 
+				break
+				;;
+			"Quit")
+				break
+				;;
+			*)
+				echo "Invalid option $choice" 
+				;;
+		esac
+	done
+}
+
+
+
+###############################################################################
+# TEXTFILES 
+# 
+
+alias unix2dos="recode pc"   # or fromdos/todos
+alias dos2unix="recode pc"   # "  "
+alias        e="vim"
+
+# Search all files (except binaries and temp files) recursively, print highlighted, scroll results
+# $ g KEYWORD
+g() { grep -R -i --color=always --exclude "*.*~" --binary-files=without-match "$@" * | less -RE; }
+
+# Show all differences between two directories
+# $ dirdiff DIRECTORY1 DIRECTORY2
+dirdiff() { gvim -c ":DirDiff $1 $2"; }
+
+# Recursively replace text in all files that match the given pattern
+# $ replace_all FILEPATTERN SEARCH REPLACE
+replace_all() { find . -type f -name "$1" | xargs -d '\n' replace "$2" "$3" --; }
+
+
+
+###############################################################################
+# NETWORKING
+# 
+
+alias urlencode="python -c 'import sys, urllib as ul; print ul.quote_plus( sys.argv[1] );'"
+alias urldecode="python -c 'import sys, urllib as ul; print ul.unquote_plus( sys.argv[1] );'"
+alias      ping="ping -c 5"
+alias      wget="wget --continue --user-agent='User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.12) Gecko/20101026 Firefox/3.6.12'"
+alias      myip="dig +short myip.opendns.com @resolver1.opendns.com"
+
+# Non-leaking low-traffic graphical TOR browsers:
+alias glinks="links -g -driver svgalib -mode 1024x768x256"
+alias xlinks="links -g -driver x"
+
+# Lists programs with connected hosts (vs. all internet connections), less redundant/verbose
+# or $ iftop ...and [L]-key to filter
+# lsof -i  just internet connection
+#      -n  skip DNS resolution (otherwise very slow output)
+lsi() { lsof -i -n | sed '1 d' | awk '{print $1, $3, $8}' | sed 's/\:[0-9]*->/->/' | sed 's/http[s]*/www/' | sort | uniq; }
+
+# Internet Relay Chat Networks:
+IRC_NET_NAMESPACE="private"
+IRC_USER="andre"
+IRSSI_CMD="sudo /sbin/ip netns exec ${IRC_NET_NAMESPACE} /bin/su ${IRC_USER} -c 'irssi"
+alias  freenode="${IRSSI_CMD} -c irc.freenode.net'"
+alias     euirc="${IRSSI_CMD} -c irc.euirc.net'"
+alias    ircnet="${IRSSI_CMD} -c irc.fu-berlin.de'"
+alias  quakenet="${IRSSI_CMD} -c irc.quakenet.org'"
+alias indymedia="${IRSSI_CMD} -c irc.indymedia.org'"
+alias    ircicq="${IRSSI_CMD} -c irc.icq.com'"
+alias     efnet="${IRSSI_CMD} -c irc.servercentral.net'"
+alias     rizon="${IRSSI_CMD} -c irc.rizon.net'"
+alias     efnet="${IRSSI_CMD} -c irc.efnet.net'"
+alias    dalnet="${IRSSI_CMD} -c irc.dal.net'"
+alias   hackint="${IRSSI_CMD} -ssl -ssl_verify -ssl_cafile /etc/ssl/certs/hackint-rootca.crt -c irc.hackint.org 9999'"
+alias  undernet="${IRSSI_CMD} -c irc.undernet.org'"
+
+

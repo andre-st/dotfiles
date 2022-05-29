@@ -1,0 +1,102 @@
+#!/bin/sh
+
+# Example for $XDG_CONFIG_HOME/nsxiv/exec/key-handler
+# Called by nsxiv(1) after the external prefix key (C-x by default) is pressed.
+# The next key combo is passed as its first argument. Passed via stdin are the
+# images to act upon: all marked images, if in thumbnail mode and at least one
+# image has been marked, otherwise the current image. nsxiv(1) will block until
+# the handler terminates. It then checks which images have been modified and
+# reloads them.
+
+# By default nsxiv(1) will send one image per-line to stdin, however when using
+# -0 the image list will be NULL separated and the enviornment variable
+# "$NSXIV_USING_NULL" will be set to 1.
+
+# The key combo argument has the following form: "[C-][M-][S-]KEY",
+# where C/M/S indicate Ctrl/Meta(Alt)/Shift modifier states and KEY is the X
+# keysym as listed in /usr/include/X11/keysymdef.h without the "XK_" prefix.
+# If KEY has an uppercase equivalent, S-KEY is resolved into it. For instance,
+# K replaces S-k and Scedilla replaces S-scedilla, but S-Delete is sent as-is.
+
+rotate() {
+	degree="$1"
+	tr '\n' '\0' | xargs -0 realpath | sort | uniq | while read file; do
+		case "$(file -b -i "$file")" in
+		image/jpeg*) jpegtran -rotate "$degree" -copy all -outfile "$file" "$file" ;;
+		*)           mogrify  -rotate "$degree" "$file" ;;
+		esac
+	done
+}
+
+# Moves selected files (stdin) to given directory
+# -> directory name
+move_to() {
+	dir="$1"
+	mkdir -p "$dir"
+	while read file
+	do
+		mv "$file" "$dir"
+	done
+}
+
+
+case "$1" in
+	#
+	# The workflow assumes that you first go through the list and preselect images for actions 
+	# instead of carrying out these actions in full for each image each time. 
+	# Corrections should also be possible.
+	#
+	"C-d")  move_to ./_trash/  ;;  # Images for later deletion (you might want to review them again)
+	"C-m")  move_to ./_me/     ;;  # Images with or about or by me (perhaps wrong in this directory too)
+	"C-w")  move_to ./_wrong/  ;;  # Images misplaced in this folder, should be correctly assigned later
+	"C-s")
+		#
+		# Collect some images for the current project or task.
+		# You can rename this folder later to a more specific name with a date or task name.
+		#
+		SELECTED_DIR=./_selected/
+		mkdir -p "$SELECTED_DIR"
+		while read file
+		do
+			relfname=$(basename -- "$file")
+			ln -sf "../$relfname" "$SELECTED_DIR/$relfname"
+		done
+		;;
+	
+	
+	# Originally from sxiv:
+	"C-x")
+		xclip -in -filter | tr '\n' ' ' | xclip -in -selection clipboard
+		;;
+	"C-c")
+		while read file
+		do
+			xclip -selection clipboard -target image/png "$file"
+		done
+		;;
+	"C-e")
+		while read file
+		do
+			urxvt -bg "#444" -fg "#eee" -sl 0 -title "$file" -e sh -c "exiv2 pr -q -pa '$file' | less" &
+		done
+		;;
+	"C-g")
+		tr '\n' '\0' | xargs -0 gimp &
+		;;
+	"C-r")
+		while read file
+		do
+			rawtherapee "$file" &
+		done
+		;;
+	"C-comma")
+		rotate 270
+		;;
+	"C-period")
+		rotate  90
+		;;
+	"C-slash")
+		rotate 180
+		;;
+esac
+

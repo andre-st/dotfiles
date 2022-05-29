@@ -1,0 +1,4 @@
+map <C-i> recolor
+set recolor
+set recolor-keephue
+

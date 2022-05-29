@@ -1,0 +1,100 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+    interval = 1
+    colors = true
+    color_good="#FFFFFF"
+    color_degraded="#ffd75f"
+    color_bad="#d75f5f"
+}
+
+#order += "volume master"
+#order += "battery 0"
+order += "cpu_temperature 0"
+order += "cpu_temperature 1"
+order += "disk /"
+order += "disk /mnt/data"
+#order += "cpu_usage"
+order += "load"
+#order += "ethernet _first_"
+order += "tztime local"
+
+
+tztime local {
+    format = "  %a %d. %H:%M "
+}
+
+
+memory {
+    format = "%used | %available"
+    threshold_degraded = "1G"
+    format_degraded = "MEMORY < %available"
+}
+
+ethernet _first_ {
+    # if you use %speed, i3status requires root privileges
+    format_up = " lan: %ip %speed "
+    format_down = " no lan "
+}
+
+disk "/" {
+    format = "  %avail "
+    separator = false
+#    separator_block_width = 1
+}
+
+disk "/mnt/data" {
+    format = "  %avail "
+}
+
+cpu_usage {
+    format = "  %usage "
+}
+
+cpu_temperature 0 {
+    format = "  %degrees°C "
+    path = "/sys/devices/platform/coretemp.0/hwmon/hwmon*/temp1_input"
+    separator = false
+    # Fans start at 83-...
+    max_threshold = 85
+#    separator_block_width = 1
+}
+
+# SSD NVMe Temperature
+cpu_temperature 1 {
+    format = "  %degrees°C "
+    path = "/sys/class/nvme/nvme0/hwmon1/temp1_input"
+    separator = false
+#    separator_block_width = 1
+}
+
+load {
+    # alt: hourglass icon
+    #format = "  %1min/%5min "
+    format = "  %1min "
+}
+
+volume master {
+    format = " %volume "
+    format_muted = " %volume "
+    device = "default"
+    mixer = "Master"
+    mixer_idx = 0
+}
+
+battery 0 {
+    format = "%status %percentage "
+    format_down = " DOWN "
+    status_chr = " CHARGING "
+    status_bat = " BATTERY "
+    status_unk = " UNKNOWN "
+    #last_full_capacity = true
+    status_full = " FULL "
+    path = "/sys/class/power_supply/BAT%d/uevent"
+}

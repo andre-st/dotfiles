@@ -1,0 +1,8 @@
+About:
+	Various configuration files and some opinions about my Linux desktop
+
+Tags:
+	linux dotfiles vim-configuration configuration notion configuration-files notion-wm
+
+
+

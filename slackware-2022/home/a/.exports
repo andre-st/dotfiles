@@ -1,0 +1,56 @@
+
+# export VAGRANT_HOME=/usr/local/vms/vagrant
+
+# export PATH=/opt/java/bin:$PATH
+# export JAVA_HOME="/opt/java/"
+# export CLASSPATH=.:/opt/java/:/opt/jdbc_drivers/mysql
+# export ANT_HOME=/usr/local/ant
+# export PATH=$PATH:$ANT_HOME/bin
+
+export JAVA_HOME=/usr/java/jdk-12.0.2
+export ANT_HOME=/usr/share/ant
+export GOROOT=/usr/local/go
+export GOPATH=${HOME}/go_projects
+export GOBIN=${GOPATH}/bin
+export CLASSPATH=.:${JAVA_HOME}
+export PATH=${PATH}:${JAVA_HOME}/bin:${ANT_HOME}/bin:${GOROOT}/bin
+export BROWSER=/usr/bin/brave-browser-stable
+export EDITOR=vim
+
+# bash command history with timestamps:
+export HISTTIMEFORMAT="%F %T "
+
+
+# Prompt output separator: Line across whole terminal width
+COLUMNS=`tput cols`
+LINESTR=`printf "%.0s-" $(seq 1 $COLUMNS)`
+
+source /usr/doc/git-2.17.5/contrib/completion/git-prompt.sh
+GITINFO='$(__git_ps1 " (%s)")'
+
+export PS1="$LINESTR\n\r\!   \t   \u   \w${GITINFO}\n\r$ "
+
+export LS_COLORS="no=00:fi=00:di=01;39:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:"
+
+
+# Command history
+export HISTSIZE=1000000
+
+# Networking:
+export WAN_IF=wlan0
+
+# vboxmanage setproperty machinefolder "/usr/local/vms"
+
+
+# Cursor shape: blinking pipe/ibeam instead of non-blinking block
+echo -e "\033[5 q"
+# echo -e -n "\x1b[\x30 q" # changes to blinking block
+# echo -e -n "\x1b[\x31 q" # changes to blinking block also
+# echo -e -n "\x1b[\x32 q" # changes to steady block
+# echo -e -n "\x1b[\x33 q" # changes to blinking underline
+# echo -e -n "\x1b[\x34 q" # changes to steady underline
+# echo -e -n "\x1b[\x35 q" # changes to blinking bar
+# echo -e -n "\x1b[\x36 q" # changes to steady bar
+ 
+
+

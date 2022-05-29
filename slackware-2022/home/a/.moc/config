@@ -1,0 +1,22 @@
+ExecCommand3 = "mv %f /home/a/_todo/mp3/"
+ExecCommand4 = "/home/a/.moc/scripts/move-longer-audio.sh"
+ExecCommand6 = "mv %f /home/a/_todo/mp3/[F6]-archive/"
+ExecCommand8 = "rm %f"
+AutoNext = no
+ShowTime = yes
+SavePlaylist = yes
+SyncPlaylist = yes
+
+Sort = FileName
+
+# /usr/share/moc/themes
+#Theme = andre_theme
+#Theme = darkdot_theme
+#Theme = nightly_theme
+Theme = transparent-background
+
+
+Layout1 = playlist(50%,50%,50%,50%)
+#	Because the playlist will be hidden by the directory
+#	you will have to use the TAB key to make the playlist
+#	visible.
