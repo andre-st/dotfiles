@@ -169,7 +169,7 @@ customized key-bindings (Shortcuts), easy-to-remember, centered around left/righ
 
 ### Terminal: _rxvt-unicode_
 
-My approach to long paths or command-line space is a multiline prompt, see [.exports](manjaro/home/andre/.prompt)
+My approach to long paths or command-line space is a multiline prompt, see [.prompt](manjaro/home/andre/.prompt)
 ```
 ------------------------------------------------------------------------ ...
 70   13:08:09   andre   ~/source/private/app
@@ -196,7 +196,7 @@ $
 
 The font size of the current terminal can be changed via a keyboard shortcut, without having to exit the terminal: 
 see [urxvt-font-size extension](https://github.com/majutsushi/urxvt-font-size) for rxvt-unicode 
-and my [.Xresources](manjaro/home/andre/.Xresources) file.
+and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 
 
 
@@ -294,7 +294,7 @@ $ DOWNGRADE_FROM_ALA=1 downgrade <PKGNAME>
 	so many unheard podcasts etc accumulate.
 	Unfortunately, this player does not sort by audio length.
 	Since I only want to separate short audio files from long ones, 
-	[a script](https://github.com/andre-st/dotfiles/tree/master/.moc/scripts) sorts everything &gt; 14 minutes into a subfolder named `[F4]-longer`.
+	[a script](https://gist.github.com/andre-st/5d17372e6d209d792860db2636665bbd) sorts everything &gt; 14 minutes into a subfolder named `[F4]-longer`.
 	MOC function keys can be configured to run any program.
 	So I delete files via <kbd>F8</kbd> or move audios to subfolders such as `[F6]-archive` by pressing the <kbd>F6</kbd> key in MOC.
 	The directory name appears like this in MOC and reminds me of the corresponding key (it's not _convention over configuration_).
