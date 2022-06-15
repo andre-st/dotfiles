@@ -283,7 +283,6 @@ Manjaro:
 ```sh
 $ systemctl status ntpd.service               # was disabled
 $ systemctl status systemd-timesyncd.service  # prefered over ntpd.service
-$ systemctl status systemd-timesyncd.service
 $ systemctl enable --now systemd-timesyncd.service
 ```
 
