@@ -274,7 +274,8 @@ $ DOWNGRADE_FROM_ALA=1 downgrade <PKGNAME>
 ### Security
 - patching (see above)
 - todo
-- KeePassXC for Time-based one-time password (TOTP) generation, zbarimg for QR code scanning
+- KeePassXC for time-based one-time password (TOTP) generation (system time sync required), 
+  zbarimg for QR code scanning
 
 
 ### Time Synchronization
