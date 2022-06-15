@@ -274,6 +274,18 @@ $ DOWNGRADE_FROM_ALA=1 downgrade <PKGNAME>
 ### Security
 - patching (see above)
 - todo
+- KeePassXC for Time-based one-time password (TOTP) generation, zbarimg for QR code scanning
+
+
+### Time Synchronization
+Manjaro: 
+```sh
+$ systemctl status ntpd.service               # was disabled
+$ systemctl status systemd-timesyncd.service  # was disabled, prefered
+$ systemctl status systemd-timesyncd.service
+$ systemctl enable --now systemd-timesyncd.service
+```
+
 
 
 
