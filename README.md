@@ -72,7 +72,7 @@ Today I leave it out for reasons of operation/troubleshooting simplicity
 
 My hard drives are conservatively formatted with ext3/4 – 
 stable, widely used, backward compatible, and will continue to exist for a while.
-Data lives longer than their applications and computers.
+Data usually lives longer than their applications and computers.
 
 
 ## Basic GUI Environment
@@ -244,6 +244,7 @@ allowing fast recovery if your latest backup isn't already corrupted.
 Conversely, re-building an older <em>full</em> backup from the increments could become tedious with just rclone, 
 but it is possible with the on-board resources of an operating system. 
 No special block-level patching magic and no extra-repository to corrupt. 
+In addition, in contrast to forward incremental backups, it is easier to delete old backups to make room for new backups.
 Perhaps I'll try the more complex _restic_ in the future for "real" differential or incremental block-level backups with _rclone_ as backend.
 
 
@@ -288,7 +289,7 @@ $ DOWNGRADE_FROM_ALA=1 downgrade <PKGNAME>
 	or symlink them from a "\_selected" subfolder for later revisitation;
 	I often use directories with a leading underscore to make them stand out as "meta" dirs and to let them sort to the top in a file list.
 - [mpv](https://github.com/mpv-player/mpv) video player (called via mc)
-- youtube-dl to download video from YT and other websites
+- youtube-dl to download video from YouTube and other websites
 - [Music on Console](https://en.wikipedia.org/wiki/Music_on_Console) audio player:
 	My time of listening differs significantly from the time of downloading, 
 	so many unheard podcasts etc accumulate.
@@ -303,13 +304,14 @@ $ DOWNGRADE_FROM_ALA=1 downgrade <PKGNAME>
 	can be viewed, searched, sorted etc with almost any program in any context.
 	I've also tried the well-made [cmus](https://github.com/cmus/cmus) and a couple of MPD clients, 
 	but I work more fluently with MOC.
-- [EasyEffects](https://github.com/wwmm/easyeffects) sound quality tool:
+- [EasyEffects](https://github.com/wwmm/easyeffects) sound-quality tool:
 	Manjaro (today): Pipewire + EasyEffects (formerly PulseEffects) + EQ presets, volume normalizer etc somewhere from GitHub (todo)
 	(earlier on Slackware: PulseAudio Multiband EQ).
 	I used to have an old Panasonic audio system (RX-CS780) connected to the computer. 
 	Today only the speakers exist, which I then connected to the computer using a _Fosi Audio_ mini power amplifier (40 Euro). 
 	Maybe should have bought the one with EQ, but software EQ is fine too.
-	
+
+
 
 ### Web Browser
 
