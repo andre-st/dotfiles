@@ -230,6 +230,15 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 - use of statistics or logic software (correlation, plots, ...)
 
 
+Replacements:
+| Old                   | Current Manjaro
+|-----------------------|----------------------------
+| dig (dnsutils)        | drill (ldns)
+| netstat (net-tools)   | ss (iproute2)
+
+
+
+
 ### Backups, Recovery, Continuity
 
 - todo
@@ -260,6 +269,11 @@ $ DOWNGRADE_FROM_ALA=1 downgrade <PKGNAME>
 	# Menu opens...
 	# ...prefer cached versions over ALA due to missing Manjaro customizations
 ```
+Find package for tool:
+```sh
+$ pkgfile -v -b <TOOLNAME>
+```
+
 
 
 ### Power and Thermal Management

@@ -448,7 +448,8 @@ bar {
 ###     inactive_workspace #595B5B #222D31 #EEE8D5
         inactive_workspace #2f343f #2f343f #8d95a4
         binding_mode       #16a085 #2C2C2C #F9FAF9
-        urgent_workspace   #16a085 #FDF6E3 #E5201D
+###        urgent_workspace   #16a085 #FDF6E3 #E5201D
+	urgent_workspace   #2f343f #2f343f #8d95a4
     }
 }
 
@@ -469,7 +470,8 @@ bar {
   client.focused          #434970 #434970 #ffffff #FDF6E3
   client.focused_inactive #2f343f #2f343f #8d95a4 #454948
   client.unfocused        #2f343f #2f343f #8d95a4 #454948
-  client.urgent           #000000 #FDF6E3 #ffffff #268BD2
+###  client.urgent           #000000 #FDF6E3 #ffffff #268BD2
+  client.urgent           #2f343f #2f343f #8d95a4 #454948
   client.placeholder      #000000 #0c0c0c #ffffff #000000 
 
   client.background       #2B2C2B
