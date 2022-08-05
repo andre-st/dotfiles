@@ -251,12 +251,20 @@ bindsym $mod+Shift+0 move container to workspace $ws0; workspace $ws0
 # assign [class="Pcmanfm"]     $ws3
 # assign [class="Skype"]       $ws5
 ### Find out class using $ xprop 
+### "Arbeit 2":
 assign [class="Gimp"]         $ws2
+assign [class="UMLet"]        $ws2
+assign [class="FreeCAD"]      $ws2
+assign [class="OpenSCAD"]     $ws2
 assign [class="Inkscape"]     $ws2
+### "Web":
 assign [class="Chromium"]     $ws3
+### "Kontakte":
 assign [class="Claws-mail"]   $ws4
+### "Audio":
 assign [class="easyeffects"]  $ws5
 assign [title="MOC"]          $ws5
+### "VM":
 assign [class="Virt-manager"] $ws6
 
 

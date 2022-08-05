@@ -387,8 +387,11 @@ $ systemctl enable --now systemd-timesyncd.service
 - Vector images: [Inkscape](https://github.com/inkscape/inkscape)
 - Pixel images: [Gimp](https://github.com/GNOME/gimp)
 - ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
-- 3D: [OpenSCAD](https://github.com/openscad/openscad)
-- Office: Markdown / Htmlcssjs &gt; Google Docs &gt; LibreOffice (not installed) &gt; MS Office on Windows; pandoc (14 MB) for conversions
+- 3D/CAD:
+	[OpenSCAD](https://github.com/openscad/openscad), 
+	[FreeCAD](https://github.com/FreeCAD) w/ Assembly4 + Fasteners + gmsh for finite element analysis
+	(in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem))
+- Office: Markdown / Htmlcssjs &gt; Google Docs (collaborative) &gt; LibreOffice (not installed) &gt; MS Office on Windows
 - Video editing / Streaming: FFmpeg suite
 - Git/GitHub: `git gui` is handy for staging patches
 - Presentations: todo
