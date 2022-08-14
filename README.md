@@ -427,10 +427,10 @@ a decent practice to arrange _synchronous_ communication (phone calls, video cha
 
 ## PC-Phone/Tablet Connection
 
-- [darkhttpd](https://github.com/emikulic/darkhttpd) light web-server as temporary "media server":
+- [darkhttpd](https://github.com/emikulic/darkhttpd) light single-binary web-server as temporary "media server":
 	Mobile web-browsers can pseudo-stream videos and audios via HTTP (progressive download playback).
 	Darkhttpd supports HTTP range requests (skip through media) and automatic directory listings.
-	So I don't need a full blown media server software, at the moment
+	So I don't need separate, full blown media server software, at the moment
 - todo: android scrcpy
 
 
