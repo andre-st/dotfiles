@@ -10,7 +10,7 @@
 - [Printing](#printing)
 - [Communication](#communication)
 - [Virtualization, Emulation](#virtualization-emulation)
-- [PC-Phone/Tablet Connection](#pc-phone-tablet-connection)
+- [PC-Phone/Tablet Connection](#pc-phonetablet-connection)
 
 
 ## Linux Distribution
@@ -336,8 +336,7 @@ $ systemctl enable --now systemd-timesyncd.service
 	I used to have an old Panasonic audio system (RX-CS780) connected to the computer. 
 	Today only the speakers exist, which I then connected to the computer using a _Fosi Audio_ mini power amplifier (40 Euro). 
 	Maybe should have bought the one with EQ, but software EQ is fine too.
-
-Also see section [PC-Phone/Tablet Connection](#pc-phone-tablet-connection) in this file.
+- [PC-Phone/Tablet Connection](#pc-phonetablet-connection) section in this file details my media use on mobile devices
 
 
 
