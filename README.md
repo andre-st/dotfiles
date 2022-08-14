@@ -336,9 +336,8 @@ $ systemctl enable --now systemd-timesyncd.service
 	I used to have an old Panasonic audio system (RX-CS780) connected to the computer. 
 	Today only the speakers exist, which I then connected to the computer using a _Fosi Audio_ mini power amplifier (40 Euro). 
 	Maybe should have bought the one with EQ, but software EQ is fine too.
-- [darkhttpd](https://github.com/emikulic/darkhttpd) secure, (almost) zero-config, light webserver to setup a temporary media server for my mobile devices:
-	browsers on mobile devices can _stream_ videos and audios via HTTP and darkhttp automatically creates directory listings
 
+Also see section [PC-Phone/Tablet Connection](#pc-phone-tablet-connection) in this file.
 
 
 
@@ -428,10 +427,10 @@ a decent practice to arrange _synchronous_ communication (phone calls, video cha
 
 
 ## PC-Phone/Tablet Connection
+
+- [darkhttpd](https://github.com/emikulic/darkhttpd) secure, (almost) zero-config, light webserver to setup a temporary media server for my mobile devices:
+	browsers on mobile devices can _stream_ videos and audios via HTTP and darkhttp automatically creates directory listings
 - todo: android scrcpy
-
-
-
 
 
 
