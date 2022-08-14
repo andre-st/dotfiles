@@ -10,7 +10,7 @@
 - [Printing](#printing)
 - [Communication](#communication)
 - [Virtualization, Emulation](#virtualization-emulation)
-- [PC-Phone Connection](#pc-phone-connection)
+- [PC-Phone/Tablet Connection](#pc-phone-tablet-connection)
 
 
 ## Linux Distribution
@@ -72,7 +72,7 @@ Today I leave it out for reasons of operation/troubleshooting simplicity
 
 My hard drives are conservatively formatted with ext3/4 – 
 stable, widely used, backward compatible, and will continue to exist for a while.
-Data usually lives longer than their applications and computers.
+Data usually live longer than their applications and computers.
 
 
 ## Basic GUI Environment
@@ -84,7 +84,7 @@ Data usually lives longer than their applications and computers.
 	either start permanently via runlevel 5 in `/etc/inittab` (and temporarily stay in the console at start by adding a runlevel number at the lilo boot prompt)
 	versus calling `startx` in `.bash_profile` for the _first_ tty 
 	(and temporarily stay in the console at start by switching to a different tty via <kbd>Alt</kbd>+<kbd>F2</kbd> at login)
-	versus typing `startx` everytime after login
+	versus typing `startx` everytime after login in an already open console
 
 
 ### 2007–2022: Ion3/[Notion](https://github.com/raboof/notion) Tiling Window Manager
@@ -336,6 +336,9 @@ $ systemctl enable --now systemd-timesyncd.service
 	I used to have an old Panasonic audio system (RX-CS780) connected to the computer. 
 	Today only the speakers exist, which I then connected to the computer using a _Fosi Audio_ mini power amplifier (40 Euro). 
 	Maybe should have bought the one with EQ, but software EQ is fine too.
+- [darkhttpd](https://github.com/emikulic/darkhttpd) secure, (almost) zero-config, light webserver to setup a temporary media server for my mobile devices:
+	browsers on mobile devices can _stream_ videos and audios via HTTP and darkhttp automatically creates directory listings
+
 
 
 
@@ -371,7 +374,6 @@ $ systemctl enable --now systemd-timesyncd.service
 
 ### Other
 
-- [ddgr](https://github.com/jarun/ddgr): DuckDuckGo on the terminal, aliased to `?` (was `googler`)
 - [Zathura](https://pwmt.org/projects/zathura/): keyboard-friendly, dark-mode, fast PDF-reader
 - pdfgrep: grep PDF files ([ripgrep-all](https://github.com/phiresky/ripgrep-all) probably faster)
 - [commafeed.com](https://www.commafeed.com): RSS-reader for blogs, news sites, podcasts, ...
@@ -425,7 +427,11 @@ a decent practice to arrange _synchronous_ communication (phone calls, video cha
 - one of the free Microsoft Windows [IE/Edge VM images](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) (no installation needed)
 
 
-## PC-Phone Connection
+## PC-Phone/Tablet Connection
 - todo: android scrcpy
+
+
+
+
 
 
