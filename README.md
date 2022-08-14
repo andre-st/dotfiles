@@ -327,7 +327,7 @@ $ systemctl enable --now systemd-timesyncd.service
 	The directory name appears like this in MOC and reminds me of the corresponding key (it's not _convention over configuration_).
 	I don't use metadata-based media libraries but am 1:1 with the file system.
 	Proper filenames, unlike metadata containers, 
-	can be viewed, searched, sorted etc with almost any program in any context.
+	can be viewed, searched, sorted etc with almost any program in any context (e.g. SFTP).
 	I've also tried the well-made [cmus](https://github.com/cmus/cmus) and a couple of MPD clients, 
 	but I work more fluently with MOC.
 - [EasyEffects](https://github.com/wwmm/easyeffects) sound-quality tool:
@@ -407,7 +407,6 @@ $ systemctl enable --now systemd-timesyncd.service
 ## Communication
 
 I prefer emails and upfront arranged phone calls.
-Random, non-urgent work-related calls with content that could have been sent in an email are not welcome.
 
 - email: todo
 - Instant Messenger: **none**
