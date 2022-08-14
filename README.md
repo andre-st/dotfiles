@@ -397,18 +397,17 @@ $ systemctl enable --now systemd-timesyncd.service
 - Presentations: todo
  
 
+
 ## Printing
 
 - todo, CUPS
 
 
+
 ## Communication
 
-I prefer others to contact me via email (or voicemail for the lazy), or through an email gateway (GitHub's issue tracker for example), so that I can find and manage all messages in _one single place_.
-E-mail has its problems but doesn't get my attention until I want it to. The expectation regarding response times is more generous: hours or days.
-
-A ringing phone is intrusive, and it is, now more than in the past, 
-a decent practice to arrange _synchronous_ communication (phone calls, video chats, meetings in real life) by email with the date and time.
+I prefer emails and upfront arranged phone calls.
+Random, non-urgent work-related calls with content that could have been sent in an email are not welcome.
 
 - email: todo
 - Instant Messenger: **none**
@@ -420,9 +419,11 @@ a decent practice to arrange _synchronous_ communication (phone calls, video cha
 - Notifications: everything as status email
 
 
+
 ## Virtualization, Emulation
 - [QEMU](https://github.com/qemu/qemu), virt-manager, dosbox
 - one of the free Microsoft Windows [IE/Edge VM images](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) (no installation needed)
+
 
 
 ## PC-Phone/Tablet Connection
