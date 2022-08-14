@@ -427,8 +427,10 @@ a decent practice to arrange _synchronous_ communication (phone calls, video cha
 
 ## PC-Phone/Tablet Connection
 
-- [darkhttpd](https://github.com/emikulic/darkhttpd) secure, (almost) zero-config, light webserver to setup a temporary media server for my mobile devices:
-	browsers on mobile devices can _stream_ videos and audios via HTTP and darkhttp automatically creates directory listings
+- [darkhttpd](https://github.com/emikulic/darkhttpd) secure, almost zero-config, light webserver to setup a temporary "media server" for my mobile devices:
+	Web browsers on mobile devices pseudo-stream videos and audios (progressive download playback via HTTP) 
+	and _darkhttp_ also automatically creates directory listings;
+	don't need full blown media server software at the moment
 - todo: android scrcpy
 
 
