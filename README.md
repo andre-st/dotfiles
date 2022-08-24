@@ -308,7 +308,7 @@ $ systemctl enable --now systemd-timesyncd.service
 
 ### Media
 
-- [nsxiv](https://github.com/andre-st/nsxiv) image viewer:
+- [nsxiv](https://github.com/nsxiv/nsxiv) image viewer:
 	With dark mode ([.Xresources](.Xresources)), adjusted `thumb_sizes[]` and `THUMB_SIZE` in config.def.h;
 	[keys configured](.config/sxiv/exec/key-handler) so that I can go through an image collection (thumbs)
 	and either move individual images to (automatically created) subfolders such as "\_trash" and "\_wrong", 
@@ -395,6 +395,7 @@ $ systemctl enable --now systemd-timesyncd.service
 - Video editing / Streaming: FFmpeg suite
 - Git/GitHub: `git gui` is handy for staging patches
 - Presentations: todo
+- Networking: vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
  
 
 
