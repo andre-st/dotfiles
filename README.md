@@ -47,6 +47,8 @@ beyond any processor improvement.
 When I ran into NVMe-UEFI-ELiLo issues during the Slackware installation, I tried other modern distributions to find out if it's a fundamental problem or what they do differently. 
 But the out-of-the-box experience and the opportunity to re-familiarize yourself with more widely adopted concepts was seductive, and I will give _Manjaro-i3-Minimal_ a longer try, now.
 
+![Screenshot](README-minipc.png)
+
 
 ## File-System
 

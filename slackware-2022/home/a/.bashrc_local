@@ -1,0 +1,12 @@
+# System-wide PulseAudio daemon is not recommended, but per-user
+# https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/SystemWide/
+
+if ! pgrep --full --exact "/usr/bin/pulseaudio -D" > /dev/null
+then
+	/usr/bin/pulseaudio -D
+fi
+
+
+
+
+
