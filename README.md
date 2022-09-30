@@ -79,16 +79,6 @@ Data usually live longer than their applications and computers.
 
 ## Basic GUI Environment
 
-### Display Server: _Xorg_
-
-- NVIDIA-Linux-x86\_64-390.116.run
-- todo: 
-	either start permanently via runlevel 5 in `/etc/inittab` (and temporarily stay in the console at start by adding a runlevel number at the lilo boot prompt)
-	versus calling `startx` in `.bash_profile` for the _first_ tty 
-	(and temporarily stay in the console at start by switching to a different tty via <kbd>Alt</kbd>+<kbd>F2</kbd> at login)
-	versus typing `startx` everytime after login in an already open console
-
-
 ### 2007–2022: Ion3/[Notion](https://github.com/raboof/notion) Tiling Window Manager
 
 ![Screenshot](README-notion.png)
@@ -118,11 +108,21 @@ You are faster and have your mind free for other things.
 Conversely, even a small amount of unpredictability demands disproportionately more attention for fear of mistakes.  
 No interface &gt; static interface &gt; smart interface
 
+Slackware runs the _Xorg_ display server:
+- NVIDIA-Linux-x86\_64-390.116.run
+- todo: 
+	either start permanently via runlevel 5 in `/etc/inittab` (and temporarily stay in the console at start by adding a runlevel number at the lilo boot prompt)
+	versus calling `startx` in `.bash_profile` for the _first_ tty 
+	(and temporarily stay in the console at start by switching to a different tty via <kbd>Alt</kbd>+<kbd>F2</kbd> at login)
+	versus typing `startx` everytime after login in an already open console
+
+
 
 ### 2022–today: i3 Tiling Window Manager
 
 ![Screenshot](README-i3.png)
 
+- I'm fine with i3, but I felt I was faster and less mentally involved with Notion; maybe a matter of habit, I've used Ion and Notion for years
 - todo
 - rofi (dmenu replacement)
 
@@ -243,20 +243,31 @@ Replacements:
 
 ### Backups, Recovery, Continuity
 
-- todo
+For my backups, I only have to regularly connect and disconnect an external (dm-crypted) backup hard drive, 
+everything else happens automatically.
 
-I've had good experiences with [rclone](https://github.com/rclone/rclone) at work. 
-It is fast (multiple connections for comparison and downloading) and easy to script, 
-e.g. expand and query the configuration file with your own keys. 
-A separate computer regularly scours servers and then _updates_ a full backup 
-with saving replaced or removed data to separate date-based folders via `--backup-dir=foo/bar/$NOW` (Forever Reverse Incremental Backup). 
+I detach backup disks so that they cannot be mounted and affected by ransomware. 
+Permanently attached drives are not a backup but extended storage.
+
+A Linux _udev_ rule reacts to the attachment of a backup disk, 
+creates _/dev/backup_ and triggers my _backup.service_ systemd-unit,
+which in turn invokes a long-running backup shell script. 
+
+The script updates a _forever reverse incremental backup_ 
+using `rsync --backup-dir=foo/bar/$NOW ...` 
+and reports progress via `notify-send` (dunst) to my desktop user interface. 
+It tells me when I can unplug the disk again. 
+
 So, the most recent restore point is always a full backup, 
 allowing fast recovery if your latest backup isn't already corrupted. 
-Conversely, re-building an older <em>full</em> backup from the increments could become tedious with just rclone, 
+Conversely, re-building an older <em>full</em> backup from the increments could become tedious, 
 but it is possible with the on-board resources of an operating system. 
 No special block-level patching magic and no extra-repository to corrupt. 
-In addition, in contrast to forward incremental backups, it is easier to delete old backups to make room for new backups.
-Perhaps I'll try the more complex _restic_ in the future for "real" differential or incremental block-level backups with _rclone_ as backend.
+
+In contrast to forward incremental backups, it is easier to delete old backups to make room for new backups, too.
+
+- todo
+
 
 
 ### Patching, Software Management
@@ -281,6 +292,7 @@ $ pkgfile -v -b <TOOLNAME>
 ### Power and Thermal Management
 
 - todo
+- todo: manual fan full blow
 - [h264ify](https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal?hl=en) browser plugin
 	- check: right-click on YouTube-video, click "stats for nerds", look for codec _avc_ (= h264)
 	- hardware accelerated video via Chromium command line options `--use-gl=desktop --ignore-gpu-blocklist --enable-features=VaapiVideoDecoder` (edit desktop-file), 
@@ -317,7 +329,8 @@ $ systemctl enable --now systemd-timesyncd.service
 	or symlink them from a "\_selected" subfolder for later revisitation;
 	I often use directories with a leading underscore to make them stand out as "meta" dirs and to let them sort to the top in a file list.
 - [mpv](https://github.com/mpv-player/mpv) video player (called via mc)
-- youtube-dl to download video from YouTube and other websites
+- youtube-dl to download video from YouTube and other websites; 
+	for example, I download _blob:_ videos using the m3u8-URL found via browser's devtools network activity view (F12)
 - [Music on Console](https://en.wikipedia.org/wiki/Music_on_Console) audio player:
 	My time of listening differs significantly from the time of downloading, 
 	so many unheard podcasts etc accumulate.
@@ -393,7 +406,8 @@ $ systemctl enable --now systemd-timesyncd.service
 	[OpenSCAD](https://github.com/openscad/openscad), 
 	[FreeCAD](https://github.com/FreeCAD) w/ Assembly4 + Fasteners + gmsh for finite element analysis
 	(in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem))
-- Office: Markdown / Htmlcssjs &gt; Google Docs (collaborative) &gt; LibreOffice (not installed) &gt; MS Office on Windows
+- Office: Markdown / Htmlcssjs &gt; Google Docs (collaborative) &gt; LibreOffice (not installed) &gt; MS Office on Windows; 
+	`$ antiword ms.doc | vim -`
 - Video editing / Streaming: FFmpeg suite
 - Git/GitHub: `git gui` is handy for staging patches
 - Presentations: todo
