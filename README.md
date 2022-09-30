@@ -243,25 +243,21 @@ Replacements:
 
 ### Backups, Recovery, Continuity
 
-1. Backup auto-starts by attaching a known disk drive. 
-Convenience ensures that I don't skip backups due to lack of time or laziness.
-
-2. I keep backup disks detached so that they cannot be mounted and affected by ransomware. 
-Permanently attached drives are not a backup but extended storage.
-
-3. Backup disks are encrypted, which makes losing backups more bearable.
-Currently, I don't have offsite backups (neither cloud storage backups), though.
-
-4. The backup process is shown to me with a small permanent notification 
-at the top right edge of the desktop GUI.
-It also tells me when I can detach the drive again.
-
-5. I create _forever reverse incremental backups_.
-So the most recent restore point is always a full backup, 
-allowing fast recovery if your latest backup isn't already corrupted. 
-In contrast to forward incremental backups, 
-it is easier to delete old backups to make room for new backups, too.
-No special block-level patching magic and no extra-repository to corrupt. 
+- Backup auto-starts by attaching a known disk drive. 
+  Convenience ensures that I don't skip backups due to lack of time or laziness.
+- I keep backup disks detached so that they cannot be mounted and affected by ransomware. 
+  Permanently attached drives are not a backup but extended storage.
+- Backup disks are encrypted, which makes losing backups more bearable.
+  Currently, I don't have offsite backups (neither cloud storage backups), though.
+- The backup process is shown to me with a small permanent notification 
+  at the top right edge of the desktop GUI.
+  It also tells me when I can detach the drive again.
+- I create _forever reverse incremental backups_.
+  So the most recent restore point is always a full backup, 
+  allowing fast recovery if your latest backup isn't already corrupted. 
+  In contrast to forward incremental backups, 
+  it is easier to delete old backups to make room for new backups, too.
+  No special block-level patching magic and no extra-repository to corrupt. 
 
 
 ![Backup Disk](README-backup.png)
