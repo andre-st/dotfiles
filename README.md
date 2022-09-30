@@ -249,7 +249,6 @@ Convenience ensures that I don't skip backups due to lack of time or laziness.
 2. I keep backup disks detached so that they cannot be mounted and affected by ransomware. 
 Permanently attached drives are not a backup but extended storage.
 Currently, I don't have offsite backups.
-
 (In Germany, even with an initial backup via snail mail, 
 incremental _cloud storage_ backups would be annoyingly slow,
 apart from the additional costs and internet or storage provider dependencies.)
