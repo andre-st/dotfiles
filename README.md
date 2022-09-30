@@ -38,7 +38,7 @@ Even what looks like larger ncurses tools are usually just shell scripts that ca
 ### 2022–today: Manjaro-i3-Minimal
 
 My primary computer is not a PC-tower anymore but a Fujitsu Esprimo mini-PC (∅5–15W) 
-because it runs ∅17h/7d in my mid-pandemic pre-energy-war German home office and I want to reduce electricity cost. 
+because it runs ∅17h/7d in my mid-pandemic ~~pre-~~energy-war German home office and I want to reduce electricity cost. 
 The eliminated computer noise is a nice plus.
 Hard disk drives are no longer running there, only 16 GB + 1 TB semiconductor memory, 
 which noticeably accelerate the entire system in everyday work 
@@ -243,30 +243,40 @@ Replacements:
 
 ### Backups, Recovery, Continuity
 
-For my backups, I only have to regularly connect and disconnect an external (dm-crypted) backup hard drive, 
-everything else happens automatically.
+1. Backup auto-starts by attaching a known disk drive. 
+Convenience ensures that I don't skip backups due to lack of time or laziness.
 
-I detach backup disks so that they cannot be mounted and affected by ransomware. 
+2. I keep backup disks detached so that they cannot be mounted and affected by ransomware. 
 Permanently attached drives are not a backup but extended storage.
+Currently, I don't have offsite backups.
 
-A Linux _udev_ rule reacts to the attachment of a backup disk, 
-creates _/dev/backup_ and triggers my _backup.service_ systemd-unit,
-which in turn invokes a long-running backup shell script. 
+(In Germany, even with an initial backup via snail mail, 
+incremental _cloud storage_ backups would be annoyingly slow,
+apart from the additional costs and internet or storage provider dependencies.)
 
-The script updates a _forever reverse incremental backup_ 
-using `rsync --backup-dir=foo/bar/$NOW ...` 
-and reports progress via `notify-send` (dunst) to my desktop user interface. 
-It tells me when I can unplug the disk again. 
+3. The backup process is shown to me with a small permanent notification 
+at the top right edge of the desktop GUI.
+It also tells me when I can detach the drive again.
 
-So, the most recent restore point is always a full backup, 
+4. I create _forever reverse incremental backups_ using `rsync --backup-dir=foo/bar/$NOW`.
+So the most recent restore point is always a full backup, 
 allowing fast recovery if your latest backup isn't already corrupted. 
-Conversely, re-building an older <em>full</em> backup from the increments could become tedious, 
-but it is possible with the on-board resources of an operating system. 
+In contrast to forward incremental backups, 
+it is easier to delete old backups to make room for new backups, too.
 No special block-level patching magic and no extra-repository to corrupt. 
 
-In contrast to forward incremental backups, it is easier to delete old backups to make room for new backups, too.
 
-- todo
+![Backup Disk](README-backup.png)
+
+Linux _udev_ rule detects disk, 
+creates _/dev/backup_ and 
+triggers _my-backup.service_ systemd-unit, 
+which starts long running _my-backup.sh_, 
+which in turn mounts dm-crypted partition, 
+transfers the changes from _/mnt/data_ to the backup via rsync
+and communicates with user via _notify-send_ (dunst).
+
+- recovery todo
 
 
 
