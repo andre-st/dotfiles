@@ -38,7 +38,7 @@ Even what looks like larger ncurses tools are usually just shell scripts that ca
 ### 2022–today: Manjaro-i3-Minimal
 
 My primary computer is not a PC-tower anymore but a Fujitsu Esprimo mini-PC (∅5–15W) 
-because it runs ∅17h/7d in my mid-pandemic ~~pre-~~energy-war German home office and I want to reduce electricity cost. 
+because it runs ∅17h/7d in my ~~mid-pandemic pre-energy-war~~ post-pandemic energy-war German home office and I want to reduce electricity cost. 
 The eliminated computer noise is a nice plus.
 Hard disk drives are no longer running there, only 16 GB + 1 TB semiconductor memory, 
 which noticeably accelerate the entire system in everyday work 
@@ -266,14 +266,13 @@ No special block-level patching magic and no extra-repository to corrupt.
 
 ![Backup Disk](README-backup.png)
 
-How:
-Linux _udev_ rule detects disk attachment, 
+Linux _udev_ rule detects disk attachment (I use UUID from /etc/crypttab), 
 creates _/dev/backup_ and 
 triggers _my-backup.service_ systemd-unit, 
 which starts long running _my-backup.sh_, 
-which in turn mounts dm-crypted partition, 
+which mounts dm-crypted backup partition, 
 transfers the changes from _/mnt/data_ to the backup 
-via `rsync --backup-dir=foo/bar/$NOW`.
+via `rsync --backup-dir=foo/bar/$NOW`
 and communicates with user via _notify-send_ (dunst).
 
 - recovery todo
