@@ -248,16 +248,15 @@ Convenience ensures that I don't skip backups due to lack of time or laziness.
 
 2. I keep backup disks detached so that they cannot be mounted and affected by ransomware. 
 Permanently attached drives are not a backup but extended storage.
-Currently, I don't have offsite backups.
-(In Germany, even with an initial backup via snail mail, 
-incremental _cloud storage_ backups would be annoyingly slow,
-apart from the additional costs and internet or storage provider dependencies.)
 
-3. The backup process is shown to me with a small permanent notification 
+3. Backup disks are encrypted, which makes losing backups more bearable.
+Currently, I don't have offsite backups (neither cloud storage backups), though.
+
+4. The backup process is shown to me with a small permanent notification 
 at the top right edge of the desktop GUI.
 It also tells me when I can detach the drive again.
 
-4. I create _forever reverse incremental backups_ using `rsync --backup-dir=foo/bar/$NOW`.
+5. I create _forever reverse incremental backups_.
 So the most recent restore point is always a full backup, 
 allowing fast recovery if your latest backup isn't already corrupted. 
 In contrast to forward incremental backups, 
@@ -267,12 +266,14 @@ No special block-level patching magic and no extra-repository to corrupt.
 
 ![Backup Disk](README-backup.png)
 
-Linux _udev_ rule detects disk, 
+How:
+Linux _udev_ rule detects disk attachment, 
 creates _/dev/backup_ and 
 triggers _my-backup.service_ systemd-unit, 
 which starts long running _my-backup.sh_, 
 which in turn mounts dm-crypted partition, 
-transfers the changes from _/mnt/data_ to the backup via rsync
+transfers the changes from _/mnt/data_ to the backup 
+via `rsync --backup-dir=foo/bar/$NOW`.
 and communicates with user via _notify-send_ (dunst).
 
 - recovery todo
