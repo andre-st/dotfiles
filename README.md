@@ -257,7 +257,7 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 - **Simple**: No special block-level patching magic and no extra-repository to corrupt 
 
 ```mermaid
-graph TD
+flowchart TD
 
 	udev("/etc/udev/rules.d/999-mybackup.rules")
 	service("/usr/lib/systemd/system/mybackup.service")
@@ -265,10 +265,10 @@ graph TD
 	mount("systemd-cryptsetup && mount /mnt/backup")
 	rsync("rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest")
 
-	udev -->service
-	service --> sh
-	sh --> mount
-	mount --> rsync	
+	udev-- disk attached -->service
+	service-->sh
+	sh-->mount
+	mount-->rsync	
 ```
 
 
