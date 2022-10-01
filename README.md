@@ -265,7 +265,7 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
   usually pre-installed tools
 
 
-Basically, it works like this:
+Basically, it is set up like this:
 ```mermaid
 flowchart TD
 
