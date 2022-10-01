@@ -231,8 +231,8 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 	few deps and a treemap-esque display which is easier to read than the usual nested treemaps
 - Wireshark (or Termshark-TUI)
 - use of statistics or logic software (correlation, plots, ...)
-- dig (dnsutils) is drill (ldns) now
-- netstat (net-tools) is ss (iproute2) now
+- `dig` (dnsutils) is `drill` (ldns) now
+- `netstat` (net-tools) is `ss` (iproute2) now
 
 
 
@@ -257,14 +257,24 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
   No special block-level patching magic and no extra-repository to corrupt 
 
 
-Linux _/etc/udev/rules.d/999-mybackup.rules_ detects disk attachment (I use UUIDs from _/etc/crypttab_), 
-creates _/dev/mybackup_ and 
-triggers (mask-able) _/usr/lib/systemd/system/mybackup.service_, 
-which starts long running _mybackup.sh_, 
-which mounts dm-crypted backup partition via `systemctl start systemd-cryptsetup@$CRYPTNAME && mount "$BACKUP_DIR"`  
-transfers the changes from _/mnt/data_ to the backup 
-via `rsync --backup-dir="$BACKUP_DIR/changed/$NOW"`
-and communicates with user via `notify-send --expire-time=0 "..."` (dunst).
+Linux _/etc/udev/rules.d/999-mybackup.rules_ detect disk attachment (I use UUIDs from _/etc/crypttab_),
+create _/dev/mybackup_ and
+trigger (mask-able) _/usr/lib/systemd/system/mybackup.service_,
+which in turn starts long running _mybackup.sh_ (summarized):
+```sh
+systemctl start systemd-cryptsetup@cryptbackup  && 
+mount /mnt/backup                               &&
+rsync                                           \
+    --backup-dir=/mnt/backup/changed/$NOW       \
+    --...                                       \
+    /mnt/data                                   \
+    /mnt/backup/latest                          &&
+notify-send                                     \
+    --expire-time=0                             \
+    --...                                       \
+    "Backup successful"
+```
+
 
 - recovery todo
 
