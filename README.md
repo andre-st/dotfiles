@@ -256,11 +256,14 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
   it is easier to delete old backups to make room for new backups, too.
 - **Simple**: No special block-level patching magic and no extra-repository to corrupt 
 
+```mermaid
+stateDiagram-v2:
+	/etc/udev/rules.d/999-mybackup.rules --> /usr/lib/systemd/system/mybackup.service: disk attached (/etc/crypttab UUID)
+	/usr/lib/systemd/system/mybackup.service --> mybackup.sh
+	mybackup.sh --> systemd-cryptsetup && mount /mnt/backup
+	systemd-cryptsetup && mount /mnt/backup --> rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest
+```
 
-Linux _/etc/udev/rules.d/999-mybackup.rules_ detect disk attachment (I use UUIDs from _/etc/crypttab_),
-create _/dev/mybackup_ and
-trigger (mask-able) _/usr/lib/systemd/system/mybackup.service_,
-which in turn starts long running _mybackup.sh_.
 
 
 - recovery todo
