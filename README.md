@@ -244,7 +244,7 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
   Convenience ensures that I don't skip backups due to lack of time or laziness
 - I keep backup disks detached so that they cannot be mounted and affected by ransomware. 
   Permanently attached drives are not a backup but extended storage
-- Backup disks are encrypted, which makes losing backups more bearable.
+- Backup disks are encrypted (dm-crypt/LUKS), which makes losing backups more bearable.
   Currently, I don't have offsite backups, though (neither cloud storage backups)
 - The backup process is shown to me with a small permanent notification 
   at the top right edge of the desktop GUI.
@@ -260,20 +260,7 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 Linux _/etc/udev/rules.d/999-mybackup.rules_ detect disk attachment (I use UUIDs from _/etc/crypttab_),
 create _/dev/mybackup_ and
 trigger (mask-able) _/usr/lib/systemd/system/mybackup.service_,
-which in turn starts long running _mybackup.sh_ (summarized):
-```sh
-systemctl start systemd-cryptsetup@cryptbackup  && 
-mount /mnt/backup                               &&
-rsync                                           \
-    --backup-dir=/mnt/backup/changed/$NOW       \
-    --...                                       \
-    /mnt/data                                   \
-    /mnt/backup/latest                          &&
-notify-send                                     \
-    --expire-time=0                             \
-    --...                                       \
-    "Backup successful"
-```
+which in turn starts long running _mybackup.sh_.
 
 
 - recovery todo
