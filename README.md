@@ -270,7 +270,7 @@ flowchart TD
 	service-->sh
 	sh-->mount
 	mount-->rsync
-	rsync->notify
+	rsync-->notify
 ```
 
 
