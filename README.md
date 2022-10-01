@@ -264,11 +264,13 @@ flowchart TD
 	sh("mybackup.sh")
 	mount("systemd-cryptsetup && mount /mnt/backup")
 	rsync("rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest")
+	notify("notify-send --expire-time=0 'Backup successful.'")
 
 	udev-- "disk attached (UUID from /etc/crypttab)" -->service
 	service-->sh
 	sh-->mount
-	mount-->rsync	
+	mount-->rsync
+	rsync->notify
 ```
 
 
