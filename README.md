@@ -268,8 +268,8 @@ Basically, it works like this:
 ```mermaid
 flowchart TD
 
-	udev("/etc/udev/rules.d/999-mybackup.rules (textfile)")
-	service("/usr/lib/systemd/system/mybackup.service (textfile)")
+	udev("/etc/udev/rules.d/999-mybackup.rules")
+	service("/usr/lib/systemd/system/mybackup.service")
 	sh("mybackup.sh")
 	mount("systemctl start systemd-cryptsetup@... <br> && mount /mnt/backup")
 	umount("umount /mnt/backup && <br> systemctl stop systemd-cryptsetup@...")
@@ -281,7 +281,7 @@ flowchart TD
 	sh-- "is single instance" -->mount
 	mount-- "mounted (key from /etc/crypttab)" -->rsync
 	rsync-- "error-free" -->umount
-	umount-->notify
+	umount-- "unmounted" -->notify
 ```
 
 
