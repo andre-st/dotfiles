@@ -251,7 +251,8 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 - **Encrypted:** dm-crypt/LUKS makes offsite backups less risky.
   Currently, I don't have offsite backups in case of fire etc, though 
   (neither cloud storage backups).
-  An encrypted main system with unencrypted backups would also be pointless.
+  An encrypted main system with unencrypted backups would be pointless, too.
+  Keyfile in _/etc/keys/_.
 - **Visible:** The backup process is shown to me with a small permanent notification (_dunst_) 
   at the top right edge of the desktop GUI.
   It also tells me when I can detach the drive again
@@ -271,7 +272,7 @@ flowchart TD
 	udev("/etc/udev/rules.d/99-mybackup.rules")
 	service("/usr/lib/systemd/system/mybackup.service")
 	sh("mybackup.sh")
-	rsync("systemctl start systemd-cryptsetup@... <br> && mount /mnt/backup <br> && rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest <br> && umount ... <br> && systemctl stop ... <br> && notify-send --expire-time=0 ...")
+	rsync("systemctl start systemd-cryptsetup@... <br> && mount /mnt/backup <br> && rsync --backup-dir=/mnt/backup/changed/$NOW --... /mnt/data /mnt/backup/latest <br> && umount ... <br> && systemctl stop ... <br> && notify-send --expire-time=0 'Success' <br>|| notify-send --urgency=critical 'Error'")
 
 	udev-- "disk attached (UUID from /etc/crypttab)" -->service
 	service-->sh
