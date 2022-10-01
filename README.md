@@ -169,6 +169,7 @@ customized key-bindings (Shortcuts), easy-to-remember, centered around left/righ
 | Audio volume              | <kbd>⊞ Win</kbd>+<kbd>M</kbd> to mute  or<br>  <kbd>⊞ Win</kbd>+<kbd>,</kbd><kbd>.</kbd> or<br>  <kbd>⊞ Win</kbd>+<kbd>Ctrl</kbd>+<kbd>Mouse Wheel</kbd>  |
 
 
+
 ### Terminal: _rxvt-unicode_
 
 My approach to long paths or command-line space is a multiline prompt, see [.prompt](manjaro/home/andre/.prompt)
@@ -230,14 +231,8 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 	few deps and a treemap-esque display which is easier to read than the usual nested treemaps
 - Wireshark (or Termshark-TUI)
 - use of statistics or logic software (correlation, plots, ...)
-
-
-Replacements:
-| Old                   | Current Manjaro
-|-----------------------|----------------------------
-| dig (dnsutils)        | drill (ldns)
-| netstat (net-tools)   | ss (iproute2)
-
+- dig (dnsutils) is drill (ldns) now
+- netstat (net-tools) is ss (iproute2) now
 
 
 
@@ -246,30 +241,30 @@ Replacements:
 ![Backup Disk](README-backup.png)
 
 - Backup auto-starts by attaching a known disk drive. 
-  Convenience ensures that I don't skip backups due to lack of time or laziness.
+  Convenience ensures that I don't skip backups due to lack of time or laziness
 - I keep backup disks detached so that they cannot be mounted and affected by ransomware. 
-  Permanently attached drives are not a backup but extended storage.
+  Permanently attached drives are not a backup but extended storage
 - Backup disks are encrypted, which makes losing backups more bearable.
-  Currently, I don't have offsite backups (neither cloud storage backups), though.
+  Currently, I don't have offsite backups, though (neither cloud storage backups)
 - The backup process is shown to me with a small permanent notification 
   at the top right edge of the desktop GUI.
-  It also tells me when I can detach the drive again.
+  It also tells me when I can detach the drive again
 - I create _forever reverse incremental backups_.
   So the most recent restore point is always a full backup, 
   allowing fast recovery if your latest backup isn't already corrupted. 
   In contrast to forward incremental backups, 
   it is easier to delete old backups to make room for new backups, too.
-  No special block-level patching magic and no extra-repository to corrupt. 
+  No special block-level patching magic and no extra-repository to corrupt 
 
 
-Linux _udev_ rule detects disk attachment (I use UUID from /etc/crypttab), 
-creates _/dev/backup_ and 
-triggers _my-backup.service_ systemd-unit, 
-which starts long running _my-backup.sh_, 
-which mounts dm-crypted backup partition, 
+Linux _/etc/udev/rules.d/999-mybackup.rules_ detects disk attachment (I use UUIDs from _/etc/crypttab_), 
+creates _/dev/mybackup_ and 
+triggers (mask-able) _/usr/lib/systemd/system/mybackup.service_, 
+which starts long running _mybackup.sh_, 
+which mounts dm-crypted backup partition via `systemctl start systemd-cryptsetup@$CRYPTNAME && mount "$BACKUP_DIR"`  
 transfers the changes from _/mnt/data_ to the backup 
-via `rsync --backup-dir=foo/bar/$NOW`
-and communicates with user via _notify-send_ (dunst).
+via `rsync --backup-dir="$BACKUP_DIR/changed/$NOW"`
+and communicates with user via `notify-send --expire-time=0 "..."` (dunst).
 
 - recovery todo
 
