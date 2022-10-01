@@ -265,7 +265,7 @@ flowchart TD
 	mount("systemd-cryptsetup && mount /mnt/backup")
 	rsync("rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest")
 
-	udev-- disk attached -->service
+	udev-- disk attached (UUID from /etc/crypttab) -->service
 	service-->sh
 	sh-->mount
 	mount-->rsync	
