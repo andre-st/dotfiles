@@ -269,8 +269,8 @@ flowchart TD
 	udev-- "disk attached (UUID from /etc/crypttab)" -->service
 	service-->sh
 	sh-->mount
-	mount-->rsync
-	rsync-->notify
+	mount-- "mounted" -->rsync
+	rsync-- "error-free" -->notify
 ```
 
 
