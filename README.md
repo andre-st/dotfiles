@@ -241,11 +241,15 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 ![Backup Disk](README-backup.png)
 
 - **Convenient:** Backup auto-starts by attaching a known disk drive. 
-  Convenience ensures that I don't skip backups due to lack of time or laziness
-- **Offline:** I keep backup disks detached so that they cannot be mounted and affected by ransomware. 
+  Convenience ensures that I don't skip backups due to lack of time or laziness.
+  All important data is on a separate partition _/mnt/data_, 
+  which is fully synchronized with the backup 
+- **Offline:** I keep backup disks detached 
+  so that they cannot be mounted and affected by ransomware. 
   Permanently attached drives are not a backup but extended storage
-- **Encrypted:** dm-crypt/LUKS makes losing backups more bearable.
-  Currently, I don't have offsite backups, though (neither cloud storage backups)
+- **Encrypted:** dm-crypt/LUKS makes (offsite) backups less risky.
+  Currently, I don't have offsite backups in case of fire etc, though 
+  (neither cloud storage backups)
 - **Visible:** The backup process is shown to me with a small permanent notification 
   at the top right edge of the desktop GUI.
   It also tells me when I can detach the drive again
@@ -254,7 +258,8 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
   allowing fast recovery if your latest backup isn't already corrupted. 
   In contrast to forward incremental backups, 
   it is easier to delete old backups to make room for new backups, too.
-- **Simple**: No special block-level patching magic and no extra-repository to corrupt 
+- **Simple**: No special block-level patching magic and no extra-repository to corrupt,
+  usually pre-installed tools
 
 ```mermaid
 flowchart TD
