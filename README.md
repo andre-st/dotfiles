@@ -258,11 +258,11 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 
 ```mermaid
 stateDiagram-v2
-	udev["/etc/udev/rules.d/999-mybackup.rules"]
-	service["/usr/lib/systemd/system/mybackup.service"]
+	udev["&frasl;etc&frasl;udev&frasl;rules.d&frasl;999-mybackup.rules"]
+	service["&frasl;usr&frasl;lib&frasl;systemd&frasl;system&frasl;mybackup.service"]
 	sh["mybackup.sh"]
-	mount["systemd-cryptsetup && mount /mnt/backup"]
-	rsync["rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest"]
+	mount["systemd-cryptsetup && mount &frasl;mnt&frasl;backup"]
+	rsync["rsync --backup-dir=&frasl;mnt&frasl;backup&frasl;changed&frasl;$NOW &frasl;mnt&frasl;data &frasl;mnt&frasl;backup&frasl;latest"]
 
 	udev --> service: "disk attached (crypttab UUID)"
 	service --> sh
