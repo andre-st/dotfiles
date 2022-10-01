@@ -257,7 +257,7 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 - **Simple**: No special block-level patching magic and no extra-repository to corrupt 
 
 ```mermaid
-stateDiagram-v2:
+stateDiagram-v2
 	/etc/udev/rules.d/999-mybackup.rules --> /usr/lib/systemd/system/mybackup.service: disk attached (/etc/crypttab UUID)
 	/usr/lib/systemd/system/mybackup.service --> mybackup.sh
 	mybackup.sh --> systemd-cryptsetup && mount /mnt/backup
