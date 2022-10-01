@@ -272,7 +272,7 @@ flowchart TD
 	sh-->mount
 	mount-- "mounted" -->rsync
 	rsync-- "error-free" -->umount
-	rsync-->notify
+	umount-->notify
 ```
 
 
