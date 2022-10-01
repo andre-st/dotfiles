@@ -251,7 +251,7 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
   Currently, I don't have offsite backups in case of fire etc, though 
   (neither cloud storage backups).
   An encrypted main system with unencrypted backups would also be pointless.
-- **Visible:** The backup process is shown to me with a small permanent notification 
+- **Visible:** The backup process is shown to me with a small permanent notification (_dunst_) 
   at the top right edge of the desktop GUI.
   It also tells me when I can detach the drive again
 - **Forever Reverse Incremental Backup:**
@@ -276,7 +276,7 @@ flowchart TD
 	udev-- "disk attached (UUID from /etc/crypttab)" -->service
 	service-->sh
 	sh-->mount
-	mount-- "mounted" -->rsync
+	mount-- "mounted (key from /etc/crypttab)" -->rsync
 	rsync-- "error-free" -->umount
 	umount-->notify
 ```
