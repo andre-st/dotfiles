@@ -243,7 +243,8 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 - **Convenient:** Backup auto-starts by attaching a known disk drive. 
   Convenience ensures that I don't skip backups due to lack of time or laziness.
   All important data is on a separate partition _/mnt/data_, 
-  which is fully synchronized with the backup 
+  with _changes_ being fully synchronized to the backup 
+  at acceptable total running time (minutes)
 - **Offline:** I keep backup disks detached 
   so that they cannot be mounted and affected by ransomware. 
   Permanently attached drives are not a backup but extended storage
@@ -262,11 +263,13 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 - **Simple**: No special block-level patching magic and no extra-repository to corrupt,
   usually pre-installed tools
 
+
+Basically, it works like this:
 ```mermaid
 flowchart TD
 
-	udev("/etc/udev/rules.d/999-mybackup.rules")
-	service("/usr/lib/systemd/system/mybackup.service")
+	udev("/etc/udev/rules.d/999-mybackup.rules (textfile)")
+	service("/usr/lib/systemd/system/mybackup.service (textfile)")
 	sh("mybackup.sh")
 	mount("systemctl start systemd-cryptsetup@... <br> && mount /mnt/backup")
 	umount("umount /mnt/backup && <br> systemctl stop systemd-cryptsetup@...")
