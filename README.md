@@ -240,21 +240,21 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 
 ![Backup Disk](README-backup.png)
 
-- Backup auto-starts by attaching a known disk drive. 
+- **Convenient:** Backup auto-starts by attaching a known disk drive. 
   Convenience ensures that I don't skip backups due to lack of time or laziness
-- I keep backup disks detached so that they cannot be mounted and affected by ransomware. 
+- **Offline:** I keep backup disks detached so that they cannot be mounted and affected by ransomware. 
   Permanently attached drives are not a backup but extended storage
-- Backup disks are encrypted (dm-crypt/LUKS), which makes losing backups more bearable.
+- **Encrypted:** dm-crypt/LUKS makes losing backups more bearable.
   Currently, I don't have offsite backups, though (neither cloud storage backups)
-- The backup process is shown to me with a small permanent notification 
+- **Visible:** The backup process is shown to me with a small permanent notification 
   at the top right edge of the desktop GUI.
   It also tells me when I can detach the drive again
-- I create _forever reverse incremental backups_.
-  So the most recent restore point is always a full backup, 
+- **Forever Reverse Incremental Backup:**
+  The most recent restore point is always a full backup, 
   allowing fast recovery if your latest backup isn't already corrupted. 
   In contrast to forward incremental backups, 
   it is easier to delete old backups to make room for new backups, too.
-  No special block-level patching magic and no extra-repository to corrupt 
+- **Simple**: No special block-level patching magic and no extra-repository to corrupt 
 
 
 Linux _/etc/udev/rules.d/999-mybackup.rules_ detect disk attachment (I use UUIDs from _/etc/crypttab_),
