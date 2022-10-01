@@ -247,9 +247,10 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 - **Offline:** I keep backup disks detached 
   so that they cannot be mounted and affected by ransomware. 
   Permanently attached drives are not a backup but extended storage
-- **Encrypted:** dm-crypt/LUKS makes (offsite) backups less risky.
+- **Encrypted:** dm-crypt/LUKS makes offsite backups less risky.
   Currently, I don't have offsite backups in case of fire etc, though 
-  (neither cloud storage backups)
+  (neither cloud storage backups).
+  An encrypted main system with unencrypted backups would also be pointless.
 - **Visible:** The backup process is shown to me with a small permanent notification 
   at the top right edge of the desktop GUI.
   It also tells me when I can detach the drive again
