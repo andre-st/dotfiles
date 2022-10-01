@@ -243,6 +243,8 @@ Replacements:
 
 ### Backups, Recovery, Continuity
 
+![Backup Disk](README-backup.png)
+
 - Backup auto-starts by attaching a known disk drive. 
   Convenience ensures that I don't skip backups due to lack of time or laziness.
 - I keep backup disks detached so that they cannot be mounted and affected by ransomware. 
@@ -259,8 +261,6 @@ Replacements:
   it is easier to delete old backups to make room for new backups, too.
   No special block-level patching magic and no extra-repository to corrupt. 
 
-
-![Backup Disk](README-backup.png)
 
 Linux _udev_ rule detects disk attachment (I use UUID from /etc/crypttab), 
 creates _/dev/backup_ and 
