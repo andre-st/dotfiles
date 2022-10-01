@@ -265,7 +265,7 @@ graph TD
 	mount("systemd-cryptsetup && mount /mnt/backup")
 	rsync("rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest")
 
-	udev-- disk attached (crypttab UUID) -->service
+	udev -->service
 	service --> sh
 	sh --> mount
 	mount --> rsync	
