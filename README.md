@@ -262,9 +262,9 @@ flowchart TD
 	udev("/etc/udev/rules.d/999-mybackup.rules")
 	service("/usr/lib/systemd/system/mybackup.service")
 	sh("mybackup.sh")
-	mount("systemctl start systemd-cryptsetup@... && <br> mount /mnt/backup")
+	mount("systemctl start systemd-cryptsetup@... <br> && mount /mnt/backup")
 	umount("umount /mnt/backup && <br> systemctl stop systemd-cryptsetup@...")
-	rsync("rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest")
+	rsync("rsync --backup-dir=/mnt/backup/changed/$NOW <br> /mnt/data /mnt/backup/latest")
 	notify("notify-send --expire-time=0 'Backup successful. Disconnect device.'")
 
 	udev-- "disk attached (UUID from /etc/crypttab)" -->service
