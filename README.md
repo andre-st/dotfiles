@@ -272,7 +272,7 @@ flowchart TD
 	udev("/etc/udev/rules.d/99-mybackup.rules")
 	service("/usr/lib/systemd/system/mybackup.service")
 	sh("mybackup.sh")
-	rsync("systemctl start systemd-cryptsetup@... <br> && mount /mnt/backup <br> && rsync --backup-dir=/mnt/backup/changed/$NOW --... /mnt/data /mnt/backup/latest <br> && umount ... <br> && systemctl stop ... <br> && notify-send --expire-time=0 'Success' <br>|| notify-send --urgency=critical 'Error'")
+	rsync("systemctl start systemd-cryptsetup@... <br> && mount /mnt/backup <br> && rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest <br> && umount ... && systemctl stop ... <br> && notify-send --expire-time=0 'Success' <br>|| notify-send --urgency=critical 'Error'")
 
 	udev-- "disk attached (UUID from /etc/crypttab)" -->service
 	service-->sh
