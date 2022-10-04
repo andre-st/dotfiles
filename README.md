@@ -274,6 +274,7 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 
 ![Backup Disk](README-backup.png)
 
+Basically, it is set up like this:
 ```mermaid
 flowchart TD
 
@@ -384,13 +385,15 @@ $ systemctl enable --now systemd-timesyncd.service
 	My time of listening differs significantly from the time of downloading, 
 	so many unheard podcasts etc accumulate.
 	MOC function keys can be configured to run any program:
-		- <kbd>F4</kbd> [moves audios &gt; 14 minutes](https://gist.github.com/andre-st/5d17372e6d209d792860db2636665bbd) 
-			to `~/Downloads/mp3/[F4]-longer/` 
-			because I want to separate short audios from long ones (and MOC cannot sort by audio length)
-		- <kbd>F6</kbd> moves heard, archive-worthy audios 
-			to `~/Downloads/mp3/[F6]-archive/` 
-			until I have time to sort them better
-		- <kbd>F8</kbd> delete file
+
+	- <kbd>F4</kbd> [moves audios &gt; 14 minutes](https://gist.github.com/andre-st/5d17372e6d209d792860db2636665bbd) 
+		to `~/Downloads/mp3/[F4]-longer/` 
+		because I want to separate short audios from long ones (and MOC cannot sort by audio length)
+	- <kbd>F6</kbd> moves heard, archive-worthy audios 
+		to `~/Downloads/mp3/[F6]-archive/` 
+		until I have time to sort them better
+	- <kbd>F8</kbd> delete file
+
 	I don't use metadata-based media libraries but am 1:1 with the file system.
 	Proper filenames, unlike metadata containers, 
 	can be viewed, searched, sorted etc with almost any program in any context (e.g. SFTP).
