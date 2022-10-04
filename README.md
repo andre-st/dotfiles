@@ -18,12 +18,21 @@
 ### 2007–2022: Slackware
 
 At home, I use hardware that is 2–10 years behind the bleeding edge, 
-good enough for my software dev, administration, modeling, documentation, web-surfing or illustration demands.
+good enough for my 
+software dev, 
+administration, 
+modeling, 
+documentation, 
+web-surfing or 
+illustration demands.
 I'm not a gamer, video cutter, trader or NOC/SOC operator. 
 
 Volkerding's Slackware Linux has been my main operating system for over 15 years (after Windows and DOS).
 It allows for a very customizable scope of installation and I install it relatively lightly.
-The distribution follows a [KISS](https://en.wikipedia.org/wiki/KISS_principle) philosophy—not that GUI helper tools hide everything but rather doing more with less and doing it explicit (less delegations or abstractions).
+The distribution follows a [KISS](https://en.wikipedia.org/wiki/KISS_principle) philosophy—not 
+that GUI helper tools hide everything 
+but rather doing more with less 
+and doing it explicit (less delegations or abstractions).
 It uses [vanilla](https://en.wikipedia.org/wiki/Vanilla_software) packages (less issues from distro specific patches)
 and BSD-style init.
 
@@ -32,20 +41,27 @@ in Slackware you don't have to deal with a lot of superstructure, safety nets, e
 Rather you learn more about how Linux is basically put together. 
 Everything is glued together with well-commented shell scripts and other text-files 
 = transparent, grep-able and easy to edit.
-Even what looks like larger ncurses tools are usually just shell scripts that call the [dialog](https://linuxcommand.org/lc3_adv_dialog.php) binary.  
+Even what looks like larger ncurses tools are usually just shell scripts 
+that call the [dialog](https://linuxcommand.org/lc3_adv_dialog.php) binary.  
 
 
 ### 2022–today: Manjaro-i3-Minimal
 
 My primary computer is not a PC-tower anymore but a Fujitsu Esprimo mini-PC (∅5–15W) 
-because it runs ∅17h/7d in my ~~mid-pandemic pre-energy-war~~ post-pandemic energy-war German home office and I want to reduce electricity cost. 
+because it runs ∅17h/7d in my ~~mid-pandemic pre-energy-war~~ post-pandemic energy-war German home office 
+and I want to reduce electricity cost. 
 The eliminated computer noise is a nice plus.
 Hard disk drives are no longer running there, only 16 GB + 1 TB semiconductor memory, 
 which noticeably accelerate the entire system in everyday work 
 beyond any processor improvement.
 
-When I ran into NVMe-UEFI-ELiLo issues during the Slackware installation, I tried other modern distributions to find out if it's a fundamental problem or what they do differently. 
-But the out-of-the-box experience and the opportunity to re-familiarize yourself with more widely adopted concepts was seductive, and I will give _Manjaro-i3-Minimal_ a longer try, now.
+When I ran into NVMe-UEFI-ELiLo issues during the Slackware installation, 
+I tried other modern distributions 
+to find out if it's a fundamental problem 
+or what they do differently. 
+But the out-of-the-box experience 
+and the opportunity to re-familiarize yourself with more widely adopted concepts was seductive, 
+and I will give _Manjaro-i3-Minimal_ a longer try, now.
 
 ![Screenshot](README-minipc.jpg)
 
@@ -62,7 +78,8 @@ Before UEFI _Secure Boot_,
 I protected the unencrypted boot partition (kernel, initrd, lilo) 
 against tampering by carrying it around on a bootable 
 sturdy USB stick.
-Aside from the fact that I don't need that paranoia level (on par with hardware keyloggers and spycams), 
+Aside from the fact that I don't need that paranoia level 
+(on par with hardware keyloggers and spycams), 
 it also felt a bit fragile 
 and would theoretically make it possible to bring malicious code directly to my computer _via myself_ 
 in the (unlikely) event that I lose sight of the stick for a longer time.
@@ -83,7 +100,8 @@ Data usually live longer than their applications and computers.
 
 ![Screenshot](README-notion.png)
 
-I used to have two monitors for a long time. Now there is only a single 24-inch office EIZO monitor.
+I used to have two monitors for a long time. 
+Now there is only a single 24-inch office EIZO monitor.
 I think it helps me to focus and maybe reduce electricity bills (∅10 W).
 My larger television is connected as a second output device, 
 but I usually don't use it for work. 
@@ -91,27 +109,38 @@ but I usually don't use it for work.
 Dark flat design theme (so that I don't look into a bright lamp for many hours), 
 no full-blown desktop environment, 
 preferably keyboard-friendly and tidy text-based UI.
-A TUI usually lacks _decorative animations_ or "seductive details" that help with the first impression of a product or "software sympathy". Though, it might show _informative animations_ that communicate functionality or responsiveness.
+A TUI usually lacks _decorative animations_ or "seductive details" 
+that help with the first impression of a product or "software sympathy". 
+Though, it might show _informative animations_ 
+that communicate functionality or responsiveness.
 
 A background image would indicate bad use of my screen estate.
 
-I use _workspaces_ a lot as they reduce window confusion, reduce the distance to reach specific windows
+I use _workspaces_ a lot 
+as they reduce window confusion, 
+reduce the distance to reach specific windows
 and provide different tiles layouts used earlier (Notion feature).
 
-_Notion_ is a fork of the discontinued _Ion3_ tiling tabbed static window manager (Not-Ion) that I was using the years before 
+_Notion_ is a fork of the discontinued _Ion3_ tiling tabbed static window manager (Not-Ion) 
+that I was using the years before 
 and it differs from other _dynamic_ tiling window managers 
-in that it does not automatically resize and move around tiles as windows appear and disappear.
+in that it does not automatically resize and move around tiles 
+as windows appear and disappear.
 
-A "dumb" static distraction-free _100% predictable_ user interface (as opposed to a "smart" UI with 1% uncertainty) 
-facilitates _habit formation_ and _semi-automatic execution_ (so called "unconscious competence"): 
+A "dumb" static distraction-free _100% predictable_ user interface 
+(as opposed to a "smart" UI with 1% uncertainty) 
+facilitates _habit formation_ and _semi-automatic execution_ 
+(so called "unconscious competence"): 
 You are faster and have your mind free for other things.
-Conversely, even a small amount of unpredictability demands disproportionately more attention for fear of mistakes.  
+Conversely, even a small amount of unpredictability 
+demands disproportionately more attention for fear of mistakes.  
 No interface &gt; static interface &gt; smart interface
 
 Slackware runs the _Xorg_ display server:
 - NVIDIA-Linux-x86\_64-390.116.run
 - todo: 
-	either start permanently via runlevel 5 in `/etc/inittab` (and temporarily stay in the console at start by adding a runlevel number at the lilo boot prompt)
+	either start permanently via runlevel 5 in `/etc/inittab` 
+	(and temporarily stay in the console at start by adding a runlevel number at the lilo boot prompt)
 	versus calling `startx` in `.bash_profile` for the _first_ tty 
 	(and temporarily stay in the console at start by switching to a different tty via <kbd>Alt</kbd>+<kbd>F2</kbd> at login)
 	versus typing `startx` everytime after login in an already open console
@@ -135,17 +164,16 @@ Slackware runs the _Xorg_ display server:
 
 ### Input Devices & Bindings
 
-I'm using a full-size mechanical keyboard (Cherry MX Blue switches) 
-and a free-spinning scroll wheel mouse.
-I keep thinking about foot pedals, but I haven't come up with a really good use case (push-to-talk, potentiometer to zoom in/out of Gimp, ?).
-Voice interfaces would contribute to noise pollution.
-
-[Xmodmap-customized US-keyboard layout](manjaro/home/andre/.Xmodmap-cherry-g803000lsceu0) with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc.
+- full-size mechanical keyboard (Cherry MX Blue switches) 
+- free-spinning scroll wheel mouse
+- I keep thinking about foot pedals, but I haven't come up with a really good use case (push-to-talk, potentiometer to zoom in/out of Gimp, ?)
+- Voice interfaces would contribute to noise pollution.
+- [Xmodmap-customized US-keyboard layout](manjaro/home/andre/.Xmodmap-cherry-g803000lsceu0) with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc.
 I have mapped the first level of the numeric keypad to function keys, thus shorter distances from the cursor keys to the function keys with the right hand, e.g. delete (F8) in the Midnight Commander.
+- window-'focus follows mouse' mode (perfect for tiling WM, not so for stacking/floating WM)
 
-window-'focus follows mouse' mode (perfect for tiling WM, not so for stacking/floating WM)
 
-customized key-bindings (Shortcuts), easy-to-remember, centered around left/right "window manager" <kbd>⊞ Win</kbd> key and arrow keys area on a full-size or tenkeyless keyboard:  
+Customized key-bindings (Shortcuts), easy-to-remember, centered around left/right "window manager" <kbd>⊞ Win</kbd> key and arrow keys area on a full-size or tenkeyless keyboard:  
 
 | WM Action                 | Shortcut Notion | Shortcut\_i3_(2022\_today)
 |---------------------------|-----------------|------------------------
@@ -179,25 +207,30 @@ My approach to long paths or command-line space is a multiline prompt, see [.pro
 $ cd irssi
 ------------------------------------------------------------------------ ...
 71   13:08:15   andre   ~/source/private/app/irssi (master)
-$ ls -l
-insgesamt 128
--rw------- 1 andre datausers 35147  3. Jul 2018  LICENSE
--rw------- 1 andre datausers    48  4. Apr 2018  AUTHORS.md
--rw------- 1 andre datausers  2897  2. Sep 2018  README.md
--rw------- 1 andre datausers 25194 27. Dez 2017  jalso.ods
--rw------- 1 andre datausers  9647  2. Sep 2018  jalso.pl
--rw------- 1 andre datausers  4573  4. Aug 2011  osd.a.pl
--rw------- 1 andre datausers  5339  2. Sep 2018  osd.pl
--rw------- 1 andre datausers  5435 27. Dez 2017  jalso-20101127.png
--rw------- 1 andre datausers 15002  3. Jul 2018  osd-20110213.png
--rw------- 1 andre datausers   409 17. Mai 2018  GITHUB.txt
+$ ls -la
+insgesamt 144
+-rw-------  1 andre datausers 35147  3. Jul 2018  LICENSE
+drwx------  3 andre datausers  4096 14. Feb 2022  .
+drwx------ 29 andre datausers  4096 21. Mär 2022  ..
+drwx------  8 andre datausers  4096  3. Okt 2019  .git
+-rw-------  1 andre datausers    30  4. Apr 2018  .gitignore
+-rw-------  1 andre datausers    48  4. Apr 2018  AUTHORS.md
+-rw-------  1 andre datausers  2897  2. Sep 2018  README.md
+-rw-------  1 andre datausers 25194 27. Dez 2017  jalso.ods
+-rw-------  1 andre datausers  9647  2. Sep 2018  jalso.pl
+-rw-------  1 andre datausers  4573  4. Aug 2011  osd.a.pl
+-rw-------  1 andre datausers  5339  2. Sep 2018  osd.pl
+-rw-------  1 andre datausers  5435 27. Dez 2017  jalso-20101127.png
+-rw-------  1 andre datausers 15002  3. Jul 2018  osd-20110213.png
+-rw-------  1 andre datausers   409 17. Mai 2018  GITHUB.txt
 ------------------------------------------------------------------------ ...
 72   13:08:16   andre   ~/source/private/app/irssi (master)
 $
 ```
 ([YouTube](https://www.youtube.com/watch?v=_UG-0mt2UQo))
 
-The font size of the current terminal can be changed via a keyboard shortcut, without having to exit the terminal: 
+The font size of the current terminal can be changed via a keyboard shortcut, 
+without having to exit the terminal: 
 see [urxvt-font-size extension](https://github.com/majutsushi/urxvt-font-size) for rxvt-unicode 
 and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 
@@ -219,9 +252,10 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 - [sysdig](https://github.com/draios/sysdig), csysdig:
 	intuitive integration of strace + tcpdump + htop + iftop + lsof + ... (the founder was co-creator of WireShark too)
 - [lnav](https://lnav.org/features):
-	merges multiple log files in one view for timeline analysis, 
-	automatically marks error words, histogram, 
-	logfile format detection + sqlite-queries (count IPs or requests per day etc + ANSI bar chart), many more
+	merges multiple log files in one view for timeline analysis (coherent events), 
+	automatically marks and jumps to error words, histogram, 
+	logfile format detection, sqlite-queries (e.g. count IPs or requests per day + ANSI bar chart), 
+	many more
 - stress / stress-ng: 
 	stress-test system, e.g., increase CPU temperature to check system's thermal management
 - [mtr / mtr-tiny](https://github.com/traviscross/mtr): 
@@ -236,15 +270,28 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 
 
 
-### Backups, Recovery, Continuity
+### Backups, Recovery, Continuity: _rsync_
 
 ![Backup Disk](README-backup.png)
+
+```mermaid
+flowchart TD
+
+	udev("/etc/udev/rules.d/99-mybackup.rules")
+	service("/usr/lib/systemd/system/mybackup.service")
+	sh("mybackup.sh")
+	rsync("notify-send ...<br>systemctl ... systemd-cryptsetup@cryptbackup <br> rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest <br> ...")
+
+	udev-- "disk attached (UUID from /etc/crypttab)" -->service
+	service-->sh
+	sh-- "is single instance" -->rsync
+```
 
 - **Convenient:** Backup auto-starts by attaching a known disk drive. 
   Convenience ensures that I don't skip backups due to lack of time or laziness.
   All important data is on a separate partition _/mnt/data_, 
-  with _changes_ being fully synchronized to the backup 
-  at acceptable total running time (minutes)
+  with _changes_ being fully synchronized onto the backup 
+  at acceptable total running times (minutes)
 - **Offline:** I keep backup disks detached 
   so that they cannot be mounted and affected by ransomware. 
   Permanently attached drives are not a backup but extended storage
@@ -263,23 +310,6 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
   it is easier to delete old backups to make room for new backups, too.
 - **Simple**: No special block-level patching magic and no extra-repository to corrupt,
   usually pre-installed tools
-
-
-Basically, it is set up like this:
-```mermaid
-flowchart TD
-
-	udev("/etc/udev/rules.d/99-mybackup.rules")
-	service("/usr/lib/systemd/system/mybackup.service")
-	sh("mybackup.sh")
-	rsync("notify-send ...<br>systemctl ... systemd-cryptsetup@cryptbackup <br> rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest <br> ...")
-
-	udev-- "disk attached (UUID from /etc/crypttab)" -->service
-	service-->sh
-	sh-- "is single instance" -->rsync
-```
-
-
 
 - recovery todo
 
@@ -316,10 +346,15 @@ $ pkgfile -v -b <TOOLNAME>
 
 
 ### Security
-- patching (see above)
 - todo
+- patching (see above)
+- ad-blocker (_Malvertising_ can also affect users who never click on ads);
+	I currently only use it in the browser. 
+	Host-file-based blocks or Pi-hole, however,
+	would also protect other (less secure) programs and devices that embed ads
 - KeePassXC for time-based one-time password (TOTP) generation (system time sync required), 
   zbarimg for QR code scanning
+
 
 
 ### Time Synchronization
@@ -329,7 +364,6 @@ $ systemctl status ntpd.service               # was disabled
 $ systemctl status systemd-timesyncd.service  # prefered over ntpd.service
 $ systemctl enable --now systemd-timesyncd.service
 ```
-
 
 
 
@@ -345,21 +379,23 @@ $ systemctl enable --now systemd-timesyncd.service
 	I often use directories with a leading underscore to make them stand out as "meta" dirs and to let them sort to the top in a file list.
 - [mpv](https://github.com/mpv-player/mpv) video player (called via mc)
 - youtube-dl to download video from YouTube and other websites; 
-	for example, I download _blob:_ videos using the m3u8-URL found via browser's devtools network activity view (F12)
+	for example, it downloads _blob:_ videos using the m3u8-URL found via browser's devtools network activity view (F12)
 - [Music on Console](https://en.wikipedia.org/wiki/Music_on_Console) audio player:
 	My time of listening differs significantly from the time of downloading, 
 	so many unheard podcasts etc accumulate.
-	Unfortunately, this player does not sort by audio length.
-	Since I only want to separate short audio files from long ones, 
-	[a script](https://gist.github.com/andre-st/5d17372e6d209d792860db2636665bbd) sorts everything &gt; 14 minutes into a subfolder named `[F4]-longer`.
-	MOC function keys can be configured to run any program.
-	So I delete files via <kbd>F8</kbd> or move audios to subfolders such as `[F6]-archive` by pressing the <kbd>F6</kbd> key in MOC.
-	The directory name appears like this in MOC and reminds me of the corresponding key (it's not _convention over configuration_).
+	MOC function keys can be configured to run any program:
+		- <kbd>F4</kbd> [moves audios &gt; 14 minutes](https://gist.github.com/andre-st/5d17372e6d209d792860db2636665bbd) 
+			to `~/Downloads/mp3/[F4]-longer/` 
+			because I want to separate short audios from long ones (and MOC cannot sort by audio length)
+		- <kbd>F6</kbd> moves heard, archive-worthy audios 
+			to `~/Downloads/mp3/[F6]-archive/` 
+			until I have time to sort them better
+		- <kbd>F8</kbd> delete file
 	I don't use metadata-based media libraries but am 1:1 with the file system.
 	Proper filenames, unlike metadata containers, 
 	can be viewed, searched, sorted etc with almost any program in any context (e.g. SFTP).
 	I've also tried the well-made [cmus](https://github.com/cmus/cmus) and a couple of MPD clients, 
-	but I work more fluently with MOC.
+	but I work more fluently with MOC
 - [EasyEffects](https://github.com/wwmm/easyeffects) sound-quality tool:
 	Manjaro (today): Pipewire + EasyEffects (formerly PulseEffects) + EQ presets, volume normalizer etc somewhere from GitHub (todo)
 	(earlier on Slackware: PulseAudio Multiband EQ).
