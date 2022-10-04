@@ -51,7 +51,7 @@ My primary computer is not a PC-tower anymore but a Fujitsu Esprimo mini-PC (∅
 because it runs ∅17h/7d in my ~~mid-pandemic pre-energy-war~~ post-pandemic energy-war German home office 
 and I want to reduce electricity cost. 
 The eliminated computer noise is a nice plus.
-Hard disk drives are no longer running there, only 16 GB + 1 TB semiconductor memory, 
+Except for backups, no hard disk drives are running there anymore, only 16 GB + 1 TB semiconductor memory, 
 which noticeably accelerate the entire system in everyday work 
 beyond any processor improvement.
 
@@ -288,7 +288,7 @@ flowchart TD
 	sh-- "is single instance" -->rsync
 ```
 
-- **Convenient:** Backup auto-starts by attaching a known disk drive. 
+- **Convenient:** Backup auto-starts by attaching a known disk drive (via _udev_ device manager).
   Convenience ensures that I don't skip backups due to lack of time or laziness.
   All important data is on a separate partition _/mnt/data_, 
   with _changes_ being fully synchronized onto the backup 
@@ -310,7 +310,7 @@ flowchart TD
   In contrast to forward incremental backups, 
   it is easier to delete old backups to make room for new backups, too.
 - **Simple**: No special block-level patching magic and no extra-repository to corrupt,
-  usually pre-installed tools
+  tools usually pre-installed
 
 - recovery todo
 
@@ -350,7 +350,7 @@ $ pkgfile -v -b <TOOLNAME>
 - todo
 - patching (see above)
 - ad-blocker (_Malvertising_ can also affect users who never click on ads);
-	I currently only use it in the browser. 
+	I currently only use it [in the browser](#web-browser). 
 	Host-file-based blocks or Pi-hole, however,
 	would also protect other (less secure) programs and devices that embed ads
 - KeePassXC for time-based one-time password (TOTP) generation (system time sync required), 
@@ -392,7 +392,7 @@ $ systemctl enable --now systemd-timesyncd.service
 	- <kbd>F6</kbd> moves heard, archive-worthy audios 
 		to `~/Downloads/mp3/[F6]-archive/` 
 		until I have time to sort them better
-	- <kbd>F8</kbd> delete file
+	- <kbd>F8</kbd> deletes file
 
 	I don't use metadata-based media libraries but am 1:1 with the file system.
 	Proper filenames, unlike metadata containers, 
