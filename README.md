@@ -444,7 +444,7 @@ $ systemctl enable --now systemd-timesyncd.service
 
 I'm not a big video gamer anymore and prefer dedicated hardware for working and gaming 
 (ie consoles with minimal maintenance and games just working).
-So there are no games on the PC.
+So there are no games on my economic PCs.
 
 In my childhood, middle and late adolescence I played a lot of video games, 
 sometimes on my own systems (GB, CPC, C64, PC), 
