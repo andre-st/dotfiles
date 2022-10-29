@@ -450,10 +450,9 @@ In my childhood, middle and late adolescence I played a lot of video games,
 sometimes on my own systems (GB, CPC, C64, PC), 
 sometimes with friends/cousins (C64, Megadrive, Game Gear, PS, NES, PC) or 
 in a youth club (C64, NES). 
-Then there was a long PC-only phase without any games.
-By the time I turned 40, I'd bought a handheld console again.
+Then there was a decade long PC-only phase without any games.
 
-Couple of titles that I remember better (apparently liked adventures and platformers in particular):
+Couple of better titles that I remember (apparently liked adventures and platformers in particular):
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
