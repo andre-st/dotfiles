@@ -167,7 +167,8 @@ Slackware runs the _Xorg_ display server:
 - full-size mechanical keyboard (Cherry MX Blue switches) 
 - free-spinning scroll wheel mouse
 - I keep thinking about foot pedals, but I haven't come up with a really good use case (push-to-talk, potentiometer to zoom in/out of Gimp, ?)
-- Voice interfaces would contribute to noise pollution.
+- voice interfaces would contribute to noise pollution
+- touch interfaces lack tactile feedback (sound/vibration isn't same) and fingers hide part of the screen; apart from smartphones, the hand position is unnatural
 - [Xmodmap-customized US-keyboard layout](manjaro/home/andre/.Xmodmap-cherry-g803000lsceu0) with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc.
 I have mapped the first level of the numeric keypad to function keys, thus shorter distances from the cursor keys to the function keys with the right hand, e.g. delete (F8) in the Midnight Commander.
 - window-'focus follows mouse' mode (perfect for tiling WM, not so for stacking/floating WM)
@@ -439,6 +440,30 @@ $ systemctl enable --now systemd-timesyncd.service
 | private         | 
 
 
+### Gaming
+
+In my childhood and adolescence I played a lot of video games, 
+sometimes on my own consoles and PCs, 
+sometimes with friends or in a youth club. 
+But then there was a long PC phase without any games and I keep it that way. 
+By the time I turned 40, I'd still bought a handheld console again 
+for when I feel like turning off all other devices
+and clearing my mind of a thousand thoughts by concentrating on one fun thing.
+
+
+| Platform / Time | 1990s | 2000s | 2010s | 2020s |
+|-----------------|-------|-------|-------|-------|
+| Gameboy         | Super Mario Land 3: Wario Land <br> Kung-Fu Master <br> Gargoyle's Quest <br> Duck Tales <br> Tiny Toon Adventures 2 <br> Ferrari Grand Prix Challenge <br> Amazing Spider-Man 2 <br> Rescue of Princess Blobette <br> Cool World <br> Who Framed Roger Rabbit <br> Kirby's Dream Land | - | - | -
+| Amstrad CPC     | Kung-Fu Master <br> Tornado Low Level <br> Winter Sports <br> Bomb Jack <br> Airwolf <br> Cyrus Chess II | - | - | -
+| (S)NES          | Giana Sisters <br> (Super) Mario Bros. <br> Kid Icarus <br> Arcade NBA Jam ... | Star Fox | - | -
+| C64             | Last Ninja <br> ... | - | - | -
+| Sega MS/MD/GG   | Ecco the Dolphin <br> Sonic <br> Jurassic Park <br> Terminator <br> ... | - | - | -
+| PC              | Mortal Combat <br> Darker <br> Shufflepuck Cafe <br> Battle Chess <br> QBASIC Gorillas <br> Bifi Roll Action in Hollywood <br> Dune <br> Stunts <br> Wolfenstein 3D <br> Battle Arena Toshinden <br> Indiana Jones Last Crusade <br> Indiana Jones Fate of Atlantis <br> Monkey Island 2 <br> Sam & Max Hit the Road <br> Full Throttle <br> Aces of the Deep <br> Tomb Raider 1, 2<br> Virtual Pool <br> Destruction Derby <br> Carmageddon <br> Phantasmagoria <br> Half-Life <br> ... | MDK <br> Cave World Saga (H&ouml;hlenweltsaga) <br> Moto Racer 1 <br> Need for Speed 3 <br> Baphomets Fluch 2 <br> Deadly Tide <br> Frogger <br> Virtua Cop <br> Grand Theft Auto <br> Star Wars Rebel Assault <br> Oddworld <br> Road Rash <br> Commandos: Behind Enemy Lines <br> Heart of Darkness <br> Crusader No Remorse <br> Beneath a Steel Sky <br> Street Figher 2 <br> Day of the Tentacle <br> MagaRace 1, 2 <br> Cyberia <br> FX Fighter <br> Bad Mojo Redux <br> Normality <br> Shellshock <br> Leisure Suit Larry <br> ... | - | -
+| PlayStation     | - | ... | - | -
+| Switch Lite     | - | - | - | VirtuaVerse <br> Blasphemous <br> The Way <br> Metroid Dread <br> TT Isle of Man 2 <br> Zelda Breath of the Wild
+
+
+
 ### Other
 
 - [Zathura](https://pwmt.org/projects/zathura/): keyboard-friendly, dark-mode, fast PDF-reader
@@ -493,6 +518,7 @@ I prefer emails and upfront arranged phone calls.
 ## Virtualization, Emulation
 - [QEMU](https://github.com/qemu/qemu), virt-manager, dosbox
 - one of the free Microsoft Windows [IE/Edge VM images](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) (no installation needed)
+- somewhat outdated but free macOS image (High Sierra, ...)
 
 
 
