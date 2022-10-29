@@ -442,24 +442,23 @@ $ systemctl enable --now systemd-timesyncd.service
 
 ### Gaming
 
-In my childhood and adolescence I played a lot of video games, 
-sometimes on my own consoles and PCs, 
-sometimes with friends or in a youth club. 
-But then there was a long PC phase without any games and I keep it that way. 
-By the time I turned 40, I'd still bought a handheld console again 
-for when I feel like turning off all other devices
-and clearing my mind of a thousand thoughts by concentrating on one fun thing.
+In my childhood, middle and late adolescence I played a lot of video games, 
+sometimes on my own systems (GB, CPC, C64, PC), 
+sometimes with friends/cousins (C64, Megadrive, Game Gear, PS, NES, PC) or 
+in a youth club (C64, NES). 
+Then there was a long PC phase without any games and I keep it that way. 
+By the time I turned 40, I'd still bought a handheld console again :) 
 
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s |
 |-----------------|-------|-------|-------|-------|
 | Gameboy         | Super Mario Land 3: Wario Land <br> Kung-Fu Master <br> Gargoyle's Quest <br> Duck Tales <br> Tiny Toon Adventures 2 <br> Ferrari Grand Prix Challenge <br> Amazing Spider-Man 2 <br> Rescue of Princess Blobette <br> Cool World <br> Who Framed Roger Rabbit <br> Kirby's Dream Land | - | - | -
 | Amstrad CPC     | Kung-Fu Master <br> Tornado Low Level <br> Winter Sports <br> Bomb Jack <br> Airwolf <br> Cyrus Chess II | - | - | -
-| (S)NES          | Giana Sisters <br> (Super) Mario Bros. <br> Kid Icarus <br> Arcade NBA Jam ... | Star Fox | - | -
+| (S)NES          | Giana Sisters <br> (Super) Mario Bros. <br> Kid Icarus <br> Arcade NBA Jam <br> ... | Star Fox | - | -
 | C64             | Last Ninja <br> ... | - | - | -
 | Sega MS/MD/GG   | Ecco the Dolphin <br> Sonic <br> Jurassic Park <br> Terminator <br> ... | - | - | -
 | PC              | Mortal Combat <br> Darker <br> Shufflepuck Cafe <br> Battle Chess <br> QBASIC Gorillas <br> Bifi Roll Action in Hollywood <br> Dune <br> Stunts <br> Wolfenstein 3D <br> Battle Arena Toshinden <br> Indiana Jones Last Crusade <br> Indiana Jones Fate of Atlantis <br> Monkey Island 2 <br> Sam & Max Hit the Road <br> Full Throttle <br> Aces of the Deep <br> Tomb Raider 1, 2<br> Virtual Pool <br> Destruction Derby <br> Carmageddon <br> Phantasmagoria <br> Half-Life <br> ... | MDK <br> Cave World Saga (H&ouml;hlenweltsaga) <br> Moto Racer 1 <br> Need for Speed 3 <br> Baphomets Fluch 2 <br> Deadly Tide <br> Frogger <br> Virtua Cop <br> Grand Theft Auto <br> Star Wars Rebel Assault <br> Oddworld <br> Road Rash <br> Commandos: Behind Enemy Lines <br> Heart of Darkness <br> Crusader No Remorse <br> Beneath a Steel Sky <br> Street Figher 2 <br> Day of the Tentacle <br> MagaRace 1, 2 <br> Cyberia <br> FX Fighter <br> Bad Mojo Redux <br> Normality <br> Shellshock <br> Leisure Suit Larry <br> ... | - | -
-| PlayStation     | - | ... | - | -
+| PlayStation     | - | Tekken <br> ... | - | -
 | Switch Lite     | - | - | - | VirtuaVerse <br> Blasphemous <br> The Way <br> Metroid Dread <br> TT Isle of Man 2 <br> Zelda Breath of the Wild
 
 
