@@ -453,7 +453,7 @@ Currently, I prefer dedicated HW for working and gaming.
 
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
-|-----------------|-------|-------|-------|-------|----------
+|-----------------|-------|-------|-------|-------
 | Game Boy        | &starf; Super Mario Land 3: Wario Land <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&starf; Duck Tales <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... | - | - | - 
 | Amstrad CPC     | &bull; Kung-Fu Master <br>&bull; Tornado Low Level <br>&bull; Winter Sports <br>&bull; Bomb Jack <br>&bull; Airwolf <br>&bull; Cyrus Chess II <br>&bull; ... | - | - | - 
 | (S)NES          | &bull; Giana Sisters <br>&starf; (Super) Mario Bros. <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ... | &bull; Star Fox | - | -  
