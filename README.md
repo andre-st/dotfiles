@@ -452,7 +452,7 @@ sometimes with friends/cousins (C64, Megadrive, Game Gear, PS, NES, PC) or
 in a youth club (C64, NES). 
 Then there was a decade long PC-only phase without any games.
 
-Couple of better titles that I remember (apparently liked adventures and platformers in particular):
+Couple of better titles that I played (apparently liked adventures and platformers in particular):
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
