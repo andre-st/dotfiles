@@ -453,6 +453,8 @@ in a youth club (C64, NES).
 Then there was a long PC-only phase without any games.
 By the time I turned 40, I'd bought a handheld console again.
 
+Couple of titles that I remember better (apparently liked adventures and platformers in particular):
+
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
 | Game Boy        | &starf; Super Mario Land 3: Wario Land <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&starf; Duck Tales <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... | - | - | - 
