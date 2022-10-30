@@ -460,11 +460,11 @@ Couple of better titles that I played (apparently liked adventures and platforme
 | Amstrad CPC     | &bull; Kung-Fu Master <br>&bull; Tornado Low Level <br>&bull; Winter Sports <br>&bull; Bomb Jack <br>&bull; Airwolf <br>&bull; Cyrus Chess II <br>&bull; ... | - | - | - 
 | (S)NES          | &bull; Giana Sisters <br>&starf; (Super) Mario Bros. <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ... | &bull; Star Fox | - | -  
 | C64             | &bull; Last Ninja <br>&bull; ... | - | - | - 
-| Sega MS/MD/GG   | &bull; Ecco the Dolphin <br>&starf; Sonic <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; ... | - | - | - 
+| Sega MS/MD/GG   | &bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&starf; Sonic <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; ... | - | - | - 
 | PC              | &starf; Mortal Combat <br>&bull; Darker <br>&bull; Shufflepuck Cafe <br>&bull; Battle Chess <br>&bull; QBASIC Gorillas <br>&starf; Bifi Roll Action in Hollywood <br>&bull; Dune <br>&bull; Stunts <br>&starf; Wolfenstein 3D <br>&starf; Battle Arena Toshinden <br>&starf; Indiana Jones Last Crusade <br>&starf; Indiana Jones Fate of Atlantis <br>&starf; Monkey Island 2 <br>&starf; Sam & Max Hit the Road <br>&starf; Full Throttle <br>&bull; Aces of the Deep <br>&starf; Tomb Raider 1, 2 <br>&bull; Virtual Pool <br>&bull; Destruction Derby <br>&bull; Carmageddon <br>&bull; Phantasmagoria <br>&bull; Half-Life <br>&bull; ... | &bull; MDK <br>&starf; Cave World Saga (H&ouml;hlenweltsaga) <br>&bull; Moto Racer 1 <br>&bull; Need for Speed 3 <br>&starf; Baphomets Fluch 2 <br>&bull; Deadly Tide <br>&bull; Frogger <br>&bull; Virtua Cop <br>&starf; Grand Theft Auto <br>&bull; Star Wars Rebel Assault <br>&bull; Oddworld <br>&bull; Road Rash <br>&bull; Commandos: Behind Enemy Lines <br>&bull; Heart of Darkness <br>&bull; Crusader No Remorse <br>&bull; Beneath a Steel Sky <br>&bull; Street Figher 2 <br>&bull; Day of the Tentacle <br>&bull; MagaRace 1, 2 <br>&bull; Cyberia <br>&bull; FX Fighter <br>&bull; Bad Mojo Redux <br>&bull; Normality <br>&bull; Shellshock <br>&bull; Leisure Suit Larry <br>&bull; ... | &bull; Far Cry | - 
 | PlayStation     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_
-| Switch Lite     | - | - | - | &starf; VirtuaVerse <br>&bull; Blasphemous <br>&bull; The Way <br>&bull; Metroid Dread <br>&bull; TT Isle of Man 2 <br>&bull; Zelda Breath of the Wild
-
+| Switch Lite     | - | - | - | &starf; VirtuaVerse (DL) <br>&starf; Blasphemous (DL) <br>&starf; The Way (DL) <br>&bull; Metroid Dread <br>&bull; TT Isle of Man 2 <br>&bull; Zelda Breath of the Wild <br>&bull; Hotline Miami Collection <br>&bull; Moto Racer 4 (DL) <br>&bull; Midnight Fight Express (DL) <br>&bull; Sega Ages: Sonic Hedgehog (DL)
+| Cloud Gaming    | - | - | - | - 
 
 
 ### Other
