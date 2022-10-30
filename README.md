@@ -443,16 +443,9 @@ $ systemctl enable --now systemd-timesyncd.service
 ### Gaming
 
 I'm not a big video gamer anymore and prefer dedicated hardware for working and gaming 
-(ie consoles with minimal maintenance and games just working).
-So there are no games on my economic PCs.
-
-In my childhood, middle and late adolescence I played a lot of video games, 
-sometimes on my own systems (GB, CPC, C64, PC), 
-sometimes with friends/cousins (C64, Megadrive, Game Gear, PS, NES, PC) or 
-in a youth club (C64, NES). 
-Then there was a decade long PC-only phase without any games.
-
-Couple of better titles that I played (apparently liked adventures and platformers in particular):
+(ie consoles with minimal maintenance and games just working, independently replaceable, usable in parallel etc).
+So there are no games on my rather economic PCs.  
+Couple of better titles that I played at home, friends/cousins, youth club:
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
