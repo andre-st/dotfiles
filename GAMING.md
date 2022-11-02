@@ -54,17 +54,17 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 	- Yakuza-devs "not cool outsiders elite platform"
 
 - spring sounds in right analogue joystick after few days of using (new device!)
-	- solved without physical disassembly via lifting the stick's dust-lid with scissors 
-	and adding WD40 contact spray and massaging the joystick (some used isopropyl alcohol alternativly)
+	- solved without physical disassembly:
 	```	
           .-------------------.
           '-----.-------.-----'
                  \     /
-                _/_____\_  <----------- lift small rubber dust lid
-     #####\     /       \     /#####
-     ###############################
-     ###############################
-     ###############################
+                _/_____\_  <----------- 1. Lifted the small rubber dust lid with scissors, 
+     #####\     /       \     /#####       there shows a hole to the inside
+     ###############################    2. Added WD40 non-conductive evaporating contact(!) spray
+     ###############################       (others used 90% isopropyl alcohol with less water)
+     ###############################    3. Gave stick a good massage
+     ###############################    4. Repeated a second time
      ###############################
 	```
 
