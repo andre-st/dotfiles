@@ -26,18 +26,22 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 - looks nice 
 - good form factor (I don't like the large handheld mode size of the original switch)
 - lot of games
-- easy eshop ecosystem: eshop cards with 10/25/50 Euro at supermarkets or Amazon to recharge credit, Code-entering via switch or online, buying just a few clicks
+- easy eshop ecosystem: 
+	eshop cards with 10/25/50 Euro at supermarkets or Amazon to recharge credit, 
+	Code-entering via switch or online, 
+	active in a few seconds, 
+	buying games just a few clicks
+- eshop downloads cope well with network errors
 - dark mode
 - accessoires ecosystem
 	- screen protectors
 	- grips
-	- protective cases (do not confuse with pockets, they often have slits for ventilation, sound, audio jack etc which can get dirty in a bag)
-	- pockets
-	- stands
+	- protective cases (do not confuse with pockets, cases often have slits for ventilation, sound, audio jack etc which can get dirty in a bag)
+	- slim vs big pockets (backpack vs car fitted luggage?)
+	- (charging) stands
 	- 
 - gyroscope sensor (Crysis 3)
 - 3,5mm Audio-Klinkensteckerbuchse
-- eshop downloads cope well with network errors
 - free re-downloads after deleting or "archiving" (deletion but game icon on home-screen with "download" action)
 - two volume settings: with and without headphones
 
@@ -50,15 +54,18 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 	- Yakuza-devs "not cool outsiders elite platform"
 
 - spring sounds in right analogue joystick after few days of using (new device!)
-	- solved via lifting the lid with scissors and adding WD40 contact spray and massaging the joystick (some used isopropyl alcohol alternativly)
+	- solved without physical disassembly via lifting the stick's dust-lid with scissors 
+	and adding WD40 contact spray and massaging the joystick (some used isopropyl alcohol alternativly)
 	```	
           .-------------------.
-          |-------------------|
-               \         /
-                \       /    
-               _/_______\_  <------- lift small rubber dust lid
-               /         \  
-     -----|-------------------|-----
+          '-----.-------.-----'
+                 \     /
+                _/_____\_  <----------- lift small rubber dust lid
+     #####\     /       \     /#####
+     ###############################
+     ###############################
+     ###############################
+     ###############################
 	```
 
 - joystick drifting issue often reported (not my problem but solved same way as spring sounds)
