@@ -23,8 +23,7 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 
 ### Good 
 
-- looks nice 
-- good form factor (I don't like the large handheld mode size of the original switch)
+- looks nice, good form factor (I don't like the large handheld mode size of the original switch)
 - lot of games
 - easy eshop ecosystem: 
 	eshop cards with 10/25/50 Euro at supermarkets or Amazon to recharge credit, 
@@ -50,7 +49,8 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 
 - brand image "for children"
 	- many mature games now (see my list)
-	- "family friendly", but many Games imho often child aesthetics (early Nintendo aesthetics resonated better)
+	- "family friendly", but many Games imho often childish aesthetics 
+	  (early Nintendo aesthetics were cartoony too but resonated better than bright colors and round big-headed puppet-bodies )
 	- Yakuza-devs "not cool outsiders elite platform"
 
 - spring sounds in right analogue joystick after few days of using (new device!)
@@ -62,9 +62,9 @@ Couple of better titles that I played at home, friends/cousins, youth club:
                 _/_____\_  <----------- 1. Lifted the small rubber dust lid with scissors, 
      #####\     /       \     /#####       there shows a hole to the inside
      ###############################    2. Added WD40 non-conductive evaporating contact(!) spray
-     ###############################       (others used 90% isopropyl alcohol with less water)
-     ###############################    3. Gave stick a good massage
-     ###############################    4. Repeated a second time
+     ##########o.o.o.o.o.o##########       (others used isopropyl alcohol, 90% has less water)
+     ###########o.o.o.o.o###########    3. Gave stick a good massage
+     ############o.o.o.o############    4. Repeated a second time
      ###############################
 	```
 
@@ -93,9 +93,10 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 	needs extra MicroSD or MicroSDXC (with system update)
 - changing cartridges lil bit hard but makes sense for portable system
 - Nintendo support:
-	- could write E-Mails (SMTP error)
-	- 404-pages in support answeres
-- Adding something from Nintendo.com to wishlist will not be displayed correctly on the Nintendo.de wishlist 
+	- could not write replies to info@nintendo.de (SMTP error, IP block?)
+	- support ticket links in answers lead to HTTP-404-pages
+- adding something from Nintendo.com to wishlist will not be displayed correctly on the Nintendo.de wishlist
+	(sync between device and nintendo.de works) 
 - "+" and especially "-" buttons uncomfortable
 - eshop downloads take long (3-4 hours for Gigabytes-Titles)
 - big power adapter (but any USB source would probably do)
