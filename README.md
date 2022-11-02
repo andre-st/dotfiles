@@ -168,7 +168,11 @@ Slackware runs the _Xorg_ display server:
 - free-spinning scroll wheel mouse
 - I keep thinking about foot pedals, but I haven't come up with a really good use case (push-to-talk, potentiometer to zoom in/out of Gimp, ?)
 - voice interfaces would contribute to noise pollution
-- touch interfaces lack tactile feedback (sound/vibration isn't same) and fingers hide part of the screen; apart from smartphones, the hand position is unnatural
+- touch interfaces lack tactile feedback (sound/vibration isn't same), 
+	fingers hide part of the screen and dirty the display (before Touch, a lot of people were told not to touch the screen if they wanted to show something);
+	apart from smartphones, the hand position is unnatural; 
+	Touch UI has advantages (cheaply redesignable input systems, physical space savings, ...), 
+	but it is still not my thing
 - [Xmodmap-customized US-keyboard layout](manjaro/home/andre/.Xmodmap-cherry-g803000lsceu0) with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc.
 I have mapped the first level of the numeric keypad to function keys, thus shorter distances from the cursor keys to the function keys with the right hand, e.g. delete (F8) in the Midnight Commander.
 - window-'focus follows mouse' mode (perfect for tiling WM, not so for stacking/floating WM)
@@ -456,7 +460,7 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 | Sega MS/MD/GG   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
 | PC              | &starf; Mortal Combat <br>&starf; Bifi Roll Action in Hollywood <br>&starf; Wolfenstein 3D <br>&starf; Battle Arena Toshinden <br>&starf; Tomb Raider 1, 2 <br>&starf; Indiana Jones Last Crusade <br>&starf; Indiana Jones Fate of Atlantis <br>&starf; Monkey Island 2 <br>&starf; Sam & Max Hit the Road <br>&starf; Full Throttle <br>&starf; Cave World Saga (H&ouml;hlenweltsaga) <br>&starf; Baphomets Fluch 2 <br>&starf; Grand Theft Auto <br>&bull; Darker <br>&bull; Shufflepuck Cafe <br>&bull; Battle Chess <br>&bull; QBASIC Gorillas <br>&bull; Dune <br>&bull; Stunts <br>&bull; Aces of the Deep <br>&bull; Virtual Pool <br>&bull; Destruction Derby <br>&bull; Carmageddon <br>&bull; Phantasmagoria <br>&bull; Half-Life <br>&bull; ... | &bull; MDK <br>&bull; Moto Racer 1 <br>&bull; Need for Speed 3 <br>&bull; Deadly Tide <br>&bull; Frogger <br>&bull; Virtua Cop <br>&bull; Star Wars Rebel Assault <br>&bull; Oddworld <br>&bull; Road Rash <br>&bull; Commandos: Behind Enemy Lines <br>&bull; Heart of Darkness <br>&bull; Crusader No Remorse <br>&bull; Beneath a Steel Sky <br>&bull; Street Figher 2 <br>&bull; Day of the Tentacle <br>&bull; MagaRace 1, 2 <br>&bull; Cyberia <br>&bull; FX Fighter <br>&bull; Bad Mojo Redux <br>&bull; Normality <br>&bull; Shellshock <br>&bull; Leisure Suit Larry <br>&bull; ... | &bull; Far Cry | - 
 | PlayStation     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_
-| Switch Lite     | - | - | - | &starf; VirtuaVerse (DL) <br>&starf; Blasphemous (DL) <br>&starf; The Way (DL) <br>&starf; Zelda Breath of the Wild <br>&bull; Metroid Dread <br>&bull; Hotline Miami Collection <br>&bull; TT Isle of Man 2 <br>&bull; Moto Racer 4 (DL) <br>&bull; Midnight Fight Express (DL) <br>&bull; Sega Ages: Sonic Hedgehog (DL) <br>&bull; Crysis 3 (DL) <br>&bull; Lofi Ping Pong (DL)
+| Switch Lite     | - | - | - | &starf; VirtuaVerse (DL) <br>&starf; Blasphemous (DL) <br>&starf; The Way (DL) <br>&starf; Zelda Breath of the Wild <br>&bull; Metroid Dread <br>&bull; Hotline Miami Collection <br>&bull; TT Isle of Man 2 <br>&bull; Moto Racer 4 (DL) <br>&bull; Midnight Fight Express (DL) <br>&bull; Sega Ages: Sonic Hedgehog (DL) <br>&bull; Crysis 3 (DL) <br>&bull; Wolfenstein II: The New Colossus <br>&bull; Lofi Ping Pong (DL)
 | Cloud Gaming    | - | - | - | - 
 
 
