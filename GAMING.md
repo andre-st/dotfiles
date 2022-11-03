@@ -14,7 +14,7 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 | **Sega MS/MD/GG**   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
 | **PC**              | &starf; Mortal Combat <br>&starf; Bifi Roll Action in Hollywood <br>&starf; Wolfenstein 3D <br>&starf; Battle Arena Toshinden <br>&starf; Tomb Raider 1, 2 <br>&starf; Indiana Jones Last Crusade <br>&starf; Indiana Jones Fate of Atlantis <br>&starf; Monkey Island 2 <br>&starf; Sam & Max Hit the Road <br>&starf; Full Throttle <br>&starf; Cave World Saga (H&ouml;hlenweltsaga) <br>&starf; Baphomets Fluch 2 <br>&starf; Grand Theft Auto <br>&bull; Darker <br>&bull; Shufflepuck Cafe <br>&bull; Battle Chess <br>&bull; QBASIC Gorillas <br>&bull; Dune <br>&bull; Stunts <br>&bull; Aces of the Deep <br>&bull; Virtual Pool <br>&bull; Destruction Derby <br>&bull; Carmageddon <br>&bull; Phantasmagoria <br>&bull; Half-Life <br>&bull; ... | &bull; MDK <br>&bull; Moto Racer 1 <br>&bull; Need for Speed 3 <br>&bull; Deadly Tide <br>&bull; Frogger <br>&bull; Virtua Cop <br>&bull; Star Wars Rebel Assault <br>&bull; Oddworld <br>&bull; Road Rash <br>&bull; Commandos: Behind Enemy Lines <br>&bull; Heart of Darkness <br>&bull; Crusader No Remorse <br>&bull; Beneath a Steel Sky <br>&bull; Street Figher 2 <br>&bull; Day of the Tentacle <br>&bull; MagaRace 1, 2 <br>&bull; Cyberia <br>&bull; FX Fighter <br>&bull; Bad Mojo Redux <br>&bull; Normality <br>&bull; Shellshock <br>&bull; Leisure Suit Larry <br>&bull; ... | &bull; Far Cry | - 
 | **PlayStation**     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_
-| **Switch Lite**     | - | - | - | &starf; VirtuaVerse (DL) <br>&starf; Blasphemous (DL) <br>&starf; The Way (DL) <br>&starf; Zelda Breath of the Wild <br>&starf; Akane (DL) <br>&starf; Crysis 3 (DL) <br>&bull; Metroid Dread <br>&bull; Hotline Miami Collection <br>&bull; TT Isle of Man 2 <br>&bull; Moto Racer 4 (DL) <br>&bull; Midnight Fight Express (DL) <br>&bull; Sega Ages: Sonic Hedgehog (DL) <br>&bull; Wolfenstein II: The New Colossus <br>&bull; Lofi Ping Pong (DL) <br>&bull; The Big Journey \[for kids\] (DL)
+| **Switch Lite**     | - | - | - | &starf; VirtuaVerse (DL) <br>&starf; Blasphemous (DL) <br>&starf; The Way (DL) <br>&starf; Zelda Breath of the Wild <br>&starf; Akane (DL) <br>&starf; Crysis 3 (DL) <br>&bull; Metroid Dread <br>&bull; Hotline Miami Collection <br>&bull; TT Isle of Man 2 <br>&bull; Moto Racer 4 (DL) <br>&bull; Midnight Fight Express (DL) <br>&bull; Sega Ages: Sonic Hedgehog (DL) <br>&bull; Wolfenstein II: The New Colossus <br>&bull; Lofi Ping Pong (DL) <br>&bull; FIFA 19 <br>&bull; The Big Journey \[for kids\] (DL)
 | **Cloud Gaming**    | - | - | - | - 
 
 
@@ -43,21 +43,25 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 	- extra controllers
 	- alternative buttons (requires dissambly)
 	- flat, small blutooth adapters
-	-  
+	- ... 
 - gyroscope sensor (Crysis 3)
 - 3,5mm Audio-Klinkensteckerbuchse
-- free re-downloads after deleting or "archiving" (deletion but game icon on home-screen with "download" action)
+- free re-downloads after deleting or "archiving" (deletion but game icon kept on home-screen with "download" action)
 - two volume settings: with and without headphones
+- repairable, not glued together, spare parts in online shops
 
 
 ### Issues
 
-- brand image "for children"
-	- many mature games now (see my list)
+- brand image: "Nintendo is for children"
+	- although many 'mature' games (deeper stories, sex and crime, blood, ...), 
+		see my games list in [History section](#history);
+		currently, Switch Lite dominates handheld market, 
+		no competitors anymore due to tablet/smartphone+controller(+cloudgaming) combination (although not real replacement atm)
 	- "family friendly", but many Games imho often childish aesthetics 
 	  (early Nintendo aesthetics were cartoony too but resonated better than bright colors and round big-headed puppet-bodies )
-	- Yakuza-devs "not cool outsiders elite platform"
-	- adult switch youtubers in children's rooms
+	- male adult Switch Youtubers in children's rooms with little dolls (amiibo) and stuffed Nintendo merch animals
+	- Yakuza-devs "not cool outsiders night-creatures elite platform"
 - spring noise in my right analogue joystick after few days of using (new device!)
 	- solved without physical disassembly:
 	```	
@@ -83,6 +87,7 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 		or regulatoy thing (eager loading prices)
 		or just more complex than a central DB (similar to real-time bidding for single online-ads)
 	- apparently stressed servers (website in browser on desktop-pc sometimes HTTP 500 error)
+	- dekudeals.com often recommended if you want to browse and be made aware of nice deals
 - high games prices (on every platform), but often good deals in eshop
 	- the device itself is said to be a losing proposition for Nintendo, 
 		and the money will then be earned from the ecosystem 
@@ -105,8 +110,7 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 - "-" button uncomfortable to reach and press
 - eshop downloads take long (3-4 hours for Gigabytes-Titles)
 - big power adapter (but any USB source would probably do)
-
-
+- at some time you recognize the same game-engines again and again, just variants of other games
 
 
 
