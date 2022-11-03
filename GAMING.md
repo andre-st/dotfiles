@@ -36,9 +36,14 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 	- screen protectors
 	- grips
 	- protective cases (do not confuse with pockets, cases often have slits for ventilation, sound, audio jack etc which can get dirty in a bag)
-	- slim vs big pockets (backpack vs car fitted luggage?)
+	- protective, enlarging thumb grips (caps) for the joysticks
+	- slim vs big device pockets (backpack vs car fitted luggage?)
+	- game cartridges pockets
 	- (charging) stands
-	- 
+	- extra controllers
+	- alternative buttons (requires dissambly)
+	- flat, small blutooth adapters
+	-  
 - gyroscope sensor (Crysis 3)
 - 3,5mm Audio-Klinkensteckerbuchse
 - free re-downloads after deleting or "archiving" (deletion but game icon on home-screen with "download" action)
@@ -52,26 +57,24 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 	- "family friendly", but many Games imho often childish aesthetics 
 	  (early Nintendo aesthetics were cartoony too but resonated better than bright colors and round big-headed puppet-bodies )
 	- Yakuza-devs "not cool outsiders elite platform"
-
-- spring sounds in right analogue joystick after few days of using (new device!)
+	- adult switch youtubers in children's rooms
+- spring noise in my right analogue joystick after few days of using (new device!)
 	- solved without physical disassembly:
 	```	
           .-------------------.
           '-----.-------.-----'
                  \     /
                 _/_____\_  <----------- 1. Lifted the small rubber dust lid with scissors, 
-     #####\     /       \     /#####       there shows a hole to the inside
+     #####\     /       \     /#####       there shows a hole(?) to the inside
      ###############################    2. Added WD40 non-conductive evaporating contact(!) spray
      ##########o.o.o.o.o.o##########       (others used isopropyl alcohol, 90% has less water)
      ###########o.o.o.o.o###########    3. Gave stick a good massage
      ############o.o.o.o############    4. Repeated a second time
      ###############################
 	```
-	[YouTube-Video on this Switch-issue by WD40 company itself](https://www.youtube.com/watch?v=I35647lHFzA)
-	
-- joystick drifting issue often reported (not my problem but solved same way as spring sounds)
-- extra screen protector needed (tampered glas)
-	- "hinge" method (thesa very weak for this)
+	[YouTube-Video by WD40 company itself](https://www.youtube.com/watch?v=I35647lHFzA)
+- joystick drift issue often reported (not yet my problem but seems solved the same way as spring noise)
+- extra screen protector needed (tampered glas), avoid weak Thesa for the "hinge" installation method (gets loose when you peel off the glas foil)
 - slow lagging eshop on switch device
 	- small pagination steps, every time new request to server (devs usually try to avoid expensive I/O): 
 		either bad choice 
@@ -85,20 +88,21 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 		and the money will then be earned from the ecosystem 
 		after users have invested in the platform and are on the hook.
 - no TV out
-	- hardware actually missing for display-usb
+	- hardware actually missing for display-usb (see YouTube teardown and dissambly videos)
 - retail cartridge with "internet download required" (Wolfenstein2) 
 	due to Nintendo's proprietary expensive cartridge hardware with small capacity (16 GB, 32 GB) 
 	vs huge filesizes for triple a titles, future?
-
-- small internal system space 32 GB fills quickly with eshop downloads (games became very large: Blasphemous 2d-platformer 7 GB!!), 
-	needs extra MicroSD or MicroSDXC (with system update)
-- changing cartridges lil bit hard but makes sense for portable system
+- small internal system's permanent memory 32 GB 
+	- fills quickly with eshop downloads, many games are huge (640 MB for Akane??, Blasphemous 2d-platformer 7 GB!!, Crysis 3 uses 11 GB)
+	- needs extra MicroSD or MicroSDXC (with system update)
+- changing cartridges lil bit hard but protection makes sense for portable system
 - Nintendo support:
+	- quick response but useless so far
 	- could not write replies to info@nintendo.de (SMTP error, IP block?)
 	- support ticket links in answers lead to HTTP-404-pages
-- adding something from Nintendo.com to wishlist will not be displayed correctly on the Nintendo.de wishlist
-	(sync between device and nintendo.de works) 
-- "+" and especially "-" buttons uncomfortable
+- wishlist-additions on the international Nintendo.com will not be displayed correctly on the german Nintendo.de wishlist
+	(sync between device and nintendo.de works and vice versa (at least removal of games)) 
+- "-" button uncomfortable to reach and press
 - eshop downloads take long (3-4 hours for Gigabytes-Titles)
 - big power adapter (but any USB source would probably do)
 
