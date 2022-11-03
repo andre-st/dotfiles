@@ -7,15 +7,15 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
-| Game Boy        | &starf; Super Mario Land 3: Wario Land <br>&starf; Duck Tales <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... | - | - | - 
-| Amstrad CPC     | &bull; Kung-Fu Master <br>&bull; Tornado Low Level <br>&bull; Winter Sports <br>&bull; Bomb Jack <br>&bull; Airwolf <br>&bull; Cyrus Chess II <br>&bull; ... | - | - | - 
-| (S)NES          | &starf; (Super) Mario Bros. <br>&bull; Giana Sisters <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ... | &bull; Star Fox | - | -  
-| C64             | &bull; Last Ninja <br>&bull; ... | - | - | - 
-| Sega MS/MD/GG   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
-| PC              | &starf; Mortal Combat <br>&starf; Bifi Roll Action in Hollywood <br>&starf; Wolfenstein 3D <br>&starf; Battle Arena Toshinden <br>&starf; Tomb Raider 1, 2 <br>&starf; Indiana Jones Last Crusade <br>&starf; Indiana Jones Fate of Atlantis <br>&starf; Monkey Island 2 <br>&starf; Sam & Max Hit the Road <br>&starf; Full Throttle <br>&starf; Cave World Saga (H&ouml;hlenweltsaga) <br>&starf; Baphomets Fluch 2 <br>&starf; Grand Theft Auto <br>&bull; Darker <br>&bull; Shufflepuck Cafe <br>&bull; Battle Chess <br>&bull; QBASIC Gorillas <br>&bull; Dune <br>&bull; Stunts <br>&bull; Aces of the Deep <br>&bull; Virtual Pool <br>&bull; Destruction Derby <br>&bull; Carmageddon <br>&bull; Phantasmagoria <br>&bull; Half-Life <br>&bull; ... | &bull; MDK <br>&bull; Moto Racer 1 <br>&bull; Need for Speed 3 <br>&bull; Deadly Tide <br>&bull; Frogger <br>&bull; Virtua Cop <br>&bull; Star Wars Rebel Assault <br>&bull; Oddworld <br>&bull; Road Rash <br>&bull; Commandos: Behind Enemy Lines <br>&bull; Heart of Darkness <br>&bull; Crusader No Remorse <br>&bull; Beneath a Steel Sky <br>&bull; Street Figher 2 <br>&bull; Day of the Tentacle <br>&bull; MagaRace 1, 2 <br>&bull; Cyberia <br>&bull; FX Fighter <br>&bull; Bad Mojo Redux <br>&bull; Normality <br>&bull; Shellshock <br>&bull; Leisure Suit Larry <br>&bull; ... | &bull; Far Cry | - 
-| PlayStation     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_
-| Switch Lite     | - | - | - | &starf; VirtuaVerse (DL) <br>&starf; Blasphemous (DL) <br>&starf; The Way (DL) <br>&starf; Zelda Breath of the Wild <br>&starf; Akane (DL) <br>&starf; Crysis 3 (DL) <br>&bull; Metroid Dread <br>&bull; Hotline Miami Collection <br>&bull; TT Isle of Man 2 <br>&bull; Moto Racer 4 (DL) <br>&bull; Midnight Fight Express (DL) <br>&bull; Sega Ages: Sonic Hedgehog (DL) <br>&bull; Wolfenstein II: The New Colossus <br>&bull; Lofi Ping Pong (DL) <br>&bull; The Big Journey \[for kids\] (DL)
-| Cloud Gaming    | - | - | - | - 
+| **Game Boy**        | &starf; Super Mario Land 3: Wario Land <br>&starf; Duck Tales <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... | - | - | - 
+| **Amstrad CPC**     | &bull; Kung-Fu Master <br>&bull; Tornado Low Level <br>&bull; Winter Sports <br>&bull; Bomb Jack <br>&bull; Airwolf <br>&bull; Cyrus Chess II <br>&bull; ... | - | - | - 
+| **(S)NES**          | &starf; (Super) Mario Bros. <br>&bull; Giana Sisters <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ... | &bull; Star Fox | - | -  
+| **C64**             | &bull; Last Ninja <br>&bull; ... | - | - | - 
+| **Sega MS/MD/GG**   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
+| **PC**              | &starf; Mortal Combat <br>&starf; Bifi Roll Action in Hollywood <br>&starf; Wolfenstein 3D <br>&starf; Battle Arena Toshinden <br>&starf; Tomb Raider 1, 2 <br>&starf; Indiana Jones Last Crusade <br>&starf; Indiana Jones Fate of Atlantis <br>&starf; Monkey Island 2 <br>&starf; Sam & Max Hit the Road <br>&starf; Full Throttle <br>&starf; Cave World Saga (H&ouml;hlenweltsaga) <br>&starf; Baphomets Fluch 2 <br>&starf; Grand Theft Auto <br>&bull; Darker <br>&bull; Shufflepuck Cafe <br>&bull; Battle Chess <br>&bull; QBASIC Gorillas <br>&bull; Dune <br>&bull; Stunts <br>&bull; Aces of the Deep <br>&bull; Virtual Pool <br>&bull; Destruction Derby <br>&bull; Carmageddon <br>&bull; Phantasmagoria <br>&bull; Half-Life <br>&bull; ... | &bull; MDK <br>&bull; Moto Racer 1 <br>&bull; Need for Speed 3 <br>&bull; Deadly Tide <br>&bull; Frogger <br>&bull; Virtua Cop <br>&bull; Star Wars Rebel Assault <br>&bull; Oddworld <br>&bull; Road Rash <br>&bull; Commandos: Behind Enemy Lines <br>&bull; Heart of Darkness <br>&bull; Crusader No Remorse <br>&bull; Beneath a Steel Sky <br>&bull; Street Figher 2 <br>&bull; Day of the Tentacle <br>&bull; MagaRace 1, 2 <br>&bull; Cyberia <br>&bull; FX Fighter <br>&bull; Bad Mojo Redux <br>&bull; Normality <br>&bull; Shellshock <br>&bull; Leisure Suit Larry <br>&bull; ... | &bull; Far Cry | - 
+| **PlayStation**     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_
+| **Switch Lite**     | - | - | - | &starf; VirtuaVerse (DL) <br>&starf; Blasphemous (DL) <br>&starf; The Way (DL) <br>&starf; Zelda Breath of the Wild <br>&starf; Akane (DL) <br>&starf; Crysis 3 (DL) <br>&bull; Metroid Dread <br>&bull; Hotline Miami Collection <br>&bull; TT Isle of Man 2 <br>&bull; Moto Racer 4 (DL) <br>&bull; Midnight Fight Express (DL) <br>&bull; Sega Ages: Sonic Hedgehog (DL) <br>&bull; Wolfenstein II: The New Colossus <br>&bull; Lofi Ping Pong (DL) <br>&bull; The Big Journey \[for kids\] (DL)
+| **Cloud Gaming**    | - | - | - | - 
 
 
 
@@ -67,7 +67,8 @@ Couple of better titles that I played at home, friends/cousins, youth club:
      ############o.o.o.o############    4. Repeated a second time
      ###############################
 	```
-
+	[YouTube-Video on this Switch-issue by WD40 company itself](https://www.youtube.com/watch?v=I35647lHFzA)
+	
 - joystick drifting issue often reported (not my problem but solved same way as spring sounds)
 - extra screen protector needed (tampered glas)
 	- "hinge" method (thesa very weak for this)
