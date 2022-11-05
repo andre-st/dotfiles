@@ -7,7 +7,7 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
-| **Nintendo<br>GameBoy<br>(S)NES<br>SwitchLite**  | &starf; Super Mario Land 3: Wario Land <br>&starf; Duck Tales <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... <br><br>&starf; (Super) Mario Bros. <br>&bull; Giana Sisters <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ...  | &bull; Star Fox | - | &starf; VirtuaVerse (&#x2B73;) <br>&starf; Blasphemous (&#x2B73;) <br>&starf; The Way (&#x2B73;) <br>&starf; Crysis 3 (&#x2B73;) <br>&starf; Wolfenstein II: The New Colossus <br>&starf; Akane (&#x2B73;) <br>&starf; Zelda Breath of the Wild <br>&bull; Sega Ages: Sonic Hedgehog (&#x2B73;) <br>&bull; Metroid Dread <br>&bull; Hotline Miami Collection <br>&bull; Midnight Fight Express (&#x2B73;) <br>&bull; Hong Kong Massacre (&#x2B73;) <br>&bull; Gato Roboto (&#x2B73;) <br>&bull; TT Isle of Man 2 <br>&bull; Moto Racer 4 (&#x2B73;) <br>&bull; FIFA 19 <br>&bull; Lofi Ping Pong (&#x2B73;) <br>&bull; The Big Journey \[kids\] (&#x2B73;) 
+| **Nintendo<br>GameBoy<br>(S)NES<br>SwitchLite**  | &starf; Super Mario Land 3: Wario Land <br>&starf; Duck Tales <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... <br><br>&starf; (Super) Mario Bros. <br>&bull; Giana Sisters <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ...  | &bull; Star Fox | - | &starf; VirtuaVerse (&#x2B73;) <br>&starf; Blasphemous (&#x2B73;) <br>&starf; The Way (&#x2B73;) <br>&starf; Crysis 3 (&#x2B73;) <br>&starf; Wolfenstein II: The New Colossus (&#x1F4BE;) <br>&starf; Akane (&#x2B73;) <br>&starf; Zelda Breath of the Wild (&#x1F4BE;) <br>&bull; Sega Ages: Sonic Hedgehog (&#x2B73;) <br>&bull; Metroid Dread (&#x1F4BE;) <br>&bull; Hotline Miami Collection (&#x1F4BE;) <br>&bull; Midnight Fight Express (&#x2B73;) <br>&bull; Hong Kong Massacre (&#x2B73;) <br>&bull; Gato Roboto (&#x2B73;) <br>&bull; TT Isle of Man 2 (&#x1F4BE;) <br>&bull; Moto Racer 4 (&#x2B73;) <br>&bull; FIFA 19 (&#x1F4BE;) <br>&bull; Lofi Ping Pong (&#x2B73;) <br>&bull; The Big Journey \[kids\] (&#x2B73;) 
 | **Amstrad CPC**     | &bull; Kung-Fu Master <br>&bull; Tornado Low Level <br>&bull; Winter Sports <br>&bull; Bomb Jack <br>&bull; Airwolf <br>&bull; Cyrus Chess II <br>&bull; ... | - | - | - 
 | **C64**             | &bull; Last Ninja <br>&bull; ... | - | - | - 
 | **Sega<br>MasterSystem<br>Megadrive<br>GameGear**   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
@@ -42,7 +42,7 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 	- alternative buttons (requires dissambly)
 	- flat, small blutooth adapters
 	- ... 
-- gyroscope sensor (Crysis 3)
+- gyroscope sensor (gyro-aiming in Crysis 3)
 - 3,5mm Audio-Klinkensteckerbuchse
 - free re-downloads after deleting or "archiving" (deletion but game icon kept on home-screen with "download" action)
 - two volume settings: with and without headphones
@@ -56,12 +56,12 @@ Couple of better titles that I played at home, friends/cousins, youth club:
 		see my games list in [History section](#history);
 		currently, Switch Lite dominates handheld market, 
 		no competitors anymore due to tablet/smartphone+controller(+cloudgaming) combination (although not real replacement atm)
-	- "family friendly", but many Games imho often childish aesthetics 
-	  (early Nintendo aesthetics were cartoony too but resonated better than bright colors and round big-headed puppet-bodies )
+	- "family friendly", but many Games imho often adhere to childish aesthetics 
+	  (early Nintendo aesthetics were cartoony too but resonated better with older ppl than the bright colors and round big-headed puppet-bodies nowadays)
 	- male adult Switch Youtubers in children's rooms with little dolls (amiibo) and stuffed Nintendo merch animals
 	- Yakuza-devs "not cool outsiders night-creatures elite platform"
 - spring noise in my right analogue joystick after few days of using (new device!)
-	- solved without physical disassembly:
+	- temporarily/regularly solved without physical disassembly:
 	```	
           .-------------------.
           '-----.-------.-----'
