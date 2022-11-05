@@ -3,7 +3,7 @@
 
 ## History
 
-Couple of titles that I remember I played at home, friends/cousins, youth club (&#x2B73; &x1F4BE; &x1F4BF; still avail as download, CD or floppy/cartridge)
+Couple of titles that I remember I played at home, friends/cousins, youth club (&#x2B73; &#x1F4BE; &#x1F4BF; still avail as download, CD or floppy/cartridge)
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
