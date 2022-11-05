@@ -413,6 +413,12 @@ $ systemctl enable --now systemd-timesyncd.service
 - [PC-Phone/Tablet Connection](#pc-phonetablet-connection) section in this file details my media use on mobile devices
 
 
+### Gaming
+
+I'm not a big video gamer anymore and prefer dedicated hardware for working and gaming 
+(ie consoles with minimal maintenance and games just working, independently replaceable, usable in parallel etc).
+So there are no games on my rather economic PCs. [More about my gaming...](GAMING.md)
+
 
 ### Web Browser
 
@@ -443,12 +449,6 @@ $ systemctl enable --now systemd-timesyncd.service
 | banking         | no extensions safe-mode, multiple home tabs with fintech sites, ...
 | private         | 
 
-
-### Gaming
-
-I'm not a big video gamer anymore and prefer dedicated hardware for working and gaming 
-(ie consoles with minimal maintenance and games just working, independently replaceable, usable in parallel etc).
-So there are no games on my rather economic PCs. [More about my gaming...](GAMING.md)
 
 
 ### Other
