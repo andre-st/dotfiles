@@ -3,11 +3,11 @@
 
 ## History
 
-Couple of titles that I remember I played at home, friends/cousins, youth club (&#x2B73; &#x1F4BF; &#x1F4BE;  still avail as download, CD or floppy/cartridge)
+Couple of investments and titles that I remember I played at home, friends/cousins, youth club (&#x2B73; &#x1F4BF; &#x1F4BE;  still avail as download, CD or floppy/cartridge)
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
-| **Nintendo<br>GameBoy<br>(S)NES<br>SwitchLite**  | &starf; Super Mario Land 3: Wario Land <br>&starf; Duck Tales <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... <br><br>&starf; (Super) Mario Bros. <br>&bull; Giana Sisters <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ...  | &bull; Star Fox | - | &starf; VirtuaVerse (&#x2B73;) <br>&starf; Blasphemous (&#x2B73;) <br>&starf; The Way (&#x2B73;) <br>&starf; Crysis 3 (&#x2B73;) <br>&starf; Wolfenstein II: The New Colossus &#x1F4BE; <br>&starf; Akane (&#x2B73;) <br>&starf; Zelda Breath of the Wild &#x1F4BE; <br>&starf; Gato Roboto (&#x2B73;) <br>&bull; Sega Ages: Sonic Hedgehog (&#x2B73;) <br>&bull; Metroid Dread &#x1F4BE; <br>&bull; Hotline Miami Collection &#x1F4BE; <br>&bull; Midnight Fight Express (&#x2B73;) <br>&bull; Hong Kong Massacre (&#x2B73;) <br>&bull; TT Isle of Man 2 &#x1F4BE; <br>&bull; Moto Racer 4 (&#x2B73;) <br>&bull; FIFA 19 &#x1F4BE; <br>&bull; Lofi Ping Pong (&#x2B73;) <br>&bull; The Big Journey \[kids\] (&#x2B73;) 
+| **Nintendo<br>GameBoy<br>(S)NES<br>SwitchLite**  | &starf; Super Mario Land 3: Wario Land <br>&starf; Duck Tales <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... <br><br>&starf; (Super) Mario Bros. <br>&bull; Giana Sisters <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ...  | &bull; Star Fox | - | &starf; VirtuaVerse (&#x2B73;) <br>&starf; Blasphemous (&#x2B73;) <br>&starf; The Way (&#x2B73;) <br>&starf; Crysis 3 (&#x2B73;) <br>&starf; Wolfenstein II: The New Colossus &#x1F4BE; <br>&starf; Akane (&#x2B73;) <br>&starf; Zelda Breath of the Wild &#x1F4BE; <br>&starf; Gato Roboto (&#x2B73;) <br>&bull; Sega Ages: Sonic Hedgehog (&#x2B73;) <br>&bull; Metroid Dread &#x1F4BE; <br>&bull; Hotline Miami Collection &#x1F4BE; <br>&bull; Midnight Fight Express (&#x2B73;) <br>&bull; Hong Kong Massacre (&#x2B73;) <br>&bull; TT Isle of Man 2 &#x1F4BE; <br>&bull; Moto Racer 4 (&#x2B73;) <br>&bull; FIFA 19 &#x1F4BE; <br>&bull; Lofi Ping Pong (&#x2B73;) <br>&bull; The Big Journey \[kids\] (&#x2B73;) <br><br>&bull; Orzly Grip Case <br>&bull; Orzly Tempered Glas <br>&bull; Skull&Co. Grip Case <br>&bull; SanDisk 256G MicroSDXC <br>&bull; HORI Slim Tough Pouch  
 | **Amstrad CPC**     | &bull; Kung-Fu Master <br>&bull; Tornado Low Level <br>&bull; Winter Sports <br>&bull; Bomb Jack <br>&bull; Airwolf <br>&bull; Cyrus Chess II <br>&bull; ... | - | - | - 
 | **C64**             | &bull; Last Ninja <br>&bull; ... | - | - | - 
 | **Sega<br>MasterSystem<br>Megadrive<br>GameGear**   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
@@ -60,7 +60,7 @@ Couple of titles that I remember I played at home, friends/cousins, youth club (
 	  (early Nintendo aesthetics were cartoony too but resonated better with older ppl than the bright colors and round big-headed puppet-bodies nowadays)
 	- male adult Switch Youtubers in children's rooms with little dolls (amiibo) and stuffed Nintendo merch animals
 	- Yakuza-devs "not cool outsiders night-creatures elite platform"
-- spring noise in my right analogue joystick after few days of using (new device!)
+- 'spring noise' in my right analogue joystick after few days of using (new device!)
 	- temporarily/regularly solved without physical disassembly:
 	```	
           .-------------------.
@@ -76,10 +76,10 @@ Couple of titles that I remember I played at home, friends/cousins, youth club (
 	```
 	[YouTube-Video by WD40 company itself](https://www.youtube.com/watch?v=I35647lHFzA)
 - 'joystick drift issue' often reported (not yet my problem but seems solved the same way as spring noise)
-- 'game card could not be read’ not yet my problem
+- "game card could not be read" not yet my problem
     - "headphones trick" (shares PCB with card-reader, powering headphones sometimes changes sth. for the better)
-    - no contact due to (multiple) 'bent pin' in the card reader, repositioning via scissors or 'pin needle' 
-    (might have to disasemble switch before for easier access, pins might stand pretty high)
+    - no contact due to 'bent pin(s)' in the card reader, repositioning via scissors or 'pin needle' 
+    (might have to disasemble switch before for easier access, pins should stand pretty high)
     ```
                        ######################
                        ######################
@@ -115,7 +115,7 @@ Couple of titles that I remember I played at home, friends/cousins, youth club (
 - changing cartridges lil bit hard but protection makes sense for portable system
 - Nintendo support:
 	- quick response but useless so far
-	- could not write replies to info@nintendo.de (SMTP error, IP block?)
+	- could not write replies to info@nintendo.de (SMTP error, very generous IP block?)
 	- support ticket links in answers lead to HTTP-404-pages
 - wishlist-additions on the international Nintendo.com will not be displayed correctly on the german Nintendo.de wishlist
 	(sync between device and nintendo.de works and vice versa (at least removal of games)) 
