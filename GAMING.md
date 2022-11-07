@@ -3,7 +3,7 @@
 
 ## History
 
-Couple of titles that I remember I played at home, friends/cousins, youth club (&#x2B73; &#x1F4BE; &#x1F4BF; still avail as download, CD or floppy/cartridge)
+Couple of titles that I remember I played at home, friends/cousins, youth club (&#x2B73; &#x1F4BF; &#x1F4BE;  still avail as download, CD or floppy/cartridge)
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
@@ -75,7 +75,21 @@ Couple of titles that I remember I played at home, friends/cousins, youth club (
      ###############################
 	```
 	[YouTube-Video by WD40 company itself](https://www.youtube.com/watch?v=I35647lHFzA)
-- joystick drift issue often reported (not yet my problem but seems solved the same way as spring noise)
+- 'joystick drift issue' often reported (not yet my problem but seems solved the same way as spring noise)
+- 'game card could not be read’ not yet my problem
+    - "headphones trick" (shares PCB with card-reader, powering headphones sometimes changes sth. for the better)
+    - no contact due to (multiple) 'bent pin' in the card reader, repositioning via scissors or 'pin needle' 
+    (might have to disasemble switch before for easier access, pins might stand pretty high)
+    ```
+                       ######################
+                       ######################
+        ---------------------------- ########    cartridge
+        \________________==========/ ########    and
+                          '\ \  '\ \ ########    reader pins
+                       ######################
+                       ######################
+    ```
+    - card reader replaceable (~30 euro)
 - extra screen protector needed (tampered glas), avoid weak Thesa for the "hinge" installation method (gets loose when you peel off the glas foil)
 - slow lagging eshop on switch device
 	- small pagination steps, every time new request to server (devs usually try to avoid expensive I/O): 
