@@ -3,7 +3,7 @@
 
 ## History
 
-Couple of investments and titles that I remember I played at home, friends/cousins, youth club (&#x2B73; &#x1F4BF; &#x1F4BE;  still avail as download, CD or floppy/cartridge)
+Couple of investments and titles that I remember I played at home, friends/cousins, youth club (&#x2B73; &#x1F4BF; &#x1F4BE;  still owned download, CD or floppy/cartridge)
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
@@ -18,6 +18,8 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 
 ## Nintendo Switch Lite (Bought 2022)
+
+![Switch Lite](README-switch.jpg)
 
 ### Good 
 
