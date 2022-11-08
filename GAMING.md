@@ -54,11 +54,11 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - brand image: "Nintendo is for children"
 	- although many 'mature' games (deeper stories, sex and crime, blood, ...), 
 		see my games list in [History section](#history);
-        whatever adult means when it comes to video games, since adults are expected to seek real adventures rather than just play them;
+        whatever _adult_ means when it comes to video games, since adults are expected to seek real adventures rather than just play them, though (movies/books?);
 		however, Switch Lite is the best handheld system, today
 	- "family friendly", but many Games imho often adhere to childish aesthetics 
 	  (early Nintendo aesthetics were cartoony too but resonated better with older ppl than the bright colors and round big-headed puppet-bodies nowadays)
-	- male adult Switch Youtubers in children's rooms with little dolls (amiibo) and stuffed Nintendo merch animals
+	- male adult Switch-Youtubers in children's rooms, surrounded by little dolls (amiibo) and stuffed Nintendo-merch animals
 	- Yakuza-devs "not cool outsiders night-creatures elite platform"
 - 'spring noise' in my right analogue joystick after few days of using (new device!)
 	- temporarily/regularly solved without physical disassembly:
