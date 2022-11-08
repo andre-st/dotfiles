@@ -54,8 +54,8 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - brand image: "Nintendo is for children"
 	- although many 'mature' games (deeper stories, sex and crime, blood, ...), 
 		see my games list in [History section](#history);
-		currently, Switch Lite dominates handheld market, 
-		no competitors anymore due to tablet/smartphone+controller(+cloudgaming) combination (although not real replacement atm)
+        whatever adult means when it comes to video games, since adults are expected to seek real adventures rather than just play them;
+		however, Switch Lite is the best handheld system, today
 	- "family friendly", but many Games imho often adhere to childish aesthetics 
 	  (early Nintendo aesthetics were cartoony too but resonated better with older ppl than the bright colors and round big-headed puppet-bodies nowadays)
 	- male adult Switch Youtubers in children's rooms with little dolls (amiibo) and stuffed Nintendo merch animals
