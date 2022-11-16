@@ -338,6 +338,14 @@ Find package for tool:
 $ pkgfile -v -b <TOOLNAME>
 ```
 
+PAMAC "Unable to lock database" or "failed to synchronize any databases" errors:
+```
+$ pacman -Scc
+$ pacman-mirrors -f5
+$ pacman -Syyu
+```
+
+
 
 
 ### Power and Thermal Management
