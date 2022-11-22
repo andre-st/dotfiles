@@ -483,7 +483,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - Office: Markdown / Htmlcssjs &gt; Google Docs (collaborative) &gt; LibreOffice (not installed) &gt; MS Office on Windows; 
 	`$ antiword ms.doc | vim -`
 - Video editing / Streaming: FFmpeg suite
-- Git/GitHub: `git gui` is handy for staging patches
+- Git/GitHub: `git gui` is handy for staging patches; `gitk (filename)` 
 - Presentations: todo
 - Networking: vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
  
