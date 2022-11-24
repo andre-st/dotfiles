@@ -50,6 +50,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - free re-downloads after deleting or "archiving" (deletion but game icon kept on home-screen with "download" action)
 - two volume settings: with and without headphones
 - repairable, not glued together, spare parts in online shops
+- streamlined simple UI, very special purpose (although there is a YouTube app but no Excel, not just another tablet/smartphone)
 
 
 ### Issues
@@ -104,15 +105,18 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 	- apparently stressed servers (website in browser on desktop-pc sometimes HTTP 500 error)
 	- dekudeals.com often recommended if you want to browse and be made aware of nice deals
 - high games prices (on every platform), but often good deals in eshop
-	- the device itself is said to be a losing proposition for Nintendo, 
+	- is the device itself a losing proposition for Nintendo? 
 		and the money will then be earned from the ecosystem 
-		after users have invested in the platform and are on the hook.
+		after users have invested in the platform and are on the hook?
 - font sizes not optimized in many games, very small, not "responsive"
+- you can't move SD cards across devices (not checked yet)
 - no TV out
 	- hardware actually missing for display-usb (see YouTube teardown and dissambly videos)
 - retail cartridge with "internet download required" (Wolfenstein2) 
 	due to Nintendo's proprietary expensive cartridge hardware with small capacity (16 GB, 32 GB) 
 	vs huge filesizes for triple a titles, future?
+- "Need for speed" payed, installed, tries looking for "Autolog" servers (no longer avail?), dialog "share Nintendo account info with EA (email, birthdate, ...), [cancel], error-loop autolog/privacy-dialog
+    - requires to disable WIFI (plane mode) before starting the game, so it won't try or cannot connect Autolog servers for another reason
 - small internal system's permanent memory 32 GB 
 	- fills quickly with eshop downloads, many games are huge (640 MB for Akane??, Blasphemous 2d-platformer 7 GB!!, Crysis 3 uses 11 GB)
 	- needs extra MicroSD or MicroSDXC (with system update)
