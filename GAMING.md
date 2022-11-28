@@ -25,12 +25,12 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 ### Good 
 
 - looks nice, good form factor (I don't like the large handheld mode size of the original switch)
-- lot of games
-- easy eshop ecosystem: 
-	eshop cards with 10/25/50 Euro at supermarkets or Amazon to recharge credit, 
-	Code-entering via switch or online, 
-	active in a few seconds, 
-	buying games just a few clicks
+- thousands of games, AAA titles, not smartphone games (some available though)
+- easy eshop ecosystem
+    - rechargable credit system via cards with 15/25/50/100 Euro 
+    - cards available at supermarkets or Amazon (code in email)
+    - Code-entering via Switch or PC and website, active in a few seconds
+	- buying games just a few clicks
 - eshop downloads cope well with network errors
 - dark mode
 - accessoires ecosystem
@@ -49,8 +49,13 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - 3,5mm Audio-Klinkensteckerbuchse
 - free re-downloads after deleting or "archiving" (deletion but game icon kept on home-screen with "download" action)
 - two volume settings: with and without headphones
-- repairable, not glued together, spare parts in online shops
-- streamlined simple UI, very special purpose (although there is a YouTube app but no Excel, not just another tablet/smartphone)
+- repairable, not glued together
+    - spare parts in online shops; whole donor boards where?
+    - caution: ribbon/flex cable ends easy to break; look for small white flap to release the cable 
+    - many YouTube tutorials
+- streamlined simple UI, special purpose device (although there is a YouTube app but no Excel, not just another tablet/smartphone)
+    - separate device = separate battery drain; smartphone keeps ready after gaming session
+    - PC or TV not occupied, can play parallel
 
 
 ### Issues
