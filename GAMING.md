@@ -7,7 +7,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
-| **Nintendo<br>GameBoy<br>(S)NES<br>SwitchLite**  | &starf; Super Mario Land 3: Wario Land <br>&starf; Duck Tales <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... <br><br>&starf; (Super) Mario Bros. <br>&bull; Giana Sisters <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ...  | &bull; Star Fox | - | &starf; VirtuaVerse (&#x2B73;) <br>&starf; Blasphemous (&#x2B73;) <br>&starf; The Way (&#x2B73;) <br>&starf; Crysis 1+3 (&#x2B73;) <br>&starf; Wolfenstein 2 T.N.C. &#x1F4BE; <br>&starf; Witcher 3 &#x1F4BE; <br>&starf; Commandos 2 &#x1F4BE; <br>&starf; Hotline Miami Coll. &#x1F4BE; <br>&starf; Akane (&#x2B73;) <br>&starf; Zelda BOTW &#x1F4BE; <br>&starf; Pure Pool (&#x2B73;) <br>&starf; Gato Roboto (&#x2B73;) <br>&starf; Need for Speed H.P. (&#x2B73;) <br>&bull; Sega Ages: Sonic Hedgehog (&#x2B73;) <br>&bull; Sega Ages: Alex Kidd (&#x2B73;) <br>&bull; Metroid Dread &#x1F4BE; <br>&bull; Armed to the Gears (&#x2B73;) <br>&bull; Midnight Fight Express (&#x2B73;) <br>&bull; Hong Kong Massacre (&#x2B73;) <br>&bull; Road Redemption (&#x2B73;) <br>&bull; TT Isle of Man 2 &#x1F4BE; <br>&bull; Moto Racer 4 (&#x2B73;) <br> &bull; MotoGP 18 (&#x2B73;) <br>&bull; FIFA 19 &#x1F4BE; <br>&bull; Minit (&#x2B73;) <br>&bull; Flashback (&#x2B73;) <br>&bull; Lofi Ping Pong (&#x2B73;) <br>&bull; Run Sausage Run \[mom\] (&#x2B73;) <br>&bull; The Big Journey \[kids\] (&#x2B73;) <br><br>&plus; Orzly Tempered Glas <br>&plus; Orzly Grip Case [1st] <br>&plus; Skull&Co. Grip Case [2nd] <br>&plus; SanDisk 256G MicroSDXC <br>&plus; HORI Slim Tough Pouch [least bulky] 
+| **Nintendo<br>GameBoy<br>(S)NES<br>SwitchLite**  | &starf; Super Mario Land 3: Wario Land <br>&starf; Duck Tales <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... <br><br>&starf; (Super) Mario Bros. <br>&bull; Giana Sisters <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ...  | &bull; Star Fox | - | &starf; VirtuaVerse (&#x2B73;) <br>&starf; Blasphemous (&#x2B73;) <br>&starf; The Way (&#x2B73;) <br>&starf; Crysis 1+3 (&#x2B73;) <br>&starf; Wolfenstein 2 T.N.C. &#x1F4BE; <br>&starf; Witcher 3 &#x1F4BE; <br>&starf; Commandos 2 &#x1F4BE; <br>&starf; Hotline Miami Coll. &#x1F4BE; <br>&starf; Akane (&#x2B73;) <br>&starf; Zelda BOTW &#x1F4BE; <br>&starf; Pure Pool (&#x2B73;) <br>&starf; Gato Roboto (&#x2B73;) <br>&starf; Need for Speed H.P. (&#x2B73;) <br>&bull; Sega Ages: Sonic Hedgehog (&#x2B73;) <br>&bull; Sega Ages: Alex Kidd (&#x2B73;) <br>&bull; Metroid Dread &#x1F4BE; <br>&bull; Armed to the Gears (&#x2B73;) <br>&bull; Midnight Fight Express (&#x2B73;) <br>&bull; Hong Kong Massacre (&#x2B73;) <br>&bull; Road Redemption (&#x2B73;) <br>&bull; TT Isle of Man 2 &#x1F4BE; <br>&bull; Moto Racer 4 (&#x2B73;) <br> &bull; MotoGP 18 (&#x2B73;) <br>&bull; FIFA 19 &#x1F4BE; <br>&bull; Minit (&#x2B73;) <br>&bull; Flashback (&#x2B73;) <br>&bull; Lofi Ping Pong (&#x2B73;) <br>&bull; Run Sausage Run \[mom\] (&#x2B73;) <br>&bull; The Big Journey \[kids\] (&#x2B73;) <br><br>&plus; Orzly Tempered Glas <br>&plus; ~~Orzly Grip Case [1st]~~ <br>&plus; Skull&Co. Grip Case [2nd] <br>&plus; SanDisk 256G MicroSDXC <br>&plus; HORI Slim Tough Pouch [least bulky] 
 | **Amstrad CPC**     | &bull; Kung-Fu Master <br>&bull; Tornado Low Level <br>&bull; Winter Sports <br>&bull; Bomb Jack <br>&bull; Airwolf <br>&bull; Cyrus Chess II <br>&bull; ... | - | - | - 
 | **C64**             | &bull; Last Ninja <br>&bull; Winter Games <br>&bull; ... | - | - | - 
 | **Sega<br>MasterSystem<br>Megadrive<br>GameGear**   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
@@ -24,8 +24,10 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 ### Good 
 
-- looks nice, good form factor (I don't like the large handheld mode size of the original switch)
+- looks nice, good form factor, good weight, solid/sturdy body (I don't like the large handheld mode size of the original switch amd loose joycons)
+- silent (Switch has a fan but I never noticed it)
 - thousands of games, AAA titles, not smartphone games (some available though)
+- price (best handheld for the money)
 - easy eshop ecosystem
     - rechargable credit system via cards with 15/25/50/100 Euro 
     - cards available at supermarkets or Amazon (code in email)
@@ -109,6 +111,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 		or just more complex than a central DB (similar to real-time bidding for single online-ads)
 	- apparently stressed servers (website in browser on desktop-pc sometimes HTTP 500 error)
 	- [dekudeals.com](dekudeals.com) often recommended if you want to browse and be made aware of nice deals (supports Germany too)
+    - [delisted games](https://delistedgames.com/all-delisted-nintendo-switch-games/)
 - high games prices (on every platform), but often good deals in eshop
 	- is the device itself a losing proposition for Nintendo? 
 		and the money will then be earned from the ecosystem 
