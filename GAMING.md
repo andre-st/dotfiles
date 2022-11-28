@@ -24,8 +24,10 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 ### Good 
 
-- looks nice, good form factor, good weight, solid/sturdy body (I don't like the large handheld mode size of the original switch amd loose joycons)
-- silent (Switch has a fan but I never noticed it)
+- looks nice, good form factor, low weight, solid/sturdy/single unit body 
+        (I don't like the large handheld mode size of the original switch 
+        and wobbling joycons (although easier to change/repair and improved with OLED model))
+- silent, device-fan not noticable
 - thousands of games, AAA titles, not smartphone games (some available though)
 - price (best handheld for the money)
 - easy eshop ecosystem
@@ -55,9 +57,12 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - spare parts in online shops; whole donor boards where?
     - caution: ribbon/flex cable ends easy to break; look for small white flap to release the cable 
     - many YouTube tutorials
-- streamlined simple UI, special purpose device (although there is a YouTube app but no Excel, not just another tablet/smartphone)
-    - separate device = separate battery drain; smartphone keeps ready after gaming session
-    - PC or TV not occupied, can play parallel
+- not a tablet/smartphone
+    - real controller haptics, I don't like touch screens
+    - separate device = separate battery drain; smartphone keeps ready after gaming session   
+    - optimized special purpose device, although there is a YouTube app but no Excel
+- PC or TV not occupied, can play parallel
+- streamlined simple UI 
 
 
 ### Issues
@@ -139,7 +144,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - eshop downloads take long (3-4 hours for Gigabytes-Titles)
 - big power adapter (but any USB source would probably do)
 - at some time you recognize the same game-engines again and again, just variants of other games
-
+- game groups in the user UI should be accessible from home menu
 
 
 
