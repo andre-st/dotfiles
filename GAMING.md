@@ -62,21 +62,25 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - real controller haptics, I don't like touch screens
     - separate device = separate battery drain; smartphone keeps ready after gaming session   
     - optimized special purpose device, although there is a YouTube app but no Excel
-- PC or TV not occupied, can play parallel
+    - healthy-escapism device vs. office everywhere
+- PC or TV not occupied, can play parallel, easy to pause/resume
 - streamlined simple UI 
 
 
 ### Issues
 
-- brand image: "Nintendo is for children"
-	- although many 'mature' games (deeper stories, sex and crime, blood, ...), 
-		see my games list in [History section](#history);
-         confuses games for children with games for children only (2 markets)
-    - whatever _adult_ means when it comes to video games, since adults are expected to seek real adventures rather than just play them, though (movies/books?);
+- brand image: "Nintendo is for children and females"
+	- although many 'mature' games with deeper stories, sex, crime and blood, 
+	  see my manly games list in [History section](#history);
+      confuses marketing to children with children-only market 
+    - whatever _adult_ means when it comes to video games, 
+      since adults are expected to seek real adventures rather than just play them, though (movies/books?);
 	- "family friendly", but many Games imho often adhere to childish aesthetics 
-	  (early Nintendo aesthetics were cartoony too but resonated better with older ppl than the bright colors and round big-headed puppet-bodies nowadays)
-	- male adult Switch-Youtubers in children's rooms, surrounded by little dolls (amiibo) and stuffed Nintendo-merch animals
-	- Yakuza-devs "not cool outsiders night-creatures elite platform"
+      (early Nintendo aesthetics were cartoony too but resonated better with older ppl 
+      than the bright colors and round big-headed puppet-bodies nowadays)
+	- male adult Switch-Youtubers in children's rooms, 
+      surrounded by little dolls (amiibo) and stuffed Nintendo-merch animals 
+	- Yakuza-devs: "not cool outsiders night-creatures elite platform"
 - 'spring noise' in my right analogue joystick after few days of using (new device!)
 	- temporarily/regularly solved without physical disassembly:
 	```	
@@ -111,40 +115,42 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - avoid weak Thesa for the "hinge" installation method (gets loose when you peel off the glas foil)
 - slow lagging eshop on switch device
 	- small pagination steps, every time new request to server (devs usually try to avoid expensive I/O): 
-		either bad choice 
-		or very very real time prices, 
-		or from times with less stressed servers 
-		or regulatoy thing (eager loading prices)
-		or just more complex than a central DB (similar to real-time bidding for single online-ads)
+	  either bad choice 
+	  or very very real time prices, 
+	  or from times with less stressed servers 
+	  or regulatoy thing (eager loading prices)
+	  or just more complex than a central DB (similar to real-time bidding for single online-ads)
 	- apparently stressed servers (website in browser on desktop-pc sometimes HTTP 500 error)
 	- [dekudeals.com](dekudeals.com) often recommended if you want to browse and be made aware of nice deals (supports Germany too)
     - [delisted games](https://delistedgames.com/all-delisted-nintendo-switch-games/)
 - high games prices (on every platform), but often good deals in eshop
 	- is the device itself a losing proposition for Nintendo? 
-		and the money will then be earned from the ecosystem 
-		after users have invested in the platform and are on the hook?
-- font sizes not optimized in many games, very small, not "responsive"
+	  and the money will then be earned from the ecosystem 
+	  after users have invested in the platform and are on the hook?
+- font sizes not optimized in many games, very small, not "responsive" or configurable 
 - you can't move SD cards across devices (not checked yet)
 - no TV out
 	- hardware actually missing for display-usb (see YouTube teardown and dissambly videos)
-- retail cartridge with "internet download required" (Wolfenstein2) 
-	due to Nintendo's proprietary expensive cartridge hardware with small capacity (16 GB, 32 GB) 
-	vs huge filesizes for triple a titles, future?
+- retail cartridge with "internet download required" (Wolfenstein2)
+  due to Nintendo's proprietary expensive cartridge hardware with small capacity (16 GB, 32 GB) 
+  vs huge filesizes for AAA titles, future?
 - software-update is mandatory for physical game if you previously installed a digital version in higher version, 
-    you cannot skip this; deleting game and save-games won't help, 
-    you would have to refactory-reset the switch as described on web/youtube just to play unpatched cartridge without Internet
-- "Need for speed" payed, installed, tried "Autolog" servers (no longer avail?), dialog "share Nintendo account info with EA (email, birthdate, ...), [cancel], error-loop autolog/privacy-dialog
+  you cannot skip this; deleting game and save-games won't help, 
+  you would have to do a refactory-reset on the switch as described on web/youtube just to play unpatched cartridge without Internet
+- "Need for speed HP" payed, installed, tried "Autolog" servers (no longer avail?), 
+  dialog "share Nintendo account info with EA (email, birthdate, ...), [cancel], error-loop autolog/privacy-dialog
     - requires to disable WIFI (airplane mode) before starting the game, so it won't try or cannot connect Autolog servers for another reason
 - small internal system's permanent memory 32 GB 
-	- fills quickly with eshop downloads, many games are huge (640 MB for Akane??, Blasphemous 2d-platformer 7 GB!!, Crysis 3 uses 11 GB)
-	- needs extra MicroSD or MicroSDXC (with system update)
-- changing cartridges lil bit hard but protection makes sense for portable system
+	- fills quickly with eshop downloads, many games are huge 
+      (640 MB for Akane??, Blasphemous 2d-platformer 7 GB!!, Crysis 3 uses 11 GB and Hellblade 18 GB)
+	- needs extra MicroSD or MicroSDXC (with system Internet-update)
+- changing cartridges lil bit hard but dust/dirt/loss-protection cap makes sense for a portable system
 - Nintendo support:
 	- quick response but useless so far
 	- could not write replies to info@nintendo.de (SMTP error, very generous IP block?)
 	- support ticket links in answers lead to HTTP-404-pages
 - wishlist-additions on the international Nintendo.com will not be displayed correctly on the german Nintendo.de wishlist
-	(sync between device and nintendo.de works and vice versa (at least removal of games)) 
+  (sync between device and nintendo.de works and vice versa (at least removal of games)) 
 - minus-button "-" uncomfortable to reach and press
 - eshop downloads take long (3-4 hours for Gigabytes-Titles)
 - big power adapter (but any USB source would probably do)
