@@ -70,15 +70,16 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 ### Issues
 
 - brand image: "Nintendo is for children and females"
-	- although many 'mature' games with deeper stories, sex, crime and blood, 
-	  see my manly games list in [History section](#history);
+	- although many 'mature' games with deeper stories, crime and blood, 
+	  see my manly games list in [History section](#history); 
+      there are USK/PEGI 18 but no "AO-rated" titles (I don't miss switch-pr0n);
       confuses marketing to children with children-only market 
     - whatever _adult_ means when it comes to video games, 
       since adults are expected to seek real adventures rather than just play them, though (movies/books?);
 	- "family friendly", but many Games imho often adhere to childish aesthetics 
       (early Nintendo aesthetics were cartoony too but resonated better with older ppl 
-      than the bright colors and round big-headed puppet-bodies nowadays)
-	- male adult Switch-Youtubers in children's rooms, 
+      than the bright colors and round big-headed puppet-bodies - Chibi aesthetic - nowadays)
+	- male adult bearded Switch-Youtubers in children's rooms, 
       surrounded by little dolls (amiibo) and stuffed Nintendo-merch animals 
 	- Yakuza-devs: "not cool outsiders night-creatures elite platform"
 - 'spring noise' in my right analogue joystick after few days of using (new device!)
@@ -114,6 +115,8 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - extra screen protector needed (tempered glas)
     - avoid weak Thesa for the "hinge" installation method (gets loose when you peel off the glas foil)
 - slow lagging eshop on switch device
+    - [made with React](https://html5experts-jp.translate.goog/shumpei-shiraishi/24538/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en) 
+        in WebKit browser _without_ JIT compiler (because of traditional WebKit exploits [abusing JIT memory](https://www.arxiv-vanity.com/papers/1905.07643/) which is writable and executable by design)
 	- small pagination steps, every time new request to server (devs usually try to avoid expensive I/O): 
 	  either bad choice 
 	  or very very real time prices, 
