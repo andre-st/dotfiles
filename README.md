@@ -461,7 +461,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 
 ### Other
 
-- [Zathura](https://pwmt.org/projects/zathura/): keyboard-friendly, dark-mode, fast PDF-reader
+- [Zathura](https://pwmt.org/projects/zathura/): keyboard-friendly, dark-mode, fast PDF-reader (+zathura-cb for CBR-files)
 - pdfgrep: grep PDF files ([ripgrep-all](https://github.com/phiresky/ripgrep-all) probably faster)
 - [commafeed.com](https://www.commafeed.com): RSS-reader for blogs, news sites, podcasts, ...
 
