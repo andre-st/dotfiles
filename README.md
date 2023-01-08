@@ -169,10 +169,11 @@ Slackware runs the _Xorg_ display server:
 - I keep thinking about foot pedals, but I haven't come up with a really good use case (push-to-talk, potentiometer to zoom in/out of Gimp, ?)
 - voice interfaces would contribute to noise pollution
 - touch interfaces lack tactile feedback (sound/vibration isn't same), 
-	fingers hide part of the screen and dirty the display (before Touch, a lot of people were told not to touch the screen if they wanted to show something);
+	fingers hide part of the screen and dirty the display;
 	apart from smartphones, the hand position is unnatural; 
+    touchscreens are [less safe](https://futurism.com/the-byte/study-finds-that-buttons-in-cars-are-safer-and-quicker-to-use-than-touchscreens);
 	Touch UI has advantages (cheaply redesignable input systems, physical space savings, ...), 
-	but it is still not my thing
+	but it isn't my thing
 - [Xmodmap-customized US-keyboard layout](manjaro/home/andre/.Xmodmap-cherry-g803000lsceu0) with umlauts, accents, euro sign, math. symbols/notations, different quotation marks, short and long dash etc.
 I have mapped the first level of the numeric keypad to function keys, thus shorter distances from the cursor keys to the function keys with the right hand, e.g. delete (F8) in the Midnight Commander.
 - window-'focus follows mouse' mode (perfect for tiling WM, not so for stacking/floating WM)

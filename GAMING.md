@@ -25,12 +25,13 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 ### Good 
 
 - better handheld form factor, weight ok, solid/sturdy/single unit body 
-  (I don't like the large handheld mode size of the original switch; 
+  (I don't like the large handheld mode size of the original switch and I would prefer other consoles for TV mode;
   it's said that the mounted joycons are wobbling (although easier to change/repair and improved with OLED model))
 - silent, device-fan not noticable
 - sound with and without headphones is ok
 - thousands of games, AAA and indie titles, just a few "smartphone games"
-- price (best handheld for the money: _Aya Neo_ nice but triple the price, _Analogue Pocket_ sexy but limited, _Steam Deck_ is a laptop)
+- price (good handheld for the money: _Aya Neo_ nice but triple the price, _Analogue Pocket_ sexy but limited, _Steam Deck_ vs notebook+controller?)
+    - if it breaks or gets lost outside, it doesn't hurt that much
 - easy eshop ecosystem
     - rechargable credit system via cards with 15/25/50/100 Euro 
     - cards available at supermarkets or Amazon (code in email)
