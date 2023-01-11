@@ -153,7 +153,7 @@ Slackware runs the _Xorg_ display server:
 
 - I'm fine with i3, but I felt I was faster and less mentally involved with Notion; maybe a matter of habit, I've used Ion and Notion for years
 - todo
-- rofi (dmenu replacement)
+- rofi (dmenu replacement) - launching (wrong) applications is a _bigger_ action and should be represented with _bigger_ icons and a more prominent menu
 
 
 
@@ -298,7 +298,6 @@ flowchart TD
   Convenience ensures that I don't skip backups due to lack of time or laziness.
   All important data is on a separate partition _/mnt/data_, 
   with _changes_ being fully synchronized onto the backup 
-  at acceptable total running times (minutes)
 - **Offline:** I keep backup disks detached 
   so that they cannot be mounted and affected by ransomware. 
   Permanently attached drives are not a backup but extended storage
