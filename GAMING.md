@@ -28,7 +28,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - better than handheld mode size of the original Switch
 - weight ok
 - screen of the regular Switch is [not that much bigger](https://i.ytimg.com/vi/bD1kaIrMzEk/maxresdefault.jpg), 
-  the big black bezel makes the std. Switch look bigger (OLED however is larger)
+  the big black bezel makes the regular Switch look bigger (OLED-model however is larger)
 - solid / sturdy / single unit body 
     - it's said that the mounted joycons of the regular Switch are [wobbling](https://www.youtube.com/watch?v=wuAcqg2VJ_Q) (although easier to change/repair), 
         regular Sw. feels cheaper
@@ -84,18 +84,19 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - brand image: "Nintendo is for children and females"
 	- although having 'mature' games with deeper stories, crime and blood, 
 	  see my manly games list in [History section](#history); 
-      there are USK/PEGI 18 but no "AO-rated" titles (I don't miss switch-pr0n);
-      confuses marketing to children with children-only market;
-      many mature games are ports from the manly consoles, though
+      there are USK/PEGI 18 but no "AO-rated" titles (I don't miss switch-pr0n)
+    - confuses marketing to children with children-only market;
+      many mature games are ports from the _manly consoles_, though
     - whatever _adult_ means when it comes to video games, 
-      since adults are expected to seek real adventures rather than just play (practice) them (movies/books?);
-	- "family friendly", but many Games imho often adhere to childish aesthetics 
+      since adults are expected to seek real adventures rather than just play (practice) them (movies/books?)
+	- "family friendly", but many Games imho actually adhere to childish aesthetics 
       (early Nintendo aesthetics were cartoony too but resonated better with older ppl 
-      than the bright colors and round big-headed puppet-bodies - Chibi aesthetic - nowadays)
+      than the bright colors and round big-headed puppet-bodies - Chibi aesthetic - nowadays);
+      I like Japan but Kawaii pop culture not so much
 	- male adult bearded Switch-Youtubers in children's rooms, 
       surrounded by little dolls (amiibo) and stuffed Nintendo-merch animals 
 	- Yakuza-devs: "not cool outsiders night-creatures elite platform"
-    - _r/tomorrow_ toxic but has a point
+    - subreddit _r/tomorrow_ toxic but has a point
 - 'spring noise' in my right analogue joystick after few days of using (new device!)
 	- temporarily/regularly solved without physical disassembly:
 	```	
