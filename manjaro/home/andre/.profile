@@ -21,7 +21,7 @@ export WAN_IF=wlp4s0
 
 
 # Cursor shape: blinking pipe/ibeam instead of non-blinking block
-echo -e "\033[5 q"
+#echo -e "\033[5 q"
 # echo -e -n "\x1b[\x30 q" # changes to blinking block
 # echo -e -n "\x1b[\x31 q" # changes to blinking block also
 # echo -e -n "\x1b[\x32 q" # changes to steady block

@@ -25,22 +25,24 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 ### Good 
 
 - good handheld form factor
+    - better than handheld mode size of the original Switch
 - weight ok
 - screen of the regular Switch is [not that much bigger](https://i.ytimg.com/vi/bD1kaIrMzEk/maxresdefault.jpg), 
-  the big black bezel makes the std. Switch look bigger (OLED however is better)
+  the big black bezel makes the std. Switch look bigger (OLED however is larger)
 - solid / sturdy / single unit body 
-    - I don't like the large handheld mode size of the original switch and I would buy other consoles for TV mode
-    - it's said that the mounted joycons are [wobbling](https://www.youtube.com/watch?v=wuAcqg2VJ_Q) (although easier to change/repair), 
-        overall system feels cheaper
+    - it's said that the mounted joycons of the regular Switch are [wobbling](https://www.youtube.com/watch?v=wuAcqg2VJ_Q) (although easier to change/repair), 
+        regular Sw. feels cheaper
 - silent, device-fan not noticable
 - sound with and without headphones is ok
-- thousands of games, AAA and indie titles, just a few "smartphone games"
+- thousands of games, AAA and indie titles, a few "smartphone games"
 - price ok 
-    - although 2015 hardware and expensive physical games; 
+    - although 2015 hardware and expensive (non-used) physical games; 
       _Aya Neo_ nice but triple the price, 
       _Analogue Pocket_ sexy but limited, 
       _Steam Deck_ good option but regular Switch already too large (notebook + controller?)
     - if it breaks or gets lost outside, it doesn't hurt too much
+    - wouldn't buy a Nintendo Switch for TV-gaming (PS or Xbox Series S has better TCO, way better specs as weight and energy don't matter, more adult games, ...);
+      down-optimized textures still look good on the Lite's 720p small screen (pixel density)
 - easy eshop ecosystem
     - rechargable credit system via cards with 15/25/50/100 Euro 
     - cards available at supermarkets or Amazon (code in email)
@@ -80,18 +82,20 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 ### Issues
 
 - brand image: "Nintendo is for children and females"
-	- although many 'mature' games with deeper stories, crime and blood, 
+	- although having 'mature' games with deeper stories, crime and blood, 
 	  see my manly games list in [History section](#history); 
       there are USK/PEGI 18 but no "AO-rated" titles (I don't miss switch-pr0n);
-      confuses marketing to children with children-only market 
+      confuses marketing to children with children-only market;
+      many mature games are ports from the manly consoles, though
     - whatever _adult_ means when it comes to video games, 
-      since adults are expected to seek real adventures rather than just play (practice) them, though (movies/books?);
+      since adults are expected to seek real adventures rather than just play (practice) them (movies/books?);
 	- "family friendly", but many Games imho often adhere to childish aesthetics 
       (early Nintendo aesthetics were cartoony too but resonated better with older ppl 
       than the bright colors and round big-headed puppet-bodies - Chibi aesthetic - nowadays)
 	- male adult bearded Switch-Youtubers in children's rooms, 
       surrounded by little dolls (amiibo) and stuffed Nintendo-merch animals 
 	- Yakuza-devs: "not cool outsiders night-creatures elite platform"
+    - _r/tomorrow_ toxic but has a point
 - 'spring noise' in my right analogue joystick after few days of using (new device!)
 	- temporarily/regularly solved without physical disassembly:
 	```	

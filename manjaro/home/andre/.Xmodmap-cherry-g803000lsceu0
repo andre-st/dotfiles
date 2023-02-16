@@ -16,7 +16,7 @@
 !
 !
 ! References:
-! - key codes/sym: $ xev
+! - key codes/sym: $ xev  # or showkey
 ! - Math symbols:  https://www.cs.tut.fi/~jkorpela/math/syms.html
 ! - symbol names:  https://www.cl.cam.ac.uk/~mgk25/ucs/keysymdef.h
 !                  https://cs.gmu.edu/~sean/stuff/n800/keyboard/keysymdef.html
@@ -26,6 +26,7 @@
 ! 108 = Alt_R, 135 = Menu
 keycode 108 = Mode_switch
 keycode 135 = ISO_Level3_Shift
+
 
 ! ------------------- -------------- -------------- --------------- --------------- -------------- --------------
 !                     Unmodified     Shift/Numlock  Mode_switch     Mode_sw+Shift   IsoL3Shift     IsoL3Sh+Shift
