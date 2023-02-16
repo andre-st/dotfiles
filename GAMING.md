@@ -132,12 +132,9 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - [made with React](https://html5experts-jp.translate.goog/shumpei-shiraishi/24538/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en) 
         in WebKit browser _without_ JIT compiler (because of traditional WebKit exploits [abusing JIT memory](https://www.arxiv-vanity.com/papers/1905.07643/) which is writable and executable by design)
 	- small pagination steps, every time new request to server (devs usually try to avoid expensive I/O): 
-	  either bad choice 
-	  or very very real time prices, 
-	  or from times with less stressed servers 
-	  or regulatoy thing (eager loading prices)
-	  or just more complex than a central DB (similar to real-time bidding for single online-ads)
+	  either bad choice or perhaps sth complex as real-time bidding for single online-ads
 	- apparently stressed servers (website in browser on desktop-pc sometimes HTTP 500 error)
+        - noticed lot of hotlinking (Dekudeals for example)
 	- [dekudeals.com](dekudeals.com) often recommended if you want to browse and be made aware of nice deals (supports Germany too)
     - [delisted games](https://delistedgames.com/all-delisted-nintendo-switch-games/)
 - high games prices (on every platform), but often good deals in eshop
@@ -145,12 +142,16 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 	  and the money will then be earned from the ecosystem 
 	  after users have invested in the platform and are on the hook?
 - font sizes not optimized in many games, very small, not "responsive" or configurable 
-- you can't move SD cards across devices (not checked yet)
+- you can't move SD cards across devices
 - no TV out
-	- hardware actually missing for display-usb (see YouTube teardown and dissambly videos)
+	- hardware actually missing for display-USB (see YouTube teardown and dissambly videos)
 - retail cartridge with "internet download required" (Wolfenstein2)
   due to Nintendo's proprietary expensive cartridge hardware with small capacity (16 GB, 32 GB) 
   vs huge filesizes for AAA titles, future?
+    - Nintendo wants to keep the retail collector scene alive and 
+      have as few vulnerable mechanical parts in their portable device as possible; 
+      controller+pins allows to sell at lower competitive price (by _delaying_ costs to cartridge seller) 
+      vs having UMD/minidisc reader in every device (and cheap disc production)
 - software-update is mandatory for physical game if you previously installed a digital version in higher version, 
   you cannot skip this; deleting game and save-games won't help, 
   you would have to do a refactory-reset on the switch as described on web/youtube just to play unpatched cartridge without Internet
