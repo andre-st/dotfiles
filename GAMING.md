@@ -136,6 +136,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
         who accused the company of knowingly selling faulty products 
         [... N. won] due to the Switch's end user license agreement which prevents lawsuits. 
         [... In] the past, Nintendo has faced many other lawsuits over the same issue" (2023)
+    - https://www.ign.com/articles/all-the-lawsuits-nintendo-is-facing-over-joy-con-drift
     - two causes: wear and tear (damaged plate below the joystick) or dust/dirt (solved the same way as spring noise)
     - pressing L3/R3 a lot increases wear and tear
 - "game card could not be read" 
