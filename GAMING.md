@@ -19,7 +19,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 | **C64**             | &bull; Last Ninja <br>&bull; Winter Games <br>&bull; ... | - | - | - 
 | **Sega<br>MasterSystem<br>Megadrive<br>GameGear**   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
 | **PC**              | &starf; Mortal Combat <br>&starf; Bifi Roll Action in Hollywood <br>&starf; Wolfenstein 3D <br>&starf; Battle Arena Toshinden <br>&starf; Tomb Raider 1+2 <br>&starf; Indiana Jones Last Crusade <br>&starf; Indiana Jones Fate of Atlantis <br>&starf; Monkey Island 2 <br>&starf; Sam & Max Hit the Road <br>&starf; Full Throttle <br>&starf; Cave World Saga (H&ouml;hlenweltsaga) <br>&starf; Baphomets Fluch 2 <br>&starf; Grand Theft Auto <br>&bull; Budokan Martial Spirit <br>&bull; Raptor C.o.t.S. <br>&bull; Darker <br>&bull; Shufflepuck Cafe <br>&bull; Battle Chess <br>&bull; QBASIC Gorillas <br>&bull; Dune <br>&bull; Stunts <br>&bull; Aces of the Deep <br>&bull; Virtual Pool <br>&bull; Destruction Derby <br>&bull; Carmageddon <br>&bull; Phantasmagoria <br>&bull; Half-Life <br>&bull; ... <br><br>&plus; 3dfx Voodoo Graphics Accelerator| &bull; MDK <br>&bull; Moto Racer 1 <br>&bull; Need for Speed 3 <br>&bull; Deadly Tide <br>&bull; Frogger <br>&bull; Virtua Cop <br>&bull; Star Wars Rebel Assault <br>&bull; Oddworld <br>&bull; Road Rash <br>&bull; Commandos: Behind Enemy Lines <br>&bull; Heart of Darkness <br>&bull; Crusader No Remorse <br>&bull; Beneath a Steel Sky <br>&bull; Street Figher 2 <br>&bull; Day of the Tentacle <br>&bull; MegaRace 1, 2 <br>&bull; Cyberia <br>&bull; FX Fighter <br>&bull; Bad Mojo Redux <br>&bull; Normality <br>&bull; Shellshock <br>&bull; Leisure Suit Larry <br>&bull; ... | &bull; Far Cry | -
-| **PlayStation**     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_ <br>&bull; _Red Dead Redemption 2_ <br>&bull; _The Last Guardian_ <br>&bull; _The Last of Us: Left Behind_
+| **PlayStation**     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_ <br>&bull; _Red Dead Redemption 2_ <br>&bull; _The Last Guardian_ <br>&bull; _The Last of Us: Left Behind_ <br>&bull; _Mass Effect 1-3_
 | **XBox**            | - | - | - | &bull; _Hellblade 2_ 
 | **Cloud Gaming**    | - | - | - | - 
 | **Smartphone<br>Tablet** | - | - | - | - 
@@ -92,7 +92,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 ### Issues
 
-#### Brand image: "Nintendo is for children and females"
+#### "Nintendo is for children and females" brand image:
 
 - although having 'mature' games with deeper stories, crime and blood, 
   see my manly games list in [History section](#history); 
@@ -105,13 +105,14 @@ Couple of investments and titles that I remember I played at home, friends/cousi
   (early Nintendo aesthetics were cartoony too but resonated better with older ppl 
   than the bright colors and round big-headed puppet-bodies - Chibi aesthetic - nowadays);
   I like Japan but Kawaii pop culture not so much
+- two types of "cute" games: girls’ games and children’s games
 - male adult bearded Switch-Youtubers in children's rooms, 
   surrounded by little dolls (amiibo) and stuffed Nintendo-merch animals 
 - Yakuza-devs: "not cool outsiders night-creatures elite platform"
 - subreddit _r/tomorrow_ toxic but has a point
 
 
-#### Hardware
+#### Hardware Issues:
 
 - "spring noise"
     - in my right analogue joystick after few days of using (new device!)
@@ -130,7 +131,13 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 	```
 	[YouTube-Video by WD40 company itself](https://www.youtube.com/watch?v=I35647lHFzA)
 - "joystick drift"
-    - often reported (not yet my problem but seems solved the same way as spring noise)
+    - often reported, not yet my problem
+    - "Nintendo wins a class action lawsuit about joy-con drift brought by parents 
+        who accused the company of knowingly selling faulty products 
+        [... N. won] due to the Switch's end user license agreement which prevents lawsuits. 
+        [... In] the past, Nintendo has faced many other lawsuits over the same issue" (2023)
+    - two causes: wear and tear (damaged plate below the joystick) or dust/dirt (solved the same way as spring noise)
+    - pressing L3/R3 a lot increases wear and tear
 - "game card could not be read" 
     - not yet my problem
     - "headphones trick" (shares PCB with card-reader, powering headphones sometimes changes sth. for the better)
@@ -158,7 +165,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - big power adapter (but any USB source would probably do)
 
 
-#### Software
+#### Software Issues:
 
 - slow lagging eshop on switch device
     - [made with React](https://html5experts-jp.translate.goog/shumpei-shiraishi/24538/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en) 
@@ -181,13 +188,16 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - game groups in the user UI should be accessible from home menu
 
 
-#### Other
+#### Other Issues:
 
 - high games prices (on every platform), but often good deals in eshop
 	- is the device itself a losing proposition for Nintendo? 
 	  and the money will then be earned from the ecosystem 
 	  after users have invested in the platform and are on the hook?
 - you can't move SD cards across devices
+   = you can't backup downloaded eshop games and save data in case of a device replacement; 
+    save data can be backed up by paying Nintendo Switch Online;
+    eshop games have to be downloaded again
 - retail cartridge with "internet download required" (Wolfenstein2)
   due to Nintendo's proprietary expensive cartridge hardware with small capacity (16 GB, 32 GB) 
   vs huge filesizes for AAA titles, future?
@@ -219,16 +229,17 @@ Couple of investments and titles that I remember I played at home, friends/cousi
         live vicariously through what you see on screen, share drama, feel emotions of characters, 
         realize what you don't have post-game
     - replay in different way
-    - cut it short quickly by starting another game even if it feels like a chore;
+    - cut it short quickly by starting another game even if it feels like a chore:
         "follow emotionally draining games with flow-inducing gameplay driven games" such as
         "Mario Kart/Animal Crossing/Smash/Tetris [...] just 15-30 minute blasts of fun"
     - game-debriefs, detailed analyzes on YouTube or in podcasts
     - game-subreddits with similarly attached people
     - fan-fiction
     - some players omit something, e.g. pause forever before the final boss to give themselves the illusion that the world doesn't stop existing;
-        many games are the way and not 2 minute end-sequence
+        many games are the long way and not just the 2 minute end-sequence
 - "video game addiction" 
-    - more likely to affect people who are generally prone to addiction in general
+    - more likely to affect people who are generally prone to chemical or behavioral addictions 
+        (alcohol, tobacco, stress-associated eating, working, shopping, exercising, ...)
 - "dark patterns"
     - loot boxes, gambling
 - "console wars tribalism", "PS5 elitism", "gaming toxity", brand loyalty
@@ -244,10 +255,11 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 ### Misc
 
+- "Gaming study finds adults play more than kids"
 - gaming magazines and tv-shows have become Youtube channels and podcasts
 - prefer game "review" and "gameplay" videos over game trailers
 - Unreal Engine, motion capturing (mocap) etc tutorials on YouTube;
     "atmosphere"/intangibles that can't be put in level editor
- - at some time you recognize the same game-engines again and again, just variants of other games   
+- at some time you recognize the same game-engines again and again, just variants of other games   
 
 
