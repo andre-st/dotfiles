@@ -19,7 +19,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 | **C64**             | &bull; Last Ninja <br>&bull; Winter Games <br>&bull; ... | - | - | - 
 | **Sega<br>MasterSystem<br>Megadrive<br>GameGear**   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
 | **PC**              | &starf; Mortal Combat <br>&starf; Bifi Roll Action in Hollywood <br>&starf; Wolfenstein 3D <br>&starf; Battle Arena Toshinden <br>&starf; Tomb Raider 1+2 <br>&starf; Indiana Jones Last Crusade <br>&starf; Indiana Jones Fate of Atlantis <br>&starf; Monkey Island 2 <br>&starf; Sam & Max Hit the Road <br>&starf; Full Throttle <br>&starf; Cave World Saga (H&ouml;hlenweltsaga) <br>&starf; Baphomets Fluch 2 <br>&starf; Grand Theft Auto <br>&bull; Budokan Martial Spirit <br>&bull; Raptor C.o.t.S. <br>&bull; Darker <br>&bull; Shufflepuck Cafe <br>&bull; Battle Chess <br>&bull; QBASIC Gorillas <br>&bull; Dune <br>&bull; Stunts <br>&bull; Aces of the Deep <br>&bull; Virtual Pool <br>&bull; Destruction Derby <br>&bull; Carmageddon <br>&bull; Phantasmagoria <br>&bull; Half-Life <br>&bull; ... <br><br>&plus; 3dfx Voodoo Graphics Accelerator| &bull; MDK <br>&bull; Moto Racer 1 <br>&bull; Need for Speed 3 <br>&bull; Deadly Tide <br>&bull; Frogger <br>&bull; Virtua Cop <br>&bull; Star Wars Rebel Assault <br>&bull; Oddworld <br>&bull; Road Rash <br>&bull; Commandos: Behind Enemy Lines <br>&bull; Heart of Darkness <br>&bull; Crusader No Remorse <br>&bull; Beneath a Steel Sky <br>&bull; Street Figher 2 <br>&bull; Day of the Tentacle <br>&bull; MegaRace 1, 2 <br>&bull; Cyberia <br>&bull; FX Fighter <br>&bull; Bad Mojo Redux <br>&bull; Normality <br>&bull; Shellshock <br>&bull; Leisure Suit Larry <br>&bull; ... | &bull; Far Cry | -
-| **PlayStation**     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_ <br>&bull; _Red Dead Redemption 2_
+| **PlayStation**     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_ <br>&bull; _Red Dead Redemption 2_ <br>&bull; _The Last Guardian_ <br>&bull; _The Last of Us: Left Behind_
 | **XBox**            | - | - | - | &bull; _Hellblade 2_ 
 | **Cloud Gaming**    | - | - | - | - 
 | **Smartphone<br>Tablet** | - | - | - | - 
@@ -33,10 +33,12 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 ### Good 
 
 - good handheld form factor
-    - better than handheld mode size of the original Switch
+    - better than handheld mode size of the regular Switch
 - weight ok
 - screen of the regular Switch is [not that much bigger](https://i.ytimg.com/vi/bD1kaIrMzEk/maxresdefault.jpg), 
-  the big black bezel makes the regular Switch look bigger (OLED-model however is larger)
+  the big black bezel makes the regular Switch _look_ bigger (OLED-model is actually larger);
+  so far, the screen size has not taken away from the immersion (e.g. Hellblade)
+  but I already knew/guessed this from the handheld consoles of my childhood
 - solid / sturdy / single unit body 
     - it's said that the mounted joycons of the regular Switch are [wobbling](https://www.youtube.com/watch?v=wuAcqg2VJ_Q) (although easier to change/repair), 
         regular Sw. feels cheaper
