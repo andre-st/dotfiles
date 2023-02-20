@@ -181,11 +181,9 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 ## Gaming in General
 
-### Misc
+### Good
 
-- gaming magazines and tv-shows have become Youtube channels and podcasts
-- prefer game "review" and "gameplay" videos over game trailers
-- Unreal Engine, motion capturing (mocap) etc tutorials on YouTube
+- "Video gaming may be associated with better cognitive performance in children"
 
 
 ### Issues
@@ -207,4 +205,10 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - defined a generation of child gamers (1990s) through tribalism and exclusives
     - "review bombing"
     - "ended 2010", cross-platform, gamers own multiple consoles, Nintendo niche, PC gaming master race
+
+### Misc
+
+- gaming magazines and tv-shows have become Youtube channels and podcasts
+- prefer game "review" and "gameplay" videos over game trailers
+- Unreal Engine, motion capturing (mocap) etc tutorials on YouTube
 
