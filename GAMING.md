@@ -1,6 +1,6 @@
 # Gaming
 
-## Content
+## Overview
 
 - [History](#history)
 - [Nintendo Switch Lite](#nintendo-switch-lite)
@@ -18,8 +18,9 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 | **Amstrad CPC**     | &bull; Kung-Fu Master <br>&bull; Tornado Low Level <br>&bull; Winter Sports <br>&bull; Bomb Jack <br>&bull; Airwolf <br>&bull; Cyrus Chess II <br>&bull; Deuteron <br>&bull; Crazy ball? Gridrider? <br>&bull; ... | - | - | - 
 | **C64**             | &bull; Last Ninja <br>&bull; Winter Games <br>&bull; ... | - | - | - 
 | **Sega<br>MasterSystem<br>Megadrive<br>GameGear**   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
-| **PC**              | &starf; Mortal Combat <br>&starf; Bifi Roll Action in Hollywood <br>&starf; Wolfenstein 3D <br>&starf; Battle Arena Toshinden <br>&starf; Tomb Raider 1+2 <br>&starf; Indiana Jones Last Crusade <br>&starf; Indiana Jones Fate of Atlantis <br>&starf; Monkey Island 2 <br>&starf; Sam & Max Hit the Road <br>&starf; Full Throttle <br>&starf; Cave World Saga (H&ouml;hlenweltsaga) <br>&starf; Baphomets Fluch 2 <br>&starf; Grand Theft Auto <br>&bull; Budokan Martial Spirit <br>&bull; Raptor C.o.t.S. <br>&bull; Darker <br>&bull; Shufflepuck Cafe <br>&bull; Battle Chess <br>&bull; QBASIC Gorillas <br>&bull; Dune <br>&bull; Stunts <br>&bull; Aces of the Deep <br>&bull; Virtual Pool <br>&bull; Destruction Derby <br>&bull; Carmageddon <br>&bull; Phantasmagoria <br>&bull; Half-Life <br>&bull; ... <br><br>&plus; 3dfx Voodoo Graphics Accelerator| &bull; MDK <br>&bull; Moto Racer 1 <br>&bull; Need for Speed 3 <br>&bull; Deadly Tide <br>&bull; Frogger <br>&bull; Virtua Cop <br>&bull; Star Wars Rebel Assault <br>&bull; Oddworld <br>&bull; Road Rash <br>&bull; Commandos: Behind Enemy Lines <br>&bull; Heart of Darkness <br>&bull; Crusader No Remorse <br>&bull; Beneath a Steel Sky <br>&bull; Street Figher 2 <br>&bull; Day of the Tentacle <br>&bull; MegaRace 1, 2 <br>&bull; Cyberia <br>&bull; FX Fighter <br>&bull; Bad Mojo Redux <br>&bull; Normality <br>&bull; Shellshock <br>&bull; Leisure Suit Larry <br>&bull; ... | &bull; Far Cry | &bull; _Hellblade 2_ 
+| **PC**              | &starf; Mortal Combat <br>&starf; Bifi Roll Action in Hollywood <br>&starf; Wolfenstein 3D <br>&starf; Battle Arena Toshinden <br>&starf; Tomb Raider 1+2 <br>&starf; Indiana Jones Last Crusade <br>&starf; Indiana Jones Fate of Atlantis <br>&starf; Monkey Island 2 <br>&starf; Sam & Max Hit the Road <br>&starf; Full Throttle <br>&starf; Cave World Saga (H&ouml;hlenweltsaga) <br>&starf; Baphomets Fluch 2 <br>&starf; Grand Theft Auto <br>&bull; Budokan Martial Spirit <br>&bull; Raptor C.o.t.S. <br>&bull; Darker <br>&bull; Shufflepuck Cafe <br>&bull; Battle Chess <br>&bull; QBASIC Gorillas <br>&bull; Dune <br>&bull; Stunts <br>&bull; Aces of the Deep <br>&bull; Virtual Pool <br>&bull; Destruction Derby <br>&bull; Carmageddon <br>&bull; Phantasmagoria <br>&bull; Half-Life <br>&bull; ... <br><br>&plus; 3dfx Voodoo Graphics Accelerator| &bull; MDK <br>&bull; Moto Racer 1 <br>&bull; Need for Speed 3 <br>&bull; Deadly Tide <br>&bull; Frogger <br>&bull; Virtua Cop <br>&bull; Star Wars Rebel Assault <br>&bull; Oddworld <br>&bull; Road Rash <br>&bull; Commandos: Behind Enemy Lines <br>&bull; Heart of Darkness <br>&bull; Crusader No Remorse <br>&bull; Beneath a Steel Sky <br>&bull; Street Figher 2 <br>&bull; Day of the Tentacle <br>&bull; MegaRace 1, 2 <br>&bull; Cyberia <br>&bull; FX Fighter <br>&bull; Bad Mojo Redux <br>&bull; Normality <br>&bull; Shellshock <br>&bull; Leisure Suit Larry <br>&bull; ... | &bull; Far Cry | -
 | **PlayStation**     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_ <br>&bull; _Red Dead Redemption 2_
+| **XBox**            | - | - | - | &bull; _Hellblade 2_ 
 | **Cloud Gaming**    | - | - | - | - 
 | **Smartphone<br>Tablet** | - | - | - | - 
 
@@ -41,8 +42,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
         regular Sw. feels cheaper
 - silent, device-fan not noticable
 - sound with and without headphones is ok
-- thousands of games, AAA and indie titles, a few "smartphone games"
-- price ok 
+- price ok (200 EUR + 70 EUR for storage expansion, screen protector, grips for hand cramps)
     - although 2015 hardware and expensive (non-used) physical games; 
       _Aya Neo_ nice but triple the price, 
       _Analogue Pocket_ sexy but limited, 
@@ -50,6 +50,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - if it breaks or gets lost outside, it doesn't hurt too much
     - wouldn't buy a Nintendo Switch for TV-gaming (PS or Xbox Series S has better TCO, way better specs as weight and energy don't matter, more adult games, ...);
       down-optimized textures still look good on the Lite's 720p small screen (pixel density)
+- thousands of games, AAA and indie titles, a few "smartphone games"
 - easy eshop ecosystem
     - rechargable credit system via cards with 15/25/50/100 Euro 
     - cards available at supermarkets or Amazon (code in email)
@@ -86,25 +87,32 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - streamlined simple UI 
 
 
+
 ### Issues
 
-- brand image: "Nintendo is for children and females"
-	- although having 'mature' games with deeper stories, crime and blood, 
-	  see my manly games list in [History section](#history); 
-      there are USK/PEGI 18 but no "AO-rated" titles (I don't miss switch-pr0n)
-    - confuses marketing to children with children-only market;
-      many mature games are ports from the _manly consoles_, though
-    - whatever _adult_ means when it comes to video games, 
-      since adults are expected to seek real adventures rather than just play (practice) them (movies/books?)
-	- "family friendly", but many Games imho actually adhere to childish aesthetics 
-      (early Nintendo aesthetics were cartoony too but resonated better with older ppl 
-      than the bright colors and round big-headed puppet-bodies - Chibi aesthetic - nowadays);
-      I like Japan but Kawaii pop culture not so much
-	- male adult bearded Switch-Youtubers in children's rooms, 
-      surrounded by little dolls (amiibo) and stuffed Nintendo-merch animals 
-	- Yakuza-devs: "not cool outsiders night-creatures elite platform"
-    - subreddit _r/tomorrow_ toxic but has a point
-- 'spring noise' in my right analogue joystick after few days of using (new device!)
+#### Brand image: "Nintendo is for children and females"
+
+- although having 'mature' games with deeper stories, crime and blood, 
+  see my manly games list in [History section](#history); 
+  there are USK/PEGI 18 but no "AO-rated" titles (I don't miss switch-pr0n)
+- confuses marketing to children with children-only market;
+  many mature games are ports from the _manly consoles_, though
+- whatever _adult_ means when it comes to video games, 
+  since adults are expected to seek real adventures rather than just play (practice) them (movies/books?)
+- "family friendly", but many Games imho actually adhere to childish aesthetics 
+  (early Nintendo aesthetics were cartoony too but resonated better with older ppl 
+  than the bright colors and round big-headed puppet-bodies - Chibi aesthetic - nowadays);
+  I like Japan but Kawaii pop culture not so much
+- male adult bearded Switch-Youtubers in children's rooms, 
+  surrounded by little dolls (amiibo) and stuffed Nintendo-merch animals 
+- Yakuza-devs: "not cool outsiders night-creatures elite platform"
+- subreddit _r/tomorrow_ toxic but has a point
+
+
+#### Hardware
+
+- "spring noise"
+    - in my right analogue joystick after few days of using (new device!)
 	- temporarily/regularly solved without physical disassembly:
 	```	
           .-------------------.
@@ -119,8 +127,10 @@ Couple of investments and titles that I remember I played at home, friends/cousi
      ###############################
 	```
 	[YouTube-Video by WD40 company itself](https://www.youtube.com/watch?v=I35647lHFzA)
-- 'joystick drift issue' often reported (not yet my problem but seems solved the same way as spring noise)
-- "game card could not be read" not yet my problem
+- "joystick drift"
+    - often reported (not yet my problem but seems solved the same way as spring noise)
+- "game card could not be read" 
+    - not yet my problem
     - "headphones trick" (shares PCB with card-reader, powering headphones sometimes changes sth. for the better)
     - no contact due to 'bent pin(s)' in the card reader, repositioning via scissors or 'pin needle' 
     (might have to disasemble switch before for easier access, pins should stand pretty high)
@@ -136,6 +146,18 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - card reader replaceable (~30 euro)
 - extra screen protector needed (tempered glas)
     - avoid weak Thesa for the "hinge" installation method (gets loose when you peel off the glas foil)
+- no TV out
+	- hardware actually missing for display-USB (see YouTube teardown and dissambly videos)
+- small internal system's permanent memory 32 GB 
+	- fills quickly with eshop downloads, many games are huge 
+      (640 MB for Akane??, Blasphemous 2d-platformer 7 GB!!, Crysis 3 uses 11 GB and Hellblade 18 GB)
+	- needs extra MicroSD or MicroSDXC (with system Internet-update)
+- changing cartridges lil bit hard but dust/dirt/loss-protection cap makes sense for a portable system
+- big power adapter (but any USB source would probably do)
+
+
+#### Software
+
 - slow lagging eshop on switch device
     - [made with React](https://html5experts-jp.translate.goog/shumpei-shiraishi/24538/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en) 
         in WebKit browser _without_ JIT compiler (because of traditional WebKit exploits [abusing JIT memory](https://www.arxiv-vanity.com/papers/1905.07643/) which is writable and executable by design)
@@ -145,14 +167,25 @@ Couple of investments and titles that I remember I played at home, friends/cousi
         - noticed lot of hotlinking (Dekudeals for example)
 	- [dekudeals.com](dekudeals.com) often recommended if you want to browse and be made aware of nice deals (supports Germany too)
     - [delisted games](https://delistedgames.com/all-delisted-nintendo-switch-games/)
+- font sizes not optimized in many games, very small, not "responsive" or configurable 
+- software-update is mandatory for physical game if you previously installed a digital version in higher version, 
+  you cannot skip this; deleting game and save-games won't help, 
+  you would have to do a refactory-reset on the switch as described on web/youtube just to play unpatched cartridge without Internet
+- "Need for speed HP" payed, installed, tried "Autolog" servers (no longer avail?), 
+  dialog "share Nintendo account info with EA (email, birthdate, ...), [cancel], error-loop autolog/privacy-dialog
+    - requires to disable WIFI (airplane mode) before starting the game, so it won't try or cannot connect Autolog servers for another reason
+- wishlist-additions on the international Nintendo.com will not be displayed correctly on the german Nintendo.de wishlist
+  (sync between device and nintendo.de works and vice versa (at least removal of games)) 
+- game groups in the user UI should be accessible from home menu
+
+
+#### Other
+
 - high games prices (on every platform), but often good deals in eshop
 	- is the device itself a losing proposition for Nintendo? 
 	  and the money will then be earned from the ecosystem 
 	  after users have invested in the platform and are on the hook?
-- font sizes not optimized in many games, very small, not "responsive" or configurable 
 - you can't move SD cards across devices
-- no TV out
-	- hardware actually missing for display-USB (see YouTube teardown and dissambly videos)
 - retail cartridge with "internet download required" (Wolfenstein2)
   due to Nintendo's proprietary expensive cartridge hardware with small capacity (16 GB, 32 GB) 
   vs huge filesizes for AAA titles, future?
@@ -160,28 +193,12 @@ Couple of investments and titles that I remember I played at home, friends/cousi
       have as few vulnerable mechanical parts in their portable device as possible; 
       controller+pins allows to sell at lower competitive price (by _delaying_ costs to cartridge seller) 
       vs having UMD/minidisc reader in every device (and cheap disc production)
-- software-update is mandatory for physical game if you previously installed a digital version in higher version, 
-  you cannot skip this; deleting game and save-games won't help, 
-  you would have to do a refactory-reset on the switch as described on web/youtube just to play unpatched cartridge without Internet
-- "Need for speed HP" payed, installed, tried "Autolog" servers (no longer avail?), 
-  dialog "share Nintendo account info with EA (email, birthdate, ...), [cancel], error-loop autolog/privacy-dialog
-    - requires to disable WIFI (airplane mode) before starting the game, so it won't try or cannot connect Autolog servers for another reason
-- small internal system's permanent memory 32 GB 
-	- fills quickly with eshop downloads, many games are huge 
-      (640 MB for Akane??, Blasphemous 2d-platformer 7 GB!!, Crysis 3 uses 11 GB and Hellblade 18 GB)
-	- needs extra MicroSD or MicroSDXC (with system Internet-update)
-- changing cartridges lil bit hard but dust/dirt/loss-protection cap makes sense for a portable system
 - Nintendo support:
 	- quick response but useless so far
 	- could not write replies to info@nintendo.de (SMTP error, very generous IP block?)
 	- support ticket links in answers lead to HTTP-404-pages
-- wishlist-additions on the international Nintendo.com will not be displayed correctly on the german Nintendo.de wishlist
-  (sync between device and nintendo.de works and vice versa (at least removal of games)) 
 - minus-button "-" uncomfortable to reach and press
 - eshop downloads take long (3-4 hours for Gigabytes-Titles)
-- big power adapter (but any USB source would probably do)
-- at some time you recognize the same game-engines again and again, just variants of other games
-- game groups in the user UI should be accessible from home menu
 - Nintendo-banned/locked Switch devices on ebay (due to hacking/rooting attempts; similar to Sony/Microsoft)
 
 
@@ -206,10 +223,10 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - game-debriefs, detailed analyzes on YouTube or in podcasts
     - game-subreddits with similarly attached people
     - fan-fiction
-- "video games cause violence"
-    - "appeal of violent video games to lower educated aggressive adolescent boys"
+    - some players omit something, e.g. pause forever before the final boss to give themselves the illusion that the world doesn't stop existing;
+        many games are the way and not 2 minute end-sequence
 - "video game addiction" 
-    - more likely to affect people who are generally prone to addiction
+    - more likely to affect people who are generally prone to addiction in general
 - "dark patterns"
     - loot boxes, gambling
 - "console wars tribalism", "PS5 elitism", "gaming toxity", brand loyalty
@@ -217,6 +234,8 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - defined a generation of child gamers (1990s) through tribalism and exclusives
     - "review bombing"
     - "ended 2010", cross-platform, gamers own multiple consoles, Nintendo niche, PC gaming master race
+- "video games cause violence"
+    - "appeal of violent video games to lower educated aggressive adolescent boys"
 - "waste of time", "no real value or impact in your life"
     - light and dopamine
 
@@ -225,5 +244,8 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 - gaming magazines and tv-shows have become Youtube channels and podcasts
 - prefer game "review" and "gameplay" videos over game trailers
-- Unreal Engine, motion capturing (mocap) etc tutorials on YouTube
+- Unreal Engine, motion capturing (mocap) etc tutorials on YouTube;
+    "atmosphere"/intangibles that can't be put in level editor
+ - at some time you recognize the same game-engines again and again, just variants of other games   
+
 
