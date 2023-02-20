@@ -1,5 +1,12 @@
 # Gaming
 
+## Content
+
+- [History](#history)
+- [Nintendo Switch Lite](#nintendo-switch-lite)
+- [Gaming in General](#gaming-in-general)
+
+
 
 ## History
 
@@ -7,18 +14,18 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
-| **Nintendo<br>GameBoy<br>(S)NES<br>SwitchLite**  | &starf; Super Mario Land 3: Wario Land <br>&starf; Duck Tales <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... <br><br>&starf; (Super) Mario Bros. <br>&bull; Giana Sisters <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ...  | &bull; Star Fox | - | &starf; VirtuaVerse (&#x2B73;) <br>&starf; Blasphemous (&#x2B73;) <br>&starf; The Way (&#x2B73;) <br>&starf; Crysis 1+3 (&#x2B73;) <br>&starf; Wolfenstein 2 T.N.C. &#x1F4BE; <br>&starf; Witcher 3 &#x1F4BE; <br>&starf; Assassin's Creed 4 B.F. &#x1F4BE; <br>&starf; Assassin's Creed Rogue (&#x2B73;) <br>&starf; Red Faction Guerrilla &#x1F4BE; <br>&starf; Hellblade Senua's Sacrifice (&#x2B73;) <br>&starf; Xenoblade Chronicles 3 &#x1F4BE; <br>&starf; Hotline Miami Coll. &#x1F4BE; <br>&starf; Akane (&#x2B73;) <br>&starf; Zelda BOTW &#x1F4BE; <br>&starf; Pure Pool (&#x2B73;) <br>&starf; Gato Roboto (&#x2B73;) <br>&starf; Need for Speed H.P. &#x1F4BE; <br>&starf; GRID Autosport (&#x2B73;) <br>&starf; Fast RMX (&#x2B73;) <br>&bull; NieR Automata YoRHa &#x1F4BE; <br>&bull; Commandos 2 &#x1F4BE; <br>&bull; Mortal Shell (&#x2B73;) <br>&bull; Chained Echoes (&#x2B73;) <br>&bull; Shakedown Hawaii (&#x2B73;) <br>&bull; Sega Ages: Sonic Hedgehog (&#x2B73;) <br>&bull; Sega Ages: Alex Kidd (&#x2B73;) <br>&bull; Metroid Dread &#x1F4BE; <br>&bull; Leisure Suit Larry Wet Dreams (&#x2B73;) <br>&bull; Armed to the Gears (&#x2B73;) <br>&bull; Midnight Fight Express (&#x2B73;) <br>&#x1F44E; Hong Kong Massacre \[clunky aiming\] (&#x2B73;) <br>&#x1F44E; Road Redemption \[stutters\] (&#x2B73;) <br>&bull; TT Isle of Man 2 &#x1F4BE; <br>&bull; Moto Racer 4 (&#x2B73;) <br> &bull; MotoGP 18 (&#x2B73;) <br>&bull; FIFA 19 &#x1F4BE; <br>&bull; 16-Bit Soccer (&#x2B73;) <br>&bull; Minit (&#x2B73;) <br>&bull; Raging Blasters (&#x2B73;) <br>&bull; Danmaku Unlimited 3 (&#x2B73;) <br>&bull; Flashback (&#x2B73;) <br>&bull; Cyber Protocol (&#x2B73;) <br>&bull; Lacuna (&#x2B73;) <br>&bull; #RaceDieRun (&#x2B73;) <br>&bull; Red Wings Aces of the Sky (&#x2B73;) <br>&bull; Air Conflicts Pacific Carriers (&#x2B73;) <br>&bull; Huntdown (&#x2B73;) <br>&bull; Shipwreck Escape (&#x2B73;) <br>&bull; ACA NeoGeo Samurai Shodown (&#x2B73;) <br>&bull; Gum+ (&#x2B73;) <br>&bull; Unsouled (&#x2B73;) <br>&bull; Children of Morta (&#x2B73;) <br>&bull; American Fugitive (&#x2B73;) <br>&#x1F44E; Lofi Ping Pong (&#x2B73;) <br>&bull; Run Sausage Run \[mom\] (&#x2B73;) <br>&bull; The Big Journey \[kids\] (&#x2B73;) <br><br>&plus; Orzly Tempered Glas <br>&plus; ~~Orzly Grip Case [1st]~~ <br>&plus; Skull&Co. Grip Case [2nd] <br>&plus; SanDisk 256G MicroSDXC <br>&plus; HORI Slim Tough Pouch [least bulky] <br>&plus; HEIYING 16 Cartridges Box
+| **Nintendo<br>GameBoy<br>(S)NES<br>SwitchLite (bought 2022)**  | &starf; Super Mario Land 3: Wario Land <br>&starf; Duck Tales <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... <br><br>&starf; (Super) Mario Bros. <br>&bull; Giana Sisters <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ...  | &bull; Star Fox | - | &starf; VirtuaVerse (&#x2B73;) <br>&starf; Blasphemous (&#x2B73;) <br>&starf; The Way (&#x2B73;) <br>&starf; Crysis 1+3 (&#x2B73;) <br>&starf; Wolfenstein 2 T.N.C. &#x1F4BE; <br>&starf; Witcher 3 &#x1F4BE; <br>&starf; Assassin's Creed 4 B.F. &#x1F4BE; <br>&starf; Assassin's Creed Rogue (&#x2B73;) <br>&starf; Red Faction Guerrilla &#x1F4BE; <br>&starf; Hellblade Senua's Sacrifice (&#x2B73;) <br>&starf; Xenoblade Chronicles 3 &#x1F4BE; <br>&starf; Hotline Miami Coll. &#x1F4BE; <br>&starf; Akane (&#x2B73;) <br>&starf; Zelda BOTW &#x1F4BE; <br>&starf; Pure Pool (&#x2B73;) <br>&starf; Gato Roboto (&#x2B73;) <br>&starf; Need for Speed H.P. &#x1F4BE; <br>&starf; GRID Autosport (&#x2B73;) <br>&starf; Fast RMX (&#x2B73;) <br>&bull; NieR Automata YoRHa &#x1F4BE; <br>&bull; Commandos 2 &#x1F4BE; <br>&bull; Mortal Shell (&#x2B73;) <br>&bull; Chained Echoes (&#x2B73;) <br>&bull; Shakedown Hawaii (&#x2B73;) <br>&bull; Sega Ages: Sonic Hedgehog (&#x2B73;) <br>&bull; Sega Ages: Alex Kidd (&#x2B73;) <br>&bull; Metroid Dread &#x1F4BE; <br>&bull; Leisure Suit Larry Wet Dreams (&#x2B73;) <br>&bull; Armed to the Gears (&#x2B73;) <br>&bull; Midnight Fight Express (&#x2B73;) <br>&#x1F44E; Hong Kong Massacre \[clunky aiming\] (&#x2B73;) <br>&#x1F44E; Road Redemption \[stutters\] (&#x2B73;) <br>&bull; TT Isle of Man 2 &#x1F4BE; <br>&bull; Moto Racer 4 (&#x2B73;) <br> &bull; MotoGP 18 (&#x2B73;) <br>&bull; FIFA 19 &#x1F4BE; <br>&bull; 16-Bit Soccer (&#x2B73;) <br>&bull; Minit (&#x2B73;) <br>&bull; Raging Blasters (&#x2B73;) <br>&bull; Danmaku Unlimited 3 (&#x2B73;) <br>&bull; Flashback (&#x2B73;) <br>&bull; Cyber Protocol (&#x2B73;) <br>&bull; Lacuna (&#x2B73;) <br>&bull; #RaceDieRun (&#x2B73;) <br>&bull; Red Wings Aces of the Sky (&#x2B73;) <br>&bull; Air Conflicts Pacific Carriers (&#x2B73;) <br>&bull; Huntdown (&#x2B73;) <br>&bull; Shipwreck Escape (&#x2B73;) <br>&bull; ACA NeoGeo Samurai Shodown (&#x2B73;) <br>&bull; Gum+ (&#x2B73;) <br>&bull; Unsouled (&#x2B73;) <br>&bull; Children of Morta (&#x2B73;) <br>&bull; American Fugitive (&#x2B73;) <br>&#x1F44E; Lofi Ping Pong (&#x2B73;) <br>&bull; Run Sausage Run \[mom\] (&#x2B73;) <br>&bull; The Big Journey \[kids\] (&#x2B73;) <br><br>&plus; Orzly Tempered Glas <br>&plus; ~~Orzly Grip Case [1st]~~ <br>&plus; Skull&Co. Grip Case [2nd] <br>&plus; SanDisk 256G MicroSDXC <br>&plus; HORI Slim Tough Pouch [least bulky] <br>&plus; HEIYING 16 Cartridges Box
 | **Amstrad CPC**     | &bull; Kung-Fu Master <br>&bull; Tornado Low Level <br>&bull; Winter Sports <br>&bull; Bomb Jack <br>&bull; Airwolf <br>&bull; Cyrus Chess II <br>&bull; Deuteron <br>&bull; Crazy ball? Gridrider? <br>&bull; ... | - | - | - 
 | **C64**             | &bull; Last Ninja <br>&bull; Winter Games <br>&bull; ... | - | - | - 
 | **Sega<br>MasterSystem<br>Megadrive<br>GameGear**   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
 | **PC**              | &starf; Mortal Combat <br>&starf; Bifi Roll Action in Hollywood <br>&starf; Wolfenstein 3D <br>&starf; Battle Arena Toshinden <br>&starf; Tomb Raider 1+2 <br>&starf; Indiana Jones Last Crusade <br>&starf; Indiana Jones Fate of Atlantis <br>&starf; Monkey Island 2 <br>&starf; Sam & Max Hit the Road <br>&starf; Full Throttle <br>&starf; Cave World Saga (H&ouml;hlenweltsaga) <br>&starf; Baphomets Fluch 2 <br>&starf; Grand Theft Auto <br>&bull; Budokan Martial Spirit <br>&bull; Raptor C.o.t.S. <br>&bull; Darker <br>&bull; Shufflepuck Cafe <br>&bull; Battle Chess <br>&bull; QBASIC Gorillas <br>&bull; Dune <br>&bull; Stunts <br>&bull; Aces of the Deep <br>&bull; Virtual Pool <br>&bull; Destruction Derby <br>&bull; Carmageddon <br>&bull; Phantasmagoria <br>&bull; Half-Life <br>&bull; ... <br><br>&plus; 3dfx Voodoo Graphics Accelerator| &bull; MDK <br>&bull; Moto Racer 1 <br>&bull; Need for Speed 3 <br>&bull; Deadly Tide <br>&bull; Frogger <br>&bull; Virtua Cop <br>&bull; Star Wars Rebel Assault <br>&bull; Oddworld <br>&bull; Road Rash <br>&bull; Commandos: Behind Enemy Lines <br>&bull; Heart of Darkness <br>&bull; Crusader No Remorse <br>&bull; Beneath a Steel Sky <br>&bull; Street Figher 2 <br>&bull; Day of the Tentacle <br>&bull; MegaRace 1, 2 <br>&bull; Cyberia <br>&bull; FX Fighter <br>&bull; Bad Mojo Redux <br>&bull; Normality <br>&bull; Shellshock <br>&bull; Leisure Suit Larry <br>&bull; ... | &bull; Far Cry | &bull; _Hellblade 2_ 
-| **PlayStation**     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_
+| **PlayStation**     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_ <br>&bull; _Red Dead Redemption 2_
 | **Cloud Gaming**    | - | - | - | - 
 | **Smartphone<br>Tablet** | - | - | - | - 
 
 
 
-## Nintendo Switch Lite (Bought 2022)
+## Nintendo Switch Lite
 
 ![Switch Lite](README-switch.jpg)
 
@@ -73,7 +80,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - not a tablet/smartphone
     - real controller haptics, I don't like touch screens
     - separate device = separate battery drain; smartphone keeps ready after gaming session   
-    - optimized special purpose device, although there is a YouTube app but no Excel
+    - optimized special purpose device, although there is a YouTube app but no Excel, cooling fan
     - healthy-escapism device vs. office everywhere
 - PC or TV not occupied, can play parallel, easy to pause/resume
 - streamlined simple UI 
@@ -189,9 +196,14 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 ### Issues
 
 - "post-game depression"
+    - "tragic desire for wholesale immersion in the fiction": 
+        live vicariously through what you see on screen, share drama, feel emotions of characters, 
+        realize what you don't have post-game
     - replay in different way
-    - cut it short quickly by starting another game even if it feels like a chore
-    - game-debriefs, detailed analyzes on YouTube or in podcast
+    - cut it short quickly by starting another game even if it feels like a chore;
+        "follow emotionally draining games with flow-inducing gameplay driven games" such as
+        "Mario Kart/Animal Crossing/Smash/Tetris [...] just 15-30 minute blasts of fun"
+    - game-debriefs, detailed analyzes on YouTube or in podcasts
     - game-subreddits with similarly attached people
     - fan-fiction
 - "video games cause violence"
@@ -205,6 +217,9 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - defined a generation of child gamers (1990s) through tribalism and exclusives
     - "review bombing"
     - "ended 2010", cross-platform, gamers own multiple consoles, Nintendo niche, PC gaming master race
+- "waste of time", "no real value or impact in your life"
+    - light and dopamine
+
 
 ### Misc
 
