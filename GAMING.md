@@ -179,3 +179,32 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 
 
+## Gaming in General
+
+### Misc
+
+- gaming magazines and tv-shows have become Youtube channels and podcasts
+- prefer game "review" and "gameplay" videos over game trailers
+- Unreal Engine, motion capturing (mocap) etc tutorials on YouTube
+
+
+### Issues
+
+- "post-game depression"
+    - replay in different way
+    - cut it short quickly by starting another game even if it feels like a chore
+    - game-debriefs, detailed analyzes on YouTube or in podcast
+    - game-subreddits with similarly attached people
+    - fan-fiction
+- "video games cause violence"
+    - "appeal of violent video games to lower educated aggressive adolescent boys"
+- "video game addiction" 
+    - more likely to affect people who are generally prone to addiction
+- "dark patterns"
+    - loot boxes, gambling
+- "console wars tribalism", "PS5 elitism", "gaming toxity", brand loyalty
+    - family-friendly Nintendo, edgy Sega had 'blood', Sony, Microsoft, ... (PC vs Mac), Super Mario vs Sonic
+    - defined a generation of child gamers (1990s) through tribalism and exclusives
+    - "review bombing"
+    - "ended 2010", cross-platform, gamers own multiple consoles, Nintendo niche, PC gaming master race
+
