@@ -81,7 +81,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - caution: ribbon/flex cable ends easy to break; look for small white flap to release the cable 
     - many YouTube tutorials
 - not a tablet/smartphone
-    - real controller haptics, I don't like touch screens
+    - real controller haptics, I don't like touch screens (there are controller-addons for such devices, though)
     - separate device = separate battery drain; smartphone keeps ready after gaming session   
     - optimized special purpose device, although there is a YouTube app but no Excel, cooling fan
     - healthy-escapism device vs. office everywhere
@@ -96,7 +96,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 - although having 'mature' games with deeper stories, crime and blood, 
   see my manly games list in [History section](#history); 
-  there are USK/PEGI 18 but no "AO-rated" titles (I don't miss switch-pr0n)
+  there are USK/PEGI 18 but no "AO-rated" titles (I don't miss Switch-pr0n)
 - confuses marketing to children with children-only market;
   many mature games are ports from the _manly consoles_, though
 - whatever _adult_ means when it comes to video games, 
@@ -132,24 +132,24 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 	[YouTube-Video by WD40 company itself](https://www.youtube.com/watch?v=I35647lHFzA)
 - "joystick drift"
     - often reported, not yet my problem
-    - two likely causes: 
-        - wear and tear of the inner graphite pads
-        - dust / dirt (solved the same way as spring noise but might remove grease too) 
+    - likely causes: 
+        - "normal" wear and tear of the inner graphite pads
+        - [dust / dirt](https://www.reddit.com/r/NintendoSwitch/comments/cfqp0a/for_joycon_drift_it_doesnt_make_any_sense_for_the/) (solved the same way as spring noise but might remove grease too) 
         - dust in-between moving parts accelerating wear like sand-paper
     - joysticks replaceable (~15-35 euro), leave all other cables connected except for the controller flat cable
     - "Nintendo wins a class action lawsuit about joy-con drift brought by parents 
         who accused the company of knowingly selling faulty products 
         [... N. won] due to the Switch's end user license agreement which prevents lawsuits. 
-        [... In] the past, Nintendo has faced many other lawsuits over the same issue" (2023)
-    - https://www.ign.com/articles/all-the-lawsuits-nintendo-is-facing-over-joy-con-drift
+        [... In] the past, Nintendo has faced many [other lawsuits](https://www.ign.com/articles/all-the-lawsuits-nintendo-is-facing-over-joy-con-drift)
+        over the same issue" (2023)
     - manufacturer "Alps"
-    - "Microsoft and Sony hardware has always had problems (RROD?), but [...] weren’t ever as universally severe as the joycon drift issue has been"
     - "pot vs sensor"
         - potentiometer joysticks ([carbon-graphite resistive pads](https://i.imgur.com/Nh7MGK0.jpg) with [metal wipers](https://i.imgur.com/xTdYbzw.jpg))  
-        - vs _Hall effect_ sensors (magnets and a conductor, no wear from physical contact with the sensor, SEGA Saturn 1996, Dreamcast 1999) 
+        - vs _Hall-effect_ sensors (magnets and a conductor, no wear from physical contact with the sensor, SEGA Saturn 1996, Dreamcast 1999) 
         - vs optical sensors
-        - many controllers have pots but Nintendo managed to get the worst (cheap offering price and planned obsolescence?)
-    - [more](https://www.reddit.com/r/NintendoSwitch/comments/cfqp0a/for_joycon_drift_it_doesnt_make_any_sense_for_the/)
+        - many controllers have pots but Nintendo managed to get the worst (cheap offering price and planned obsolescence?):
+          "Microsoft and [Sony hardware](https://de.ifixit.com/News/48944/heres-why-ps5-joysticks-drift-and-why-theyll-only-get-worse) 
+            has always had problems (RROD?), but [...] weren’t ever as universally severe as the joycon drift issue has been"
 - "game card could not be read" 
     - not yet my problem
     - "headphones trick" (shares PCB with card-reader, powering headphones sometimes changes sth. for the better)
