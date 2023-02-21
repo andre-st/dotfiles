@@ -399,7 +399,7 @@ $ systemctl enable --now systemd-timesyncd.service
 	so many unheard podcasts etc accumulate.
 	MOC function keys can be configured to run any program:
 
-	- <kbd>F4</kbd> [moves audios &gt; 14 minutes](https://gist.github.com/andre-st/5d17372e6d209d792860db2636665bbd) 
+	- <kbd>F4</kbd> [moves audios &gt; 14 minutes](manjaro/home/andre/.moc/move-longer-audio.sh) 
 		to `~/Downloads/mp3/[F4]-longer/` 
 		because I want to separate short audios from long ones (and MOC cannot sort by audio length)
 	- <kbd>F6</kbd> moves heard, archive-worthy audios 

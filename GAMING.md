@@ -133,7 +133,6 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - "joystick drift"
     - often reported, not yet my problem
     - two causes: wear and tear or dust/dirt (solved the same way as spring noise)
-    - pressing(!) L/R stick a lot increases wear and tear
     - joysticks replaceable (~15-35 euro), leave all other cables connected except for the controller flat cable
     - "Nintendo wins a class action lawsuit about joy-con drift brought by parents 
         who accused the company of knowingly selling faulty products 

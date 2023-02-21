@@ -2,7 +2,7 @@
 # PipeWire-ALSA
 SoundDriver = ALSA
 
-ExecCommand4 = "/mnt/data/source/private/sh/moc-move-longer-audio.sh"
+ExecCommand4 = "/home/andre/.moc/move-longer-audio.sh"
 ExecCommand6 = "mv %f /home/andre/Downloads/mp3/[F6]-archive/"
 ExecCommand8 = "rm %f"
 AutoNext = no
