@@ -41,7 +41,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
   but I already knew/guessed this from the handheld consoles of my childhood
 - solid / sturdy / single unit body 
     - it's said that the mounted joycons of the regular Switch are [wobbling](https://www.youtube.com/watch?v=wuAcqg2VJ_Q) (although easier to change/repair), 
-        regular Sw. feels cheaper
+        regular Sw. feels cheaper ("Switch bending", "joystick connectivity issues", "loose/wobbly Joy-Con rail connection", "sharp edges/poor moulding of plastics on controllers")
 - silent, device-fan not noticable
 - sound with and without headphones is ok
 - price ok (200 EUR + 70 EUR for storage expansion, screen protector, grips for hand cramps)
@@ -132,7 +132,10 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 	[YouTube-Video by WD40 company itself](https://www.youtube.com/watch?v=I35647lHFzA)
 - "joystick drift"
     - often reported, not yet my problem
-    - two causes: wear and tear or dust/dirt (solved the same way as spring noise)
+    - two likely causes: 
+        - wear and tear of the inner graphite pads
+        - dust / dirt (solved the same way as spring noise but might remove grease too) 
+        - dust in-between moving parts accelerating wear like sand-paper
     - joysticks replaceable (~15-35 euro), leave all other cables connected except for the controller flat cable
     - "Nintendo wins a class action lawsuit about joy-con drift brought by parents 
         who accused the company of knowingly selling faulty products 
@@ -141,9 +144,11 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - https://www.ign.com/articles/all-the-lawsuits-nintendo-is-facing-over-joy-con-drift
     - manufacturer "Alps"
     - "Microsoft and Sony hardware has always had problems (RROD?), but [...] weren’t ever as universally severe as the joycon drift issue has been"
-    - "pot vs sensor", potentiometer joysticks ([carbon resistive pads](https://i.imgur.com/Nh7MGK0.jpg) with [metal wipers](https://i.imgur.com/xTdYbzw.jpg))  vs _Hall effect_ sensors 
-        (magnets and a conductor, no wear from physical contact with the sensor, SEGA Saturn 1996, Dreamcast 1999) vs optical sensors;
-        many controllers have pots but Nintendo managed to get the worst (cheap offering price and planned obsolescence?)
+    - "pot vs sensor"
+        - potentiometer joysticks ([carbon-graphite resistive pads](https://i.imgur.com/Nh7MGK0.jpg) with [metal wipers](https://i.imgur.com/xTdYbzw.jpg))  
+        - vs _Hall effect_ sensors (magnets and a conductor, no wear from physical contact with the sensor, SEGA Saturn 1996, Dreamcast 1999) 
+        - vs optical sensors
+        - many controllers have pots but Nintendo managed to get the worst (cheap offering price and planned obsolescence?)
     - [more](https://www.reddit.com/r/NintendoSwitch/comments/cfqp0a/for_joycon_drift_it_doesnt_make_any_sense_for_the/)
 - "game card could not be read" 
     - not yet my problem

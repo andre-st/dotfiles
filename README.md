@@ -25,7 +25,7 @@ modeling,
 documentation, 
 web-surfing or 
 illustration demands.
-I'm not a gamer, video cutter, trader or NOC/SOC operator. 
+I'm not a PC-gamer, video cutter, trader or NOC/SOC operator. 
 
 Volkerding's Slackware Linux has been my main operating system for over 15 years (after Windows and DOS).
 It allows for a very customizable scope of installation and I install it relatively lightly.
@@ -356,7 +356,7 @@ $ pacman -Syyu
 	- check: right-click on YouTube-video, click "stats for nerds", look for codec _avc_ (= h264)
 	- hardware accelerated video via Chromium command line options `--use-gl=desktop --ignore-gpu-blocklist --enable-features=VaapiVideoDecoder` (edit desktop-file), 
 		check via `chrome://gpu` (video decode: hw accelerated) and `$ vainfo` without errors (I needed the _intel-media-driver_ package)
-	- my mini PC actually produces moderate temperatures (Ø60 °C), also no problem with downloaded HD videos - unless I play them directly from YouTube w/o hw-acc (83 °C)
+	- my mini PC actually produces moderate temperatures (Ø50-60 °C), also no problem with downloaded HD videos - unless I play them directly from YouTube w/o hw-acc (83 °C)
 
 
 ### Security
