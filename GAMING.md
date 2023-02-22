@@ -44,7 +44,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
         regular Sw. feels cheaper ("Switch bending", "joystick connectivity issues", "loose/wobbly Joy-Con rail connection", "sharp edges/poor moulding of plastics on controllers")
 - silent, device-fan not noticable
 - sound with and without headphones is ok
-- price ok (200 EUR + 70 EUR for storage expansion, screen protector, grips for hand cramps)
+- price ok (200 EUR + 70 EUR for reasonable accessories such as storage expansion)
     - although 2015 hardware and expensive (non-used) physical games; 
       _Aya Neo_ nice but triple the price, 
       _Analogue Pocket_ sexy but limited, 
@@ -133,7 +133,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - "joystick drift"
     - often reported, not yet my problem
     - likely causes: 
-        - "normal" wear and tear of the inner graphite pads
+        - "normal" wear and tear of the inner graphite pads; "They're not built to last"
         - [dust / dirt](https://www.reddit.com/r/NintendoSwitch/comments/cfqp0a/for_joycon_drift_it_doesnt_make_any_sense_for_the/) (solved the same way as spring noise but might remove grease too) 
         - dust in-between moving parts accelerating wear like sand-paper
     - joysticks replaceable (~15-35 euro), leave all other cables connected except for the controller flat cable
@@ -144,7 +144,8 @@ Couple of investments and titles that I remember I played at home, friends/cousi
         over the same issue" (2023)
     - manufacturer "Alps"
     - "pot vs sensor"
-        - potentiometer joysticks ([carbon-graphite resistive pads](https://i.imgur.com/Nh7MGK0.jpg) with [metal wipers](https://i.imgur.com/xTdYbzw.jpg))  
+        - potentiometer joysticks ([metal wipers](https://i.imgur.com/xTdYbzw.jpg) move accross [carbon-graphite resistive pads](https://i.imgur.com/Nh7MGK0.jpg), 
+            changing resistance levels and altering the recorded voltage)  
         - vs _Hall-effect_ sensors (magnets and a conductor, no wear from physical contact with the sensor, SEGA Saturn 1996, Dreamcast 1999) 
         - vs optical sensors
         - many controllers have pots but Nintendo managed to get the worst (cheap offering price and planned obsolescence?):
@@ -175,6 +176,12 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 	- needs extra MicroSD or MicroSDXC (with system Internet-update)
 - changing cartridges lil bit hard but dust/dirt/loss-protection cap makes sense for a portable system
 - big power adapter (but any USB source would probably do)
+
+
+#### Haptic issues:
+- minus-button "-" uncomfortable to reach and press
+- hand cramps (adult hands) after some time playing, requires (large) extra grips 
+- fear or scratching screen, requires separate protector
 
 
 #### Software Issues:
@@ -222,7 +229,6 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 	- quick response but useless so far
 	- could not write replies to info@nintendo.de (SMTP error, very generous IP block?)
 	- support ticket links in answers lead to HTTP-404-pages
-- minus-button "-" uncomfortable to reach and press
 - eshop downloads take long (3-4 hours for Gigabytes-Titles)
 - Nintendo-banned/locked Switch devices on ebay (due to hacking/rooting attempts; similar to Sony/Microsoft)
 
@@ -239,8 +245,8 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 - "post-game depression"
     - "tragic desire for wholesale immersion in the fiction": 
-        live vicariously through what you see on screen, share drama, feel emotions of characters, 
-        realize what you don't have post-game
+        player lives vicariously through what he sees on screen, shares drama, feels emotions of characters, 
+        realizes what he doesn't have post-game
     - replay in different way
     - cut it short quickly by starting another game even if it feels like a chore:
         "follow emotionally draining games with flow-inducing gameplay driven games" such as

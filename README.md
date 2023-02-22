@@ -465,6 +465,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - pdfgrep: grep PDF files ([ripgrep-all](https://github.com/phiresky/ripgrep-all) probably faster)
 - [QuiteRSS](https://github.com/QuiteRSS/quiterss): fast, customizable, feature-rich RSS-reader for blogs, news sites, podcasts, ...
     - download audio/video with single click:  Options &gt; Browser &gt; Use external browser "[handle-url.sh](manjaro/home/andre/.config/QuiteRss/handle-url.sh)"
+    - style "Link to audio" by adding `a.enclosure { ... }` to `/usr/share/quiterss/style/web_dark.css` 
     - previously used web-based reader [commafeed.com](https://www.commafeed.com)
 
 
