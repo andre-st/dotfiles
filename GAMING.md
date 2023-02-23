@@ -14,7 +14,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 | Platform / Time | 1990s | 2000s | 2010s | 2020s _and Future_
 |-----------------|-------|-------|-------|-------
-| **Nintendo<br>GameBoy<br>(S)NES<br>SwitchLite (bought 2022)**  | &starf; Super Mario Land 3: Wario Land <br>&starf; Duck Tales <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... <br><br>&starf; (Super) Mario Bros. <br>&bull; Giana Sisters <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ...  | &bull; Star Fox | - | &starf; VirtuaVerse (&#x2B73;) <br>&starf; Blasphemous (&#x2B73;) <br>&starf; The Way (&#x2B73;) <br>&starf; Crysis 1+3 (&#x2B73;) <br>&starf; Wolfenstein 2 T.N.C. &#x1F4BE; <br>&starf; Witcher 3 &#x1F4BE; <br>&starf; Assassin's Creed 4 B.F. &#x1F4BE; <br>&starf; Assassin's Creed Rogue (&#x2B73;) <br>&starf; Red Faction Guerrilla &#x1F4BE; <br>&starf; Hellblade Senua's Sacrifice (&#x2B73;) <br>&starf; Xenoblade Chronicles 3 &#x1F4BE; <br>&starf; Hotline Miami Coll. &#x1F4BE; <br>&starf; Akane (&#x2B73;) <br>&starf; Zelda BOTW &#x1F4BE; <br>&starf; Pure Pool (&#x2B73;) <br>&starf; Gato Roboto (&#x2B73;) <br>&starf; Need for Speed H.P. &#x1F4BE; <br>&starf; GRID Autosport (&#x2B73;) <br>&starf; Fast RMX (&#x2B73;) <br>&bull; NieR Automata YoRHa &#x1F4BE; <br>&bull; Commandos 2 &#x1F4BE; <br>&bull; Mortal Shell (&#x2B73;) <br>&bull; Chained Echoes (&#x2B73;) <br>&bull; Shakedown Hawaii (&#x2B73;) <br>&bull; Sega Ages: Sonic Hedgehog (&#x2B73;) <br>&bull; Sega Ages: Alex Kidd (&#x2B73;) <br>&bull; Metroid Dread &#x1F4BE; <br>&bull; Leisure Suit Larry Wet Dreams (&#x2B73;) <br>&bull; Armed to the Gears (&#x2B73;) <br>&bull; Midnight Fight Express (&#x2B73;) <br>&#x1F44E; Hong Kong Massacre \[clunky aiming\] (&#x2B73;) <br>&#x1F44E; Road Redemption \[stutters\] (&#x2B73;) <br>&bull; TT Isle of Man 2 &#x1F4BE; <br>&bull; Moto Racer 4 (&#x2B73;) <br> &bull; MotoGP 18 (&#x2B73;) <br>&bull; FIFA 19 &#x1F4BE; <br>&bull; 16-Bit Soccer (&#x2B73;) <br>&bull; Minit (&#x2B73;) <br>&bull; Raging Blasters (&#x2B73;) <br>&bull; Danmaku Unlimited 3 (&#x2B73;) <br>&bull; Flashback (&#x2B73;) <br>&bull; Cyber Protocol (&#x2B73;) <br>&bull; Lacuna (&#x2B73;) <br>&bull; #RaceDieRun (&#x2B73;) <br>&bull; Red Wings Aces of the Sky (&#x2B73;) <br>&bull; Air Conflicts Pacific Carriers (&#x2B73;) <br>&bull; Huntdown (&#x2B73;) <br>&bull; Shipwreck Escape (&#x2B73;) <br>&bull; ACA NeoGeo Samurai Shodown (&#x2B73;) <br>&bull; Gum+ (&#x2B73;) <br>&bull; Unsouled (&#x2B73;) <br>&bull; Children of Morta (&#x2B73;) <br>&bull; American Fugitive (&#x2B73;) <br>&#x1F44E; Lofi Ping Pong (&#x2B73;) <br>&bull; Run Sausage Run \[mom\] (&#x2B73;) <br>&bull; The Big Journey \[kids\] (&#x2B73;) <br><br>&plus; Orzly Tempered Glas <br>&plus; ~~Orzly Grip Case~~ <br>&plus; Skull&Co. Grip Case <br>&plus; SanDisk 256G MicroSDXC <br>&plus; HORI Slim Tough Pouch [least bulky] <br>&plus; HEIYING 16 Cartridges Box <br>&plus; GULIKit Hall Sensing Joysticks
+| **Nintendo<br>GameBoy<br>(S)NES<br>SwitchLite (bought 2022)**  | &starf; Super Mario Land 3: Wario Land <br>&starf; Duck Tales <br>&bull; Kung-Fu Master <br>&bull; Gargoyle's Quest <br>&bull; Tiny Toon Adventures 2 <br>&bull; Ferrari Grand Prix Challenge <br>&bull; Amazing Spider-Man 2 <br>&bull; Rescue of Princess Blobette <br>&bull; Cool World <br>&bull; Who Framed Roger Rabbit <br>&bull; Kirby's Dream Land <br>&bull; ... <br><br>&starf; (Super) Mario Bros. <br>&bull; Giana Sisters <br>&bull; Kid Icarus <br>&bull; NBA Jam <br>&bull; ...  | &bull; Star Fox | - | &starf; VirtuaVerse (&#x2B73;) <br>&starf; Blasphemous (&#x2B73;) <br>&starf; The Way (&#x2B73;) <br>&starf; Crysis 1+3 (&#x2B73;) <br>&starf; Wolfenstein 2 T.N.C. &#x1F4BE; <br>&starf; Witcher 3 &#x1F4BE; <br>&starf; Assassin's Creed 4 B.F. &#x1F4BE; <br>&starf; Assassin's Creed Rogue (&#x2B73;) <br>&starf; Red Faction Guerrilla &#x1F4BE; <br>&starf; Hellblade Senua's Sacrifice (&#x2B73;) <br>&starf; Xenoblade Chronicles 3 &#x1F4BE; <br>&starf; Hotline Miami Coll. &#x1F4BE; <br>&starf; Akane (&#x2B73;) <br>&starf; Zelda BOTW &#x1F4BE; <br>&starf; Pure Pool (&#x2B73;) <br>&starf; Gato Roboto (&#x2B73;) <br>&starf; Need for Speed H.P. &#x1F4BE; <br>&starf; GRID Autosport (&#x2B73;) <br>&starf; Fast RMX (&#x2B73;) <br>&bull; NieR Automata YoRHa &#x1F4BE; <br>&bull; Commandos 2 &#x1F4BE; <br>&bull; Mortal Shell (&#x2B73;) <br>&bull; Chained Echoes (&#x2B73;) <br>&bull; Shakedown Hawaii (&#x2B73;) <br>&bull; Sega Ages: Sonic Hedgehog (&#x2B73;) <br>&bull; Sega Ages: Alex Kidd (&#x2B73;) <br>&bull; Metroid Dread &#x1F4BE; <br>&bull; Leisure Suit Larry Wet Dreams (&#x2B73;) <br>&bull; Armed to the Gears (&#x2B73;) <br>&bull; Midnight Fight Express (&#x2B73;) <br>&#x1F44E; Hong Kong Massacre \[clunky aiming\] (&#x2B73;) <br>&#x1F44E; Road Redemption \[stutters\] (&#x2B73;) <br>&bull; TT Isle of Man 2 &#x1F4BE; <br>&bull; Moto Racer 4 (&#x2B73;) <br> &bull; MotoGP 18 (&#x2B73;) <br>&bull; FIFA 19 &#x1F4BE; <br>&bull; 16-Bit Soccer (&#x2B73;) <br>&bull; Minit (&#x2B73;) <br>&bull; Raging Blasters (&#x2B73;) <br>&bull; Danmaku Unlimited 3 (&#x2B73;) <br>&bull; Flashback (&#x2B73;) <br>&bull; Cyber Protocol (&#x2B73;) <br>&bull; Lacuna (&#x2B73;) <br>&bull; #RaceDieRun (&#x2B73;) <br>&bull; Red Wings Aces of the Sky (&#x2B73;) <br>&bull; Air Conflicts Pacific Carriers (&#x2B73;) <br>&bull; Huntdown (&#x2B73;) <br>&bull; Shipwreck Escape (&#x2B73;) <br>&bull; ACA NeoGeo Samurai Shodown (&#x2B73;) <br>&bull; Gum+ (&#x2B73;) <br>&bull; Unsouled (&#x2B73;) <br>&bull; Children of Morta (&#x2B73;) <br>&bull; American Fugitive (&#x2B73;) <br>&#x1F44E; Lofi Ping Pong (&#x2B73;) <br>&bull; Run Sausage Run \[mom\] (&#x2B73;) <br>&bull; The Big Journey \[kids\] (&#x2B73;) <br><br>&plus; Orzly Tempered Glas <br>&plus; ~~Orzly Grip Case~~ <br>&plus; Skull&Co. Grip Case <br>&plus; SanDisk 256G MicroSDXC <br>&plus; HORI Slim Tough Pouch [least bulky] <br>&plus; HEIYING 16 Cartridges Box <br>&plus; GULIKit Hall Sensing Joysticks <br>&plus; Switch Lite Replacement Fan
 | **Amstrad CPC**     | &bull; Kung-Fu Master <br>&bull; Tornado Low Level <br>&bull; Winter Sports <br>&bull; Bomb Jack <br>&bull; Airwolf <br>&bull; Cyrus Chess II <br>&bull; Deuteron <br>&bull; Crazy ball? Gridrider? <br>&bull; ... | - | - | - 
 | **C64**             | &bull; Last Ninja <br>&bull; Winter Games <br>&bull; ... | - | - | - 
 | **Sega<br>MasterSystem<br>Megadrive<br>GameGear**   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
@@ -35,16 +35,18 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - good handheld form factor
     - better than handheld mode size of the regular Switch
 - weight ok
-- screen of the regular Switch is [not that much bigger](https://i.ytimg.com/vi/bD1kaIrMzEk/maxresdefault.jpg), 
-  the big black bezel makes the regular Switch _look_ bigger (OLED-model is actually larger);
-  so far, the screen size has not taken away from the immersion (e.g. Hellblade)
-  but I already knew/guessed this from the handheld consoles of my childhood
+- sharp screen ("pixel density"), large enough
+    - regular Switch screen is [not that much bigger](https://i.ytimg.com/vi/bD1kaIrMzEk/maxresdefault.jpg), 
+      the big black bezel makes the regular Switch _look_ bigger (OLED-model is actually larger);
+    - so far, the screen size has not taken away from the immersion (e.g. Hellblade)
+      but I already knew/guessed this from the handheld consoles of my childhood
+- screen zoom feature via double pressing menu button?
 - solid / sturdy / single unit body 
     - it's said that the mounted joycons of the regular Switch are [wobbling](https://www.youtube.com/watch?v=wuAcqg2VJ_Q) (although easier to change/repair), 
         regular Sw. feels cheaper ("Switch bending", "joystick connectivity issues", "loose/wobbly Joy-Con rail connection", "sharp edges/poor moulding of plastics on controllers")
 - silent, device-fan not noticable
 - sound with and without headphones is ok
-- price ok (200 EUR + 70 EUR for reasonable accessories such as storage expansion)
+- price okayish in 2022  (200 EUR + 70 EUR for reasonable accessories such as storage expansion)
     - although 2015 hardware and expensive (non-used) physical games; 
       _Aya Neo_ nice but triple the price, 
       _Analogue Pocket_ sexy but limited, 
@@ -53,7 +55,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - wouldn't buy a Nintendo Switch for TV-gaming (PS or Xbox Series S has better TCO, way better specs as weight and energy don't matter, more adult games, ...);
       down-optimized textures still look good on the Lite's 720p small screen (pixel density)
 - thousands of games, AAA and indie titles, a few "smartphone games"
-- easy eshop ecosystem
+- easy eshop _ecosystem_
     - rechargable credit system via cards with 15/25/50/100 Euro 
     - cards available at supermarkets or Amazon (code in email)
     - Code-entering via Switch or PC and website, active in a few seconds
@@ -71,6 +73,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 	- extra controllers
 	- alternative buttons (requires dissambly)
 	- flat, small blutooth adapters
+    - repair kits with spare parts (mostly inofficial, used)
 	- ... 
 - gyroscope sensor (gyro-aiming in Crysis 3)
 - 3,5mm Audio-Klinkensteckerbuchse
@@ -81,7 +84,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - caution: ribbon/flex cable ends easy to break; look for small white flap to release the cable 
     - many YouTube tutorials
 - not a tablet/smartphone
-    - real controller haptics, I don't like touch screens (there are controller-addons for such devices, though)
+    - real controller haptics, I don't like touch screens (there are controller-addons for smartphones etc, though)
     - separate device = separate battery drain; smartphone keeps ready after gaming session   
     - optimized special purpose device, although there is a YouTube app but no Excel, cooling fan
     - healthy-escapism device vs. office everywhere
@@ -176,13 +179,21 @@ Couple of investments and titles that I remember I played at home, friends/cousi
       (640 MB for Akane??, Blasphemous 2d-platformer 7 GB!!, Crysis 3 uses 11 GB and Hellblade 18 GB)
 	- needs extra MicroSD or MicroSDXC (with system Internet-update)
 - changing cartridges lil bit hard but dust/dirt/loss-protection cap makes sense for a portable system
-- big power adapter (but any USB source would probably do)
+- power adapter 
+    - big 
+    - "[The Brick-Gate issue](https://news.ycombinator.com/item?id=24651915)": 
+        Switch might be [not properly](https://arstechnica.com/gaming/2019/08/heres-why-nintendo-switch-consoles-keep-frying/)
+        USB-C PD (power delivery) [compliant](https://hackaday.com/2019/08/04/the-not-quite-usb-c-of-nintendo-switch-accessories/);
+        its "M92T36 Power Delivery chip [is] the part that most frequently burns out after use of third-party charging equipment"; 
+        not sure about USB-PD chargers and the _Lite_, though
+    
 
 
 #### Haptic issues:
+
 - minus-button "-" uncomfortable to reach and press
-- hand cramps (adult hands) after some time playing, requires (large) extra grips 
-- fear or scratching screen, requires separate protector
+- hand cramps (adult hands) after some time playing, buying (large) extra grips required
+- fear of scratching the screen, buying separate protector required
 
 
 #### Software Issues:

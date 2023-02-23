@@ -392,7 +392,7 @@ $ systemctl enable --now systemd-timesyncd.service
 	or symlink them from a "\_selected" subfolder for later revisitation;
 	I often use directories with a leading underscore to make them stand out as "meta" dirs and to let them sort to the top in a file list.
 - [mpv](https://github.com/mpv-player/mpv) video player (called via mc)
-- youtube-dl to download video from YouTube and other websites; 
+- youtube-dl (yt-dlp) to download video from YouTube and other websites; 
 	for example, it downloads _blob:_ videos using the m3u8-URL found via browser's devtools network activity view (F12)
 - [Music on Console](https://en.wikipedia.org/wiki/Music_on_Console) audio player:
 	My time of listening differs significantly from the time of downloading, 
