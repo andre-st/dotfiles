@@ -19,7 +19,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 | **C64**             | &bull; Last Ninja <br>&bull; Winter Games <br>&bull; ... | - | - | - 
 | **Sega<br>MasterSystem<br>Megadrive<br>GameGear**   | &starf; Sonic <br>&bull; Alex Kidd <br>&bull; Ecco the Dolphin <br>&bull; Jurassic Park <br>&bull; Terminator <br>&bull; Disney's Aladdin <br>&bull; Cool Spot <br>&bull; ... | - | - | - 
 | **PC**              | &starf; Mortal Combat <br>&starf; Bifi Roll Action in Hollywood <br>&starf; Wolfenstein 3D <br>&starf; Battle Arena Toshinden <br>&starf; Tomb Raider 1+2 <br>&starf; Indiana Jones Last Crusade <br>&starf; Indiana Jones Fate of Atlantis <br>&starf; Monkey Island 2 <br>&starf; Sam & Max Hit the Road <br>&starf; Full Throttle <br>&starf; Cave World Saga (H&ouml;hlenweltsaga) <br>&starf; Baphomets Fluch 2 <br>&starf; Grand Theft Auto <br>&bull; Budokan Martial Spirit <br>&bull; Raptor C.o.t.S. <br>&bull; Darker <br>&bull; Shufflepuck Cafe <br>&bull; Battle Chess <br>&bull; QBASIC Gorillas <br>&bull; Dune <br>&bull; Stunts <br>&bull; Aces of the Deep <br>&bull; Virtual Pool <br>&bull; Destruction Derby <br>&bull; Carmageddon <br>&bull; Phantasmagoria <br>&bull; Half-Life <br>&bull; ... <br><br>&plus; 3dfx Voodoo Graphics Accelerator| &bull; MDK <br>&bull; Moto Racer 1 <br>&bull; Need for Speed 3 <br>&bull; Deadly Tide <br>&bull; Frogger <br>&bull; Virtua Cop <br>&bull; Star Wars Rebel Assault <br>&bull; Oddworld <br>&bull; Road Rash <br>&bull; Commandos: Behind Enemy Lines <br>&bull; Heart of Darkness <br>&bull; Crusader No Remorse <br>&bull; Beneath a Steel Sky <br>&bull; Street Figher 2 <br>&bull; Day of the Tentacle <br>&bull; MegaRace 1, 2 <br>&bull; Cyberia <br>&bull; FX Fighter <br>&bull; Bad Mojo Redux <br>&bull; Normality <br>&bull; Shellshock <br>&bull; Leisure Suit Larry <br>&bull; ... | &bull; Far Cry | -
-| **PlayStation**     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_ <br>&bull; _Red Dead Redemption 2_ <br>&bull; _The Last Guardian_ <br>&bull; _The Last of Us: Left Behind_ <br>&bull; _Mass Effect 1-3_
+| **PlayStation**     | - | &bull; Tekken <br>&bull; ... | - | &bull; _Shadow of the Colossus_ <br>&bull; _Death Stranding_ <br>&bull; _Red Dead Redemption 2_ <br>&bull; _The Last Guardian_ <br>&bull; _The Last of Us <br>&bull; _Mass Effect 1-3_ <br>&bull; Enslaved: Odyssey to the West <br>&bull; Wanted: Dead
 | **XBox**            | - | - | - | &bull; _Hellblade 2_ 
 | **Cloud Gaming**    | - | - | - | - 
 | **Smartphone<br>Tablet** | - | - | - | - 
@@ -97,17 +97,22 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 #### "Nintendo is for children and females" brand image:
 
-- although having 'mature' games with deeper stories, crime and blood, 
+- there are 'mature' games with deeper stories, crime and blood, 
   see my manly games list in [History section](#history); 
-  there are USK/PEGI 18 but no "AO-rated" titles (I don't miss Switch-pr0n)
+  USK/PEGI 18 but no "AO-rated" titles (I don't miss Switch-pr0n)
 - confuses marketing to children with children-only market;
   many mature games are ports from the _manly consoles_, though
 - whatever _adult_ means when it comes to video games, 
   since adults are expected to seek real adventures rather than just play (practice) them (movies/books?)
-- "family friendly", but many Games imho actually adhere to childish aesthetics 
-  (early Nintendo aesthetics were cartoony too but resonated better with older ppl 
-  than the bright colors and round big-headed puppet-bodies - Chibi aesthetic - nowadays);
-  I like Japan but Kawaii pop culture not so much
+- Nintendo as platform vs Nintendo as game developer
+- "family friendly", 
+    - but many Games imho actually adhere to childish aesthetics 
+    - early Nintendo aesthetics were cartoony too but resonated better with older ppl than the bright colors and round big-headed puppet-bodies - Chibi aesthetic - nowadays
+    - I like Japan but Kawaii pop culture not so much 
+    - Zelda BOTW can older and younger bc artsy/pretty
+    - there are animated series and Anime that I would probably still find cool or pretty today 
+      (Ghost in the Shell, Akira, MD Geist, Armitage III, Blame, Black Lagoon, Ghibli movies, Arcane, ...); 
+      in Germany, drawn media are dismissed as childish, in the past more so than today, unlike in France or, of course, in Japan
 - two types of "cute" games: girls’ games and children’s games
 - male adult bearded Switch-Youtubers in children's rooms, 
   surrounded by little dolls (amiibo) and stuffed Nintendo-merch animals 
@@ -170,8 +175,6 @@ Couple of investments and titles that I remember I played at home, friends/cousi
                        ######################
     ```
     - card reader replaceable (~30 euro)
-- extra screen protector needed (tempered glas)
-    - avoid weak Thesa for the "hinge" installation method (gets loose when you peel off the glas foil)
 - no TV out
 	- hardware actually missing for display-USB (see YouTube teardown and dissambly videos)
 - small internal system's permanent memory 32 GB 
@@ -193,7 +196,9 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 - minus-button "-" uncomfortable to reach and press
 - hand cramps (adult hands) after some time playing, buying (large) extra grips required
-- fear of scratching the screen, buying separate protector required
+- fear of scratching the screen, buying separate screen protector (tempered glas) required
+    - avoid weak Thesa for the "hinge" installation method (gets loose when you peel off the glas foil)
+
 
 
 #### Software Issues:
@@ -217,6 +222,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 - wishlist-additions on the international Nintendo.com will not be displayed correctly on the german Nintendo.de wishlist
   (sync between device and nintendo.de works and vice versa (at least removal of games)) 
 - game groups in the user UI should be accessible from home menu
+
 
 
 #### Other Issues:
@@ -243,6 +249,10 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 	- support ticket links in answers lead to HTTP-404-pages
 - eshop downloads take long (3-4 hours for Gigabytes-Titles)
 - Nintendo-banned/locked Switch devices on ebay (due to hacking/rooting attempts; similar to Sony/Microsoft)
+- investment (system, accessories, games) on top of questionable hardware may lead to invest in additional spare parts (mechanical parts above all):
+    - joysticks, fan, battery (55-75 EUR)
+    - maybe you're better off with a second Switch Lite with the other becoming the donor board for the second as soon as it dies
+        = 2 devices + spare parts
 
 
 

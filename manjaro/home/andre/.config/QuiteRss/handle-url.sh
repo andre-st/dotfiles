@@ -20,7 +20,7 @@ ERRLOGPATH="/tmp/${APPNAME}.error.log"
 
 
 FILENAME="${URL##*/}"                # "file.mp3?param=val"
-FILENAME="${FILENAME%%\?*}"          # Crop URL query string
+FILENAME="${FILENAME%%\?*}"          # "file.mp3"
  FILEEXT="${FILENAME##*.}"           # "mp3"
 FILENAME=$( echo "${FILENAME}" | tr '[:upper:]' '[:lower:]' )
  FILEEXT=$( echo "${FILEEXT}"  | tr '[:upper:]' '[:lower:]' )
@@ -33,6 +33,13 @@ case "${FILEEXT}" in
 		;&
 	mp3|ogg)
 		DLDIR="${XDG_DOWNLOAD_DIR}/mp3"
+		
+		# Public service radio broadcaster in own folder:
+		if [[ "${FILENAME}" =~ (drk|dlf|wdr|swr|deutschlandfunk|dertag|derTag) ]]
+		then
+			DLDIR="${XDG_DOWNLOAD_DIR}/mp3/oer"
+		fi
+		
 		;&
 	*)
 		if [ -z ${DLDIR} ]
@@ -40,6 +47,8 @@ case "${FILEEXT}" in
 			chromium -- "${URL}"
 		else
 			notify-send --app-name=${APPNAME} --expire-time=5000 "Downloading" "${FILENAME}"
+			
+			mkdir -pf "${DLDIR}"
 			
 			if ! wget -q -O "${DLDIR}/${FILENAME}" -- "${URL}"
 			then
