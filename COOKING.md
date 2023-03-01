@@ -11,16 +11,18 @@
 
 - AeroPress Go
 - Weber 6750 digital pocket thermometer
-- OSSAT manual coffee grinder 25-28 g (all metal, based on the Comandante but 1/4 price)
-- Anpro Milk Pitcher 350ml for better measuring and pouring out water (not milk)
+- OSSAT manual coffee grinder 25-28 g (all metal, based on the Comandante but 1/4 price); 
+  a full charge with beans produces grind for 1 leveled scoop of the AeroPress Go (11.5 g);
+  so you can dump it straight into the AeroPress
+- Anpro Milk Pitcher 350 ml for better measuring and pouring out water (not milk)
 
 
 ### Test Series:
 
-| Bean                         | Roast  | OSSAT-Cups | Grind Size | Aero Invert | Water Temp | Amount Water | Stiring   | Brew Time | Subjective 
-|------------------------------|--------|------------|------------|-------------|------------|--------------|-----------|-----------|---------------------
-| Solino Yirgacheffe           | light  | 1          | 3          | yes         | 85&deg;C   | 3 AP         | ?         | 50s       | &starf;&starf;&star;&star;&star; (quality but too light for me)
-| Mounthagen Aethopien Sidamo  | middle | 1          | 4          | yes         | 90&deg;C   | 3 AP         | 10s slow  | 50s       | &starf;&starf;&starf;&star;&star;
+| Bean                         | Roast  | Scoops    | Grind Size | Aero Invert | Water Temp | Amount Water | Stiring   | Brew Time | Subjective 
+|------------------------------|--------|-----------|------------|-------------|------------|--------------|-----------|-----------|---------------------
+| Solino Yirgacheffe           | light  | 1 leveled | 3          | yes         | 85&deg;C   | up to 3 AP   | ?         | 50s open  | &starf;&starf;&star;&star;&star; (quality but too light for me)
+| Mounthagen Aethopien Sidamo  | middle | 1 leveled | 4          | yes         | 90&deg;C   | up to 3 AP   | 10s slow  | 50s open  | &starf;&starf;&starf;&star;&star;
 
 
 
