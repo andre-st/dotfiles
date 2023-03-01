@@ -9,12 +9,14 @@
 
 ### Hardware
 
-- AeroPress Go
-- Weber 6750 digital pocket thermometer
-- OSSAT manual coffee grinder 25-28 g (all metal, based on the Comandante but 1/4 price); 
-  a full charge with beans produces grind for 1 leveled scoop of the AeroPress Go (11.5 g);
-  so you can dump it straight into the AeroPress
-- Anpro Milk Pitcher 350 ml for better measuring and pouring out water (not milk)
+| Purpose              | Product                        | Notes
+|----------------------|--------------------------------|---------------------------------
+| Brewer               | AeroPress Go                   |
+| Thermometer          | Weber 6740 Digital Pocket T.   |
+| Grinder              | OSSAT Manual Coffee G. 25-28 g | all metal, based on the Comandante but 1/4 price; a full charge with beans produces grind for 1 leveled scoop of the AeroPress Go (11.5 g); so you can dump it straight into the AeroPress
+| Timer                | PC                             | `$ sleep 40; echo "!"` on the Linux command line
+| Dishware             | Anpro Milk Pitcher 350 ml      | for better measuring and pouring out water (not milk)
+
 
 
 ### Test Series:
