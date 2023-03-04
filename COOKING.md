@@ -20,13 +20,21 @@
 
 ### Test Series
 
-| Bean                         | Roast  | Level Scoops | Grind Size | Filters | Aero Invert | Water Temp | Amount Water | Stiring   | Brew Time | Subjective 
-|------------------------------|--------|--------------|------------|---------|-------------|------------|--------------|-----------|-----------|---------------------
-| Solino Yirgacheffe           | light  | 1            | 3          | 2       | yes         | 85&deg;C   | up to 3 AP   | ?         | 50s open  | &starf;&starf;&star;&star;&star; quality but too light for me
-| Mounthagen Aethopien Sidamo  | middle | 1            | 4          | 2       | yes         | 90&deg;C   | up to 3 AP   | 10s slow  | 50s open  | &starf;&starf;&star;&star;&star;
-| "                            | "      | 1            | 6          | 2       | yes         | 93&deg;C   | up to 3 AP   | 10s slow  | 40s open  | &starf;&starf;&starf;&star;&star; ok for me, too weak for mom
-| "                            | "      | 2            | 7          | 2       | yes         | 93&deg;C   | up to 3 AP   | 10s slow  | 40s open  | &starf;&starf;&starf;&starf;&star;
-| "                            | "      | 2            | 7          | 2       | yes         | 83&deg;C   | up to 3 AP   | 10s slow  | 40s open  | &starf;&star;&star;&star;&star; somehwat sour
+I always:
+- fill up the cup with water ("Bypass" / Americano)
+- use Aero inverted method
+- use 2 filters (washed out, maybe "paper taste")
+- drink when coffee somewhat cooled off 
+
+
+| Bean                         | Roast  | Level Scoops | Grind Size | Water Temp | Amount Water | Stiring            | Brew Time | Subjective 
+|------------------------------|--------|--------------|------------|------------|--------------|--------------------|-----------|-------------
+| Solino Yirgacheffe           | light  | 1            | 3          | 85&deg;C   | up to 3 AP   | ?                  | 50s open  | &starf;&starf;&star;&star;&star; quality but too light for me
+| Mounthagen Aethopien Sidamo  | middle | 1            | 4          | 90&deg;C   | up to 3 AP   | 10s slow pre-brew  | 50s open  | &starf;&starf;&star;&star;&star;
+| "                            | "      | 1            | 6          | 93&deg;C   | up to 3 AP   | 10s slow pre-brew  | 40s open  | &starf;&starf;&starf;&star;&star; ok for me, too weak for mom
+| "                            | "      | 2            | 7          | 93&deg;C   | up to 3 AP   | 10s slow pre-brew  | 40s open  | &starf;&starf;&starf;&starf;&star;
+| "                            | "      | 2            | 7          | 83&deg;C   | up to 3 AP   | 10s slow pre-brew  | 40s open  | &starf;&star;&star;&star;&star; somehwat sour
+| "                            | "      | 2            | 8          | 97&deg;C   | 100 ml       | 20s slow post-brew | 20s open  | &starf;&starf;&starf;&starf;&star; 
 
 
 
