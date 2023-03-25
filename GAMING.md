@@ -292,6 +292,8 @@ Couple of investments and titles that I remember I played at home, friends/cousi
     - "appeal of violent video games to lower educated aggressive adolescent boys"
 - "waste of time", "no real value or impact in your life"
     - light and dopamine
+- "gamer's remorse" (urban dict)
+
 
 
 ### Misc

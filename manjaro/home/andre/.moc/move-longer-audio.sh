@@ -23,13 +23,12 @@ IFS=$'\n'
 for f in *.{mp3,wav,ogg,oga}
 do
 	# Bash does not accept floating point numbers
-
+	
+	# duration_secs_flt=$( soxi -D "$f" )
+	# duration_secs_int=${duration_secs_flt%.*}
+	
 	duration_msec_int=$( mediainfo --Inform="Audio;%Duration%" "$f" )
 	duration_secs_int=$(( duration_msec_int / 1000 ))
-
-#	duration_secs_flt=$( soxi -D "$f" )
-#	duration_secs_int=${duration_secs_flt%.*}
-
 	duration_mins_int=$(( duration_secs_int / 60 ))
 	
 	if (( duration_mins_int > $SHORT_AUDIO_MINUTES_MAX ))

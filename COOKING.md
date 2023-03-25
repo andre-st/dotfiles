@@ -18,7 +18,7 @@
 | Weighing             | Soehnle Page Compact 100       | 'Tare' to reset to 0 after every step, 1 l water &thickapprox; 1 kg 
 | Dishware             | Anpro Milk Pitcher 350 ml      | for easier (temp) measuring/pouring out water (not milk)
 | Dishware             | AeroPress Go Mug               |
-| Dishware             | Lambda Cappuccino cups 160ml   | smaller cups &ne; less coffee; sipping over shotting (caffeine)
+| Dishware             | Lambda Cappuccino cups 160ml   | smaller cups &ne; less coffee; sipping over shotting (just caffeine)
 
 
 ### Extraction:
@@ -27,7 +27,7 @@
 - over: bitter, dry astringent (black tea), hollow, empty
 
 
-### Test Series
+### Test Series:
 
 I usually:
 - prefer soft water
@@ -38,11 +38,12 @@ I usually:
 
 | Bean                         | Roast  | Grind | Grind Size      | Invert | 1. Water in Chamber    | Bloom | Stiring              | 2. Water Chamber | Brew Time                  | Dilute           | Subjective 
 |------------------------------|--------|-------|-----------------|--------|------------------------|-------|----------------------|------------------|----------------------------|------------------|--------------------
-| Solino Yirgacheffe           | light  | 15 g  | 3               | yes    | up to 3 AP, 85&deg;C   | ?     | ?                    | 0                | 50 s open                  | tp 2/3, 83&deg;C | &starf;&starf;&star;&star;&star;  quality but too light for me
-| "                            | "      |       |                 |        |                        |       |                      |                  |                            |                  |                                                               
+| Solino Yirgacheffe           | light  | 15 g  | 3               | yes    | up to 3 AP, 85&deg;C   | ?     | ?                    | 0                | 50 s open                  | to 2/3, 83&deg;C | &starf;&starf;&star;&star;&star;  quality but too light for me
+| "                            | "      | 15 g  | 5               | no     | up to 1.5 AP, 92&deg;C | 20s   | 10s strong pre-brew  | 0                | 0, hard pressure           | to 1/2, 92&deg;C | &starf;&starf;&starf;&x2bea;&star;
+| "                            | "      | 15 g  | 3               | no     | up to 4 AP, 97&deg;C   | 45s   | swirly water pouring | 0                | 0, slow pressure (40s)     | to 1/2. 92&deg;C | sour
 | Mounthagen Aethopien Sidamo  | middle | 15 g  | 4               | yes    | up to 3 AP, 90&deg;C   | 0     | 10 s slow pre-brew   | 0                | 50 s open                  | to 2/3, 83&deg;C | &starf;&starf;&star;&star;&star;
 | "                            | "      | 15 g  | 6               | yes    | up to 3 AP, 93&deg;C   | 0     | 10 s slow pre-brew   | 0                | 40 s open                  | to 2/3, 83&deg;C | &starf;&starf;&starf;&star;&star; ok for me, too weak for mom
-| "                            | "      | 20 g  | 5  (espresso)   | no     | up to 1.5,  92&deg;C   | 20 s  | 10 s strong pre-brew | 0                | 0, hard pressure           | to 1/2, 92&deg;C | &starf;&starf;&starf;&#x2bea;&star; mild but ok, quick finish though
+| "                            | "      | 20 g  | 5  (espresso)   | no     | up to 1.5,  92&deg;C   | 20 s  | 10 s strong pre-brew | 0                | 0, hard pressure           | to 1/2, 92&deg;C | &starf;&starf;&starf;&starf;&star; mild but ok, quick finish though
 | "                            | "      | 30 g  | 7               | yes    | up to 3 AP, 93&deg;C   | 0     | 10 s slow pre-brew   | 0                | 40 s open                  | to 2/3, 83&deg;C | &starf;&starf;&starf;&starf;&star;
 | "                            | "      | 30 g  | 7               | yes    | up to 3 AP, 83&deg;C   | 0     | 10 s slow pre-brew   | 0                | 40 s open                  | to 2/3, 83&deg;C | &starf;&star;&star;&star;&star;   somehwat sour
 | "                            | "      | 30 g  | 23 (mid-coarse) | yes    | wetted grind, 97&deg;C | 30 s  | 3 stirs   pre-brew   | to top           | 90 s closed                | to 1/2, 83&deg;C | &starf;&starf;&starf;&star;&star; flowery?

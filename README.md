@@ -294,10 +294,11 @@ flowchart TD
 	sh-- "is single instance" -->rsync
 ```
 
-- **Convenient:** Backup auto-starts by attaching a known disk drive (via _udev_ device manager).
+- **Convenient:** Backup [auto-starts](https://gist.github.com/andre-st/6c935abcd5e5cdf0158de4c1c712295d) by attaching a known disk drive (via _udev_ device manager).
   Convenience ensures that I don't skip backups due to lack of time or laziness.
   All important data is on a separate partition _/mnt/data_, 
-  with _changes_ being fully synchronized onto the backup 
+  with _changes_ being fully synchronized onto the backup.
+  I often symlink important config directories to _/mnt/data/dotfiles/&hellip;_
 - **Offline:** I keep backup disks detached 
   so that they cannot be mounted and affected by ransomware. 
   Permanently attached drives are not a backup but extended storage
@@ -387,12 +388,12 @@ $ systemctl enable --now systemd-timesyncd.service
 
 - [nsxiv](https://github.com/nsxiv/nsxiv) image viewer:
 	With dark mode ([.Xresources](.Xresources)), adjusted `thumb_sizes[]` and `THUMB_SIZE` in config.def.h;
-	[keys configured](.config/sxiv/exec/key-handler) so that I can go through an image collection (thumbs)
+	[keys configured](.config/nsxiv/exec/key-handler) so that I can go through an image collection (thumbs)
 	and either move individual images to (automatically created) subfolders such as "\_trash" and "\_wrong", 
 	or symlink them from a "\_selected" subfolder for later revisitation;
 	I often use directories with a leading underscore to make them stand out as "meta" dirs and to let them sort to the top in a file list.
 - [mpv](https://github.com/mpv-player/mpv) video player (called via mc)
-- youtube-dl (yt-dlp) to download video from YouTube and other websites; 
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) (a maintained youtube-dl fork) to download video from YouTube and other websites; 
 	for example, it downloads _blob:_ videos using the m3u8-URL found via browser's devtools network activity view (F12)
 - [Music on Console](https://en.wikipedia.org/wiki/Music_on_Console) audio player:
 	My time of listening differs significantly from the time of downloading, 
@@ -409,7 +410,7 @@ $ systemctl enable --now systemd-timesyncd.service
 
 	I don't use metadata-based media libraries but am 1:1 with the file system.
 	Proper filenames, unlike metadata containers, 
-	can be viewed, searched, sorted etc with almost any program in any context (e.g. SFTP).
+	can be viewed, searched, sorted etc with almost any program in any context (e.g. SFTPd or HTTPd listings).
 	I've also tried the well-made [cmus](https://github.com/cmus/cmus) and a couple of MPD clients, 
 	but I work more fluently with MOC
 - [EasyEffects](https://github.com/wwmm/easyeffects) sound-quality tool:
