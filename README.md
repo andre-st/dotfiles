@@ -450,26 +450,13 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 | GoFullPage | screenshot of an entire webpage
 
 
-| Browser Profile | Comment |
-|-----------------|---------|
-| default         |
-| pentest         | proxy settings, ...
-| tor             | proxy settings, multiple home tabs with check.torproject.org i.a.
-| banking         | no extensions safe-mode, multiple home tabs with fintech sites, ...
-| private         | 
-
-
-| Bookmark Bar Folders | Comment |
-|----------------------|---------|
-| Recherche            | research, subfolder per topic
-| Shop                 | shopping sites
-| News / Social        | news sites, social networks
-| Sprache              | language tools: dicts/translator, thesaurus, ...
-| $COMPANY             | different webpages, intranet, ...
-| Dev                  | developer's resources
-| Todo                 | usually garbage folder
-| Chrome               | bookmarklets, quick access to pages like chrome://discards/ or chrome://gpu/
-
+| Browser Profile | Bookmark Bar Folders | Comment |
+|-----------------|----------------------|---------|
+| default         | Research, Shop, News/Social, Language, $COMPANY (intranet etc), Dev, Todo, Chrome (bookmarklets, some pages like chrome://gpu)  |
+| pentest         |                      | proxy settings, ...
+| tor             |                      | proxy settings, multiple home tabs with check.torproject.org i.a.
+| banking         |                      | no extensions safe-mode, multiple home tabs with fintech sites, ...
+| private         |                      | 
 
 
 ### Other
