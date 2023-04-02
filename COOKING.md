@@ -40,7 +40,7 @@ Recipes:
 - FlatberryMarket Mario: https://www.youtube.com/watch?v=R-BlXC3WhpM  (20g for 2 Cappu-cups, for day to day)
 
 
-| Bean                         | Roast  | Grind | Grind Size      | Invert | 1st_Water_in_Chamber__ | Bloom | Stiring_____________ | 2nd_Water_Chamber | Brew-Time_________________ | Dilute           | Subjective_______________________ 
+| Bean                         | Roast  | Grind | Grind_Size_____ | Invert | 1st_Water_in_Chamber__ | Bloom | Stiring_____________ | 2nd_Water_Chamber | Brew_Time_________________ | Dilute           | Subjective____________________________________________________
 |------------------------------|--------|-------|-----------------|--------|------------------------|-------|----------------------|-------------------|----------------------------|------------------|--------------------
 | Solino Yirgacheffe           | light  | 15 g  | 3               | yes    | up to 3 AP, 85&deg;C   | ?     | ?                    | 0                 | 50 s open                  | to 2/3, 83&deg;C | &starf;&starf;&star;&star;&star;  quality but too light for me
 | "                            | "      | 30 g  | 26 (mid-coarse) | yes    | 100 g, 92&deg;C        | 0     | 20x strong pre-brew  | 0                 | 40 s closed, no excess air | 120 g,  92&deg;C | &starf;&starf;&starf;&starf;&star; Wendelien van Bunnik recipe

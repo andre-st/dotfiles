@@ -463,7 +463,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 ### Other
 
 - [Zathura](https://pwmt.org/projects/zathura/): keyboard-friendly, dark-mode, fast PDF-reader (+zathura-cb for CBR-files)
-- pdfgrep: grep PDF files ([ripgrep-all](https://github.com/phiresky/ripgrep-all) probably faster)
+- [ripgrep-all](https://github.com/phiresky/ripgrep-all): `$ rga -C 3 keyword *.pdf` (faster than pdfgrep, it's ripgrep_-all_ not ripgrep!)
 - [QuiteRSS](https://github.com/QuiteRSS/quiterss): fast, customizable, feature-rich RSS-reader for blogs, news sites, podcasts, ...
     - download audio/video with single click:  Options &gt; Browser &gt; Use external browser "[handle-url.sh](manjaro/home/andre/.config/QuiteRss/handle-url.sh)"
     - style "Link to audio" by adding `a.enclosure { ... }` to `/usr/share/quiterss/style/web_dark.css` 
