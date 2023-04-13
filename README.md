@@ -394,7 +394,11 @@ $ systemctl enable --now systemd-timesyncd.service
 	I often use directories with a leading underscore to make them stand out as "meta" dirs and to let them sort to the top in a file list.
 - [mpv](https://github.com/mpv-player/mpv) video player (called via mc)
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) (a maintained youtube-dl fork) to download video from YouTube and other websites; 
-	for example, it downloads _blob:_ videos using the m3u8-URL found via browser's devtools network activity view (F12)
+	for example, it downloads _blob:_ videos using the m3u8-URL found via browser's devtools network activity view (F12)  
+    ```
+    alias ytdl='yt-dlp -f bestvideo+bestaudio '
+    alias m3u8='yt-dlp --output=vid$(date +%s).mp4 '
+    ```
 - [Music on Console](https://en.wikipedia.org/wiki/Music_on_Console) audio player:
 	My time of listening differs significantly from the time of downloading, 
 	so many unheard podcasts etc accumulate.
