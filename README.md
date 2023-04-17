@@ -68,11 +68,12 @@ and I will give _Manjaro-i3-Minimal_ a longer try, now.
 
 ## File-System
 
-All partitions are _dm-crypt/LUKS_ encrypted, 
-with some partitions having different keys and only 
+All partitions are _dm-crypt/LUKS_ encrypted. 
+
+Before 2022, some partitions had different keys and were only
 [opened when needed](slackware-2022/usr/local/bin/cryptopen). 
-The partition for my home directory and _/var_ have the same key as the root partition 
-(put in _/etc/crypttab_ so that I only have to enter it once for all of them when booting).
+The partition for my home directory and _/var_ had the same key as the root partition 
+(put in _/etc/crypttab_ so that I only had to enter it once for all of them when booting).
 
 Before UEFI _Secure Boot_, 
 I protected the unencrypted boot partition (kernel, initrd, lilo) 
@@ -103,18 +104,21 @@ Data usually live longer than their applications and computers.
 I used to have two monitors for a long time. 
 Now there is only a single 24-inch office EIZO monitor.
 I think it helps me to focus and maybe reduce electricity bills (∅10 W).
+
 My larger television is connected as a second output device, 
 but I usually don't use it for work. 
 
 Dark flat design theme (so that I don't look into a bright lamp for many hours), 
 no full-blown desktop environment, 
 preferably keyboard-friendly and tidy text-based UI.
-A TUI usually lacks _decorative animations_ or "seductive details" 
+A TUI usually lacks _decorative animations_ or "seductive details" or logos or brand design
 that help with the first impression of a product or "software sympathy". 
 Though, it might show _informative animations_ 
 that communicate functionality or responsiveness.
 
 A background image would indicate bad use of my screen estate.
+Otherwise, on MS Windows PCs, I've had a solid (usually billard-green) color instead of an image; 
+found it more relaxing and easier to find desktop icons.
 
 I use _workspaces_ a lot 
 as they reduce window confusion, 
@@ -133,10 +137,12 @@ facilitates _habit formation_ and _semi-automatic execution_
 (so called "unconscious competence"): 
 You are faster and have your mind free for other things.
 Conversely, even a small amount of unpredictability 
-demands disproportionately more attention for fear of mistakes.  
-No interface &gt; static interface &gt; smart interface
+demands disproportionately more attention for fear of mistakes:
 
-Slackware runs the _Xorg_ display server:
+    _No interface &gt; static interface &gt; smart interface_
+
+
+Slackware ran the _Xorg_ display server:
 - NVIDIA-Linux-x86\_64-390.116.run
 - todo: 
 	either start permanently via runlevel 5 in `/etc/inittab` 
@@ -151,7 +157,8 @@ Slackware runs the _Xorg_ display server:
 
 ![Screenshot](README-i3.png)
 
-- I'm fine with i3, but I felt I was faster and less mentally involved with Notion; maybe a matter of habit, I've used Ion and Notion for years
+- still 1x monitor + TV, no bg, no desktop env, dark theme, workspaces
+- I'm fine with i3, but I feel I was faster or less mentally involved with Notion; maybe a matter of habit, I've used Ion and Notion for years
 - todo
 - rofi (dmenu replacement) - launching (wrong) applications is a _bigger_ action and should be represented with _bigger_ icons and a more prominent menu
 
@@ -367,9 +374,8 @@ $ pacman -Syyu
 	I currently only use it [in the browser](#web-browser). 
 	Host-file-based blocks or Pi-hole, however,
 	would also protect other (less secure) programs and devices that embed ads
-- KeePassXC for time-based one-time password (TOTP) generation (system time sync required), 
+- KeePassXC for time-based one-time password (TOTP) generation (system time sync required), ugly but does the job;  
   zbarimg for QR code scanning
-
 
 
 ### Time Synchronization
@@ -388,7 +394,7 @@ $ systemctl enable --now systemd-timesyncd.service
 
 - [nsxiv](https://github.com/nsxiv/nsxiv) image viewer:
 	With dark mode ([.Xresources](.Xresources)), adjusted `thumb_sizes[]` and `THUMB_SIZE` in config.def.h;
-	[keys configured](.config/nsxiv/exec/key-handler) so that I can go through an image collection (thumbs)
+	[keys configured](manjaro/home/andre/.config/nsxiv/exec/key-handler) so that I can go through an image collection (thumbs)
 	and either move individual images to (automatically created) subfolders such as "\_trash" and "\_wrong", 
 	or symlink them from a "\_selected" subfolder for later revisitation;
 	I often use directories with a leading underscore to make them stand out as "meta" dirs and to let them sort to the top in a file list.
@@ -454,19 +460,19 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 | GoFullPage | screenshot of an entire webpage
 
 
-| Browser Profile | Bookmark Bar Folders | Comment |
+| Browser Profile | Bookmark Bar         | Comment |
 |-----------------|----------------------|---------|
-| default         | Research, Shop, News/Social, Language, $COMPANY (intranet etc), Dev, Todo, Chrome (bookmarklets, some pages like chrome://gpu)  |
+| default         | &#128193;Research, &#128193;Shop, &#128193;News/Social, &#128193;Language, &#128193;$COMPANY (intranet etc), &#128193;Dev, &#128193;Todo, &#128193;Chrome (bookmarklets, some pages like chrome://gpu)  |
 | pentest         |                      | proxy settings, ...
 | tor             |                      | proxy settings, multiple home tabs with check.torproject.org i.a.
-| banking         |                      | no extensions safe-mode, multiple home tabs with fintech sites, ...
+| banking         | fintech sites        | no extensions safe-mode
 | private         |                      | 
 
 
 ### Other
 
 - [Zathura](https://pwmt.org/projects/zathura/): keyboard-friendly, dark-mode, fast PDF-reader (+zathura-cb for CBR-files)
-- [ripgrep-all](https://github.com/phiresky/ripgrep-all): `$ rga -C 3 keyword *.pdf  # 3 lines context` faster than _pdfgrep_ (it's ripgrep-all not ripgrep!)
+- [ripgrep-all](https://github.com/phiresky/ripgrep-all): grep PDF-files via `$ rga -C 3 keyword *.pdf  # 3 lines context` faster than _pdfgrep_ (it's ripgrep-all not ripgrep!)
 - [QuiteRSS](https://github.com/QuiteRSS/quiterss): fast, customizable, feature-rich RSS-reader for blogs, news sites, podcasts, ...
     - download audio/video with single click:  Options &gt; Browser &gt; Use external browser "[handle-url.sh](manjaro/home/andre/.config/QuiteRss/handle-url.sh)"
     - style "Link to audio" by adding `a.enclosure { ... }` to `/usr/share/quiterss/style/web_dark.css` 
@@ -490,8 +496,25 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - Office: Markdown / Htmlcssjs &gt; Google Docs (collaborative) &gt; LibreOffice (not installed) &gt; MS Office on Windows; 
 	`$ antiword ms.doc | vim -`
 - Video editing / Streaming: FFmpeg suite
-- Git/GitHub: `$ git gui` is handy for staging patches; `$ gitk [FILENAME]` 
-- Presentations: todo
+- Git/GitHub: `$ git gui` is handy for staging patches (hold right mouse key); `$ gitk [FILENAME]` 
+- Presentations:
+    simple quickly hand-drawn figures on paper, photographed with smartphone/tablet and put in HtmlCss (scroll-snapping effect), 
+    viewed in fullscreen browser (F11), or just simple image viewer  
+    ```html
+    <html>
+        <head>
+            <style>
+                html { scroll-snap-type: y mandatory; text-align: center; }
+                img  { scroll-snap-align: start; height: 100vh; padding: 5em 0; box-sizing: border-box; }
+            </style>
+        </head>
+        <body>
+            <img src="slide1.jpg">
+            <img src="slide2.jpg"> 
+            <img src="slideN.jpg"> 
+        </body>
+    </html>
+    ```
 - Networking: vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
  
 

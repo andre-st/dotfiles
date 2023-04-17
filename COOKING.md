@@ -26,9 +26,9 @@
 - ideal: sweet, ripe, transparent (clarity/less distractions), complex acidity, finishhhhhhhh
 - over: bitter, dry astringent (black tea), hollow, empty
 
-- dark  roast: 82&deg;C
-- mid   roast: 92&deg;C
-- light roast: 92&deg;C
+- dark  roast: 80-82&deg;C  
+- mid   roast: 92&deg;C  (prefered roast for Aeropress)
+- light roast: 92-...&deg;C
 
 
 ### Test Series:
@@ -63,7 +63,8 @@ Recipes:
 | "                            | "      | 30 g  | 26 (mid-coarse) | yes    | 100 g, 92&deg;C        | 0     | 20x strong pre-brew  | 0                 | 40 s closed, no excess air | 120 g,  92&deg;C | &starf;&starf;&starf;&starf;&star; Wendelien van Bunnik recipe
 | Apogeo Pasionata Castillo    | dark   | 30 g  | 40 (coarse)     | yes    | 100 g, 92&deg;C        | 0     | 20x strong pre-brew  | 0                 | 40 s closed, no excess air | 120 g,  92&deg;C | &starf;&starf;&starf;&star;&star; Wendelien van Bunnik recipe, many notes, pretty strong, shocolate (texture) dominates
 | "                            | "      | 16 g  | mid-coarse      | no     | 5secs agitate, to #2, 82&deg;C | 20 s  | no           | to #3             | 55 s closed (plunger)      | no               | &starf;&starf;&starf;&star;&star; lighter, citrus notes dominate, less shcoloate
-| "                            | "      | 15 g  | mid-coarse      | yes    | 100 g, 90&deg;C, stir  | 30 s  | stir again           | 80 g              | 210 s closed               | no               | &starf;&starf;&star;&star;&star; nothing special, somewhat sour
+| "                            | "      | 15 g  | mid-coarse      | yes    | 100 g, 90&deg;C, stir  | 30 s  | stir again           | 80 g              | 210 s closed               | no               | &starf;&starf;&star;&star;&star; nothing special, somewhat sour (acids)
+| "                            | "      | 15 g  | mid-coarse      | no     | #3, 80&deg;C           | 0     | 5s                   | 0                 | 40 s closed, flipped, 5s stir | yes           | &starf;&starf;&star;&star;&star; drinkable, nothing special, just some okayish bitter notes
 
 
 
