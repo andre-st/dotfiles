@@ -137,9 +137,8 @@ facilitates _habit formation_ and _semi-automatic execution_
 (so called "unconscious competence"): 
 You are faster and have your mind free for other things.
 Conversely, even a small amount of unpredictability 
-demands disproportionately more attention for fear of mistakes:
-
-    No interface &gt; static interface &gt; smart interface
+demands disproportionately more attention for fear of mistakes:  
+No interface &gt; static interface &gt; smart interface
 
 
 Slackware ran the _Xorg_ display server:
@@ -441,7 +440,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 
 ### Web Browser
 
-| Browser Action | Mouse Gesture |
+| Browser_Action | Mouse Gesture |
 |----------------|---------------|
 | Open link in new background tab | → (if no middle button)
 | Close current tab | ⤷
@@ -451,7 +450,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 | Scroll to page footer | ↓
 
 
-| Browser Extension | Comment |
+| Browser_Extension | Comment |
 |-------------------|---------|
 | [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension+fork%3Atrue&type=repositories) | tabs mgr., mouse gestures, Amazon, Javascript/CSS injection, ...
 | [Dark Reader](https://github.com/darkreader/darkreader) | dark mode on every website
@@ -460,9 +459,9 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 | GoFullPage | screenshot of an entire webpage
 
 
-| Browser Profile | Bookmark Bar         | Comment |
+| Browser_Profile | Bookmark Bar         | Comment |
 |-----------------|----------------------|---------|
-| default         | &#128193;&#xFE0E;Research, &#128193;&#xFE0E;Shop, &#128193;&#xFE0E;News/Social, &#128193;&#xFE0E;Language, &#128193;&#xFE0E;$COMPANY (intranet etc), &#128193;&#xFE0E;Dev, &#128193;&#xFE0E;Todo, &#128193;&#xFE0E;Chrome (bookmarklets, some pages like chrome://gpu)  |
+| default         | &#128193;&#xFE0E; Research, &#128193;&#xFE0E; Shop, &#128193;&#xFE0E; News/Social, &#128193;&#xFE0E; Language, &#128193;&#xFE0E; $COMPANY (intranet etc), &#128193;&#xFE0E; Dev, &#128193;&#xFE0E; Todo, &#128193;&#xFE0E; Chrome (bookmarklets, some pages like chrome://gpu)  |
 | pentest         |                      | proxy settings, ...
 | tor             |                      | proxy settings, multiple home tabs with check.torproject.org i.a.
 | banking         | fintech sites        | no extensions safe-mode
@@ -482,7 +481,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 
 ## Development, Productivity
 - todo
-- Editing: vim, vimdiff, vim-plugins, edir, ...
+- Text-editing: vim, vimdiff, vim-plugins, edir, ...
 - Statistics, Graphs: ~~[RStudio](https://github.com/rstudio/rstudio)~~ NVim-R
 - Box-and-line diagrams: [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...) 
 	- Network diagrams, high level software designs / architectures, book summaries (semi-formal sketchnoting)
@@ -490,19 +489,24 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - Pixel images: [Gimp](https://github.com/GNOME/gimp)
 - ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
 - 3D/CAD:
-	[OpenSCAD](https://github.com/openscad/openscad), 
-	[FreeCAD](https://github.com/FreeCAD) w/ Assembly4 + Fasteners + gmsh for finite element analysis
-	(in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem))
-- Office: Markdown / Htmlcssjs &gt; Google Docs (collaborative) &gt; LibreOffice (not installed) &gt; MS Office on Windows; 
+	- [OpenSCAD](https://github.com/openscad/openscad), 
+	- [FreeCAD](https://github.com/FreeCAD) w/ Assembly4 + Fasteners + gmsh for finite element analysis 
+      (in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem))
+- Office: Htmlcssjs / Markdown / Plaintext &gt; Google Docs (collaborative) &gt; LibreOffice (not installed) &gt; MS Office on Windows; 
 	`$ antiword ms.doc | vim -`
 - Video editing / Streaming: FFmpeg suite
-- Git/GitHub: `$ git gui` is handy for staging patches (hold right mouse key); `$ gitk [FILENAME]` 
-- Presentations:
-    1. simple quickly hand-drawn figures on paper and
-    2. photographed with smartphone/tablet and 
-    3. post-edited (primarily headlines)
-    4. put in HtmlCss (scroll-snapping effect), 
-    5. viewed in fullscreen browser (F11) (alternatively: simple image-viewer)
+- Git/GitHub: 
+    - `$ git gui` is handy for staging patches (hold right mouse key); 
+    - `$ gitk [FILENAME]` 
+- Prototyping:
+    - lo-fi throw-away prototypes via pen & paper (best usability),
+      fold DinA4 paper multiple times = outlines for n smartphone displays,
+      photographed for archive
+    - personas: https://this-person-does-not-exist.com/
+- Presentation/talks:
+    1. quickly hand-drawn symbolic/diagrammatic figures on blank paper (photographed), or real photography; supports monologue, no text-walls
+    2. post-edited with Gimp (contrast/whiten background + headline text)
+    3. embedded in HtmlCss (scroll-snapping effect)  
         ```html
         <!DOCTYPE html>
         <html>
@@ -519,6 +523,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
             </body>
         </html>
         ```
+    4. viewed in fullscreen web-browser (F11) (alternatively: simple image-viewer)
 - Networking: vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
  
 
