@@ -139,7 +139,7 @@ You are faster and have your mind free for other things.
 Conversely, even a small amount of unpredictability 
 demands disproportionately more attention for fear of mistakes:
 
-    _No interface &gt; static interface &gt; smart interface_
+    No interface &gt; static interface &gt; smart interface
 
 
 Slackware ran the _Xorg_ display server:
@@ -158,15 +158,15 @@ Slackware ran the _Xorg_ display server:
 ![Screenshot](README-i3.png)
 
 - still 1x monitor + TV, no bg, no desktop env, dark theme, workspaces
-- I'm fine with i3, but I feel I was faster or less mentally involved with Notion; maybe a matter of habit, I've used Ion and Notion for years
-- todo
 - rofi (dmenu replacement) - launching (wrong) applications is a _bigger_ action and should be represented with _bigger_ icons and a more prominent menu
+- todo
 
 
 
 ### Fonts
 
 - todo
+
 
 
 ### Input Devices & Bindings
@@ -374,7 +374,7 @@ $ pacman -Syyu
 	I currently only use it [in the browser](#web-browser). 
 	Host-file-based blocks or Pi-hole, however,
 	would also protect other (less secure) programs and devices that embed ads
-- KeePassXC for time-based one-time password (TOTP) generation (system time sync required), ugly but does the job;  
+- KeePassXC for time-based one-time password (TOTP) generation (system time sync required), ugly but does the job;
   zbarimg for QR code scanning
 
 
@@ -462,7 +462,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 
 | Browser Profile | Bookmark Bar         | Comment |
 |-----------------|----------------------|---------|
-| default         | &#128193;Research, &#128193;Shop, &#128193;News/Social, &#128193;Language, &#128193;$COMPANY (intranet etc), &#128193;Dev, &#128193;Todo, &#128193;Chrome (bookmarklets, some pages like chrome://gpu)  |
+| default         | &#128193;&#xFE0E;Research, &#128193;&#xFE0E;Shop, &#128193;&#xFE0E;News/Social, &#128193;&#xFE0E;Language, &#128193;&#xFE0E;$COMPANY (intranet etc), &#128193;&#xFE0E;Dev, &#128193;&#xFE0E;Todo, &#128193;&#xFE0E;Chrome (bookmarklets, some pages like chrome://gpu)  |
 | pentest         |                      | proxy settings, ...
 | tor             |                      | proxy settings, multiple home tabs with check.torproject.org i.a.
 | banking         | fintech sites        | no extensions safe-mode
@@ -498,23 +498,27 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - Video editing / Streaming: FFmpeg suite
 - Git/GitHub: `$ git gui` is handy for staging patches (hold right mouse key); `$ gitk [FILENAME]` 
 - Presentations:
-    simple quickly hand-drawn figures on paper, photographed with smartphone/tablet and put in HtmlCss (scroll-snapping effect), 
-    viewed in fullscreen browser (F11), or just simple image viewer  
-    ```html
-    <html>
-        <head>
-            <style>
-                html { scroll-snap-type: y mandatory; text-align: center; }
-                img  { scroll-snap-align: start; height: 100vh; padding: 5em 0; box-sizing: border-box; }
-            </style>
-        </head>
-        <body>
-            <img src="slide1.jpg">
-            <img src="slide2.jpg"> 
-            <img src="slideN.jpg"> 
-        </body>
-    </html>
-    ```
+    1. simple quickly hand-drawn figures on paper and
+    2. photographed with smartphone/tablet and 
+    3. post-edited (primarily headlines)
+    4. put in HtmlCss (scroll-snapping effect), 
+    5. viewed in fullscreen browser (F11) (alternatively: simple image-viewer)
+        ```html
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <style>
+                    html { scroll-snap-type: y mandatory; text-align: center; }
+                    img  { scroll-snap-align: start; height: 100vh; padding: 5em 0; box-sizing: border-box; }
+                </style>
+            </head>
+            <body>
+                <img src="slide1.jpg">
+                <img src="slide2.jpg"> 
+                <img src="slideN.jpg"> 
+            </body>
+        </html>
+        ```
 - Networking: vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
  
 
