@@ -300,20 +300,24 @@ flowchart TD
 	sh-- "is single instance" -->rsync
 ```
 
-- **Convenient:** Backup [auto-starts](https://gist.github.com/andre-st/6c935abcd5e5cdf0158de4c1c712295d) by attaching a known disk drive (via _udev_ device manager).
+- **Convenient:**
+  Backup [auto-starts](https://gist.github.com/andre-st/6c935abcd5e5cdf0158de4c1c712295d) by attaching a known disk drive (via _udev_ device manager).
   Convenience ensures that I don't skip backups due to lack of time or laziness.
   All important data is on a separate partition _/mnt/data_, 
   with _changes_ being fully synchronized onto the backup.
   I often symlink important config directories to _/mnt/data/dotfiles/&hellip;_
-- **Offline:** I keep backup disks detached 
+- **Offline:**
+  I keep backup disks detached 
   so that they cannot be mounted and affected by ransomware. 
   Permanently attached drives are not a backup but extended storage
-- **Encrypted:** dm-crypt/LUKS makes offsite backups less risky.
+- **Encrypted:**
+  dm-crypt/LUKS makes offsite backups less risky.
   Currently, I don't have offsite backups in case of fire etc, though 
   (neither cloud storage backups).
   An encrypted main system with unencrypted backups would be pointless, too.
   Keyfile in _/etc/keys/_.
-- **Visible:** The backup process is shown to me with a small permanent notification (_dunst_) 
+- **Visible:**
+  The backup process is shown to me with a small permanent notification (_dunst_) 
   at the top right edge of the desktop GUI.
   It also tells me when I can detach the drive again
 - **Forever Reverse Incremental Backup:**
@@ -321,10 +325,21 @@ flowchart TD
   allowing fast recovery if your latest backup isn't already corrupted. 
   In contrast to forward incremental backups, 
   it is easier to delete old backups to make room for new backups, too.
-- **Simple**: No special block-level patching magic and no extra-repository to corrupt,
+- **Simple**:
+  No special block-level patching magic and no extra-repository to corrupt,
   tools usually pre-installed
+- **Recovery**:
+  A script suspends auto-backup (_systemctl mask ..._), 
+  mounts the backup-disk and starts a simple working-shell (I then use _mc_). 
+  After the shell exits, auto-backup is re-armed
 
-- recovery todo
+
+Currently I only use 1 backup disk, 
+but will eventually expand the system to 2 disks in regular rotation in case one disk becomes corrupted. 
+There is not much to change (udev-rule and crypttab) 
+as the current _rsync_ options would already automatically update every hard disk to the correct status
+based on the data already on it.
+
 
 
 

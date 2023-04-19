@@ -18,7 +18,7 @@
 | Weighing             | Soehnle Page Compact 100       | 'Tare' to reset to 0 after every step, 1 l water &thickapprox; 1 kg 
 | Dishware             | Anpro Milk Pitcher 350 ml      | for easier (temp) measuring and pouring out water (not milk)
 | Dishware             | AeroPress Go Mug               | receiving container when pressing the AeroPress
-| Dishware             | Lambda Cappuccino cups 160ml   | smaller cups &ne; less coffee (drink 2 cups); more conscious sipping over mindless shotting in BigMac supersize cups (just for caffeine)
+| Dishware             | Lambda Cappuccino cups 160ml   | smaller cups &ne; less coffee (drink 2 cups); more conscious sipping over mindless shotting with BigMac supersize cups just for caffeine
 
 
 ### Extraction:
@@ -65,6 +65,7 @@ I usually:
 | &starf;&starf;&star;&star;&star;     | "                            | "       | 15g   | 4                | yes    | water        to #3,   90&deg;C  |                | stir 10s slowly   |                            | brew 50s open                   | dilute to 2/3, 83&deg;C  | 
 | &starf;&star;&star;&star;&star;      | "                            | "       | 30g   | 7                | yes    | water        to #3,   83&deg;C  |                | stir 10s slowly   |                            | brew 40s open                   | dilute to 2/3, 83&deg;C  | somehwat sour
 | &starf;&starf;&starf;&#x2bea;&star;  | Apogeo Pasionata Castillo    | dark    | 11g   | mid-coarse       | no     | water        200g,    85&deg;C  |                |                   | brew 120s closed (plunger) | swirl gently (not stir)         | wait 30s, press          | lil thin, but not bad, does justice to the flavor notes
+| &starf;&starf;&starf;&star;&star;    | "                            | "       | 20g   | mid-coarse       | no     | water        200g,    85&deg;C  |                |                   | brew 120s closed (plunger) | swirl gently (not stir)         | wait 30s, press          | dark roast notes, acids
 | &starf;&starf;&starf;&star;&star;    | "                            | "       | 30g   | 40 (coarse)      | yes    | water        100g,    92&deg;C  |                | stir 20x          |                            | brew 40s closed, no excess air  | dilute 120 g,  92&deg;C  | Wendelien van Bunnik recipe, many notes, pretty strong, shocolate (texture) dominates
 | &starf;&starf;&starf;&star;&star;    | "                            | "       | 16g   | mid-coarse       | no     | wet 5secs,   to #2,   82&deg;C  | bloom 20s      |                   | water to #3                | brew 55s closed (plunger)       |                          | lighter, citrus notes dominate, less shcoloate
 | &starf;&starf;&star;&star;&star;     | "                            | "       | 15g   | mid-coarse       | yes    | water        100g,    90&deg;C  | stir           | brew 30s          | stir again                 | water 80g                       | brew 210s closed         | nothing special, somewhat sour (acids)
