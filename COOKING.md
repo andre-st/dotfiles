@@ -26,9 +26,9 @@
 - ideal: sweet, ripe, transparent (clarity/less distractions), complex acidity, finishhhhhhhh
 - over: bitter, dry astringent (black tea), hollow, empty
 
-- dark  roast: 80-82&deg;C  
-- mid   roast: 92&deg;C  (prefered roast for Aeropress)
-- light roast: 92-...&deg;C
+- dark  roast: 80-82&deg;C, mid-to-coarse grind
+- mid   roast: 92&deg;C  (prefered roast for Aeropress), mid-grind
+- light roast: 92-...&deg;C, mid-to-fine grind
 
 
 ### Test Series:
@@ -65,6 +65,7 @@ Recipes:
 | "                            | "      | 16 g  | mid-coarse      | no     | 5secs agitate, to #2, 82&deg;C | 20 s  | no           | to #3             | 55 s closed (plunger)      | no               | &starf;&starf;&starf;&star;&star; lighter, citrus notes dominate, less shcoloate
 | "                            | "      | 15 g  | mid-coarse      | yes    | 100 g, 90&deg;C, stir  | 30 s  | stir again           | 80 g              | 210 s closed               | no               | &starf;&starf;&star;&star;&star; nothing special, somewhat sour (acids)
 | "                            | "      | 15 g  | mid-coarse      | no     | #3, 80&deg;C           | 0     | 5s                   | 0                 | 40 s closed, flipped, 5s stir | yes           | &starf;&starf;&star;&star;&star; drinkable, nothing special, just some okayish bitter notes
+| "                            | "      | 11 g  | mid-coarse      | no     | 200 g, 85&deg;C        | 0     | no                   | 0                 | 120 s closed (plunger), swirl (not stir), wait 30s | no | &starf;&starf;&starf;&#x2bea;&star; lil thin, but not bad, does justice to the flavor notes
 
 
 
