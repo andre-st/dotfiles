@@ -336,8 +336,7 @@ flowchart TD
 
 Currently I only use 1 backup disk, 
 but will eventually expand the system to 2 disks in regular rotation in case one disk becomes corrupted. 
-There is not much to change (udev-rule and crypttab) 
-as the current _rsync_ options would already automatically update every hard disk to the correct status
+The current _rsync_ options would already automatically update every hard disk to the correct state
 based on the data already on it.
 
 
