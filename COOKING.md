@@ -12,23 +12,30 @@
 | Purpose              | Product                        | Notes
 |----------------------|--------------------------------|---------------------------------
 | Brewer               | AeroPress Go                   | 
-| Thermometer          | Weber 6740 Digital Pocket T.   | 
-| Grinder              | OSSAT Manual Coffee G. 25-28 g | all metal, based on the Comandante but 1/4 price; <br>full charge with beans fills ~15g or 1 leveled scoop of AeroPress Go (11.5 g), <br> so you can dump it straight into AP<br>Grind size: 1 (finest) - 11 (coarser) - ...
+| Thermometer          | Weber 6740 Digital Pocket T.   | checks brewing water and drink temperatures
+| Grinder              | OSSAT Manual Coffee G. 25-28 g | all metal, based on the Comandante but 1/4 price; <br>full charge with beans fills ~15g or 1 leveled scoop of AeroPress Go (11.5 g), <br> so you can dump it straight into AP<br>Grind size: 1 (finest) - 25 (mid-coarse) - 40 (coarse)
 | Timer                | PC, Smartphone Clock           | `$ sleep 40` on the Linux command line
 | Weighing             | Soehnle Page Compact 100       | 'Tare' to reset to 0 after every step, 1 l water &thickapprox; 1 kg 
 | Dishware             | Anpro Milk Pitcher 350 ml      | for easier (temp) measuring/pouring out water (not milk)
-| Dishware             | AeroPress Go Mug               |
+| Dishware             | AeroPress Go Mug               | receiving container when pressing the AeroPress
 | Dishware             | Lambda Cappuccino cups 160ml   | smaller cups &ne; less coffee; sipping over shotting (just caffeine)
 
 
 ### Extraction:
-- under: sour, lacking sweet, salty, quick finish
-- ideal: sweet, ripe, transparent (clarity/less distractions), complex acidity, finishhhhhhhh
-- over: bitter, dry astringent (black tea), hollow, empty
 
-- dark  roast: 80-82&deg;C, mid-to-coarse grind
-- mid   roast: 92&deg;C  (prefered roast for Aeropress), mid-grind
-- light roast: 92-...&deg;C, mid-to-fine grind
+| Extraction       | Taste
+|------------------|------------------------------------
+| under            | sour, lacking sweet, salty, quick finish
+| ideal            | sweet, ripe, transparent (clarity/less distractions), complex acidity, finishhhhhhhh
+| over             | bitter, dry astringent (black tea), hollow, empty
+
+
+| Roast            | Water Temp        | Grind
+|------------------|-------------------|--------------------
+| dark             | 80-85&deg;C       | mid-to-coarse
+| medium           | 92&deg;C          | mid-grind
+| light            | 92&deg;-boiling   | mid-to-find grind (lil coarser then espresso)
+
 
 
 ### Test Series:
@@ -44,32 +51,28 @@ Recipes:
 - FlatberryMarket Mario: https://www.youtube.com/watch?v=R-BlXC3WhpM  (20g for 2 Cappu-cups, for day to day)
 
 
-| Bean                         | Roast  | Grind | Grind_Size_____ | Invert | 1st_Water_in_Chamber__ | Bloom | Stiring_____________ | 2nd_Water_Chamber | Brew_Time_________________ | Dilute           | Subjective____________________________________________________
-|------------------------------|--------|-------|-----------------|--------|------------------------|-------|----------------------|-------------------|----------------------------|------------------|--------------------
-| Solino Yirgacheffe           | light  | 15 g  | 3               | yes    | up to #3, 85&deg;C     | ?     | ?                    | 0                 | 50 s open                  | to 2/3, 83&deg;C | &starf;&starf;&star;&star;&star;  quality but too light for me
-| "                            | "      | 30 g  | 26 (mid-coarse) | yes    | 100 g, 92&deg;C        | 0     | 20x strong pre-brew  | 0                 | 40 s closed, no excess air | 120 g,  92&deg;C | &starf;&starf;&starf;&starf;&star; Wendelien van Bunnik recipe
-| "                            | "      | 20 g  | 5  (espresso)   | no     | up to #1.5,  92&deg;C  | 20 s  | 10 s strong pre-brew | 0                 | 0, hard pressure           | to 1/2, 92&deg;C | &starf;&starf;&starf;&starf;&star;  
-| "                            | "      | 15 g  | 5               | no     | up to #1.5, 92&deg;C   | 20s   | 10s strong pre-brew  | 0                 | 0, hard pressure           | to 1/2, 92&deg;C | &starf;&starf;&starf;&#x2bea;&star; 
-| "                            | "      | 15 g  | 3               | no     | up to #4, 97&deg;C     | 45s   | swirly water pouring | 0                 | 0, slow pressure (40s)     | to 1/2. 92&deg;C | sour
-| Mounthagen Aethopien Sidamo  | middle | 15 g  | 4               | yes    | up to #3, 90&deg;C     | 0     | 10 s slow pre-brew   | 0                 | 50 s open                  | to 2/3, 83&deg;C | &starf;&starf;&star;&star;&star;
-| "                            | "      | 15 g  | 6               | yes    | up to #3, 93&deg;C     | 0     | 10 s slow pre-brew   | 0                 | 40 s open                  | to 2/3, 83&deg;C | &starf;&starf;&starf;&star;&star; ok for me, too weak for mom
-| "                            | "      | 20 g  | 5  (espresso)   | no     | up to #1.5,  92&deg;C  | 20 s  | 10 s strong pre-brew | 0                 | 0, hard pressure           | to 1/2, 92&deg;C | &starf;&starf;&starf;&starf;&star; mild but ok, quick finish though
-| "                            | "      | 30 g  | 7               | yes    | up to #3, 93&deg;C     | 0     | 10 s slow pre-brew   | 0                | 40 s open                  | to 2/3, 83&deg;C | &starf;&starf;&starf;&starf;&star;
-| "                            | "      | 30 g  | 7               | yes    | up to #3, 83&deg;C     | 0     | 10 s slow pre-brew   | 0                 | 40 s open                  | to 2/3, 83&deg;C | &starf;&star;&star;&star;&star;   somehwat sour
-| "                            | "      | 30 g  | 23 (mid-coarse) | yes    | wetted grind, 97&deg;C | 30 s  | 3 stirs   pre-brew   | to top            | 90 s closed                | to 1/2, 83&deg;C | &starf;&starf;&starf;&star;&star; flowery?
-| "                            | "      | 30 g  | 8               | yes    | 100 g, 97&deg;C        | 0     | 20 s slow post-brew  | 0                 | 20 s open                  | to 2/3, 83&deg;C | &starf;&starf;&starf;&starf;&star; 
-| "                            | "      | 30 g  | 11              | yes    | 100 g, 97&deg;C        | 0     | 20 s slow post-brew  | 0                 | 20 s open                  | to 2/3, 83&deg;C | &starf;&starf;&starf;&#x2bea;&star; 
-| "                            | "      | 30 g  | 18 (mid-coarse) | yes    | 100 g, 97&deg;C        | 0     | 20 s slow post-brew  | 0                 | 20 s open                  | to 1/2, 83&deg;C | &starf;&starf;&starf;&#x2bea;&star; 
-| "                            | "      | 30 g  | 26 (mid-coarse) | yes    | 100 g, 92&deg;C        | 0     | 20x strong pre-brew  | 0                 | 40 s closed, no excess air | 120 g,  92&deg;C | &starf;&starf;&starf;&starf;&star; Wendelien van Bunnik recipe
-| Apogeo Pasionata Castillo    | dark   | 30 g  | 40 (coarse)     | yes    | 100 g, 92&deg;C        | 0     | 20x strong pre-brew  | 0                 | 40 s closed, no excess air | 120 g,  92&deg;C | &starf;&starf;&starf;&star;&star; Wendelien van Bunnik recipe, many notes, pretty strong, shocolate (texture) dominates
-| "                            | "      | 16 g  | mid-coarse      | no     | 5secs agitate, to #2, 82&deg;C | 20 s  | no           | to #3             | 55 s closed (plunger)      | no               | &starf;&starf;&starf;&star;&star; lighter, citrus notes dominate, less shcoloate
-| "                            | "      | 15 g  | mid-coarse      | yes    | 100 g, 90&deg;C, stir  | 30 s  | stir again           | 80 g              | 210 s closed               | no               | &starf;&starf;&star;&star;&star; nothing special, somewhat sour (acids)
-| "                            | "      | 15 g  | mid-coarse      | no     | #3, 80&deg;C           | 0     | 5s                   | 0                 | 40 s closed, flipped, 5s stir | yes           | &starf;&starf;&star;&star;&star; drinkable, nothing special, just some okayish bitter notes
-| "                            | "      | 11 g  | mid-coarse      | no     | 200 g, 85&deg;C        | 0     | no                   | 0                 | 120 s closed (plunger), swirl (not stir), wait 30s | no | &starf;&starf;&starf;&#x2bea;&star; lil thin, but not bad, does justice to the flavor notes
-
-
-
-
+| Bean                         | Roast   | Grind | Grind Size       | Invert | Step 1                          | Step 2         | Step 3            | Step 4                     | Step 5                          | Step 6                   | Subjective
+|------------------------------|---------|-------|------------------|--------|---------------------------------|----------------|-------------------|----------------------------|---------------------------------|--------------------------|-----------------------------------------------
+| Solino Yirgacheffe           | light   | 15 g  | 3                | yes    | water        to #3,   85&deg;C  | brew 50s open  |                   | press                      |                                 | dilute to 2/3, 83&deg;C  | &starf;&starf;&star;&star;&star;   quality but too light for me
+| "                            | "       | 30 g  | 26 (mid-coarse)  | yes    | water        100g,    92&deg;C  |                | stir 20x firmly   |                            | brew 40s closed, no excess air  |                          | dilute 120g,   92&deg;C  | &starf;&starf;&starf;&starf;&star; Wendelien van Bunnik recipe
+| "                            | "       | 20 g  | 5  (espresso)    | no     | water        to #1.5, 92&deg;C  | brew 20s       | stir 10s firmly   | press firmly               |                                 | dilute to 1/2, 92&deg;C  | &starf;&starf;&starf;&starf;&star;  
+| "                            | "       | 15 g  | 5                | no     | water        to #1.5, 92&deg;C  | brew 20s       | stir 10s firmly   | press firmly               |                                 | dilute to 1/2, 92&deg;C  | &starf;&starf;&starf;&#x2bea;&star; 
+| "                            | "       | 15 g  | 3                | no     | swirly water to #4,   97&deg;C  | brew 45s       |                   | press slowly 40s           |                                 | dilute to 1/2. 92&deg;C  | sour
+| Mounthagen Aethopien Sidamo  | middle  | 15 g  | 4                | yes    | water        to #3,   90&deg;C  |                | stir 10s slowly   |                            | brew 50s open                   | dilute to 2/3, 83&deg;C  | &starf;&starf;&star;&star;&star;
+| "                            | "       | 15 g  | 6                | yes    | water        to #3,   93&deg;C  |                | stir 10s slowly   |                            | brew 40s open                   | dilute to 2/3, 83&deg;C  | &starf;&starf;&starf;&star;&star;  ok for me, too weak for mom
+| "                            | "       | 20 g  | 5  (espresso)    | no     | water        to #1.5, 92&deg;C  | brew 20s       | stir 10s strongly | press firmly               |                                 | dilute to 1/2, 92&deg;C  | &starf;&starf;&starf;&starf;&star; mild but ok, quick finish though
+| "                            | "       | 30 g  | 7                | yes    | water        to #3,   93&deg;C  |                | stir 10s slowly   |                            | brew 40s open                   | dilute to 2/3, 83&deg;C  | &starf;&starf;&starf;&starf;&star;
+| "                            | "       | 30 g  | 7                | yes    | water        to #3,   83&deg;C  |                | stir 10s slowly   |                            | brew 40s open                   | dilute to 2/3, 83&deg;C  | &starf;&star;&star;&star;&star;    somehwat sour
+| "                            | "       | 30 g  | 23 (mid-coarse)  | yes    | wet grind,            97&deg;C  | bloom 30s      | stir 3x           | water to top               | brew 90s closed                 | dilute to 1/2, 83&deg;C  | &starf;&starf;&starf;&star;&star;  flowery?
+| "                            | "       | 30 g  | 8                | yes    | water        100g,    97&deg;C  |                | stir 20s slowly   |                            | brew 20s open                   | dilute to 2/3, 83&deg;C  | &starf;&starf;&starf;&starf;&star;
+| "                            | "       | 30 g  | 11               | yes    | water        100g,    97&deg;C  |                | stir 20s slowly   |                            | brew 20s open                   | dilute to 2/3, 83&deg;C  | &starf;&starf;&starf;&#x2bea;&star; 
+| "                            | "       | 30 g  | 18 (mid-coarse)  | yes    | water        100g,    97&deg;C  |                | stir 20s slowly   |                            | brew 20s open                   | dilute to 1/2, 83&deg;C  | &starf;&starf;&starf;&#x2bea;&star; 
+| "                            | "       | 30 g  | 26 (mid-coarse)  | yes    | water        100g,    92&deg;C  |                | stir 20x          |                            | brew 40s closed, no excess air  | dilute 120 g,  92&deg;C  | &starf;&starf;&starf;&starf;&star; Wendelien van Bunnik recipe
+| Apogeo Pasionata Castillo    | dark    | 30 g  | 40 (coarse)      | yes    | water        100g,    92&deg;C  |                | stir 20x          |                            | brew 40s closed, no excess air  | dilute 120 g,  92&deg;C  | &starf;&starf;&starf;&star;&star; Wendelien van Bunnik recipe, many notes, pretty strong, shocolate (texture) dominates
+| "                            | "       | 16 g  | mid-coarse       | no     | wet 5secs,   to #2,   82&deg;C  | bloom 20s      |                   | water to #3                | brew 55s closed (plunger)       |                          | &starf;&starf;&starf;&star;&star; lighter, citrus notes dominate, less shcoloate
+| "                            | "       | 15 g  | mid-coarse       | yes    | water        100g,    90&deg;C  | stir           | brew 30s          | stir again                 | water 80g                       | brew 210s closed         | &starf;&starf;&star;&star;&star; nothing special, somewhat sour (acids)
+| "                            | "       | 15 g  | mid-coarse       | no     | water        to #3,   80&deg;C  |                | stir 5s           | brew 40s closed, flipped   | stir 5s                         | dilute                   | &starf;&starf;&star;&star;&star; drinkable, nothing special, just some okayish bitter notes
+| "                            | "       | 11 g  | mid-coarse       | no     | water        200g,    85&deg;C  |                |                   | brew 120s closed (plunger) | swirl gently (not stir)         | wait 30s, press          | &starf;&starf;&starf;&#x2bea;&star; lil thin, but not bad, does justice to the flavor notes
 
 
 
