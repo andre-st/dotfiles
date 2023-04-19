@@ -504,7 +504,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - **Networking:**
     - vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
 - **Statistics, Graphs:**
-    - ~~[RStudio](https://github.com/rstudio/rstudio)~~ NVim-R
+    - ~~[RStudio](https://github.com/rstudio/rstudio)~~ broken in Manjaro, made me discover [NVim-R](https://www.youtube.com/watch?v=nm45WagtV3w)
 - **Box-and-Line Diagrams:**
     - [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...);
 	  Network diagrams, high level software designs / architectures, book summaries (semi-formal sketchnoting)
@@ -517,21 +517,20 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 	- [FreeCAD](https://github.com/FreeCAD) w/ Assembly4 + Fasteners + gmsh for finite element analysis 
       (in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem))
 - **Office:**
-    - Htmlcssjs / Markdown / Plaintext &gt; Google Docs (collaborative) &gt; LibreOffice (not installed, 1.55+ GB monolith) &gt; MS Office on Windows; `$ antiword ms.doc | vim -`;
-        I only miss Microsoft Excel (LibreOffice Calc seems a good alternative, has a solver too)
+    - Htmlcssjs / Markdown / Plaintext &gt; Google Docs (collaborative) &gt; Gnumeric (250 MB, incl. solver) &gt; LibreOffice (1.55+ GB monolith not installed) &gt; MS Office on Windows; `$ antiword ms.doc | vim -`;
 - **Video-Editing / Streaming:**
     - FFmpeg suite
 - **Git / GitHub:**
     - `$ git gui` is handy for staging patches (hold right mouse key)
     - `$ gitk [FILENAME]` 
 - **Prototyping:**
-    - kept falling back to pen and paper for lo-fi throw-away prototypes (still the best usability, maybe there are Tablet apps for pencil sketching);
-      pseudo-standard sketching shorthands/language: image &#x1f771;, title &#xa7ff;&#xa7ff;&#xa7ff;, paragraph text &#x1d306;;
-      fold DIN A4 paper multiple times = outlines for n smartphone displays;
-      there are people who take paper prototyping to the extreme again, with cutting out etc (YouTube); 
+    - UI, Illustrations: Kept falling back to pen and paper for lo-fi throw-away prototypes (still the best usability, maybe there are Tablet apps for pencil sketching):
+      image as crossed rectangle &#x1f771;, wavy titles &#xa7ff;&#xa7ff;&#xa7ff;, paragraph text as straight lines &#x1d306;,
+      DIN A4 paper folded several times creates the outlines of a smartphone;
+      there are people who take _paper prototyping_ to the extreme again, with cutting out etc (YouTube); 
       using an electric eraser;
       photographed for archive
-    - personas: https://this-person-does-not-exist.com/
+    - Personas: https://this-person-does-not-exist.com/
 - **Presentation / Talks:**
     1. quickly hand-drawn symbolic/diagrammatic figures on blank paper (photographed), or real photography;
        relaxed aesthetic, supports monologue, no PowerPoint bullet-list text-walls (people get bored by someone reading to them)

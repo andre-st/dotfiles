@@ -1,0 +1,25 @@
+.window-frame {
+  box-shadow: none;
+  margin: 0;
+}
+
+
+/* Gnumeric dark mode: */
+GnmItemGrid, 
+GnmPreviewGrid, 
+GocCanvas.full-sheet, 
+GtkBin.auto-expr 
+{
+	/* GnmItemGrid requires that the background be solid and rectangular
+	   since we cheat and print only parts of it.  */
+	background-image: none;
+	background-color: #d7cfc4;
+	padding: 0;
+	border-style: none;
+	border-width: 0; 
+}
+GnmItemGrid.grid,
+GnmPreviewGrid.grid
+{
+	color: #444444;
+}
