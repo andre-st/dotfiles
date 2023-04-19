@@ -336,7 +336,7 @@ flowchart TD
 
 Currently I only use 1 backup disk, 
 but will eventually expand the system to 2 disks in regular rotation in case one disk becomes corrupted. 
-Maybe I'll write on the hard drive case _"Backup ODD"_ and _"Backup EVEN"_ according to the week or month.
+I might write "Backup ODD" and "Backup EVEN" on the hard drive enclosures, corresponding to the specific week or month of backup.
 The current _rsync_ options would already automatically update every hard disk to the correct state
 based on the data already on it.
 
