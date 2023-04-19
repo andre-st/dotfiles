@@ -361,9 +361,12 @@ $ pacman -Syyu
 - todo: manual fan full blow
 - [h264ify](https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal?hl=en) browser plugin
 	- check: right-click on YouTube-video, click "stats for nerds", look for codec _avc_ (= h264)
-	- hardware accelerated video via Chromium command line options `--use-gl=desktop --ignore-gpu-blocklist --enable-features=VaapiVideoDecoder` (edit desktop-file), 
-		check via `chrome://gpu` (video decode: hw accelerated) and `$ vainfo` without errors (I needed the _intel-media-driver_ package)
+	- hardware accelerated video via Chromium ~~command line options `--use-gl=desktop --ignore-gpu-blocklist --enable-features=VaapiVideoDecoder` 
+        (edit desktop-file _/usr/share/applications/chromium.desktop_)~~ (not needed anymore), 
+		check via `chrome://gpu` (video decode: hw accelerated) and `$ vainfo` without errors (I needed the _intel-media-driver_ package),
+        `--process-per-site`
 	- my mini PC actually produces moderate temperatures (Ø50-60 °C), also no problem with downloaded HD videos - unless I play them directly from YouTube w/o hw-acc (83 °C)
+    
 
 
 ### Security
