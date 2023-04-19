@@ -277,6 +277,7 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 	few deps and a treemap-esque display which is easier to read than the usual nested treemaps
 - Wireshark (or Termshark-TUI)
 - use of statistics or logic software (correlation, plots, ...)
+- websites: all non-obvious features of the _Chromium/Firefox Developer Tools_ <kbd>F12</kbd>
 - `dig` (dnsutils) is `drill` (ldns) now
 - `netstat` (net-tools) is `ss` (iproute2) now
 
@@ -525,8 +526,9 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
         - there are people who take it to the extreme again, with cutting out etc (YouTube)
         - I'm fond of my electric eraser
         - photographed for the archive
+    - todo: design system / moodboard 
 - **Programming:**
-    - todo IDE
+    - todo: IDE
     - vim, vimdiff
         - vim-plugins todo
 - **Image-Editing:**
@@ -549,7 +551,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     2. post-edited with Gimp (contrast/whiten background + headline text), 
        a clean font doesn't make slides with hand drawings look lazy
     3. embedded in HtmlCss (scroll-snapping effect) and 
-       viewed in fullscreen web-browser (F11 key) (or image-viewer with thumbs-view if you jump back and forth a lot):
+       viewed in fullscreen web-browser <kbd>F11</kbd> (or image-viewer with thumbs-view if you jump back and forth a lot):
         ```html
         <!DOCTYPE html>
         <html>
