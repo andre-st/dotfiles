@@ -500,11 +500,12 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 ## Development, Productivity
 - todo
 - **Text-Editing:**
-    - vim, vimdiff, vim-plugins, edir, ...
-- **Networking:**
-    - vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
+    - vim, vimdiff
+        - vim-plugins todo
 - **Statistics, Graphs:**
     - ~~[RStudio](https://github.com/rstudio/rstudio)~~ broken in Manjaro, made me discover [NVim-R](https://www.youtube.com/watch?v=nm45WagtV3w)
+- **Networking:**
+    - vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
 - **Box-and-Line Diagrams:**
     - [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...);
 	  Network diagrams, high level software designs / architectures, book summaries (semi-formal sketchnoting)
@@ -514,22 +515,28 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     - ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
 - **3D / CAD:**
 	- [OpenSCAD](https://github.com/openscad/openscad) 
-	- [FreeCAD](https://github.com/FreeCAD) w/ Assembly4 + Fasteners + gmsh for finite element analysis 
-      (in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem))
+	- [FreeCAD](https://github.com/FreeCAD)
+        - with Assembly4 + Fasteners + gmsh for finite element analysis 
+        - in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem)
 - **Office:**
-    - Htmlcssjs / Markdown / Plaintext &gt; Google Docs (collaborative) &gt; Gnumeric (250 MB, incl. solver, [dark-themed](manjaro/home/andre/.config/gtk-3.0/gtk.css)) &gt; LibreOffice (1.55+ GB monolith not installed) &gt; MS Office on Windows; `$ antiword ms.doc | vim -`;
+    1. Htmlcssjs / Markdown / Plaintext prefered over...
+    2. Google Docs (collaborative) over...
+    3. Gnumeric (250 MB, incl. solver, [dark-themed](manjaro/home/andre/.config/gtk-3.0/gtk.css)) over...
+    4. LibreOffice (1.55+ GB monolith not installed) &gt; MS Office on Windows over...
+    5. `$ antiword ms.doc | vim -`;
 - **Video-Editing / Streaming:**
     - FFmpeg suite
 - **Git / GitHub:**
     - `$ git gui` is handy for staging patches (hold right mouse key)
     - `$ gitk [FILENAME]` 
 - **Prototyping:**
-    - UI, Illustrations: Kept falling back to pen and paper for lo-fi throw-away prototypes (still the best usability, maybe there are Tablet apps for pencil sketching):
-      image as crossed rectangle &#x1f771;, wavy titles &#xa7ff;&#xa7ff;&#xa7ff;, paragraph text as straight lines &#x1d306;,
-      DIN A4 paper folded several times creates the outlines of a smartphone;
-      there are people who take _paper prototyping_ to the extreme again, with cutting out etc (YouTube); 
-      using an electric eraser;
-      photographed for archive
+    - UI, Illustrations
+        - kept falling back to pen and paper for lo-fi throw-away prototypes (still the best usability, maybe there are Tablet apps for pencil sketching)
+        - image as crossed rectangle &#x1f771;, wavy titles &#xa7ff;&#xa7ff;&#xa7ff;, paragraph text as straight lines &#x1d306;
+        - DIN A4 paper folded several times creates the outlines of multiple smartphones (I usually use my DIN A5 professional diary notebook, though)
+        - there are people who take _paper prototyping_ to the extreme again, with cutting out etc (YouTube)
+        - using an electric eraser
+        - photographed for archive
     - Personas: https://this-person-does-not-exist.com/
 - **Presentation / Talks:**
     1. quickly hand-drawn symbolic/diagrammatic figures on blank paper (photographed), or real photography;
