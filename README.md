@@ -500,6 +500,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 ## Development, Productivity
 - todo
 - Text-editing: vim, vimdiff, vim-plugins, edir, ...
+- Networking: vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
 - Statistics, Graphs: ~~[RStudio](https://github.com/rstudio/rstudio)~~ NVim-R
 - Box-and-line diagrams: [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...) 
 	- Network diagrams, high level software designs / architectures, book summaries (semi-formal sketchnoting)
@@ -517,15 +518,18 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     - `$ git gui` is handy for staging patches (hold right mouse key); 
     - `$ gitk [FILENAME]` 
 - Prototyping:
-    - lo-fi throw-away prototypes via pen & paper (best usability),
-      fold DinA4 paper multiple times = outlines for n smartphone displays,
+    - kept falling back to pen and paper for lo-fi throw-away prototypes (still the best usability, maybe there are Tablet apps for pencil sketching);
+      there is an unofficial sketching language, e.g. images are represented by a box with two crossing diagonals;
+      fold DIN A4 paper multiple times = outlines for n smartphone displays;
+      there are people who take paper prototyping to the extreme again, with cutting out, etc;
       photographed for archive
     - personas: https://this-person-does-not-exist.com/
 - Presentation/Talks:
     1. quickly hand-drawn symbolic/diagrammatic figures on blank paper (photographed), or real photography;
        relaxed aesthetic, supports monologue, no PowerPoint bullet-list text-walls (people get bored by someone reading to them)
     2. post-edited with Gimp (contrast/whiten background + headline text)
-    3. embedded in HtmlCss (scroll-snapping effect)  
+    3. embedded in HtmlCss (scroll-snapping effect) and 
+       viewed in fullscreen web-browser (F11) (alternatively: simple image-viewer):
         ```html
         <!DOCTYPE html>
         <html>
@@ -542,13 +546,9 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
             </body>
         </html>
         ```
-    4. viewed in fullscreen web-browser (F11) (alternatively: simple image-viewer)
-- Networking: vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
- 
 
 
 ## Printing
-
 - todo, CUPS
 
 
