@@ -526,7 +526,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     - `$ gitk [FILENAME]` 
 - **Prototyping:**
     - kept falling back to pen and paper for lo-fi throw-away prototypes (still the best usability, maybe there are Tablet apps for pencil sketching);
-      pseudo-standard sketching shorthands/language: image = &#x26dd; title = &#xa7ff;&#xa7ff;&#xa7ff; paragraph text = &#x1d11a;&#x1d11a;&#x1d118;;
+      pseudo-standard sketching shorthands/language: image &#x1f771;, title &#xa7ff;&#xa7ff;&#xa7ff;, paragraph text &#x1d306;;
       fold DIN A4 paper multiple times = outlines for n smartphone displays;
       there are people who take paper prototyping to the extreme again, with cutting out etc (YouTube); 
       using an electric eraser;
