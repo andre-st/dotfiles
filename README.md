@@ -517,7 +517,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 	- [FreeCAD](https://github.com/FreeCAD) w/ Assembly4 + Fasteners + gmsh for finite element analysis 
       (in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem))
 - **Office:**
-    - Htmlcssjs / Markdown / Plaintext &gt; Google Docs (collaborative) &gt; Gnumeric (250 MB, incl. solver) &gt; LibreOffice (1.55+ GB monolith not installed) &gt; MS Office on Windows; `$ antiword ms.doc | vim -`;
+    - Htmlcssjs / Markdown / Plaintext &gt; Google Docs (collaborative) &gt; Gnumeric (250 MB, incl. solver, [dark-themed](manjaro/home/andre/.config/gtk-3.0/gtk.css)) &gt; LibreOffice (1.55+ GB monolith not installed) &gt; MS Office on Windows; `$ antiword ms.doc | vim -`;
 - **Video-Editing / Streaming:**
     - FFmpeg suite
 - **Git / GitHub:**
