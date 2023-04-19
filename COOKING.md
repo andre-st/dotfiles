@@ -13,12 +13,12 @@
 |----------------------|--------------------------------|---------------------------------
 | Brewer               | AeroPress Go                   | 
 | Thermometer          | Weber 6740 Digital Pocket T.   | checks brewing water and drink temperatures
-| Grinder              | OSSAT Manual Coffee G. 25-28 g | all metal, based on the Comandante but 1/4 price; <br>full charge with beans fills ~15g or 1 leveled scoop of AeroPress Go (11.5 g), <br> so you can dump it straight into AP<br>Grind size: 1 (finest) - 25 (mid-coarse) - 40 (coarse)
-| Timer                | PC, Smartphone Clock           | `$ sleep 40` on the Linux command line
+| Grinder              | OSSAT Manual Coffee G. 25-28 g | all metal, based on the Comandante but 1/4 price; <br>full charge with beans fills ~15g or well-nigh 1 leveled scoop of AeroPress Go (11.5 g), <br> so you can dump it straight into AP<br>Grind size in clicks: 1 (finest) - 25 (mid-coarse) - 40 (coarse)
+| Timer                | PC or Smartphone Clock         | `$ sleep 40` on the Linux command line
 | Weighing             | Soehnle Page Compact 100       | 'Tare' to reset to 0 after every step, 1 l water &thickapprox; 1 kg 
-| Dishware             | Anpro Milk Pitcher 350 ml      | for easier (temp) measuring/pouring out water (not milk)
+| Dishware             | Anpro Milk Pitcher 350 ml      | for easier (temp) measuring and pouring out water (not milk)
 | Dishware             | AeroPress Go Mug               | receiving container when pressing the AeroPress
-| Dishware             | Lambda Cappuccino cups 160ml   | smaller cups &ne; less coffee; sipping over shotting (just caffeine)
+| Dishware             | Lambda Cappuccino cups 160ml   | smaller cups &ne; less coffee (drink 2 cups); more conscious sipping over mindless shotting (just for caffeine)
 
 
 ### Extraction:
@@ -34,7 +34,7 @@
 |------------------|-------------------|--------------------
 | dark             | 80-85&deg;C       | mid-to-coarse
 | medium           | 92&deg;C          | mid-grind
-| light            | 92&deg;-boiling   | mid-to-find grind (lil coarser than Espresso)
+| light            | 92&deg;-boiling   | mid-to-fine grind (lil coarser than Espresso)
 
 
 
@@ -44,14 +44,12 @@ I usually:
 - prefer soft water
 - use 2 filters (rinsed with warm water said to prevent "paper taste")
 - serve at 60&deg;C
-- drink black coffee (no milk)
-
-Recipes:
-- Wendelien van Bunnik: https://www.youtube.com/watch?v=53qXj3uft_E   (30g for 1.25 Cappu-cups, for special events, equals taste description)
-- FlatberryMarket Mario: https://www.youtube.com/watch?v=R-BlXC3WhpM  (20g for 2 Cappu-cups, for day to day)
+- drink black coffee (no milk, no suggar)
 
 
-| My Rating                            | Bean                         | Roast   | Grind | Grind_Size______ | Invert | Step_1_______________________   | Step_2________ | Step_3___________ | Step_4_____________        | Step_5_______________           | Step_6________________   | Subjective_________________________________________________________________
+
+
+| Rating                               | Bean________________________ | Roast   | Grind | Grind_Size______ | Invert | Step_1_______________________   | Step_2________ | Step_3___________ | Step_4_____________        | Step_5_______________           | Step_6________________   | Subjective_________________________________________________________________
 |--------------------------------------|------------------------------|---------|-------|------------------|--------|---------------------------------|----------------|-------------------|----------------------------|---------------------------------|--------------------------|-----------------------------------------------
 | &starf;&starf;&star;&star;&star;     | Solino Yirgacheffe           | light   | 15g   | 3                | yes    | water        to #3,   85&deg;C  | brew 50s open  |                   | press                      |                                 | dilute to 2/3, 83&deg;C  | quality but too light for me
 | &starf;&starf;&starf;&starf;&star;   | "                            | "       | 30g   | 26 (mid-coarse)  | yes    | water        100g,    92&deg;C  |                | stir 20x firmly   |                            | brew 40s closed, no excess air  | dilute 120g,   92&deg;C  | Wendelien van Bunnik recipe
@@ -77,5 +75,9 @@ Recipes:
 
 
 
+
+Recipes:
+- Wendelien van Bunnik: https://www.youtube.com/watch?v=53qXj3uft_E 
+- FlatberryMarket Mario: https://www.youtube.com/watch?v=R-BlXC3WhpM 
 
 
