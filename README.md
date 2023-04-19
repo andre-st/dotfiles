@@ -330,12 +330,13 @@ flowchart TD
   tools usually pre-installed
 - **Recovery**:
   A script suspends auto-backup (_systemctl mask ..._), 
-  mounts the backup-disk and starts a simple working-shell (I then use _mc_). 
+  mounts the backup-disk and starts a simple working-shell. 
   After the shell exits, auto-backup is re-armed
 
 
 Currently I only use 1 backup disk, 
 but will eventually expand the system to 2 disks in regular rotation in case one disk becomes corrupted. 
+Maybe I'll write on the hard drive case _"Backup ODD"_ and _"Backup EVEN"_ according to the week or month.
 The current _rsync_ options would already automatically update every hard disk to the correct state
 based on the data already on it.
 
