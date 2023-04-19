@@ -277,7 +277,8 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 	few deps and a treemap-esque display which is easier to read than the usual nested treemaps
 - Wireshark (or Termshark-TUI)
 - use of statistics or logic software (correlation, plots, ...)
-- websites: all non-obvious features of the _Chromium/Firefox Developer Tools_ <kbd>F12</kbd>
+- websites: less obvious features of the _Chromium/Firefox Developer Tools_ <kbd>F12</kbd> besides "Elements"/"Inspector", 
+    ("{}" icon in sources tab is a pretty printer, global source search, website-API interaction in console, ...)
 - `dig` (dnsutils) is `drill` (ldns) now
 - `netstat` (net-tools) is `ss` (iproute2) now
 
