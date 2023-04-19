@@ -477,13 +477,13 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 | GoFullPage | screenshot of an entire webpage
 
 
-| Browser_Profile | Bookmark Bar         | Comment |
-|-----------------|----------------------|---------|
+| Browser_Profile | Bookmark Bar / Home Tabs | Comment |
+|-----------------|--------------------------|---------|
 | default         | &#128193;&#xFE0E; Research, &#128193;&#xFE0E; Shop, &#128193;&#xFE0E; News/Social, &#128193;&#xFE0E; Language, &#128193;&#xFE0E; $COMPANY (intranet etc), &#128193;&#xFE0E; Dev, &#128193;&#xFE0E; Todo, &#128193;&#xFE0E; Chrome (bookmarklets, some pages like chrome://gpu)  |
-| pentest         |                      | proxy settings, ...
-| tor             |                      | proxy settings, multiple home tabs with check.torproject.org i.a.
-| banking         | fintech sites        | no extensions safe-mode
-| private         |                      | 
+| pentest         |                          | proxy settings, ...
+| tor             | check.torproject.org     | proxy settings
+| banking         | fintech sites            | no extensions safe-mode
+| private         |                          | 
 
 
 ### Other
@@ -520,10 +520,6 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - **Prototyping:**
     - lo-fi throw-away UI or poster prototypes via _paper prototyping_:
         - pen & paper still the best usability (maybe there are Tablet apps for pencil sketching)
-        - pseudo-standard sketching shorthands:  
-          image = crossed rectangle &#x1f771;,  
-          wavy titles &#xa7ff;&#xa7ff;&#xa7ff;,  
-          straight paragraph lines &#x1d306;
         - DIN A4 paper folded several times creates the outlines of multiple smartphones  
           (though, I prefer my DIN A5 professional diary notebook)
         - there are people who take it to the extreme again, with cutting out etc (YouTube)
@@ -548,8 +544,8 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     - `$ git gui` is handy for staging patches (hold right mouse key)
     - `$ gitk [FILENAME]` 
 - **Presentation / Talks:**
-    1. quickly hand-drawn symbolic/diagrammatic figures on blank paper (photographed), or real photography;
-       relaxed aesthetic, supports monologue, no PowerPoint bullet-list text-walls (people get bored by someone reading to them)
+    1. quickly hand-drawn symbolic/diagrammatic figures on blank paper (photographed), screenshots or real photography;
+       no PowerPoint bullet-list text-walls (people get bored by someone reading to them)
     2. post-edited with Gimp (contrast/whiten background + headline text), 
        a clean font doesn't make slides with hand drawings look lazy
     3. embedded in HtmlCss (scroll-snapping effect) and 
