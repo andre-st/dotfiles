@@ -313,7 +313,7 @@ flowchart TD
 - **Encrypted:**
   dm-crypt/LUKS makes offsite backups less risky.
   Currently, I don't have offsite backups in case of fire etc, though 
-  (neither cloud storage backups).
+  (neither cloud storage backups because of German upload speeds etc).
   An encrypted main system with unencrypted backups would be pointless, too.
   Keyfile in _/etc/keys/_.
 - **Visible:**
@@ -521,8 +521,9 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
       fold DinA4 paper multiple times = outlines for n smartphone displays,
       photographed for archive
     - personas: https://this-person-does-not-exist.com/
-- Presentation/talks:
-    1. quickly hand-drawn symbolic/diagrammatic figures on blank paper (photographed), or real photography; supports monologue, no text-walls
+- Presentation/Talks:
+    1. quickly hand-drawn symbolic/diagrammatic figures on blank paper (photographed), or real photography;
+       relaxed aesthetic, supports monologue, no PowerPoint bullet-list text-walls (people get bored by someone reading to them)
     2. post-edited with Gimp (contrast/whiten background + headline text)
     3. embedded in HtmlCss (scroll-snapping effect)  
         ```html
