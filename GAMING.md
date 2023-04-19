@@ -28,7 +28,7 @@ Couple of investments and titles that I remember I played at home, friends/cousi
 
 ## Nintendo Switch Lite
 
-![Switch Lite](README-switch.jpg)
+![Switch Lite](GAMING-switch.jpg)
 
 ### Good 
 

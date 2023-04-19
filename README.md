@@ -511,9 +511,9 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     5. _MS Office_ on Windows over...
     6. `$ antiword ms.doc | vim -`;
 - **Requirements:**
-    - Personas: https://this-person-does-not-exist.com/
     - Template Priority-Matrix (build the right product: stakeholders, goals, context, ...)
     - Template Risk-Matrix     (build the product right)
+    - Template Personas        (photos via https://this-person-does-not-exist.com/ )
 - **Statistics, Graphs:**
     - ~~[RStudio](https://github.com/rstudio/rstudio)~~ broken in Manjaro, made me discover [NVim-R](https://www.youtube.com/watch?v=nm45WagtV3w)
 - **Box-and-Line Diagrams:**
@@ -550,7 +550,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     1. quickly hand-drawn symbolic/diagrammatic figures on blank paper (photographed), screenshots or real photography;
        no PowerPoint bullet-list text-walls (people get bored by someone reading to them)
     2. post-edited with Gimp (contrast/whiten background + headline text), 
-       a clean font doesn't make slides with hand drawings look lazy
+       a clean font doesn't make slides with hand drawings look lazy (what it is) but stylish
     3. embedded in HtmlCss (scroll-snapping effect) and 
        viewed in fullscreen web-browser <kbd>F11</kbd> (or image-viewer with thumbs-view if you jump back and forth a lot):
         ```html

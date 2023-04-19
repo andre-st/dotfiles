@@ -9,6 +9,8 @@
 
 ### Hardware:
 
+![AeroPress](COOKING-coffee.jpg)
+
 | Purpose              | Product                        | Notes
 |----------------------|--------------------------------|---------------------------------
 | Brewer               | AeroPress Go                   | 
@@ -19,6 +21,7 @@
 | Dishware             | Anpro Milk Pitcher 350 ml      | for easier (temp) measuring and pouring out water (not milk)
 | Dishware             | AeroPress Go Mug               | receiving container when pressing the AeroPress
 | Dishware             | Lambda Cappuccino cups 160ml   | smaller cups &ne; less coffee (drink 2 cups); more conscious sipping over mindless shotting with BigMac supersize cups just for caffeine
+
 
 
 ### Extraction:
