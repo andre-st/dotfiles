@@ -499,37 +499,44 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 
 ## Development, Productivity
 - todo
-- Text-editing: vim, vimdiff, vim-plugins, edir, ...
-- Networking: vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
-- Statistics, Graphs: ~~[RStudio](https://github.com/rstudio/rstudio)~~ NVim-R
-- Box-and-line diagrams: [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...) 
+- **Text-Editing:**
+    - vim, vimdiff, vim-plugins, edir, ...
+- **Networking:**
+    - vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
+- **Statistics, Graphs:**
+    - ~~[RStudio](https://github.com/rstudio/rstudio)~~ 
+    - NVim-R
+- **Box-and-line Diagrams:**
+    - [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...) 
 	- Network diagrams, high level software designs / architectures, book summaries (semi-formal sketchnoting)
-- Vector images: [Inkscape](https://github.com/inkscape/inkscape)
-- Pixel images: [Gimp](https://github.com/GNOME/gimp)
-- ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
-- 3D/CAD:
-	- [OpenSCAD](https://github.com/openscad/openscad), 
+- **Image-Editing:**
+    - Vector: [Inkscape](https://github.com/inkscape/inkscape)
+    - Pixel: [Gimp](https://github.com/GNOME/gimp)
+    - ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
+- **3D/CAD:**
+	- [OpenSCAD](https://github.com/openscad/openscad) 
 	- [FreeCAD](https://github.com/FreeCAD) w/ Assembly4 + Fasteners + gmsh for finite element analysis 
       (in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem))
-- Office: Htmlcssjs / Markdown / Plaintext &gt; Google Docs (collaborative) &gt; LibreOffice (not installed) &gt; MS Office on Windows; 
-	`$ antiword ms.doc | vim -`
-- Video editing / Streaming: FFmpeg suite
-- Git/GitHub: 
-    - `$ git gui` is handy for staging patches (hold right mouse key); 
+- **Office:**
+    - Htmlcssjs / Markdown / Plaintext &gt; Google Docs (collaborative) &gt; LibreOffice (not installed) &gt; MS Office on Windows; `$ antiword ms.doc | vim -`
+- **Video editing / Streaming:**
+    - FFmpeg suite
+- **Git/GitHub:**
+    - `$ git gui` is handy for staging patches (hold right mouse key)
     - `$ gitk [FILENAME]` 
-- Prototyping:
+- **Prototyping:**
     - kept falling back to pen and paper for lo-fi throw-away prototypes (still the best usability, maybe there are Tablet apps for pencil sketching);
       there is an unofficial sketching language, e.g. images are represented by a box with two crossing diagonals;
       fold DIN A4 paper multiple times = outlines for n smartphone displays;
       there are people who take paper prototyping to the extreme again, with cutting out, etc;
       photographed for archive
     - personas: https://this-person-does-not-exist.com/
-- Presentation/Talks:
+- **Presentation/Talks:**
     1. quickly hand-drawn symbolic/diagrammatic figures on blank paper (photographed), or real photography;
        relaxed aesthetic, supports monologue, no PowerPoint bullet-list text-walls (people get bored by someone reading to them)
     2. post-edited with Gimp (contrast/whiten background + headline text)
     3. embedded in HtmlCss (scroll-snapping effect) and 
-       viewed in fullscreen web-browser (F11) (alternatively: simple image-viewer):
+       viewed in fullscreen web-browser (F11 key) (or image-viewer with thumbs-view if you jump back and forth a lot):
         ```html
         <!DOCTYPE html>
         <html>
