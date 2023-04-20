@@ -508,12 +508,12 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     2. _Google Docs_ (collaborative) over...
     3. _Gnumeric_ (250 MB, incl. solver, [dark-themed](manjaro/home/andre/.config/gtk-3.0/gtk.css)) over...
     4. _LibreOffice_ (1.55+ GB monolith not installed) over...
-    5. _MS Office_ on Windows over...
-    6. `$ antiword ms.doc | vim -`;
+    5. `$ antiword ms.doc | vim -` over...
+    6. _MS Office_ on Windows
 - **Requirements:**
     - Template Priority-Matrix (build the right product: stakeholders, goals, context, ...)
     - Template Risk-Matrix     (build the product right)
-- **Statistics, Graphs:**
+- **Statistics, Graphs, Optimization (LP/IP):**
     - ~~[RStudio](https://github.com/rstudio/rstudio)~~ broken in Manjaro, made me discover [NVim-R](https://www.youtube.com/watch?v=nm45WagtV3w)
 - **Box-and-Line Diagrams:**
     - [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...);
@@ -540,7 +540,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - **3D / CAD:**
 	- [OpenSCAD](https://github.com/openscad/openscad) 
 	- [FreeCAD](https://github.com/FreeCAD)
-        - with Assembly4 + Fasteners + gmsh for finite element analysis 
+        - played with Assembly4 + Fasteners + gmsh for finite element analysis 
         - in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem)
 - **Git / GitHub:**
     - `$ git gui` is handy for staging patches (hold right mouse key)
