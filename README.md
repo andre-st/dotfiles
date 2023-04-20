@@ -511,13 +511,17 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     5. `$ antiword ms.doc | vim -` over...
     6. _MS Office_ on Windows
 - **Requirements:**
-    - Template Priority-Matrix (build the right product: stakeholders, goals, context, ...), hardcopy and digital
-    - Template Risk-Matrix     (build the product right), hardcopy and digital
-- **Statistics, Graphs, Optimization (LP/IP):**
-    - ~~[RStudio](https://github.com/rstudio/rstudio)~~ broken in Manjaro, made me discover [NVim-R](https://www.youtube.com/watch?v=nm45WagtV3w)
+    - Template Priority-Matrix (build the right product: stakeholders, goals, context, ...), see Office
+    - Template Risk-Matrix     (build the product right), see Office
+- **Statistics, Graphs, Optimization (LP/IP), Database:**
+    - ~~[RStudio](https://github.com/rstudio/rstudio)~~ broken in Manjaro, 
+      made me discover [NVim-R](https://www.youtube.com/watch?v=nm45WagtV3w)
+    - q (SQL against CSV files)
+    - ...
 - **Box-and-Line Diagrams:**
     - [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...);
-	  Network diagrams, high level software designs / architectures, book summaries (semi-formal sketchnoting)
+	  Network diagrams, high level software designs / architectures (for low-level code does it just as well), 
+      semi-formal sketching book summaries or for subject comprehension through dissection
 - **Prototyping:**
     - lo-fi throw-away UI or poster prototypes via _paper prototyping_:
         - pen & paper & electric eraser still the best usability (maybe there are Tablet apps for pencil sketching),
@@ -525,11 +529,12 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
         - DIN A4 paper folded several times creates the outlines of multiple smartphones  
           (though, I prefer my DIN A5 professional diary notebook)
         - photographed for the archive
-    - todo: design system / moodboard 
+    - todo: design system / moodboard (often just existing corp./brand design)
 - **Programming:**
-    - todo: IDE
-    - vim, vimdiff
-        - vim-plugins todo
+    - for Windows I prefered IDEs, Netbeans for my last 2017-$now Java SE/FX project
+    - for Linux it also feels natural to me to run a set of separate, individually replaceable tools + vim, vimdiff, ...
+        - todo: vim-plugins
+    - todo
 - **Image-Editing:**
     - Vector: [Inkscape](https://github.com/inkscape/inkscape)
     - Pixel: [Gimp](https://github.com/GNOME/gimp)
@@ -541,6 +546,9 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 	- [FreeCAD](https://github.com/FreeCAD)
         - played with Assembly4 + Fasteners + gmsh for finite element analysis 
         - in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem)
+- **Testing**:
+    - std. unit-test library
+    - todo
 - **Git / GitHub:**
     - `$ git gui` is handy for staging patches (hold right mouse key)
     - `$ gitk [FILENAME]` 
