@@ -500,7 +500,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 
 
 ## Development, Productivity
-- todo
+
 - **Networking:**
     - vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
 - **Office:**
@@ -511,8 +511,8 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     5. `$ antiword ms.doc | vim -` over...
     6. _MS Office_ on Windows
 - **Requirements:**
-    - Template Priority-Matrix (build the right product: stakeholders, goals, context, ...)
-    - Template Risk-Matrix     (build the product right)
+    - Template Priority-Matrix (build the right product: stakeholders, goals, context, ...), hardcopy and digital
+    - Template Risk-Matrix     (build the product right), hardcopy and digital
 - **Statistics, Graphs, Optimization (LP/IP):**
     - ~~[RStudio](https://github.com/rstudio/rstudio)~~ broken in Manjaro, made me discover [NVim-R](https://www.youtube.com/watch?v=nm45WagtV3w)
 - **Box-and-Line Diagrams:**
@@ -520,11 +520,10 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 	  Network diagrams, high level software designs / architectures, book summaries (semi-formal sketchnoting)
 - **Prototyping:**
     - lo-fi throw-away UI or poster prototypes via _paper prototyping_:
-        - pen & paper still the best usability (maybe there are Tablet apps for pencil sketching)
+        - pen & paper & electric eraser still the best usability (maybe there are Tablet apps for pencil sketching),
+          there are people who take it to the extreme again, with cutting out etc (YouTube)
         - DIN A4 paper folded several times creates the outlines of multiple smartphones  
           (though, I prefer my DIN A5 professional diary notebook)
-        - there are people who take it to the extreme again, with cutting out etc (YouTube)
-        - I'm fond of my electric eraser
         - photographed for the archive
     - todo: design system / moodboard 
 - **Programming:**
