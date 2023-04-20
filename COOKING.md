@@ -13,14 +13,14 @@
 
 | Purpose              | Product                           | Notes
 |----------------------|-----------------------------------|---------------------------------
-| Brewer               | 1x AeroPress Go                   | 
-| Thermometer          | 1x Weber 6740 Digital Pocket T.   | checks brewing water and drink temperatures
-| Grinder              | 1x OSSAT Manual Coffee G. 25-28 g | all metal, based on the Comandante but 1/4 price; <br>full charge with beans fills ~15g or well-nigh 1 leveled scoop of AeroPress Go (11.5 g), <br> so you can dump it straight into AP<br>Grind size in clicks: 1 (finest) - 25 (mid-coarse) - 40 (coarse)
-| Timer                | 1x PC or Smartphone Clock         | `$ sleep 40` on the Linux command line, or counting up: ```function timer() { for i in `seq 1 $1` ; do echo -ne "\r$i " ; sleep 1 ; done }``` in your alias-file
-| Weighing             | 1x Soehnle Page Compact 100       | 'Tare' to reset to 0 after every step, 1 l water &thickapprox; 1 kg 
-| Dishware             | 1x Anpro Milk Pitcher 350 ml      | for easier (temp) measuring and pouring out water (not milk)
-| Dishware             | 1x AeroPress Go Mug               | receiving container when pressing the AeroPress
-| Dishware             | 2x Lambda Cappuccino cup 160ml    | smaller cups &ne; less coffee (drink 2 cups); more conscious sipping over mindless shotting with BigMac supersize cups just for caffeine
+| Brewer               | AeroPress Go                   | 
+| Thermometer          | Weber 6740 Digital Pocket T.   | checks brewing water and drink temperatures
+| Grinder              | OSSAT Manual Coffee G. 25-28 g | all metal, based on the Comandante but 1/4 price; <br>full charge with beans fills ~15g or well-nigh 1 leveled scoop of AeroPress Go (11.5 g), <br> so you can dump it straight into AP<br>Grind size in clicks: 1 (finest) - 25 (mid-coarse) - 40 (coarse)
+| Timer                | PC or Smartphone Clock         | `$ sleep 40` on the Linux command line, or counting up: ```function timer() { for i in `seq 1 $1` ; do echo -ne "\r$i " ; sleep 1 ; done }``` in your alias-file
+| Weighing             | Soehnle Page Compact 100       | 'Tare' to reset to 0 after every step, 1 l water &thickapprox; 1 kg 
+| Dishware             | Anpro Milk Pitcher 350 ml      | for easier (temp) measuring and pouring out water (not milk)
+| Dishware             | AeroPress Go Mug               | receiving container when pressing the AeroPress
+| Dishware             | Lambda Cappuccino cup 160ml    | smaller cups &ne; less coffee (drink 2 cups); more conscious sipping over mindless shotting with BigMac supersize cups just for caffeine
 
 
 
