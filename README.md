@@ -513,7 +513,6 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - **Requirements:**
     - Template Priority-Matrix (build the right product: stakeholders, goals, context, ...)
     - Template Risk-Matrix     (build the product right)
-    - Template Personas        (photos via https://this-person-does-not-exist.com/ )
 - **Statistics, Graphs:**
     - ~~[RStudio](https://github.com/rstudio/rstudio)~~ broken in Manjaro, made me discover [NVim-R](https://www.youtube.com/watch?v=nm45WagtV3w)
 - **Box-and-Line Diagrams:**
