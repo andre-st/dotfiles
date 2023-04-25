@@ -502,7 +502,12 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 ## Development, Productivity
 
 - **Networking:**
-    - vpnc (Cisco VPN client), OpenSSH, Midnight Commander's (S)FTP virtual file system, ...
+    - vpnc (Cisco VPN client)
+    - OpenSSH
+    - Midnight Commander's (S)FTP virtual file system (slow and reconnect issues, but my 24/7 file manager)
+    - (on Windows: WinSCP, PuTTY, ...)
+- **Calendar:** 
+    - [remind](https://www.linuxjournal.com/article/3529), rem -c, ... will probably be replaced by cross-device Apple calendar
 - **Office:**
     1. Htmlcssjs / Markdown / Plaintext using _vim_ editor prefered over...
     2. _Google Docs_ (collaborative) over...
@@ -511,7 +516,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     5. `$ antiword ms.doc | vim -` over...
     6. _MS Office_ on Windows
 - **Finance:**
-    - bank's websites for online-banking, Paypal, ...
+    - bank websites for online-banking, Paypal, ...
     - "pennies" app on my smartphone to budget for variable expenses / savings (lightweigt, ad-free, offline)
 - **Requirements:**
     - Template Priority-Matrix (build the right product: stakeholders, goals, context, ...), see Office
@@ -520,22 +525,22 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     - ~~[RStudio](https://github.com/rstudio/rstudio)~~ broken in Manjaro, 
       made me discover [NVim-R](https://www.youtube.com/watch?v=nm45WagtV3w)
     - q (SQL against CSV files)
-    - ...
+    - todo
 - **Box-and-Line Diagrams:**
     - [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...);
 	  Network diagrams, high level software designs / architectures (for low-level code does it just as well), 
       semi-formal sketching book summaries or for subject comprehension through dissection
 - **Prototyping:**
     - lo-fi throw-away UI or poster prototypes via _paper prototyping_:
-        - pen & paper & electric eraser still the best usability (maybe there are Tablet apps for pencil sketching),
-          there are people who take it to the extreme again, with cutting out etc (YouTube)
+        - pen & paper & electric eraser still the best usability,
+          some people use scissors too (see YouTube)
         - DIN A4 paper folded several times creates the outlines of multiple smartphones  
-          (though, I prefer my DIN A5 professional diary notebook)
+          (though, I often prefer my DIN A5 professional diary notebook)
         - photographed for the archive
     - todo: design system / moodboard (often just existing corp./brand design)
 - **Programming:**
-    - for Windows I prefered IDEs, Netbeans for my last 2017-$now Java SE/FX project
-    - for Linux it also feels natural to me to run a set of separate, individually replaceable tools + vim, vimdiff, ...
+    - for Windows I prefered IDEs, Netbeans for my last 2017 Java SE/FX project
+    - for Linux I usually run a set of separate, individually replaceable tools + vim, vimdiff, ...
         - todo: vim-plugins
     - todo
 - **Image-Editing:**
@@ -543,11 +548,11 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     - Pixel: [Gimp](https://github.com/GNOME/gimp)
     - ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
 - **Video-Editing / Streaming:**
-    - FFmpeg suite
+    - FFmpeg suite (on a single-board computer to get a camera-stream on YouTube)
 - **3D / CAD:**
 	- [OpenSCAD](https://github.com/openscad/openscad) 
 	- [FreeCAD](https://github.com/FreeCAD)
-        - played with Assembly4 + Fasteners + gmsh for finite element analysis 
+        - played with Assembly4 + Fasteners + gmsh for finite element analysis (of a partly wall-mounted table for 6 Euroboxes)
         - in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem)
 - **Testing**:
     - std. unit-test library
