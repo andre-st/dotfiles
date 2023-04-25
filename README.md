@@ -517,8 +517,10 @@ Tools that I still use frequently on my Linux desktop, or no longer there:
     6. _MS Office_ on Windows
 - **Money and Time Mgt.:**
     - bank websites for online-banking, Paypal, ...
-    - "pennies" app on my smartphone to budget for variable expenses / savings (lightweigt, ad-free, offline)
-    - [remind](https://www.linuxjournal.com/article/3529), rem -c, ... will probably be replaced by cross-device Apple calendar
+    - "pennies" app on my smartphone to budget for _variable_ expenses / savings (leightweight, add-free, offline; _fixed_ expenses are managed separately from time to time)
+    - [remind](https://www.linuxjournal.com/article/3529), rem2(ical|ics|html|ps|...) 
+      (terminal, easy and flexible calendar-domain specific language, 
+       but masochistic re. cross-device; probably be replaced by Apple calendar)
 - **Requirements:**
     - Template Priority-Matrix (build the right product: stakeholders, goals, context, ...), see Office
     - Template Risk-Matrix     (build the product right), see Office
@@ -549,7 +551,7 @@ Tools that I still use frequently on my Linux desktop, or no longer there:
     - Pixel: [Gimp](https://github.com/GNOME/gimp)
     - ASCII/ANSI art: [New Draw](https://github.com/andre-st/newdraw)
 - **Video-Editing / Streaming:**
-    - FFmpeg suite (on a single-board computer to get a camera-stream on YouTube)
+    - FFmpeg suite (e.g., on a single-board computer to get a camera-stream 24/7 on YouTube)
 - **3D / CAD:**
 	- [OpenSCAD](https://github.com/openscad/openscad) 
 	- [FreeCAD](https://github.com/FreeCAD)
