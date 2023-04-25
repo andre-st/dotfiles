@@ -510,6 +510,9 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     4. _LibreOffice_ (1.55+ GB monolith not installed) over...
     5. `$ antiword ms.doc | vim -` over...
     6. _MS Office_ on Windows
+- **Finance:**
+    - bank's websites for online-banking, Paypal, ...
+    - "pennies" app on my smartphone to budget for variable expenses / savings (lightweigt, ad-free, offline)
 - **Requirements:**
     - Template Priority-Matrix (build the right product: stakeholders, goals, context, ...), see Office
     - Template Risk-Matrix     (build the product right), see Office
