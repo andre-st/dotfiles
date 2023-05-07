@@ -278,7 +278,7 @@ lsi() { lsof -i -n | sed '1 d' | awk '{print $1, $3, $8}' | sed 's/\:[0-9]*->/->
 
 alias  ytdl="yt-dlp -f bestvideo+bestaudio "
 alias m3u8="yt-dlp --output=vid\$(date +%s).mp4 "
-
+alias ytmp3='yt-dlp -f bestaudio --ignore-errors --output "%(title)s.%(ext)s" --extract-audio --audio-quality 0 --audio-format mp3 '
 
 
 

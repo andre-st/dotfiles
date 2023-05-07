@@ -7,8 +7,8 @@
 - [Maintenance](#maintenance)
 - [Entertainment, Browser, Reader](#entertainment-browser-reader)
 - [Development, Productivity](#development-productivity)
-- [Printing](#printing)
 - [Communication](#communication)
+- [Printing](#printing)
 - [Virtualization, Emulation](#virtualization-emulation)
 - [PC-Phone/Tablet Connection](#pc-phonetablet-connection)
 
@@ -423,6 +423,7 @@ $ systemctl enable --now systemd-timesyncd.service
     ```
     alias ytdl='yt-dlp -f bestvideo+bestaudio '
     alias m3u8='yt-dlp --output=vid$(date +%s).mp4 '
+    alias ytmp3='yt-dlp -f bestaudio --ignore-errors --output "%(title)s.%(ext)s" --extract-audio --audio-quality 0 --audio-format mp3 '
     ```
 - [Music on Console](https://en.wikipedia.org/wiki/Music_on_Console) audio player:
 	My time of listening differs significantly from the time of downloading, 
@@ -438,8 +439,13 @@ $ systemctl enable --now systemd-timesyncd.service
 	- <kbd>F8</kbd> deletes file
 
 	I don't use metadata-based media libraries but am 1:1 with the file system.
+    Due to a lack of time and desire to correct file names and / or media data for all files, 
+    since something is often missing on one or the other side, 
+    I decided on one side:
 	Proper filenames, unlike metadata containers, 
-	can be viewed, searched, sorted etc with almost any program in any context (e.g. SFTPd or HTTPd listings).
+	can be viewed, searched, sorted etc with almost any program in any context, 
+    e.g., SFTPd or HTTPd listings.
+    
 	I've also tried the well-made [cmus](https://github.com/cmus/cmus) and a couple of MPD clients, 
 	but I work more fluently with MOC
 - [EasyEffects](https://github.com/wwmm/easyeffects) sound-quality tool:
@@ -501,26 +507,25 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 
 ## Development, Productivity
 
-Tools that I still use frequently on my Linux desktop, or no longer there:
-
 - **Networking:**
     - vpnc (Cisco VPN client)
-    - OpenSSH
+    - OpenSSH (ssh, sftp)
     - Midnight Commander's (S)FTP virtual file system (slow and reconnect issues, but my 24/7 file manager)
-    - (on Windows: WinSCP, PuTTY, ...)
+    - (on Windows: WinSCP, PuTTY, ...),
+    - (on Smartphone: Termius)
 - **Office:**
-    1. Htmlcssjs / Markdown / Plaintext using _vim_ editor prefered over...
+    1. Htmlcssjs / Markdown / Plaintext (portable) using _vim_ editor prefered over...
     2. _Google Docs_ (collaborative) over...
-    3. _Gnumeric_ (250 MB, incl. solver, [dark-themed](manjaro/home/andre/.config/gtk-3.0/gtk.css)) over...
+    3. _Gnumeric_ (functional and 250 MB "only", incl. solver, [dark-themed](manjaro/home/andre/.config/gtk-3.0/gtk.css)) over...
     4. _LibreOffice_ (1.55+ GB monolith not installed) over...
     5. `$ antiword ms.doc | vim -` over...
     6. _MS Office_ on Windows
 - **Money and Time Mgt.:**
     - bank websites for online-banking, Paypal, ...
-    - "pennies" app on my smartphone to budget for _variable_ expenses / savings (leightweight, add-free, offline; _fixed_ expenses are managed separately from time to time)
-    - [remind](https://www.linuxjournal.com/article/3529), rem2(ical|ics|html|ps|...) 
-      (terminal, easy and flexible calendar-domain specific language, 
-       but masochistic re. cross-device; probably be replaced by Apple calendar)
+    - "pennies" app on my smartphone to budget for _variable_ expenses / savings (it's lightweight/slim, ad(vice)-free, works offline; 
+      my _fixed_ expenses are managed separately from time to time)
+    - [remind](https://www.linuxjournal.com/article/3529), rem2(ical|ics|html|ps|...) in terminal with calendar-domain specific language
+       (not painlessly cross-device; probably be replaced by Apple calendar)
 - **Requirements:**
     - Template Priority-Matrix (build the right product: stakeholders, goals, context, ...), see Office
     - Template Risk-Matrix     (build the product right), see Office
@@ -588,11 +593,6 @@ Tools that I still use frequently on my Linux desktop, or no longer there:
         ```
 
 
-## Printing
-- todo, CUPS
-
-
-
 ## Communication
 
 I prefer emails and upfront arranged phone calls.
@@ -602,9 +602,14 @@ I prefer emails and upfront arranged phone calls.
 	- in the past: Signal [without a smartphone](https://ctrl.alt.coop/en/post/signal-without-a-smartphone), Pidgin (Jabber/XMPP), ICQ
 - Chat rooms: IRC irssi, general talk or questions, 
 	with [my extensions](https://github.com/andre-st/irssi-scripts)
-- Video conferencing + Screen sharing: [Jitsi](https://github.com/jitsi), [Teamviewer](https://www.teamviewer.com/)
+- Video conferencing + Screen sharing: [Jitsi](https://github.com/jitsi) on PC and smartphone, [Teamviewer](https://www.teamviewer.com/)
 - Collaborative editing: [Etherpad](https://github.com/ether/etherpad-lite) or Google Docs
 - Notifications: everything as status email
+
+
+
+## Printing
+- todo, CUPS
 
 
 
