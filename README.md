@@ -157,7 +157,7 @@ Slackware ran the _Xorg_ display server:
 ![Screenshot](README-i3.png)
 
 - still 1x monitor + TV, no bg, no desktop env, dark theme, workspaces
-- rofi (dmenu replacement) - launching (wrong) applications is a _bigger_ action and should be represented with _bigger_ icons and a more prominent menu
+- rofi (dmenu replacement) - launching (wrong) applications is a _bigger_ action (in terms of time and resources, focus etc) and should be represented with _bigger_ icons and a more prominent menu
 - todo
 
 
@@ -487,7 +487,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 
 | Browser_Profile | Bookmark Bar / Home Tabs | Comment |
 |-----------------|--------------------------|---------|
-| default         | &#128193;&#xFE0E; Research, &#128193;&#xFE0E; Shop, &#128193;&#xFE0E; News/Social, &#128193;&#xFE0E; Language, &#128193;&#xFE0E; $COMPANY (intranet etc), &#128193;&#xFE0E; Dev, &#128193;&#xFE0E; Todo, &#128193;&#xFE0E; Chrome (bookmarklets, some pages like chrome://gpu)  |
+| default         | &#128193;&#xFE0E; Research, &#128193;&#xFE0E; Shop, &#128193;&#xFE0E; News/Social, &#128193;&#xFE0E; Language (translator, thesaurus etc), &#128193;&#xFE0E; Leisure (Komoot, gaming etc), &#128193;&#xFE0E; $COMPANY (intranet etc), &#128193;&#xFE0E; Dev, &#128193;&#xFE0E; Todo, &#128193;&#xFE0E; Chrome (bookmarklets, pages like chrome://gpu)  |
 | pentest         |                          | proxy settings, ...
 | tor             | check.torproject.org     | proxy settings
 | banking         | fintech sites            | no extensions safe-mode
@@ -547,7 +547,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
         - photographed for the archive
     - todo: design system / moodboard (often just existing corp./brand design)
 - **Programming:**
-    - for Windows I prefered IDEs, Netbeans for my last 2017 Java SE/FX project
+    - for Windows as primary target I prefered x-platform IDEs, Netbeans for my last jobwise 2017 Java SE/FX project (ongoing maintenance)
     - for Linux I usually run a set of separate, individually replaceable tools + vim, vimdiff, ...
         - todo: vim-plugins
     - todo
@@ -595,16 +595,27 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 
 ## Communication
 
-I prefer emails and upfront arranged phone calls.
+I prefer:
+- emails because of its advantages and in spite of its disadvantages (needs and allows technical tinkering). 
+- conversation histories not scattered across multiple messaging systems.
+- upfront arranged phone calls (perhaps with info for preparation) / hate unannounced calls a.f.
 
-- email: todo
-- Instant Messenger: **none**
+
+I'm using:
+- email: todo, prefer plaintext mails writing/reading
+- Instant Messenger: Boomer-compatible Whatsapp for non-business conversations only 
 	- in the past: Signal [without a smartphone](https://ctrl.alt.coop/en/post/signal-without-a-smartphone), Pidgin (Jabber/XMPP), ICQ
 - Chat rooms: IRC irssi, general talk or questions, 
-	with [my extensions](https://github.com/andre-st/irssi-scripts)
+	with [my extensions](https://github.com/andre-st/irssi-scripts);
 - Video conferencing + Screen sharing: [Jitsi](https://github.com/jitsi) on PC and smartphone, [Teamviewer](https://www.teamviewer.com/)
 - Collaborative editing: [Etherpad](https://github.com/ether/etherpad-lite) or Google Docs
 - Notifications: everything as status email
+- Social networks: 
+    left Twitter in late 2022 (not because of Musk, but too much time for little yield), 
+    never intenionally used the Facebook-Website, 
+- 20 years ago I was a lot on IRC, in web forums, 
+    a few times with real names in Usenet (the mails are of course still public today despite x-no-archive). 
+    Actually, none of that anymore today (I still read forums such as Reddit, Quora, Stack Overflow, but don't write anymore)
 
 
 

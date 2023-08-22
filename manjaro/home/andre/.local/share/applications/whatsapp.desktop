@@ -9,3 +9,4 @@ Type=Application
 Icon=andrest-whatsapp
 Categories=Messenger
 StartupNotify=false
+StartupWMClass=WhatsApp

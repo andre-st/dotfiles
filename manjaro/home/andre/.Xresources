@@ -102,10 +102,13 @@ URxvt.keysym.Control-Up:          \033[1;5A
 URxvt.keysym.Shift-Control-Up:    \033[1;6A
 URxvt.keysym.Control-Down:        \033[1;5B
 URxvt.keysym.Shift-Control-Down:  \033[1;6B
-! Rxvt.perl-ext-common:             ...,clipboard
-! URxvt.keysym.M-C-c:               perl:clipboard:copy
-! URxvt.keysym.M-v:                 perl:clipboard:paste
-! URxvt.keysym.M-C-v:               perl:clipboard:paste_escaped
+
+! URxvt.perl-ext-common: default,selection-autotransform
+URxvt.perl-ext-common:            ...,clipboard
+URxvt.keysym.M-C-c:               perl:clipboard:copy
+URxvt.keysym.M-v:                 perl:clipboard:paste
+URxvt.keysym.M-C-v:               perl:clipboard:paste_escaped
+
 ! URxvt*termName:                   string
 ! URxvt*geometry:                   geometry
 ! URxvt*chdir:                      string

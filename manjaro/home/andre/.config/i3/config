@@ -262,6 +262,7 @@ assign [class="Chromium"]     $ws3
 assign [class="QuiteRss"]     $ws3
 ### "Kontakte":
 assign [class="Claws-mail"]   $ws4
+assign [class="web.whatsapp.com"] $ws4
 ### "Audio":
 assign [class="easyeffects"]  $ws5
 assign [title="MOC"]          $ws5

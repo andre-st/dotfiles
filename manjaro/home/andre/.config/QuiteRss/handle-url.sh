@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Version: 2023-02-20
+# Version: 2023-06-03
 # Since:   2023-02-20
 # About:   Downloads or opens resource in web-browser depending on filename extension (if present)
 #
@@ -16,7 +16,8 @@ fi
 URL=$1
 APPNAME=QuiteRSS-handle-url
 XDG_DOWNLOAD_DIR=$( xdg-user-dir DOWNLOAD );  # or source "${HOME}/.config/user-dirs.dirs"
-ERRLOGPATH="/tmp/${APPNAME}.error.log"
+TODAY=$(date '+%Y%m%d')
+ERRLOGPATH="/tmp/${APPNAME}.error.$TODAY.log"
 
 
 FILENAME="${URL##*/}"                # "file.mp3?param=val"
@@ -54,6 +55,9 @@ case "${FILEEXT}" in
 			then
 				echo "${URL}" >> "${ERRLOGPATH}"
 				notify-send --app-name=${APPNAME} --urgency=critical "Error Downloading" "${FILENAME}"
+				
+				# Remove incomplete file:
+				rm "${DLDIR}/${FILENAME}"
 			fi
 		fi
 		;;
