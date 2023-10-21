@@ -37,12 +37,13 @@ It uses [vanilla](https://en.wikipedia.org/wiki/Vanilla_software) packages (less
 and BSD-style init.
 
 Simplifying troubleshooting and customization,
-in Slackware you don't have to deal with a lot of superstructure, safety nets, extra security and UI layers.
+in Slackware you don't have to deal with a lot of superstructure, safety nets, extra security or UI layers.
 Rather you learn more about how Linux is basically put together. 
 Everything is glued together with well-commented shell scripts and other text-files 
 = transparent, grep-able and easy to edit.
 Even what looks like larger ncurses tools are usually just shell scripts 
 that call the [dialog](https://linuxcommand.org/lc3_adv_dialog.php) binary.  
+Slow release cycle was usually ok for me.
 
 
 ### 2022–today: Manjaro-i3-Minimal
@@ -62,6 +63,7 @@ or what they do differently.
 But the out-of-the-box experience 
 and the opportunity to re-familiarize yourself with more widely adopted concepts was seductive, 
 and I will give _Manjaro-i3-Minimal_ a longer try, now.
+Arch-based, rolling distro.
 
 ![Screenshot](README-minipc.jpg)
 
@@ -108,7 +110,7 @@ I think it helps me to focus and maybe reduce electricity bills (∅10 W).
 My larger television is connected as a second output device, 
 but I usually don't use it for work. 
 
-Dark flat design theme (so that I don't look into a bright lamp for many hours), 
+Dark flat design theme (so that I don't look into a bright lamp for many hours, especially on TV), 
 no full-blown desktop environment, 
 preferably keyboard-friendly and tidy text-based UI.
 A TUI usually lacks _decorative animations_ or "seductive details" or logos or brand design
@@ -382,7 +384,7 @@ $ pacman -Syyu
         (edit desktop-file _/usr/share/applications/chromium.desktop_)~~ (not needed anymore), 
 		check via `chrome://gpu` (video decode: hw accelerated) and `$ vainfo` without errors (I needed the _intel-media-driver_ package),
         `--process-per-site`
-	- my mini PC actually produces moderate temperatures (Ø50-60 °C), also no problem with downloaded HD videos - unless I play them directly from YouTube w/o hw-acc (83 °C)
+	- my mini PC actually produces moderate temperatures (Ø50-60 °C), also no problem with downloaded HD videos - ~~unless I play them directly from YouTube w/o hw-acc (83 °C)~~
     
 
 
@@ -487,7 +489,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 
 | Browser_Profile | Bookmark Bar / Home Tabs | Comment |
 |-----------------|--------------------------|---------|
-| default         | &#128193;&#xFE0E; Research, &#128193;&#xFE0E; Shop, &#128193;&#xFE0E; News/Social, &#128193;&#xFE0E; Language (translator, thesaurus etc), &#128193;&#xFE0E; Leisure (Komoot, gaming etc), &#128193;&#xFE0E; $COMPANY (intranet etc), &#128193;&#xFE0E; Dev, &#128193;&#xFE0E; Todo, &#128193;&#xFE0E; Chrome (bookmarklets, pages like chrome://gpu)  |
+| default         | &#128193;&#xFE0E; Research, &#128193;&#xFE0E; Shop, &#128193;&#xFE0E; News/Social, &#128193;&#xFE0E; Language (translator, thesaurus etc), &#128193;&#xFE0E; Leisure (Komoot, [weather](https://meteoblue.com/), gaming etc), &#128193;&#xFE0E; $COMPANY (intranet etc), &#128193;&#xFE0E; Dev, &#128193;&#xFE0E; Todo, &#128193;&#xFE0E; Chrome (bookmarklets, pages like chrome://gpu)  |
 | pentest         |                          | proxy settings, ...
 | tor             | check.torproject.org     | proxy settings
 | banking         | fintech sites            | no extensions safe-mode
@@ -537,18 +539,22 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - **Box-and-Line Diagrams:**
     - [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...);
 	  Network diagrams, high level software designs / architectures (for low-level code does it just as well), 
-      semi-formal sketching book summaries or for subject comprehension through dissection
+      semi-formal sketching book summaries or for subject comprehension through dissection, goal modeling
+    - though, matrix diagrams sometimes easier to read/update
+        (e.g. mating goals and strategies/tactics/feature incl. coverage/support-rating,
+        or smaller [component diagrams](https://github.com/andre-st/amazon-wishless/tree/08b14951ed6c4204ff9d27550bd871be0a85b041#customization) )
 - **Prototyping:**
-    - lo-fi throw-away UI or poster prototypes via _paper prototyping_:
-        - pen & paper & electric eraser still the best usability,
+    - tried many apps but still doing lo-fi throw-away UI or poster prototypes via _paper prototyping_:
+        - pen & paper & electric eraser still the best usability, faster at initial drafts,
           some people use scissors too (see YouTube)
         - DIN A4 paper folded several times creates the outlines of multiple smartphones  
           (though, I often prefer my DIN A5 professional diary notebook)
-        - photographed for the archive
+        - sometimes photographed for the archive
     - todo: design system / moodboard (often just existing corp./brand design)
+    - todo: Figma?
 - **Programming:**
     - for Windows as primary target I prefered x-platform IDEs, Netbeans for my last jobwise 2017 Java SE/FX project (ongoing maintenance)
-    - for Linux I usually run a set of separate, individually replaceable tools + vim, vimdiff, ...
+    - for Linux I usually run a set of separate, individually replaceable tools + vim, vimdiff, ...; terminal is my "IDE"
         - todo: vim-plugins
     - todo
 - **Image-Editing:**
@@ -558,12 +564,12 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - **Video-Editing / Streaming:**
     - FFmpeg suite (e.g., on a single-board computer to get a camera-stream 24/7 on YouTube)
 - **3D / CAD:**
-	- [OpenSCAD](https://github.com/openscad/openscad) 
+	- [OpenSCAD](https://github.com/openscad/openscad), [for example](https://github.com/andre-st/network-racks)
 	- [FreeCAD](https://github.com/FreeCAD)
         - played with Assembly4 + Fasteners + gmsh for finite element analysis (of a partly wall-mounted table for 6 Euroboxes)
         - in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem)
 - **Testing**:
-    - std. unit-test library
+    - std. unit-test library, [for example](https://github.com/andre-st/goodreads-toolbox/tree/master/t)
     - todo
 - **Git / GitHub:**
     - `$ git gui` is handy for staging patches (hold right mouse key)
