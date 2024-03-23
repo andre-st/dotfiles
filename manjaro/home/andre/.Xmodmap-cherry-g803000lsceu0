@@ -54,7 +54,7 @@ keysym space        = space          space          U00A0           space
 
 keysym 1            = 1              exclam         notsign         notsign
 keysym 2            = 2              at             onehalf
-keysym 3            = 3              numbersign     threequarters
+keysym 3            = 3              numbersign     onethird        threequarters
 keysym 4            = 4              dollar         onequarter
 keysym 5            = 5              percent        EuroSign        U2208
 keysym 6            = 6              asciicircum    logicaland      logicalor

@@ -306,7 +306,7 @@ for_window [urgent=latest] focus
 
 # Set volume
 bindsym $mod+period exec "pactl -- set-sink-volume 0 +2%"
-bindsym $mod+comma  exec "pactl -- set-sink-volume 0 -2%"
+bindsym $mod+comma  exec "pactl -- set-sink-volume 0 -16%"
 bindsym $mod+m      exec "pactl -- set-sink-volume 0 0"
 
 

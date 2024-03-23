@@ -2,6 +2,7 @@
 # - separator line
 # - git branch info
 #
+
 source /usr/share/git/completion/git-prompt.sh
 COLUMNS=`tput cols`
 LINESTR=`printf "%.0s-" $(seq 1 $COLUMNS)`

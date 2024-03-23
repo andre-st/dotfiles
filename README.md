@@ -10,7 +10,7 @@
 - [Communication](#communication)
 - [Printing](#printing)
 - [Virtualization, Emulation](#virtualization-emulation)
-- [PC-Phone/Tablet Connection](#pc-phonetablet-connection)
+- [Phone/Tablet/TV](#phonetablettv)
 
 
 ## Linux Distribution
@@ -27,7 +27,7 @@ web-surfing or
 illustration demands.
 I'm not a PC-gamer, video cutter, trader or NOC/SOC operator. 
 
-Volkerding's Slackware Linux has been my main operating system for over 15 years (after Windows and DOS).
+Volkerding's Slackware Linux has been my main operating system for over 15 years (after Windows and DOS in the 90s/00s).
 It allows for a very customizable scope of installation and I install it relatively lightly.
 The distribution follows a [KISS](https://en.wikipedia.org/wiki/KISS_principle) philosophy—not 
 that GUI helper tools hide everything 
@@ -192,7 +192,7 @@ Customized key-bindings (Shortcuts), easy-to-remember, centered around left/righ
 | WM Action                 | Shortcut Notion | Shortcut\_i3_(2022\_today)
 |---------------------------|-----------------|------------------------
 | Switch screens (monitor, TV in the room) | <kbd>⊞ Win</kbd>+<kbd>←</kbd><kbd>→</kbd>                            |  <kbd>⊞ Win</kbd>+<kbd>0</kbd> repeatedly
-| Switch workspaces         | <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd>  or<br>  <kbd>⊞ Win</kbd>+<kbd>Mouse Wheel</kbd> or<br> <kbd>Mouse Wheel</kbd> over the tabs row  |  <kbd>⊞ Win</kbd>+<kbd>Tab</kbd> <br> <kbd>⊞ Win</kbd>+<kbd>\\</kbd> <br> <kbd>⊞ Win</kbd>+<kbd>BackSpace</kbd> reversed
+| Switch workspaces         | <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd>  or<br>  <kbd>⊞ Win</kbd>+<kbd>Mouse Wheel</kbd> or<br> <kbd>Mouse Wheel</kbd> over the tabs row  |  <kbd>⊞ Win</kbd>+<kbd>Tab</kbd> <br> <kbd>⊞ Win</kbd>+<kbd>\\</kbd> <br> <kbd>⊞ Win</kbd>+<kbd>BackSpace</kbd> reversed <br> <kbd>⊞ Win</kbd>+<kbd>1</kbd>..<kbd>9</kbd> 
 | Navigate frames           | <kbd>⊞ Win</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>  |  
 | Split frame (horz.)       | <kbd>⊞ Win</kbd>+(<kbd>Shift</kbd>+)<kbd>S</kbd>                                    |  <kbd>⊞ Win</kbd>+(<kbd>Shift</kbd>+)<kbd>S</kbd>
 | Switch tabs               | <kbd>⊞ Win</kbd>+<kbd>Tab</kbd> or<br> <kbd>⊞ Win</kbd>+<kbd>\\</kbd> (right-hand Tab-key on [US-keyboards](https://i.imgur.com/aLCC3Me.png)) or<br> <kbd>⊞ Win</kbd>+<kbd>Backspace</kbd> (prev. tab) or<br> <kbd>⊞ Win</kbd>+<kbd>1</kbd>..<kbd>9</kbd>  |  <kbd>⊞ Win</kbd>+<kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd>
@@ -208,7 +208,7 @@ Customized key-bindings (Shortcuts), easy-to-remember, centered around left/righ
 | Screenshot                | <kbd>⊞ Win</kbd>+<kbd>Print</kbd> ([saves](slackware-2022/home/a/.notion/scripts/screenshot.sh) to home dir)  |  <kbd>Print</kbd> screen <br> <kbd>Shift</kbd>+<kbd>Print</kbd> screen 5sec <br> <kbd>⊞ Win</kbd>+<kbd>Print</kbd> window only
 | Clipboard to file (xclip) | <kbd>⊞ Win</kbd>+<kbd>P</kbd> like 'paste' ([saves](slackware-2022/home/a/.notion/scripts/paste.sh) to home dir)  |
 | Shutdown                  | <kbd>⊞ Win</kbd>+<kbd>Q</kbd>  or<br>  <kbd>⊞ Win</kbd>+<kbd>F6</kbd> (60 minutes sleep timer)  |
-| Audio volume              | <kbd>⊞ Win</kbd>+<kbd>M</kbd> to mute  or<br>  <kbd>⊞ Win</kbd>+<kbd>,</kbd><kbd>.</kbd> or<br>  <kbd>⊞ Win</kbd>+<kbd>Ctrl</kbd>+<kbd>Mouse Wheel</kbd>  |
+| Audio volume              | <kbd>⊞ Win</kbd>+<kbd>M</kbd> to mute  or<br>  <kbd>⊞ Win</kbd>+<kbd>,</kbd><kbd>.</kbd> or<br>  <kbd>⊞ Win</kbd>+<kbd>Ctrl</kbd>+<kbd>Mouse Wheel</kbd>  | <kbd>⊞ Win</kbd>+<kbd>M</kbd> to mute  or<br>  <kbd>⊞ Win</kbd>+<kbd>,</kbd><kbd>.</kbd> 
 
 
 
@@ -278,7 +278,8 @@ and my [manjaro/home/andre/.Xresources](manjaro/home/andre/.Xresources) file.
 - [xdiskusage](https://github.com/andre-st/xdiskusage):
 	few deps and a treemap-esque display which is easier to read than the usual nested treemaps
 - Wireshark (or Termshark-TUI)
-- use of statistics or logic software (correlation, plots, ...)
+- use of statistics or logic software (correlation, plots, ...), 
+    e.g. recorded system load over time vs task schedules
 - websites: less obvious features of the _Chromium/Firefox Developer Tools_ <kbd>F12</kbd> besides "Elements"/"Inspector", 
     ("{}" icon in sources tab is a pretty printer, global source search, website-API interaction in console, ...)
 - `dig` (dnsutils) is `drill` (ldns) now
@@ -347,7 +348,7 @@ based on the data already on it.
 
 
 
-### Patching, Software Management
+### Software Management, Patching
 
 - todo
 - sbopkg
@@ -489,7 +490,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 
 | Browser_Profile | Bookmark Bar / Home Tabs | Comment |
 |-----------------|--------------------------|---------|
-| default         | &#128193;&#xFE0E; Research, &#128193;&#xFE0E; Shop, &#128193;&#xFE0E; News/Social, &#128193;&#xFE0E; Language (translator, thesaurus etc), &#128193;&#xFE0E; Leisure (Komoot, [weather](https://meteoblue.com/), gaming etc), &#128193;&#xFE0E; $COMPANY (intranet etc), &#128193;&#xFE0E; Dev, &#128193;&#xFE0E; Todo, &#128193;&#xFE0E; Chrome (bookmarklets, pages like chrome://gpu)  |
+| default         | &#128193;&#xFE0E; Research<br> &#128193;&#xFE0E; Shop<br> &#128193;&#xFE0E; News/Social<br> &#128193;&#xFE0E; Language (translator, thesaurus etc)<br> &#128193;&#xFE0E; Leisure (Komoot, [weather](https://meteoblue.com/), gaming etc)<br> &#128193;&#xFE0E; $COMPANY (intranet etc)<br> &#128193;&#xFE0E; Dev<br> &#128193;&#xFE0E; Todo<br> &#128193;&#xFE0E; Chrome (bookmarklets, pages like chrome://gpu)  |
 | pentest         |                          | proxy settings, ...
 | tor             | check.torproject.org     | proxy settings
 | banking         | fintech sites            | no extensions safe-mode
@@ -538,10 +539,10 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     - todo
 - **Box-and-Line Diagrams:**
     - [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...);
-	  Network diagrams, high level software designs / architectures (for low-level code does it just as well), 
+	  Network diagrams, high level software designs / architectures (for low-level, source code should be sufficient doc), 
       semi-formal sketching book summaries or for subject comprehension through dissection, goal modeling
     - though, matrix diagrams sometimes easier to read/update
-        (e.g. mating goals and strategies/tactics/feature incl. coverage/support-rating,
+        (e.g. connecting goals with strategies/tactics/features, with intersection points presenting coverage/support-ratings,
         or smaller [component diagrams](https://github.com/andre-st/amazon-wishless/tree/08b14951ed6c4204ff9d27550bd871be0a85b041#customization) )
 - **Prototyping:**
     - tried many apps but still doing lo-fi throw-away UI or poster prototypes via _paper prototyping_:
@@ -564,12 +565,12 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - **Video-Editing / Streaming:**
     - FFmpeg suite (e.g., on a single-board computer to get a camera-stream 24/7 on YouTube)
 - **3D / CAD:**
-	- [OpenSCAD](https://github.com/openscad/openscad), [for example](https://github.com/andre-st/network-racks)
+	- [OpenSCAD](https://github.com/openscad/openscad), for [example](https://github.com/andre-st/network-racks)
 	- [FreeCAD](https://github.com/FreeCAD)
         - played with Assembly4 + Fasteners + gmsh for finite element analysis (of a partly wall-mounted table for 6 Euroboxes)
         - in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem)
 - **Testing**:
-    - std. unit-test library, [for example](https://github.com/andre-st/goodreads-toolbox/tree/master/t)
+    - std. unit-test library, for [example](https://github.com/andre-st/goodreads-toolbox/tree/master/t)
     - todo
 - **Git / GitHub:**
     - `$ git gui` is handy for staging patches (hold right mouse key)
@@ -591,8 +592,8 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
                 </style>
             </head>
             <body>
-                <img src="slide1.jpg">
-                <img src="slide2.jpg"> 
+                <img src="slide1.jpg"> <!-- idle before start -->
+                <img src="slide2.jpg"> <!-- outline           -->
                 <img src="slideN.jpg"> 
             </body>
         </html>
@@ -637,14 +638,21 @@ I'm using:
 
 
 
-## PC-Phone/Tablet Connection
+## Phone/Tablet/TV
 
+PC-Connection:
 - [darkhttpd](https://github.com/emikulic/darkhttpd) light single-binary web-server as temporary "media server":
 	Mobile web-browsers can pseudo-stream videos and audios via HTTProtocol (progressive download playback).
 	Darkhttpd supports _HTTP range requests_ (to skip through a video or mp3) 
 	and supports _automatic HTML directory listings_ so you don't have to enter file paths on the client.
 	With these things I don't need separate, full blown media server software for now.
 - todo: android scrcpy
+
+Customization:
+- 2 home-screen pages only, so there isn't much confusion when searching or swiping back and forth:
+    - page 1 contains all the standard apps
+    - page 2 contains everything I have additionally installed (currently 16 apps)
+
 
 
 

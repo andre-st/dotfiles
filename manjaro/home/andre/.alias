@@ -71,7 +71,7 @@ alias undopush="git push -f origin HEAD^:master"
 #
 
 # Exit to mc's current directory
-alias mc=". /usr/lib/mc/mc-wrapper.sh"
+#alias mc=". /usr/lib/mc/mc-wrapper.sh"
 
 
 alias locate="locate -i -q"

@@ -2,9 +2,16 @@
 # PipeWire-ALSA
 SoundDriver = ALSA
 
+# Upvotes file (sort order)
+ExecCommand1 = "/home/andre/.moc/upvote-file.sh"
+# Moves file longer than x minutes to folder "longer"
 ExecCommand4 = "/home/andre/.moc/move-longer-audio.sh"
+# Moves file to "archive" folder
 ExecCommand6 = "mv %f /home/andre/Downloads/mp3/[F6]-archive/"
+# Deletes file
 ExecCommand8 = "rm %f"
+
+
 AutoNext = no
 ShowTime = yes
 SavePlaylist = yes
