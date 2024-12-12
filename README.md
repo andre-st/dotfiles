@@ -298,7 +298,7 @@ flowchart TD
 	udev("/etc/udev/rules.d/99-mybackup.rules")
 	service("/usr/lib/systemd/system/mybackup.service")
 	sh("mybackup.sh")
-	rsync("notify-send ...<br>systemctl ... systemd-cryptsetup@cryptbackup <br> rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest <br> ...")
+	rsync("notify-send ...;<br>systemctl ... systemd-cryptsetup@cryptbackup; <br> rsync --backup-dir=/mnt/backup/changed/$NOW /mnt/data /mnt/backup/latest; <br> ...")
 
 	udev-- "disk attached (UUID from /etc/crypttab)" -->service
 	service-->sh
@@ -342,6 +342,7 @@ flowchart TD
 Currently I only use 1 backup disk, 
 but will eventually expand the system to 2 disks in regular rotation in case one disk becomes corrupted. 
 I might write "Backup ODD" and "Backup EVEN" on the hard drive enclosures, corresponding to the specific week or month of backup.
+Maybe I'll display "Odd/Even" in the i3 status bar next to the date.
 The current _rsync_ options would already automatically update every hard disk to the correct state
 based on the data already on it.
 
@@ -372,6 +373,14 @@ $ pacman-mirrors -f5
 $ pacman -Syyu
 ```
 
+
+### Network Settings
+
+```sh
+$ nmcli con
+$ nmcli con modify $CON_UUID ipv4.dhcp-hostname "OtherNameThanHostname"
+$ nmcli con modify $CON_UUID ipv6.dhcp-hostname "OtherNameThanHostname"
+```
 
 
 

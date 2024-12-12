@@ -53,6 +53,11 @@ case "${FILEEXT}" in
 			
 			if ! wget -q -O "${DLDIR}/${FILENAME}" -- "${URL}"
 			then
+				if [ ! -f "${ERRLOGPATH}" ]
+				then
+					echo "# wget --content-disposition --trust-server-names -i thisfile.log" > "${ERRLOGPATH}"
+				fi
+				
 				echo "${URL}" >> "${ERRLOGPATH}"
 				notify-send --app-name=${APPNAME} --urgency=critical "Error Downloading" "${FILENAME}"
 				

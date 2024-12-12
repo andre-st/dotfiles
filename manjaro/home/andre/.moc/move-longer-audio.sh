@@ -8,7 +8,7 @@
 
 SOURCE_DIR="$HOME/Downloads/mp3"
 TARGET_DIR="$HOME/Downloads/mp3/[F4]-longer"
-SHORT_AUDIO_MINUTES_MAX=14
+SHORT_AUDIO_MINUTES_MAX=25
 
 
 echo "Moving longer audio files to $TARGET_DIR..."

@@ -2,11 +2,59 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 
+#########################################
+#
+#  RELOAD CONFIGURATION VIA:
+#
+#  [Win]+[Shift]+[C]
+#  or:
+#  $ i3-msg reload
+#  $ i3-msg restart
+#
+#########################################
+
+
 # NOTE: Changes within the file are indicated with ###
 
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
+
+
+
+# Non-WM related issues which are easier to do here, though:
+
+#
+# Logitech M720 Triathlon mouse thumb button for middle button
+# $ xinput list
+#     Virtual core pointer
+#        ...                        id=...
+#        Logitech M720 Triathlon    id=<id_pt>
+#     Virtual core keyboard                             !!!
+#        ...                        id=...
+#        Logitech M720 Triathlon    id=<id_kb>
+#
+# $ xinput test <id_pt> | grep button
+#     1 = left
+#     2 = middle (wheel pressed)
+#     3 = right
+#     4 = wheel up
+#     5 = wheel down
+#     6 = wheel left
+#     7 = wheel right
+#     8 = side middle
+#     9 = side first
+#
+# $ xinput test <id_kb> | grep key
+#     thumb = keys 37, 64, 23 together  (released in reverse order 23, 64, 37)
+#        37 = Control_L
+#        64 = Alt_L
+#        23 = Tab
+#
+# $ xdotool mousedown 2 mouseup 2
+bindsym Ctrl+Mod1+Tab exec --no-startup-id xdotool click 2
+
+
 
 # set default desktop layout (default is tiling)
 # workspace_layout tabbed <stacking|tabbed>
@@ -95,10 +143,11 @@ bindsym $mod+Ctrl+x      --release exec --no-startup-id xkill
 ###
 bindsym $mod+slash                 exec chromium --process-per-site google.de; [class="Chromium"] focus
 #bindsym $mod+slash                exec chromium --single-process google.de; [class="Chromium"] focus
-bindsym $mod+e                     exec terminal -e 'mc'
+bindsym $mod+e                     exec terminal -e '/home/andre/source/private/sh/mc.sh'
 bindsym $mod+F6                    exec /mnt/data/source/private/sh/wm-shutdown.sh 60
 bindsym $mod+F7                    exec /mnt/data/source/private/sh/wm-shutdown.sh 120
 #bindsym $mod+Print                exec /mnt/data/source/private/sh/wm-screenshot.sh   # Print-key (without $mod) already bound by i3 (saves to ~/Bilder)
+bindsym $mod+F12                   exec /mnt/data/source/private/sh/tv-onoff.sh
 
 
 
