@@ -2,8 +2,8 @@
 # PipeWire-ALSA
 SoundDriver = ALSA
 
-# Upvotes file (sort order)
-ExecCommand1 = "/home/andre/.moc/upvote-file.sh"
+# Move file to smartphone selection folder (deleted after upload bc likely listened soon)
+ExecCommand1 = "mv %f /home/andre/Downloads/mp3/[F1]-phone/"
 # Moves file longer than x minutes to folder "longer"
 ExecCommand4 = "/home/andre/.moc/move-longer-audio.sh"
 # Moves file to "archive" folder

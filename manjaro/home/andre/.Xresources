@@ -1,8 +1,7 @@
 !! Reload: xrdb ~/.Xresources
 
-
-nsxiv.window.background: #ffffff;
-nsxiv.window.foreground: #444444;
+Nsxiv.window.background: #ffffff
+Nsxiv.window.foreground: #000000
 
 
 !! Xft.dpi:       96

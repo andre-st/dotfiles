@@ -105,7 +105,7 @@ alias cdr="cd /home/andre/Dokumente"
 
 # Images
 # Show images in current folder as thumbnails
-alias t="nsxiv -t ."
+alias t="nohup nsxiv -t . >/dev/null 2>&1 &"
 
 
 # Create and change to the given directory name
@@ -159,57 +159,6 @@ alias edir="vim -c 'Renamer'"
 
 
 
-###############################################################################
-# IPHONE
-# 
-
-ivlc() 
-{
-	CWD=`pwd`
-	MOUNTDIR="/mnt/iphone"
-	OPT_UNTAG="Remove messy MP3 tags in $CWD"
-	
-	if mount | grep "$MOUNTDIR" > /dev/null
-	then
-		DF=`df --output=avail -h "${MOUNTDIR}" | tail -1`
-		META="(${DF/ /} free)"   # Trims leading space
-		OPT_MNT="Unmount"
-	else
-		META=''
-		OPT_MNT="Mount"
-	fi
-	
-	echo "VLC media files on the iPhone  ${META}"
-
-	select choice in "${OPT_MNT}" "${OPT_UNTAG}" "Quit"
-	do
-		case "$choice" in
-			"Mount")   
-				ifuse --documents org.videolan.vlc-ios "${MOUNTDIR}"  \
-					&&  cd "${MOUNTDIR}"  \
-					&&  df --output=size,used,avail,pcent -h "${MOUNTDIR}"  \
-					&&  break
-				;;
-			"Unmount") 
-				cd /  \
-					&&  fusermount -u "${MOUNTDIR}"  \
-					&&  break
-				;;
-			"${OPT_UNTAG}")
-				id3v2 -D *.mp3 
-				break
-				;;
-			"Quit")
-				break
-				;;
-			*)
-				echo "Invalid option $choice" 
-				;;
-		esac
-	done
-}
-
-
 
 ###############################################################################
 # TEXTFILES 
@@ -248,11 +197,6 @@ alias lnav="journalctl | lnav"
 # NETWORKING
 # 
 
-
-# duck duck go on the terminal
-alias ?=ddgr
-
-
 alias urlencode="python -c 'import sys, urllib as ul; print ul.quote_plus( sys.argv[1] );'"
 alias urldecode="python -c 'import sys, urllib as ul; print ul.unquote_plus( sys.argv[1] );'"
 alias      ping="ping -c 5"
@@ -270,11 +214,6 @@ alias xlinks="links -g -driver x"
 lsi() { lsof -i -n | sed '1 d' | awk '{print $1, $3, $8}' | sed 's/\:[0-9]*->/->/' | sed 's/http[s]*/www/' | sort | uniq; }
 
 
-
-#alias ytdl="youtube-dl -f bestvideo+bestaudio "
-#alias ytdlc="youtube-dl -f bestvideo+bestaudio --cookie ~/ytcookie.txt --user-agent 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0' "
-#alias ytdl-mp3='youtube-dl -f bestaudio --ignore-errors --output "%(title)s.%(ext)s" --extract-audio --audio-quality 0 --audio-format mp3 '
-#alias m3u8="youtube-dl --output=vid\$(date +%s).mp4 "
 
 alias  ytdl="yt-dlp -f bestvideo+bestaudio "
 alias ytdlc="yt-dlp -f bestvideo+bestaudio --cookies-from-browser chromium "

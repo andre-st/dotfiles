@@ -25,7 +25,11 @@ set $mod Mod4
 # Non-WM related issues which are easier to do here, though:
 
 #
-# Logitech M720 Triathlon mouse thumb button for middle button
+# Remap Logitech M720 Triathlon mouse thumb button
+#    - side first  = browser history backward
+#    - thumb       = close current tab    
+#    - side middle = open link in new tab  (former middle key)
+#
 # $ xinput list
 #     Virtual core pointer
 #        ...                        id=...
@@ -51,9 +55,12 @@ set $mod Mod4
 #        64 = Alt_L
 #        23 = Tab
 #
+# $ xinput set-button-map <id_pt> 1 2 3 4 5 6 7 8 9
+#
 # $ xdotool mousedown 2 mouseup 2
+# $ xdotool click 2
+# $ xdotool key ctrl+w
 bindsym Ctrl+Mod1+Tab exec --no-startup-id xdotool click 2
-
 
 
 # set default desktop layout (default is tiling)
@@ -143,12 +150,10 @@ bindsym $mod+Ctrl+x      --release exec --no-startup-id xkill
 ###
 bindsym $mod+slash                 exec chromium --process-per-site google.de; [class="Chromium"] focus
 #bindsym $mod+slash                exec chromium --single-process google.de; [class="Chromium"] focus
-bindsym $mod+e                     exec terminal -e '/home/andre/source/private/sh/mc.sh'
-bindsym $mod+F6                    exec /mnt/data/source/private/sh/wm-shutdown.sh 60
-bindsym $mod+F7                    exec /mnt/data/source/private/sh/wm-shutdown.sh 120
-#bindsym $mod+Print                exec /mnt/data/source/private/sh/wm-screenshot.sh   # Print-key (without $mod) already bound by i3 (saves to ~/Bilder)
-bindsym $mod+F12                   exec /mnt/data/source/private/sh/tv-onoff.sh
-
+bindsym $mod+e                     exec terminal -e '~/.config/i3/mc.sh'
+#bindsym $mod+Print                print-key (without $mod) already bound by i3 (saves screenshot to ~/Bilder)
+bindsym $mod+F12                   exec ~/.config/i3/tv-onoff.sh
+bindsym $mod+F11                   exec ~/.config/i3/tv-daynight.sh
 
 
 # focus_follows_mouse no
@@ -301,22 +306,22 @@ bindsym $mod+Shift+0 move container to workspace $ws0; workspace $ws0
 # assign [class="Skype"]       $ws5
 ### Find out class using $ xprop 
 ### "Arbeit 2":
-assign [class="Gimp"]         $ws2
-assign [class="UMLet"]        $ws2
-assign [class="FreeCAD"]      $ws2
-assign [class="OpenSCAD"]     $ws2
-assign [class="Inkscape"]     $ws2
+#assign [class="Gimp"]         $ws2
+#assign [class="UMLet"]        $ws2
+#assign [class="FreeCAD"]      $ws2
+#assign [class="OpenSCAD"]     $ws2
+#assign [class="Inkscape"]     $ws2
 ### "Web":
-assign [class="Chromium"]     $ws3
-assign [class="QuiteRss"]     $ws3
+#assign [class="Chromium"]     $ws3
+#assign [class="QuiteRss"]     $ws3
 ### "Kontakte":
-assign [class="Claws-mail"]   $ws4
-assign [class="web.whatsapp.com"] $ws4
+#assign [class="Claws-mail"]   $ws4
+#assign [class="web.whatsapp.com"] $ws4
 ### "Audio":
-assign [class="easyeffects"]  $ws5
-assign [title="MOC"]          $ws5
+#assign [class="easyeffects"]  $ws5
+#assign [title="MOC"]          $ws5
 ### "VM":
-assign [class="Virt-manager"] $ws6
+#assign [class="Virt-manager"] $ws6
 
 
 

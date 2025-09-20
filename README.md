@@ -6,8 +6,7 @@
 - [Basic GUI Environment](#basic-gui-environment)
 - [Maintenance](#maintenance)
 - [Entertainment, Browser, Reader](#entertainment-browser-reader)
-- [Development, Productivity](#development-productivity)
-- [Communication](#communication)
+- [Development, Productivity, Communication](#development-productivity-communication)
 - [Printing](#printing)
 - [Virtualization, Emulation](#virtualization-emulation)
 - [Phone/Tablet/TV](#phonetablettv)
@@ -63,7 +62,7 @@ or what they do differently.
 But the out-of-the-box experience 
 and the opportunity to re-familiarize yourself with more widely adopted concepts was seductive, 
 and I will give _Manjaro-i3-Minimal_ a longer try, now.
-Arch-based, rolling distro.
+Arch-like, rolling distro.
 
 ![Screenshot](README-minipc.jpg)
 
@@ -107,8 +106,8 @@ I used to have two monitors for a long time.
 Now there is only a single 24-inch office EIZO monitor.
 I think it helps me to focus and maybe reduce electricity bills (∅10 W).
 
-My larger television is connected as a second output device, 
-but I usually don't use it for work. 
+My larger television was connected as a second output device, 
+but I did not use it for multi-monitor work layouts.
 
 Dark flat design theme (so that I don't look into a bright lamp for many hours, especially on TV), 
 no full-blown desktop environment, 
@@ -158,7 +157,8 @@ Slackware ran the _Xorg_ display server:
 
 ![Screenshot](README-i3.png)
 
-- still 1x monitor + TV, no bg, no desktop env, dark theme, workspaces
+- desktop monitor + larger couch display for movies/streams or couch-working (don't need a "real" TV), 
+- no bg, no desktop env, dark theme, workspaces
 - rofi (dmenu replacement) - launching (wrong) applications is a _bigger_ action (in terms of time and resources, focus etc) and should be represented with _bigger_ icons and a more prominent menu
 - todo
 
@@ -205,6 +205,7 @@ Customized key-bindings (Shortcuts), easy-to-remember, centered around left/righ
 | View process list (htop)  | <kbd>⊞ Win</kbd>+<kbd>H</kbd>	                                                  |
 | Lock display (xlock)      | <kbd>⊞ Win</kbd>+<kbd>Pause</kbd>                                                   |  <kbd>⊞ Win</kbd>+<kbd>Pause</kbd>
 | Invert screen (xcalib)    | <kbd>⊞ Win</kbd>+<kbd>I</kbd> ([poor man's](slackware-2022/home/a/.notion/scripts/invert.sh) dark mode)   |
+| Night mode                |                                                                                     |   <kbd>⊞ Win</kbd>+<kbd>F11</kbd> [toggles brightness](manjaro/home/amdre/.config/i3/tv-daynight.sh) of my TV
 | Screenshot                | <kbd>⊞ Win</kbd>+<kbd>Print</kbd> ([saves](slackware-2022/home/a/.notion/scripts/screenshot.sh) to home dir)  |  <kbd>Print</kbd> screen <br> <kbd>Shift</kbd>+<kbd>Print</kbd> screen 5sec <br> <kbd>⊞ Win</kbd>+<kbd>Print</kbd> window only
 | Clipboard to file (xclip) | <kbd>⊞ Win</kbd>+<kbd>P</kbd> like 'paste' ([saves](slackware-2022/home/a/.notion/scripts/paste.sh) to home dir)  |
 | Shutdown                  | <kbd>⊞ Win</kbd>+<kbd>Q</kbd>  or<br>  <kbd>⊞ Win</kbd>+<kbd>F6</kbd> (60 minutes sleep timer)  |
@@ -388,13 +389,10 @@ $ nmcli con modify $CON_UUID ipv6.dhcp-hostname "OtherNameThanHostname"
 
 - todo
 - todo: manual fan full blow
-- [h264ify](https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal?hl=en) browser plugin
-	- check: right-click on YouTube-video, click "stats for nerds", look for codec _avc_ (= h264)
-	- hardware accelerated video via Chromium ~~command line options `--use-gl=desktop --ignore-gpu-blocklist --enable-features=VaapiVideoDecoder` 
+- ~~hardware accelerated video via Chromium ~~command line options `--use-gl=desktop --ignore-gpu-blocklist --enable-features=VaapiVideoDecoder` 
         (edit desktop-file _/usr/share/applications/chromium.desktop_)~~ (not needed anymore), 
 		check via `chrome://gpu` (video decode: hw accelerated) and `$ vainfo` without errors (I needed the _intel-media-driver_ package),
-        `--process-per-site`
-	- my mini PC actually produces moderate temperatures (Ø50-60 °C), also no problem with downloaded HD videos - ~~unless I play them directly from YouTube w/o hw-acc (83 °C)~~
+- my mini PC produces moderate temperatures (Ø50-60 °C)
     
 
 
@@ -406,7 +404,9 @@ $ nmcli con modify $CON_UUID ipv6.dhcp-hostname "OtherNameThanHostname"
 	Host-file-based blocks or Pi-hole, however,
 	would also protect other (less secure) programs and devices that embed ads
 - KeePassXC for time-based one-time password (TOTP) generation (system time sync required), ugly but does the job;
+ also Google Authenticator on the smartphone;
   zbarimg for QR code scanning
+
 
 
 ### Time Synchronization
@@ -442,6 +442,8 @@ $ systemctl enable --now systemd-timesyncd.service
 	so many unheard podcasts etc accumulate.
 	MOC function keys can be configured to run any program:
 
+    - <kbd>F1</kbd> moves audios to `~/Downloads/mp3/[F1]-phone` for podcasts I plan to hear on my smartphone.
+        After uploading them to the phone I usually empty this directory, so mp3-dir is free of already/soon heard stuff
 	- <kbd>F4</kbd> [moves audios &gt; 14 minutes](manjaro/home/andre/.moc/move-longer-audio.sh) 
 		to `~/Downloads/mp3/[F4]-longer/` 
 		because I want to separate short audios from long ones (and MOC cannot sort by audio length)
@@ -492,14 +494,14 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 |-------------------|---------|
 | [my own extensions](https://github.com/search?q=user%3Aandre-st+browser-extension+fork%3Atrue&type=repositories) | tabs mgr., mouse gestures, Amazon, Javascript/CSS injection, ...
 | [Dark Reader](https://github.com/darkreader/darkreader) | dark mode on every website
-| [uBlock Origin](https://github.com/gorhill/uBlock) | ad-blocker
+| [uBlock Origin](https://github.com/gorhill/uBlock) | ad-blocker<br>add filters: [Hide YouTube-Shorts](https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt)
 | [Super Simple Highlighter](https://github.com/dexterouslogic/super-simple-highlighter) | color-mark text on a website (set perms to allow wesbite changes on icon-click only)
 | GoFullPage | screenshot of an entire webpage
 
 
 | Browser_Profile | Bookmark Bar / Home Tabs | Comment |
 |-----------------|--------------------------|---------|
-| default         | &#128193;&#xFE0E; Research<br> &#128193;&#xFE0E; Shop<br> &#128193;&#xFE0E; News/Social<br> &#128193;&#xFE0E; Language (translator, thesaurus etc)<br> &#128193;&#xFE0E; Leisure (Komoot, [weather](https://meteoblue.com/), gaming etc)<br> &#128193;&#xFE0E; $COMPANY (intranet etc)<br> &#128193;&#xFE0E; Dev<br> &#128193;&#xFE0E; Todo<br> &#128193;&#xFE0E; Chrome (bookmarklets, pages like chrome://gpu)  |
+| default         | &#128193;&#xFE0E; Research<br> &#128193;&#xFE0E; Shop<br> &#128193;&#xFE0E; News/Social<br> &#128193;&#xFE0E; Language (translator, thesaurus etc)<br> &#128193;&#xFE0E; Leisure (Komoot, [weather](https://meteoblue.com/), gaming etc)<br> &#128193;&#xFE0E; $COMPANY (intranet etc)<br> &#128193;&#xFE0E; Dev<br> &#128193;&#xFE0E; Todo<br> &#128193;&#xFE0E; Chrome (bookmarklets, pages like chrome://gpu) <br> ChatGPT  |
 | pentest         |                          | proxy settings, ...
 | tor             | check.torproject.org     | proxy settings
 | banking         | fintech sites            | no extensions safe-mode
@@ -517,7 +519,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 
 
 
-## Development, Productivity
+## Development, Productivity, Communication
 
 - **Networking:**
     - vpnc (Cisco VPN client)
@@ -525,19 +527,38 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     - Midnight Commander's (S)FTP virtual file system (slow and reconnect issues, but my 24/7 file manager)
     - (on Windows: WinSCP, PuTTY, ...),
     - (on Smartphone: Termius)
+- **Communication:**
+    - email (prefered): claws-mail
+        - prefer plaintext
+        - conversation histories not scattered across multiple messaging systems, email is broken but mature
+        - upfront arranged phone calls via mail (perhaps with info for preparation) / hate unannounced calls a.f.
+        - set up notifications (cronjobs, alarms from web services, ...) as status mails
+    - instant messenger (hate): Whatsapp for non-business boomer conversations only 
+    	- in the past: Signal [without a smartphone](https://ctrl.alt.coop/en/post/signal-without-a-smartphone), Pidgin (Jabber/XMPP), ICQ
+    - chat rooms (earlier times): IRC irssi with [my extensions](https://github.com/andre-st/irssi-scripts)
+    - video conferencing + screen sharing: [Jitsi](https://github.com/jitsi) on PC and smartphone, Chrome Remote-Desktop, [Teamviewer](https://www.teamviewer.com/)
+    - collaborative editing: [Etherpad](https://github.com/ether/etherpad-lite) or Google Docs; 
+    - social networks: 
+        left Twitter in late 2022 (not because of Musk, but too much time for little yield), 
+        never intenionally used the Facebook-Website or instagram.
+        I'm frequently using YouTube.
+    - 25 years ago I was a lot on IRC, in web forums, 
+        a few times realname in Usenet (the mails are of course still public today despite x-no-archive). 
+        Actually, none of that anymore today (I still read forums such as Reddit, Quora, Stack Overflow, but don't write anymore)
 - **Office:**
     1. Htmlcssjs / Markdown / Plaintext (portable) using _vim_ editor prefered over...
-    2. _Google Docs_ (collaborative) over...
+    2. _Google Docs_ (cloud, collaborative) over...
     3. _Gnumeric_ (functional and 250 MB "only", incl. solver, [dark-themed](manjaro/home/andre/.config/gtk-3.0/gtk.css)) over...
     4. _LibreOffice_ (1.55+ GB monolith not installed) over...
     5. `$ antiword ms.doc | vim -` over...
     6. _MS Office_ on Windows
 - **Money and Time Mgt.:**
-    - bank websites for online-banking, Paypal, ...
-    - "pennies" app on my smartphone to budget for _variable_ expenses / savings (it's lightweight/slim, ad(vice)-free, works offline; 
-      my _fixed_ expenses are managed separately from time to time)
+    - bank websites for online-banking, payment service providers (Paypal, ...), ...
+    - ~~"pennies" app on my smartphone to budget for _variable_ expenses / savings (it's lightweight/slim, ad(vice)-free, works offline; 
+      my _fixed_ expenses are managed separately from time to time)~~
     - [remind](https://www.linuxjournal.com/article/3529), rem2(ical|ics|html|ps|...) in terminal with calendar-domain specific language
        (not painlessly cross-device; probably be replaced by Apple calendar)
+    - ?
 - **Requirements:**
     - Template Priority-Matrix (build the right product: stakeholders, goals, context, ...), see Office
     - Template Risk-Matrix     (build the product right), see Office
@@ -548,8 +569,10 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     - todo
 - **Box-and-Line Diagrams:**
     - [UMLet](https://github.com/umlet/umlet) for many years (keyboard-friendly, non-bloat, ...);
-	  Network diagrams, high level software designs / architectures (for low-level, source code should be sufficient doc), 
-      semi-formal sketching book summaries or for subject comprehension through dissection, goal modeling
+	    - network diagrams
+        - high-level software-design / architecture (for low-level, source code should be sufficient doc)
+        - semi-formal sketching book summaries or for subject comprehension through dissection, 
+        - goal modeling
     - though, matrix diagrams sometimes easier to read/update
         (e.g. connecting goals with strategies/tactics/features, with intersection points presenting coverage/support-ratings,
         or smaller [component diagrams](https://github.com/andre-st/amazon-wishless/tree/08b14951ed6c4204ff9d27550bd871be0a85b041#customization) )
@@ -574,7 +597,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 - **Video-Editing / Streaming:**
     - FFmpeg suite (e.g., on a single-board computer to get a camera-stream 24/7 on YouTube)
 - **3D / CAD:**
-	- [OpenSCAD](https://github.com/openscad/openscad), for [example](https://github.com/andre-st/network-racks)
+	- [OpenSCAD](https://github.com/openscad/openscad), for [example](https://github.com/andre-st/creative-coding)
 	- [FreeCAD](https://github.com/FreeCAD)
         - played with Assembly4 + Fasteners + gmsh for finite element analysis (of a partly wall-mounted table for 6 Euroboxes)
         - in Manjaro I use the AppImage (v20) because components of the official repo version do not match (v19 VTK9 problem)
@@ -585,7 +608,7 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
     - `$ git gui` is handy for staging patches (hold right mouse key)
     - `$ gitk [FILENAME]` 
 - **Presentation / Talks:**
-    1. quickly hand-drawn symbolic/diagrammatic figures on blank paper (photographed), screenshots or real photography;
+    1. quickly hand-drawn symbolic/diagrammatic figures on blank paper (photographed), screenshots, AI-generated images or real photography;
        no PowerPoint bullet-list text-walls (people get bored by someone reading to them)
     2. post-edited with Gimp (contrast/whiten background + headline text), 
        a clean font doesn't make slides with hand drawings look lazy (what it is) but stylish
@@ -609,30 +632,6 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
         ```
 
 
-## Communication
-
-I prefer:
-- emails because of its advantages and in spite of its disadvantages (needs and allows technical tinkering). 
-- conversation histories not scattered across multiple messaging systems.
-- upfront arranged phone calls (perhaps with info for preparation) / hate unannounced calls a.f.
-
-
-I'm using:
-- email: todo, prefer plaintext mails writing/reading
-- Instant Messenger: Boomer-compatible Whatsapp for non-business conversations only 
-	- in the past: Signal [without a smartphone](https://ctrl.alt.coop/en/post/signal-without-a-smartphone), Pidgin (Jabber/XMPP), ICQ
-- Chat rooms: IRC irssi, general talk or questions, 
-	with [my extensions](https://github.com/andre-st/irssi-scripts);
-- Video conferencing + Screen sharing: [Jitsi](https://github.com/jitsi) on PC and smartphone, [Teamviewer](https://www.teamviewer.com/)
-- Collaborative editing: [Etherpad](https://github.com/ether/etherpad-lite) or Google Docs
-- Notifications: everything as status email
-- Social networks: 
-    left Twitter in late 2022 (not because of Musk, but too much time for little yield), 
-    never intenionally used the Facebook-Website, 
-- 20 years ago I was a lot on IRC, in web forums, 
-    a few times with real names in Usenet (the mails are of course still public today despite x-no-archive). 
-    Actually, none of that anymore today (I still read forums such as Reddit, Quora, Stack Overflow, but don't write anymore)
-
 
 
 ## Printing
@@ -641,9 +640,12 @@ I'm using:
 
 
 ## Virtualization, Emulation
-- [QEMU](https://github.com/qemu/qemu), virt-manager, dosbox
+- [QEMU](https://github.com/qemu/qemu), 
+- virt-manager
 - one of the free Microsoft Windows [IE/Edge VM images](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) (no installation needed)
-- somewhat outdated but free macOS image (High Sierra, ...)
+- dosbox
+- caprice32 CPC homecomputer emulator (`$ cap32 disk\_A.dsk`)  with disks from cpc-power.com
+- once used somewhat outdated but free macOS image (High Sierra, ...)
 
 
 
@@ -655,12 +657,8 @@ PC-Connection:
 	Darkhttpd supports _HTTP range requests_ (to skip through a video or mp3) 
 	and supports _automatic HTML directory listings_ so you don't have to enter file paths on the client.
 	With these things I don't need separate, full blown media server software for now.
+    I also use it to download movie and mp3 files from PC to smartphone so i can consume them via VLC on the go w/o internet.
 - todo: android scrcpy
-
-Customization:
-- 2 home-screen pages only, so there isn't much confusion when searching or swiping back and forth:
-    - page 1 contains all the standard apps
-    - page 2 contains everything I have additionally installed (currently 16 apps)
 
 
 
