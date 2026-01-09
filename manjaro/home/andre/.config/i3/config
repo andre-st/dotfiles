@@ -150,10 +150,10 @@ bindsym $mod+Ctrl+x      --release exec --no-startup-id xkill
 ###
 bindsym $mod+slash                 exec chromium --process-per-site google.de; [class="Chromium"] focus
 #bindsym $mod+slash                exec chromium --single-process google.de; [class="Chromium"] focus
-bindsym $mod+e                     exec terminal -e '~/.config/i3/mc.sh'
+bindsym $mod+e                     exec terminal -e '/home/andre/.config/i3/mc.sh'
 #bindsym $mod+Print                print-key (without $mod) already bound by i3 (saves screenshot to ~/Bilder)
-bindsym $mod+F12                   exec ~/.config/i3/tv-onoff.sh
-bindsym $mod+F11                   exec ~/.config/i3/tv-daynight.sh
+bindsym $mod+F12                   exec /home/andre/.config/i3/tv-onoff.sh
+bindsym $mod+F11                   exec /home/andre/.config/i3/tv-daynight.sh
 
 
 # focus_follows_mouse no

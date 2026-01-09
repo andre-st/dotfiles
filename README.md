@@ -205,7 +205,7 @@ Customized key-bindings (Shortcuts), easy-to-remember, centered around left/righ
 | View process list (htop)  | <kbd>⊞ Win</kbd>+<kbd>H</kbd>	                                                  |
 | Lock display (xlock)      | <kbd>⊞ Win</kbd>+<kbd>Pause</kbd>                                                   |  <kbd>⊞ Win</kbd>+<kbd>Pause</kbd>
 | Invert screen (xcalib)    | <kbd>⊞ Win</kbd>+<kbd>I</kbd> ([poor man's](slackware-2022/home/a/.notion/scripts/invert.sh) dark mode)   |
-| Night mode                |                                                                                     |   <kbd>⊞ Win</kbd>+<kbd>F11</kbd> [toggles brightness](manjaro/home/amdre/.config/i3/tv-daynight.sh) of my TV
+| Night mode                |                                                                                     |   <kbd>⊞ Win</kbd>+<kbd>F11</kbd> [toggles brightness](manjaro/home/andre/.config/i3/tv-daynight.sh) of my TV
 | Screenshot                | <kbd>⊞ Win</kbd>+<kbd>Print</kbd> ([saves](slackware-2022/home/a/.notion/scripts/screenshot.sh) to home dir)  |  <kbd>Print</kbd> screen <br> <kbd>Shift</kbd>+<kbd>Print</kbd> screen 5sec <br> <kbd>⊞ Win</kbd>+<kbd>Print</kbd> window only
 | Clipboard to file (xclip) | <kbd>⊞ Win</kbd>+<kbd>P</kbd> like 'paste' ([saves](slackware-2022/home/a/.notion/scripts/paste.sh) to home dir)  |
 | Shutdown                  | <kbd>⊞ Win</kbd>+<kbd>Q</kbd>  or<br>  <kbd>⊞ Win</kbd>+<kbd>F6</kbd> (60 minutes sleep timer)  |
@@ -224,20 +224,20 @@ $ cd irssi
 71   13:08:15   andre   ~/source/private/app/irssi (master)
 $ ls -la
 insgesamt 144
--rw-------  1 andre datausers 35147  3. Jul 2018  LICENSE
-drwx------  3 andre datausers  4096 14. Feb 2022  .
-drwx------ 29 andre datausers  4096 21. Mär 2022  ..
-drwx------  8 andre datausers  4096  3. Okt 2019  .git
--rw-------  1 andre datausers    30  4. Apr 2018  .gitignore
--rw-------  1 andre datausers    48  4. Apr 2018  AUTHORS.md
--rw-------  1 andre datausers  2897  2. Sep 2018  README.md
--rw-------  1 andre datausers 25194 27. Dez 2017  jalso.ods
--rw-------  1 andre datausers  9647  2. Sep 2018  jalso.pl
--rw-------  1 andre datausers  4573  4. Aug 2011  osd.a.pl
--rw-------  1 andre datausers  5339  2. Sep 2018  osd.pl
--rw-------  1 andre datausers  5435 27. Dez 2017  jalso-20101127.png
--rw-------  1 andre datausers 15002  3. Jul 2018  osd-20110213.png
--rw-------  1 andre datausers   409 17. Mai 2018  GITHUB.txt
+-rw-------  1 andre backupers 35147  3. Jul 2018  LICENSE
+drwx------  3 andre backupers  4096 14. Feb 2022  .
+drwx------ 29 andre backupers  4096 21. Mär 2022  ..
+drwx------  8 andre backupers  4096  3. Okt 2019  .git
+-rw-------  1 andre backupers    30  4. Apr 2018  .gitignore
+-rw-------  1 andre backupers    48  4. Apr 2018  AUTHORS.md
+-rw-------  1 andre backupers  2897  2. Sep 2018  README.md
+-rw-------  1 andre backupers 25194 27. Dez 2017  jalso.ods
+-rw-------  1 andre backupers  9647  2. Sep 2018  jalso.pl
+-rw-------  1 andre backupers  4573  4. Aug 2011  osd.a.pl
+-rw-------  1 andre backupers  5339  2. Sep 2018  osd.pl
+-rw-------  1 andre backupers  5435 27. Dez 2017  jalso-20101127.png
+-rw-------  1 andre backupers 15002  3. Jul 2018  osd-20110213.png
+-rw-------  1 andre backupers   409 17. Mai 2018  GITHUB.txt
 ------------------------------------------------------------------------ ...
 72   13:08:16   andre   ~/source/private/app/irssi (master)
 $
@@ -340,13 +340,12 @@ flowchart TD
   After the shell exits, auto-backup is re-armed
 
 
-Currently I only use 1 backup disk, 
-but will eventually expand the system to 2 disks in regular rotation in case one disk becomes corrupted. 
-I might write "Backup ODD" and "Backup EVEN" on the hard drive enclosures, corresponding to the specific week or month of backup.
+I use 2 backup disks in weekly rotation in case one disk becomes corrupted. 
+I wrote "Backup ODD" and "Backup EVEN" on the hard drive enclosures, corresponding to the specific week of backup (`date +%V`).
 Maybe I'll display "Odd/Even" in the i3 status bar next to the date.
-The current _rsync_ options would already automatically update every hard disk to the correct state
-based on the data already on it.
-
+I do not do this on defined days so worst case would be a loss of almost 2 weeks of recent data 
+(backup at the beginning of the week, next backup at the end of the week).
+By default, the current _rsync_ options update every hard disk to the correct state based on the data already on it.
 
 
 
@@ -506,6 +505,35 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 | tor             | check.torproject.org     | proxy settings
 | banking         | fintech sites            | no extensions safe-mode
 | private         |                          | 
+
+
+#### Patches:
+
+Remove 'To exit fullscreen, press Esc' message after entering fullscreen in Chrome/Chromium.
+In German it's 'Zum Beenden des Vollbildmodus [ESC] drücken'.
+
+1. `cp /usr/lib/chromium/locales/de.pak /usr/lib/chromium/locales/de.pak.bak`
+2. `vim /usr/lib/chromium/locales/de.pak`
+3. switch to hex mode  `:%!xxd`
+4. search "Beenden des"
+5. replace string with spaces 0x20
+6. exit from hex mode `:%!xxd`
+
+```
+00063060: 646d 6f64 7573 207a 7520 6265 656e 6465  dmodus zu beende
+00063070: 6e5a 756d 2042 6565 6e64 656e 2064 6573  nZum Beenden des
+00063080: 2056 6f6c 6c62 696c 646d 6f64 7573 207c   Vollbildmodus |
+00063090: 2431 7c20 6472 c3bc 636b 656e 5a75 6d20  $1| dr..ckenZum 
+000630a0: 4265 656e 6465 6e20 6465 7320 566f 6c6c  Beenden des Voll
+```
+```
+00063060: 646d 6f64 7573 207a 7520 6265 656e 6465  dmodus zu beende
+00063070: 6e20 2020 2020 2020 2020 2020 2020 2020  n               
+00063080: 2020 2020 2020 2020 2020 2020 2020 2020                  
+00063090: 2020 2020 2020 2020 2020 2020 5a75 6d20              Zum 
+000630a0: 4265 656e 6465 6e20 6465 7320 566f 6c6c  Beenden des Voll
+```
+
 
 
 ### Other
