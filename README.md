@@ -341,9 +341,9 @@ flowchart TD
 
 
 I use 2 backup disks in weekly rotation in case one disk becomes corrupted. 
-I wrote "Backup ODD" and "Backup EVEN" on the hard drive enclosures, corresponding to the specific week of backup (`date +%V`).
-Maybe I'll display "Odd/Even" in the i3 status bar next to the date.
-I do not do this on defined days so worst case would be a loss of almost 2 weeks of recent data 
+I wrote "Backup 1" (odd) and "Backup 2" (even) on the hard drive enclosures, corresponding to the specific week of backup (`date +%V`).
+Accordingly, my i3 status bar displays "&#128260; Backup 1" or "&#128260; Backup 2" to remind me of the expected hard drive. 
+I do not start backups on defined days, so worst case would be a loss of almost 2 weeks of recent data 
 (backup at the beginning of the week, next backup at the end of the week).
 By default, the current _rsync_ options update every hard disk to the correct state based on the data already on it.
 
@@ -474,7 +474,7 @@ $ systemctl enable --now systemd-timesyncd.service
 
 I'm not a big video gamer anymore and prefer dedicated hardware for working and gaming 
 (ie consoles with minimal maintenance and games just working, independently replaceable, usable in parallel etc).
-So there are no games on my rather economic PCs. [More about my gaming...](GAMING.md)
+So there are no games on my rather economic PCs. [More about my games...](GAMING.md)
 
 
 ### Web Browser
@@ -507,17 +507,18 @@ So there are no games on my rather economic PCs. [More about my gaming...](GAMIN
 | private         |                          | 
 
 
-#### Patches:
 
-Remove 'To exit fullscreen, press Esc' message after entering fullscreen in Chrome/Chromium.
-In German it's 'Zum Beenden des Vollbildmodus [ESC] drücken'.
+#### Disable "exit fullscreen" popup chrome
 
-1. `cp /usr/lib/chromium/locales/de.pak /usr/lib/chromium/locales/de.pak.bak`
-2. `vim /usr/lib/chromium/locales/de.pak`
-3. switch to hex mode  `:%!xxd`
-4. search "Beenden des"
-5. replace string with spaces 0x20
-6. exit from hex mode `:%!xxd`
+The `To exit fullscreen, press Esc message` after entering fullscreen in Chrome/Chromium is annoying for security reasons.
+In German it's `Zum Beenden des Vollbildmodus [ESC] drücken`.
+
+1. Create a backup: `cp /usr/lib/chromium/locales/de.pak /usr/lib/chromium/locales/de.pak.bak` (en.pak for English)
+2. Edit Chromium's German binary language file: `vim /usr/lib/chromium/locales/de.pak`
+3. In Vim editor switch to hex mode `:%!xxd`
+4. Search string `Beenden des`
+5. Overwrite string with spaces (0x20). Without text, the message box is almost unnoticeable.
+6. Exit from hex mode `:%!xxd -r` and save changes
 
 ```
 00063060: 646d 6f64 7573 207a 7520 6265 656e 6465  dmodus zu beende

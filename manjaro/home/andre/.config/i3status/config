@@ -9,7 +9,7 @@
 general {
     interval = 1
     colors = true
-    color_good="#FFFFFF"
+    color_good="#666666"
     color_degraded="#ffd75f"
     color_bad="#d75f5f"
 }
@@ -20,10 +20,17 @@ order += "cpu_temperature 0"
 order += "cpu_temperature 1"
 order += "disk /"
 order += "disk /mnt/data"
+order += "read_file bakweek"
 #order += "cpu_usage"
 order += "load"
 #order += "ethernet _first_"
+
 order += "tztime local"
+
+
+read_file bakweek {
+    path = "/home/andre/.config/i3status/bakweek.txt"
+}
 
 
 tztime local {
